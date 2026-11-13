@@ -111,15 +111,50 @@ function loadAt(m, t, autoplay) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 let openToken = 0;  // bumps whenever a different video is opened; stale loops stop
 
-function showPhase(phase) {  // "converting" | "error" | "player"
+function showPhase(phase) {  // "converting" | "choice" | "player"
   $("converting").hidden = phase !== "converting";
-  $("conv-error").hidden = phase !== "error";
+  $("conv-choice").hidden = phase !== "choice";
   $("player-ui").hidden = phase !== "player";
+}
+
+// Rough estimates from test runs on a 6.5-minute video:
+//   Pi:   ~1.4x the video length, Claude Haiku translation ≈ $0.0008
+//   Fast: ~0.3x the video length, Whisper API + Claude Opus + OpenAI TTS ≈ $0.15
+function estimates(v) {
+  const min = v.duration / 60;
+  const t = (m) => (m < 1.5 ? "about a minute" : `about ${Math.round(m)} min`);
+  return {
+    local: { time: t(min * 1.4), cost: 0.001 },
+    cloud: { time: t(min * 0.3), cost: Math.max(0.05, min * 0.025) },
+  };
+}
+
+function showChoice(v, error) {
+  const e = estimates(v);
+  $("choice-title").textContent = error ? "Couldn't convert this video" : "This video isn't converted yet";
+  $("choice-detail").textContent = error
+    ? `${error} Pick an option to try again.`
+    : "Choose how to convert it. Nothing starts until you pick.";
+  $("local-est").textContent = `${e.local.time} · free, except ≈ $0.001 for the translation`;
+  $("cloud-est").textContent = `${e.cloud.time} · ≈ $${e.cloud.cost.toFixed(2)} in API costs`;
+  showPhase("choice");
+}
+
+function chooseEngine(engine) {
+  if (!video) return;
+  if (engine === "cloud") {
+    const cost = estimates(video).cloud.cost.toFixed(2);
+    if (!confirm(`Fast conversion uses paid APIs and will cost about $${cost}. Continue?`)) return;
+  }
+  openPlayer(video.id, true, engine);
 }
 
 function showProgress(st) {
   const queued = st.state === "queued";
-  $("conv-title").textContent = queued ? "Waiting in line…" : "Preparing your audio…";
+  $("conv-title").textContent = queued ? "Waiting in line…"
+    : st.engine === "cloud" ? "Converting (fast)…"
+    : st.engine === "local" ? "Converting on the Pi…"
+    : "Preparing your audio…";
   const count = st.total ? ` (${st.done}/${st.total})` : "";
   $("conv-step").textContent = (st.message || "Starting") + count;
   const bar = $("conv-bar");
@@ -127,12 +162,19 @@ function showProgress(st) {
   bar.style.width = st.total ? `${Math.round((100 * st.done) / st.total)}%` : "";
 }
 
-// Resolves with lesson.json once the video's audio exists (starting the
-// conversion if needed), or null if it failed / the user moved on.
-async function ensureLesson(v, token) {
+// Resolves with lesson.json once the video's audio exists, or null if it isn't
+// converted (the choice screen is shown), it failed, or the user moved on.
+// A conversion only starts when `engine` was explicitly chosen by the user.
+async function ensureLesson(v, token, engine) {
   const q = `id=${encodeURIComponent(v.id)}`;
   let st = await (await fetch(`api/status?${q}`, { cache: "no-store" })).json();
-  if (st.state === "none") st = await (await fetch(`api/convert?${q}`, { method: "POST" })).json();
+  if (st.state === "none" || st.state === "error") {
+    if (!engine) {
+      if (token === openToken) showChoice(v, st.state === "error" ? (st.detail || st.message) : null);
+      return null;
+    }
+    st = await (await fetch(`api/convert?${q}&engine=${engine}`, { method: "POST" })).json();
+  }
   while (st.state === "running" || st.state === "queued") {
     if (token !== openToken) return null;
     showPhase("converting");
@@ -142,14 +184,13 @@ async function ensureLesson(v, token) {
   }
   if (token !== openToken) return null;
   if (st.state !== "ready") {
-    $("conv-error-detail").textContent = st.detail || st.message || "Unknown error";
-    showPhase("error");
+    showChoice(v, st.detail || st.message || "Unknown error.");
     return null;
   }
   return getJSON(`lessons/${encodeURIComponent(v.id)}/lesson.json`);
 }
 
-async function openPlayer(id, force = false) {
+async function openPlayer(id, force = false, engine = null) {
   const v = videos.find((x) => x.id === id);
   if (!v) { location.hash = "#/"; return; }
   if (!force && video && video.id === v.id && lesson) return;  // already open
@@ -165,10 +206,9 @@ async function openPlayer(id, force = false) {
   showProgress({ message: "Checking" });
 
   let l;
-  try { l = await ensureLesson(v, token); } catch (e) {
+  try { l = await ensureLesson(v, token, engine); } catch (e) {
     if (token !== openToken) return;
-    $("conv-error-detail").textContent = "Can't reach the server.";
-    showPhase("error");
+    showChoice(v, "Can't reach the server.");
     return;
   }
   if (!l || token !== openToken) return;
@@ -218,7 +258,8 @@ $("fwd").onclick = () => skip(SKIP);
 $("mode-es").onclick = () => setMode("es");
 $("mode-mix").onclick = () => setMode("mix");
 $("en-text").onclick = () => { revealEn = true; render(); };
-$("conv-retry").onclick = () => { if (video) openPlayer(video.id, true); };
+$("engine-local").onclick = () => chooseEngine("local");
+$("engine-cloud").onclick = () => chooseEngine("cloud");
 
 const seek = $("seek");
 let seeking = false;

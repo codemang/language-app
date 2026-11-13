@@ -3,7 +3,10 @@
 so the browser can seek inside the MP3s, plus a tiny conversion API:
 
   GET  /api/status?id=<video id>   -> {"state": "ready" | "running" | "queued" | "error" | "none", ...}
-  POST /api/convert?id=<video id>  -> starts converting that video (once), returns status
+  POST /api/convert?id=<video id>&engine=local|cloud
+                                   -> starts converting that video (once), returns status.
+                                      engine is required: nothing is converted (or paid
+                                      for) unless the app explicitly asks for an engine.
 
 Conversions run make_audio.py one at a time in the background. Finished lessons
 live in web/lessons/<video id>/ forever; lesson.json there means "ready".
@@ -38,6 +41,7 @@ class Converter:
         self.lock = threading.Lock()
         self.pending = set()  # queued or running video ids
         self.running = None
+        self.engines = {}  # video id -> engine it was queued with
         self.q = queue.Queue()
         threading.Thread(target=self._worker, daemon=True).start()
 
@@ -55,14 +59,18 @@ class Converter:
             return {"state": "ready"}
         with self.lock:
             if video_id == self.running:
+                engine = self.engines.get(video_id)
                 try:
-                    return {**json.loads((JOBS / f"{video_id}.json").read_text()), "state": "running"}
+                    st = json.loads((JOBS / f"{video_id}.json").read_text())
                 except (OSError, ValueError):
-                    return {"state": "running", "message": "Starting"}
+                    st = {"message": "Starting"}
+                return {**st, "state": "running", "engine": engine}
             if video_id in self.pending:
+                engine = self.engines.get(video_id)
                 if self.running is None:  # about to be picked up by the worker
-                    return {"state": "running", "message": "Starting"}
-                return {"state": "queued", "message": "Waiting for another video to finish converting"}
+                    return {"state": "running", "message": "Starting", "engine": engine}
+                return {"state": "queued", "message": "Waiting for another video to finish converting",
+                        "engine": engine}
         try:
             st = json.loads((JOBS / f"{video_id}.json").read_text())
             if st.get("state") == "error":
@@ -71,7 +79,9 @@ class Converter:
             pass
         return {"state": "none"}
 
-    def start(self, video_id):
+    def start(self, video_id, engine):
+        if engine not in ("local", "cloud"):
+            return {"state": "error", "message": "Choose how to convert this video"}
         if not self.video(video_id):
             return {"state": "error", "message": "Unknown video"}
         st = self.status(video_id)
@@ -79,6 +89,7 @@ class Converter:
             return st
         with self.lock:
             self.pending.add(video_id)
+            self.engines[video_id] = engine
         self.q.put(video_id)
         return self.status(video_id)
 
@@ -93,16 +104,18 @@ class Converter:
                 with self.lock:
                     self.running = None
                     self.pending.discard(video_id)
+                    self.engines.pop(video_id, None)
 
     def _run(self, video_id):
         v = self.video(video_id)
+        engine = self.engines.get(video_id, "local")
         JOBS.mkdir(parents=True, exist_ok=True)
         status_file, log_file = JOBS / f"{video_id}.json", JOBS / f"{video_id}.log"
         status_file.write_text(json.dumps({"state": "running", "message": "Starting"}))
         with open(log_file, "w") as log:
             rc = subprocess.run(
                 [sys.executable, str(ROOT / "make_audio.py"), v["youtube"],
-                 "--lesson-id", video_id, "--status-file", str(status_file)],
+                 "--lesson-id", video_id, "--status-file", str(status_file), "--engine", engine],
                 stdout=log, stderr=subprocess.STDOUT, cwd=ROOT,
             ).returncode
         if rc == 0 and (LESSONS / video_id / "lesson.json").exists():
@@ -136,13 +149,14 @@ class Handler(SimpleHTTPRequestHandler):
 
     def _api(self, method):
         url = urlparse(self.path)
-        video_id = (parse_qs(url.query).get("id") or [""])[0]
+        q = parse_qs(url.query)
+        video_id = (q.get("id") or [""])[0]
         if not re.fullmatch(r"[A-Za-z0-9_-]{1,64}", video_id):
             return self._json({"state": "error", "message": "Bad id"}, 400)
         if url.path == "/api/status" and method == "GET":
             return self._json(CONVERTER.status(video_id))
         if url.path == "/api/convert" and method == "POST":
-            return self._json(CONVERTER.start(video_id))
+            return self._json(CONVERTER.start(video_id, (q.get("engine") or [""])[0]))
         return self._json({"error": "not found"}, 404)
 
     def do_GET(self):

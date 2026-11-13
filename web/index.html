@@ -45,10 +45,18 @@
       <p class="sub conv-note">This only happens once per video. You can leave this screen; it keeps going.</p>
     </section>
 
-    <section id="conv-error" class="converting" hidden>
-      <p class="conv-title">Couldn't convert this video</p>
-      <p id="conv-error-detail" class="sub"></p>
-      <button id="conv-retry" class="retry">Try again</button>
+    <section id="conv-choice" class="choice" hidden>
+      <p id="choice-title" class="conv-title">This video isn't converted yet</p>
+      <p id="choice-detail" class="sub">Choose how to convert it. Nothing starts until you pick.</p>
+      <button id="engine-local" class="option">
+        <span class="option-name">On the Pi</span>
+        <span id="local-est" class="option-meta"></span>
+      </button>
+      <button id="engine-cloud" class="option">
+        <span class="option-name">Fast <span class="paid">Paid</span></span>
+        <span id="cloud-est" class="option-meta"></span>
+      </button>
+      <p class="sub conv-note">Either way it's converted once and kept for good.</p>
     </section>
 
     <div id="player-ui" class="player-ui">

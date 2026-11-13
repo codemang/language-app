@@ -203,15 +203,33 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .bar > div.indeterminate { width: 35%; animation: slide 1.3s ease-in-out infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(290%); } }
-.retry {
-  margin-top: 12px;
-  padding: 10px 22px;
-  border: 0;
-  border-radius: 10px;
-  background: var(--accent);
-  color: var(--accent-text);
-  font-weight: 600;
+.choice { display: flex; flex-direction: column; gap: 10px; padding: 12px 0; text-align: center; }
+.choice .conv-title { margin: 0; }
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 14px 16px;
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
 }
+.option:first-of-type { border-color: var(--accent); }
+.option-name { font-weight: 600; display: flex; align-items: center; gap: 8px; }
+.option-meta { font-size: 14px; color: var(--muted); }
+.paid {
+  padding: 1px 6px;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  background: #b45309;
+  color: #fff;
+}
+.choice .conv-note { align-self: center; }
 
 .empty { color: var(--muted); text-align: center; }
 code { font-size: 14px; }
