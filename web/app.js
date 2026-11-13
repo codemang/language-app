@@ -36,6 +36,16 @@ async function getJSON(url) {
 
 // ---------- video list
 
+// "· 0.4 of 3 GB used" next to the list heading. Oldest-played lessons are deleted past the cap.
+async function showStorage() {
+  try {
+    const { used, cap } = await getJSON("api/storage");
+    const gb = (b) => (b / 1024 ** 3).toFixed(b < 1024 ** 3 ? 2 : 1);
+    $("storage").textContent = ` · ${gb(used)} of ${gb(cap)} GB used`;
+    $("storage").title = "When full, the lessons you played longest ago are deleted to make room.";
+  } catch { /* offline: leave it out */ }
+}
+
 function renderList() {
   const ul = $("videos");
   ul.innerHTML = "";
@@ -350,6 +360,7 @@ window.addEventListener("hashchange", route);
 
 async function init() {
   try { videos = await getJSON("data/videos.json"); } catch { videos = []; }
+  showStorage();
   renderList();
   route();
 }

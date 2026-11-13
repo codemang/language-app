@@ -7,9 +7,12 @@ so the browser can seek inside the MP3s, plus a tiny conversion API:
                                    -> starts converting that video (once), returns status.
                                       engine is required: nothing is converted (or paid
                                       for) unless the app explicitly asks for an engine.
+  GET  /api/storage                -> {"used": bytes, "cap": bytes}
 
 Conversions run make_audio.py one at a time in the background. Finished lessons
-live in web/lessons/<video id>/ forever; lesson.json there means "ready".
+live in web/lessons/<video id>/; lesson.json there means "ready". Audio is kept
+under a size cap (storage.py): before each conversion, the least-recently-played
+lessons are deleted if needed to make room.
 
   python serve.py [--port 8000]
 """
@@ -27,6 +30,10 @@ from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
+
+from dotenv import load_dotenv
+
+import storage
 
 ROOT = Path(__file__).resolve().parent
 WEB = ROOT / "web"
@@ -119,12 +126,14 @@ class Converter:
         JOBS.mkdir(parents=True, exist_ok=True)
         status_file, log_file = JOBS / f"{video_id}.json", JOBS / f"{video_id}.log"
         status_file.write_text(json.dumps({"state": "running", "message": "Starting"}))
+        storage.make_room(storage.needed_bytes(v.get("duration") or 0), protect={video_id})
         with open(log_file, "w") as log:
             rc = subprocess.run(
                 [sys.executable, str(ROOT / "make_audio.py"), v.get("source") or v["youtube"],
                  "--lesson-id", video_id, "--status-file", str(status_file), *ENGINE_ARGS[engine]],
                 stdout=log, stderr=subprocess.STDOUT, cwd=ROOT,
             ).returncode
+        storage.make_room(0, protect={video_id})  # in case the estimate was low
         if rc == 0 and (LESSONS / video_id / "lesson.json").exists():
             status_file.unlink(missing_ok=True)
         else:
@@ -156,6 +165,8 @@ class Handler(SimpleHTTPRequestHandler):
 
     def _api(self, method):
         url = urlparse(self.path)
+        if url.path == "/api/storage" and method == "GET":
+            return self._json(storage.status())
         q = parse_qs(url.query)
         video_id = (q.get("id") or [""])[0]
         if not re.fullmatch(r"[A-Za-z0-9_-]{1,64}", video_id):
@@ -169,6 +180,8 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path.startswith("/api/"):
             return self._api("GET")
+        if m := re.fullmatch(r"/lessons/([A-Za-z0-9_-]+)/(es|mix)\.mp3", urlparse(self.path).path):
+            storage.mark_played(m.group(1))
         return super().do_GET()
 
     def do_POST(self):
@@ -235,6 +248,7 @@ def lan_ip():
 
 
 def main():
+    load_dotenv(ROOT / ".env")
     p = argparse.ArgumentParser()
     p.add_argument("--port", type=int, default=8000)
     args = p.parse_args()
