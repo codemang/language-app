@@ -16,7 +16,13 @@
   <!-- Video list -->
   <main id="list-view">
     <header>
-      <h1>Escucha</h1>
+      <div class="title-row">
+        <h1>Escucha</h1>
+        <a href="#/auto" id="auto-btn" class="icon-btn" aria-label="Auto-convert settings" title="Auto-convert">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V1L8 5l4 4V6a6 6 0 0 1 5.7 7.9l1.5 1.5A8 8 0 0 0 12 4zm0 14a6 6 0 0 1-5.7-7.9L4.8 8.6A8 8 0 0 0 12 20v3l4-4-4-4v3z"/></svg>
+          <span class="dot" hidden></span>
+        </a>
+      </div>
       <p class="sub">Beginner · easiest first<span id="storage"></span></p>
       <div class="filters">
         <input id="search" type="search" placeholder="Search videos" autocomplete="off" aria-label="Search videos">
@@ -30,6 +36,35 @@
     <ul id="videos" class="videos"></ul>
     <p id="list-empty" class="empty" hidden>No videos yet. Run <code>scrape_dreaming.py</code> on the server.</p>
     <p id="list-nomatch" class="empty" hidden>No videos match.</p>
+  </main>
+
+  <!-- Auto-convert settings -->
+  <main id="auto-view" hidden>
+    <header class="player-head">
+      <a href="#/" class="back-link" aria-label="Back to videos">
+        <svg viewBox="0 0 24 24"><path d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12z"/></svg>
+      </a>
+      <div class="player-title">
+        <h2>Auto-convert</h2>
+        <p class="sub">Keeps your next unwatched videos ready to play</p>
+      </div>
+    </header>
+    <section id="auto" class="auto" hidden>
+        <div class="auto-row">
+          <div class="auto-text">
+            <p class="auto-title">Convert in the background</p>
+            <p id="auto-line" class="sub"></p>
+          </div>
+          <button id="auto-toggle" class="switch" role="switch" aria-checked="false" aria-label="Auto-convert"><span></span></button>
+        </div>
+        <div id="auto-progress" class="bar" hidden><div id="auto-bar"></div></div>
+      </section>
+    <p id="auto-offline" class="offline-note" hidden>You're offline. Auto-convert settings need the connection.</p>
+    <section class="up-next">
+      <h3 class="section-title">Up next</h3>
+      <ul id="auto-list" class="mini-list"></ul>
+      <p class="sub auto-help">Converts the first unwatched videos of the list (up to 30 min each), one at a time, on the Pi. Videos you convert yourself go first. Turning it off cancels the conversion in progress; converted lessons stay.</p>
+    </section>
   </main>
 
   <!-- Player -->

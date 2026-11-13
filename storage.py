@@ -2,9 +2,10 @@
 
 Counted: finished lessons (web/lessons/<id>/) and the conversion cache (work/<id>/).
 When a conversion needs room, space is freed in this order:
-  1. the conversion cache of videos that are already converted (only needed to
-     reconvert), least-recently played first
-  2. whole lessons, least-recently played first; they show as "not converted" again
+  1. the conversion cache of videos (only needed to reconvert), least-recently played first
+  2. whole lessons -- watched first, then unwatched, the auto-convert targets last --
+     least-recently played first; they show as "not converted" again
+Background (auto) conversions only ever delete watched lessons.
 
 "Played" = the last time the app streamed that lesson's audio (work/played.json),
 falling back to when the lesson was built. Lessons played in the last
@@ -89,36 +90,45 @@ def _last_played(lesson_id, played):
 
 # ---------------------------------------------------------------- eviction
 
-def make_room(needed=0, protect=(), log=print):
-    """Delete least-recently-played data until usage + needed fits under the cap.
-    Returns the list of lesson ids that were deleted."""
+def make_room(needed=0, protect=(), watched=(), keep_last=(), only_watched=False, log=print):
+    """Delete data until usage + needed fits under the cap. Returns True if it fits.
+
+    Order: conversion caches (least-recently played first), then lessons -- watched
+    ones first, then unwatched, then `keep_last` (e.g. the auto-convert targets);
+    least-recently played first within each group. `protect` and lessons played in
+    the last RECENT_PLAY_SEC are never deleted. With only_watched=True (background
+    jobs), unwatched lessons are never deleted: if that isn't enough, returns False.
+    """
     with _lock:
         cap, used = cap_bytes(), usage()
         if used + needed <= cap:
-            return []
+            return True
         played = _load_played()
         now = time.time()
         protected = set(protect) | {k for k, t in played.items() if now - t < RECENT_PLAY_SEC}
-        by_age = lambda d: _last_played(d.name, played)  # noqa: E731
+        watched, keep_last = set(watched), set(keep_last)
+        age = lambda name: _last_played(name, played)  # noqa: E731
 
         # 1. caches of converted (or failed / abandoned) videos; reconverting re-downloads
-        caches = sorted((d for d in _video_dirs(WORK) if d.name not in protected), key=by_age)
-        for d in caches:
+        for d in sorted((d for d in _video_dirs(WORK) if d.name not in protected), key=lambda d: age(d.name)):
             if used + needed <= cap:
-                return []
+                return True
             used -= _size(d)
             shutil.rmtree(d, ignore_errors=True)
             log(f"storage: removed conversion cache {d.name}")
 
         # 2. whole lessons
+        lessons = [d for d in _video_dirs(LESSONS) if d.name not in protected
+                   and (d.name in watched or not only_watched)]
+        lessons.sort(key=lambda d: (d.name not in watched, d.name in keep_last, age(d.name)))
         deleted = []
-        for d in sorted((d for d in _video_dirs(LESSONS) if d.name not in protected), key=by_age):
+        for d in lessons:
             if used + needed <= cap:
                 break
             used -= _size(d)
             shutil.rmtree(d, ignore_errors=True)
             deleted.append(d.name)
-            log(f"storage: deleted lesson {d.name} (least recently played)")
+            log(f"storage: deleted lesson {d.name} ({'watched' if d.name in watched else 'unwatched'}, least recently played)")
         if deleted:
             index = LESSONS / "index.json"
             try:
@@ -126,9 +136,10 @@ def make_room(needed=0, protect=(), log=print):
                 index.write_text(json.dumps(kept, ensure_ascii=False, indent=2))
             except (OSError, ValueError):
                 pass
-        if used + needed > cap:
-            log(f"storage: still over the cap ({used / 1024**3:.2f} GB used); everything left is protected")
-        return deleted
+        fits = used + needed <= cap
+        if not fits:
+            log(f"storage: not enough room ({used / 1024**3:.2f} GB used, {needed / 1024**2:.0f} MB needed)")
+        return fits
 
 
 def status():

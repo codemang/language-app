@@ -143,6 +143,108 @@ $("download").onclick = () => {
   downloaded.has(video.id) ? removeDownload(video) : downloadLesson(video);
 };
 
+// ---------- auto-convert (server keeps the next N unwatched videos converted; autopilot.py)
+
+let auto = null;  // last GET api/auto
+
+async function loadAuto() {
+  if (!navigator.onLine) return;
+  try {
+    const res = await fetch("api/auto", { cache: "no-store", signal: AbortSignal.timeout(5000) });
+    if (!res.ok) return;
+    auto = await res.json();
+  } catch { return; }
+  renderAuto();
+  updateChips();
+}
+
+function renderAuto() {
+  // header button: pulsing dot while something is converting
+  const dot = document.querySelector("#auto-btn .dot");
+  dot.hidden = !(auto && auto.enabled && auto.running);
+  $("auto-offline").hidden = navigator.onLine;
+  const box = $("auto");
+  box.hidden = !auto || !navigator.onLine;
+  renderAutoList();
+  if (box.hidden) return;
+  $("auto-toggle").setAttribute("aria-checked", auto.enabled);
+  const run = auto.running;
+  const runTitle = run && (videos.find((v) => v.id === run.id) || {}).title;
+  const pct = run && run.total ? Math.round((100 * run.done) / run.total) : null;
+  let line;
+  if (!auto.enabled) line = `Off · turn on to keep your next ${auto.count} unwatched videos ready`;
+  else if (auto.reason) line = auto.reason;
+  else {
+    line = `${auto.ready.length} of ${auto.targets.length} ready`;
+    if (run) line += ` · ${run.source === "auto" ? "Converting" : "Converting your pick"} “${runTitle || "…"}”` + (pct != null ? ` ${pct}%` : "");
+    else if (auto.ready.length === auto.targets.length) line = `All ${auto.targets.length} up next are ready`;
+  }
+  if (auto.enabled) line += ` · $${auto.spent.toFixed(2)} of $${auto.budget.toFixed(2)} this month`;
+  $("auto-line").textContent = line;
+  $("auto-progress").hidden = !auto.enabled || !run;
+  const bar = $("auto-bar");
+  bar.classList.toggle("indeterminate", pct == null);
+  bar.style.width = pct != null ? `${pct}%` : "";
+}
+
+// The "Up next" list on the auto-convert screen
+function renderAutoList() {
+  const ul = $("auto-list");
+  if (!auto || $("auto-view").hidden) return;
+  ul.innerHTML = "";
+  auto.targets.forEach((id, i) => {
+    const v = videos.find((x) => x.id === id);
+    if (!v) return;
+    const li = document.createElement("li");
+    li.dataset.id = id;
+    li.innerHTML = `<a href="#/play/${encodeURIComponent(id)}"><span class="n">${i + 1}</span><span class="t"></span>
+      <span class="d">${fmt(v.duration)}</span><span class="chip" hidden></span></a>`;
+    li.querySelector(".t").textContent = v.title;
+    ul.append(li);
+  });
+  updateChips();
+}
+
+// Per-card chip: Ready / Converting 40% / Queued / Up next
+function updateChips() {
+  if (!auto) return;
+  const converted = new Set(auto.converted), queued = new Set(auto.queued), targets = new Set(auto.targets);
+  for (const li of document.querySelectorAll("#videos li, #auto-list li")) {
+    const id = li.dataset.id, chip = li.querySelector(".chip");
+    if (!chip) continue;
+    let text = "", cls = "";
+    if (converted.has(id)) { text = "Ready"; cls = "ready"; }
+    else if (auto.running && auto.running.id === id) {
+      const r = auto.running;
+      text = "Converting" + (r.total ? ` ${Math.round((100 * r.done) / r.total)}%` : "…"); cls = "busy";
+    }
+    else if (queued.has(id)) { text = "Queued"; cls = "busy"; }
+    else if (auto.enabled && targets.has(id)) { text = "Up next"; cls = "next"; }
+    chip.hidden = !text;
+    chip.textContent = text;
+    chip.className = `chip ${cls}`;
+  }
+}
+
+$("auto-toggle").onclick = async () => {
+  if (!auto) return;
+  const on = !auto.enabled;
+  if (!on && !confirm("Turn off auto-convert? Any conversion it's running now is cancelled. Lessons already converted stay.")) return;
+  $("auto-toggle").disabled = true;
+  try {
+    const res = await fetch(`api/auto?enabled=${on ? 1 : 0}`, { method: "POST" });
+    if (res.ok) auto = await res.json();
+  } catch {}
+  $("auto-toggle").disabled = false;
+  renderAuto();
+  updateChips();
+};
+
+// Refresh while the list is on screen
+const autoVisible = () => !$("list-view").hidden || !$("auto-view").hidden;
+setInterval(() => { if (autoVisible() && !document.hidden) loadAuto(); }, 8000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden && autoVisible()) loadAuto(); });
+
 // Lower case, accents stripped: "Mañana" matches "manana".
 const fold = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
@@ -183,14 +285,16 @@ function renderList() {
         </div>
         <div class="card-body">
           <h3></h3>
-          <p class="sub"><span class="diff" title="Difficulty (0–100)">${v.difficulty}</span> ${v.level}</p>
+          <p class="sub"><span class="diff" title="Difficulty (0–100)">${v.difficulty}</span> ${v.level}<span class="chip" hidden></span></p>
         </div>
       </a>`;
     if (v.thumbnail) li.querySelector("img").src = v.thumbnail;
     else li.querySelector("img").remove();  // grey placeholder
     li.querySelector("h3").textContent = v.title;
+    li.dataset.id = v.id;
     ul.append(li);
   }
+  updateChips();
 }
 
 // ---------- position mapping
@@ -588,22 +692,27 @@ if ("mediaSession" in navigator) {
 
 function route() {
   const m = location.hash.match(/^#\/play\/(.+)$/);
-  const playing = !!m;
-  $("list-view").hidden = playing;
+  const playing = !!m, settings = location.hash === "#/auto";
+  $("list-view").hidden = playing || settings;
+  $("auto-view").hidden = !settings;
   $("player-view").hidden = !playing;
   window.scrollTo(0, 0);
-  if (playing) openPlayer(decodeURIComponent(m[1]));
-  else { audio.pause(); saveState(true); openToken++; video = null; lesson = null; renderList(); }
+  if (playing) { openPlayer(decodeURIComponent(m[1])); return; }
+  audio.pause(); saveState(true); openToken++; video = null; lesson = null;
+  if (settings) renderAuto(); else renderList();
+  loadAuto();
 }
 window.addEventListener("hashchange", route);
 window.addEventListener("online", () => {
   syncProgress();
+  loadAuto();
   renderList();
   showStorage();
   if (video && phase === "offline") openPlayer(video.id, true);  // load what the banner was waiting for
 });
 window.addEventListener("offline", () => {
   renderList();
+  renderAuto();
   // Converting needs the Pi: swap the choice buttons for the banner.
   if (video && phase === "choice") showPhase("offline");
 });
@@ -615,6 +724,7 @@ async function init() {
   renderList();
   await syncProgress();  // progress from other devices, before a deep-linked lesson opens
   route();
+  loadAuto();
 }
 init();
 

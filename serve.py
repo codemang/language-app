@@ -8,6 +8,8 @@ so the browser can seek inside the MP3s, plus a tiny conversion API:
                                       engine is required: nothing is converted (or paid
                                       for) unless the app explicitly asks for an engine.
   GET  /api/storage                -> {"used": bytes, "cap": bytes}
+  GET  /api/auto                   -> auto-convert status (autopilot.py)
+  POST /api/auto?enabled=0|1       -> switch auto-convert on/off (off also cancels its running job)
   GET  /api/progress               -> {video id: {t, mode, frac, watched, updated}} (progress.py)
   POST /api/progress?id=<video id> -> body {t, mode, frac, watched, updated}; returns the merged entry
 
@@ -22,12 +24,13 @@ lessons are deleted if needed to make room.
 import argparse
 import json
 import os
-import queue
 import re
+import signal
 import socket
 import subprocess
 import sys
 import threading
+import time
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -35,6 +38,7 @@ from urllib.parse import parse_qs, urlparse
 
 from dotenv import load_dotenv
 
+import autopilot
 import progress
 import storage
 
@@ -54,12 +58,19 @@ ENGINE_ARGS = {
 }
 
 class Converter:
+    """Runs make_audio.py one video at a time. Jobs the user starts from the app
+    ("ui") always run before background ones ("auto", see autopilot.py)."""
+
+    PRIORITY = {"ui": 0, "auto": 1}
+
     def __init__(self):
-        self.lock = threading.Lock()
-        self.pending = set()  # queued or running video ids
+        self.cv = threading.Condition()
+        self.jobs = {}          # video id -> {"engine", "source"} for queued + running jobs
+        self.waiting = []       # queued video ids
         self.running = None
-        self.engines = {}  # video id -> engine it was queued with
-        self.q = queue.Queue()
+        self.proc = None
+        self.cancelled = set()
+        self.on_finish = None   # callback(video_id, source, ok, log_text), set by the autopilot
         threading.Thread(target=self._worker, daemon=True).start()
 
     @staticmethod
@@ -71,23 +82,24 @@ class Converter:
             return None
         return next((v for v in videos if v["id"] == video_id), None)
 
+    # ---- queries
+
     def status(self, video_id):
         if (LESSONS / video_id / "lesson.json").exists():
             return {"state": "ready"}
-        with self.lock:
-            if video_id == self.running:
-                engine = self.engines.get(video_id)
+        with self.cv:
+            job = self.jobs.get(video_id)
+            if job and video_id == self.running:
                 try:
                     st = json.loads((JOBS / f"{video_id}.json").read_text())
                 except (OSError, ValueError):
                     st = {"message": "Starting"}
-                return {**st, "state": "running", "engine": engine}
-            if video_id in self.pending:
-                engine = self.engines.get(video_id)
+                return {**st, "state": "running", "engine": job["engine"], "source": job["source"]}
+            if job:
                 if self.running is None:  # about to be picked up by the worker
-                    return {"state": "running", "message": "Starting", "engine": engine}
+                    return {"state": "running", "message": "Starting", "engine": job["engine"], "source": job["source"]}
                 return {"state": "queued", "message": "Waiting for another video to finish converting",
-                        "engine": engine}
+                        "engine": job["engine"], "source": job["source"]}
         try:
             st = json.loads((JOBS / f"{video_id}.json").read_text())
             if st.get("state") == "error":
@@ -96,58 +108,133 @@ class Converter:
             pass
         return {"state": "none"}
 
-    def start(self, video_id, engine):
+    def is_busy(self, video_id):
+        with self.cv:
+            return video_id in self.jobs
+
+    def has_auto_job(self):
+        with self.cv:
+            return any(j["source"] == "auto" for j in self.jobs.values())
+
+    def queued_ids(self):
+        with self.cv:
+            return list(self.waiting)
+
+    def running_info(self):
+        with self.cv:
+            vid = self.running
+            job = self.jobs.get(vid) if vid else None
+        if not job:
+            return None
+        st = self.status(vid)
+        return {"id": vid, "source": job["source"], "message": st.get("message"),
+                "done": st.get("done"), "total": st.get("total")}
+
+    # ---- control
+
+    def start(self, video_id, engine, source="ui"):
         if engine not in ENGINE_ARGS:
             return {"state": "error", "message": "Choose how to convert this video"}
         if not self.video(video_id):
             return {"state": "error", "message": "Unknown video"}
         st = self.status(video_id)
         if st["state"] in ("ready", "running", "queued"):
-            return st
-        with self.lock:
-            self.pending.add(video_id)
-            self.engines[video_id] = engine
-        self.q.put(video_id)
+            with self.cv:  # the user asking for a queued background job moves it to the front
+                job = self.jobs.get(video_id)
+                if source == "ui" and job and job["source"] == "auto" and video_id != self.running:
+                    job["source"] = "ui"
+                    self._sort()
+            return self.status(video_id)
+        with self.cv:
+            self.jobs[video_id] = {"engine": engine, "source": source, "seq": time.time()}
+            self.waiting.append(video_id)
+            self._sort()
+            self.cv.notify()
         return self.status(video_id)
+
+    def _sort(self):
+        self.waiting.sort(key=lambda i: (self.PRIORITY[self.jobs[i]["source"]], self.jobs[i]["seq"]))
+
+    def cancel_auto(self):
+        """Stop background work: drop queued auto jobs and kill the running one."""
+        with self.cv:
+            for vid in [v for v in self.waiting if self.jobs[v]["source"] == "auto"]:
+                self.waiting.remove(vid)
+                self.jobs.pop(vid, None)
+            if self.running and self.jobs.get(self.running, {}).get("source") == "auto" and self.proc:
+                self.cancelled.add(self.running)
+                try:
+                    os.killpg(self.proc.pid, signal.SIGTERM)
+                except ProcessLookupError:
+                    pass
+
+    # ---- worker
 
     def _worker(self):
         while True:
-            video_id = self.q.get()
-            with self.lock:
+            with self.cv:
+                while not self.waiting:
+                    self.cv.wait()
+                video_id = self.waiting.pop(0)
                 self.running = video_id
+                job = dict(self.jobs[video_id])
+            ok, log_text = False, ""
             try:
-                self._run(video_id)
+                ok, log_text = self._run(video_id, job)
+            except Exception as e:
+                log_text = repr(e)
             finally:
-                with self.lock:
+                with self.cv:
                     self.running = None
-                    self.pending.discard(video_id)
-                    self.engines.pop(video_id, None)
+                    self.proc = None
+                    self.jobs.pop(video_id, None)
+                    self.cancelled.discard(video_id)
+            if self.on_finish:
+                self.on_finish(video_id, job["source"], ok, log_text)
 
-    def _run(self, video_id):
+    def _run(self, video_id, job):
         v = self.video(video_id)
-        engine = self.engines.get(video_id, "local")
+        if not v:
+            return False, "video no longer listed"
+        auto = job["source"] == "auto"
         JOBS.mkdir(parents=True, exist_ok=True)
         status_file, log_file = JOBS / f"{video_id}.json", JOBS / f"{video_id}.log"
         status_file.write_text(json.dumps({"state": "running", "message": "Starting"}))
-        storage.make_room(storage.needed_bytes(v.get("duration") or 0), protect={video_id})
+        watched = {k for k, e in progress.load().items() if e.get("watched")}
+        targets = {t["id"] for t in AUTOPILOT.targets()} if AUTOPILOT else set()
+        if not auto:  # the autopilot already made room for its own jobs
+            storage.make_room(storage.needed_bytes(v.get("duration") or 0), protect={video_id},
+                              watched=watched, keep_last=targets)
+        args = [sys.executable, str(ROOT / "make_audio.py"), v.get("source") or v.get("youtube"),
+                "--lesson-id", video_id, "--status-file", str(status_file), *ENGINE_ARGS[job["engine"]]]
+        if auto:
+            args.append("--bulk")  # 3-minute gap between stream downloads
         with open(log_file, "w") as log:
-            rc = subprocess.run(
-                [sys.executable, str(ROOT / "make_audio.py"), v.get("source") or v.get("youtube"),
-                 "--lesson-id", video_id, "--status-file", str(status_file), *ENGINE_ARGS[engine]],
-                stdout=log, stderr=subprocess.STDOUT, cwd=ROOT,
-            ).returncode
-        storage.make_room(0, protect={video_id})  # in case the estimate was low
+            # Own process group, so cancelling also stops its ffmpeg/whisper children.
+            proc = subprocess.Popen(args, stdout=log, stderr=subprocess.STDOUT, cwd=ROOT, start_new_session=True,
+                                    preexec_fn=(lambda: os.nice(10)) if auto else None)
+            with self.cv:
+                self.proc = proc
+            rc = proc.wait()
+        storage.make_room(0, protect={video_id} | targets, watched=watched, keep_last=targets,
+                          only_watched=auto)  # in case the estimate was low
+        log_text = log_file.read_text(errors="replace")
+        if video_id in self.cancelled:
+            status_file.unlink(missing_ok=True)
+            return False, "cancelled"
         if rc == 0 and (LESSONS / video_id / "lesson.json").exists():
             status_file.unlink(missing_ok=True)
-        else:
-            lines = [l for l in log_file.read_text(errors="replace").splitlines() if l.strip()]
-            status_file.write_text(json.dumps({
-                "state": "error",
-                "message": "Conversion failed",
-                "detail": lines[-1][-300:] if lines else f"exit code {rc}",
-            }))
+            return True, log_text
+        lines = [l for l in log_text.splitlines() if l.strip()]
+        status_file.write_text(json.dumps({
+            "state": "error",
+            "message": "Conversion failed",
+            "detail": lines[-1][-300:] if lines else f"exit code {rc}",
+        }))
+        return False, log_text
 
 
+AUTOPILOT = None  # set in main()
 CONVERTER = Converter()
 
 
@@ -172,6 +259,13 @@ class Handler(SimpleHTTPRequestHandler):
             return self._json(storage.status())
         if url.path == "/api/progress" and method == "GET":
             return self._json(progress.load())
+        if url.path == "/api/auto" and method == "GET":
+            return self._json(AUTOPILOT.status())
+        if url.path == "/api/auto" and method == "POST":
+            on = (parse_qs(url.query).get("enabled") or [""])[0]
+            if on not in ("0", "1"):
+                return self._json({"error": "enabled=0|1"}, 400)
+            return self._json(AUTOPILOT.set_enabled(on == "1"))
         q = parse_qs(url.query)
         video_id = (q.get("id") or [""])[0]
         if not re.fullmatch(r"[A-Za-z0-9_-]{1,64}", video_id):
@@ -190,7 +284,10 @@ class Handler(SimpleHTTPRequestHandler):
                 body = json.loads(self.rfile.read(length))
             except ValueError:
                 return self._json({"error": "Bad JSON"}, 400)
+            before = progress.load().get(video_id, {}).get("watched")
             saved = progress.save(video_id, body if isinstance(body, dict) else {})
+            if saved and saved["watched"] and not before:
+                AUTOPILOT.wake()  # the next unwatched video becomes a target
             return self._json(saved) if saved else self._json({"error": "Bad progress"}, 400)
         return self._json({"error": "not found"}, 404)
 
@@ -265,10 +362,12 @@ def lan_ip():
 
 
 def main():
+    global AUTOPILOT
     load_dotenv(ROOT / ".env")
     p = argparse.ArgumentParser()
     p.add_argument("--port", type=int, default=8000)
     args = p.parse_args()
+    AUTOPILOT = autopilot.Autopilot(CONVERTER)
     server = ThreadingHTTPServer(("0.0.0.0", args.port), partial(Handler, directory=str(WEB)))
     print(f"Serving {WEB}")
     print(f"  on this machine:  http://localhost:{args.port}")

@@ -1,0 +1,30 @@
+# systemd user service: runs the app server (and its auto-converter) at boot.
+#
+# Install (as your user, no sudo; needs `loginctl enable-linger $USER` once):
+#   mkdir -p ~/.config/systemd/user
+#   cp deploy/escucha.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload
+#   systemctl --user enable --now escucha
+#
+# Logs:    journalctl --user -u escucha -f
+# Restart: systemctl --user restart escucha
+#
+# Paths assume the repo lives at ~/dev/language_app (%h = your home directory).
+
+[Unit]
+Description=Escucha Spanish listening app (server + auto-convert)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=%h/dev/language_app
+ExecStart=%h/dev/language_app/.venv/bin/python serve.py --port 8000
+Environment=PYTHONUNBUFFERED=1
+Restart=always
+RestartSec=5
+# Stopping or restarting also stops any conversion in progress (it resumes from
+# its cached steps the next time it is queued).
+KillMode=control-group
+
+[Install]
+WantedBy=default.target

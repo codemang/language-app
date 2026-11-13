@@ -30,6 +30,7 @@ import shutil
 import subprocess
 import sys
 import threading
+import time
 import wave
 from concurrent.futures import ThreadPoolExecutor
 from difflib import SequenceMatcher
@@ -59,6 +60,9 @@ ASR_CHUNK_SEC = 20 * 60
 
 CLAUDE_MODEL = "claude-opus-5-5"
 TRANSLATORS = {"opus": "claude-opus-5-5", "haiku": "claude-haiku-5-5"}  # "local" = OPUS-MT, see local_engine.py
+# $ per million tokens (input, output), for the spend log
+PRICES = {"claude-opus-5-5": (4.00, 20.00), "claude-haiku-5-5": (0.10, 0.50)}
+SPEND_LOG = ROOT / "state" / "spend.jsonl"  # one line per translation; the auto-converter's budget reads it
 TRANSLATE_BATCH = 60
 TRANSLATE_CONTEXT = 5
 
@@ -350,6 +354,15 @@ def _translate_batch(client, batch, context, model, usage):
     return {t["id"]: t["en"] for t in json.loads(text)["translations"]}
 
 
+def log_spend(model, usage, video):
+    pin, pout = PRICES.get(model, (0, 0))
+    usd = (usage[0] * pin + usage[1] * pout) / 1e6
+    SPEND_LOG.parent.mkdir(parents=True, exist_ok=True)
+    with open(SPEND_LOG, "a") as f:
+        f.write(json.dumps({"time": round(time.time()), "video": video, "model": model,
+                            "input": usage[0], "output": usage[1], "usd": round(usd, 6)}) + "\n")
+
+
 def translate(sents, work, tag, model=CLAUDE_MODEL):
     cache = work / (f"sentences_{tag}.json" if model == CLAUDE_MODEL else f"sentences_{tag}_{model}.json")
     cached = load_json(cache)
@@ -358,17 +371,21 @@ def translate(sents, work, tag, model=CLAUDE_MODEL):
     progress("Translating to English", 0, len(sents))
     client = anthropic.Anthropic()
     usage = [0, 0]
-    for i in range(0, len(sents), TRANSLATE_BATCH):
-        batch = sents[i:i + TRANSLATE_BATCH]
-        context = sents[max(0, i - TRANSLATE_CONTEXT):i]
-        got = _translate_batch(client, batch, context, model, usage)
-        missing = [s for s in batch if s["id"] not in got]
-        if missing:  # one retry for anything the model skipped
-            got.update(_translate_batch(client, missing, context, model, usage))
-        for s in batch:
-            s["en"] = got[s["id"]]
-        progress("Translating to English", min(i + TRANSLATE_BATCH, len(sents)), len(sents))
-    log(f"{model}: {usage[0]} input + {usage[1]} output tokens")
+    try:
+        for i in range(0, len(sents), TRANSLATE_BATCH):
+            batch = sents[i:i + TRANSLATE_BATCH]
+            context = sents[max(0, i - TRANSLATE_CONTEXT):i]
+            got = _translate_batch(client, batch, context, model, usage)
+            missing = [s for s in batch if s["id"] not in got]
+            if missing:  # one retry for anything the model skipped
+                got.update(_translate_batch(client, missing, context, model, usage))
+            for s in batch:
+                s["en"] = got[s["id"]]
+            progress("Translating to English", min(i + TRANSLATE_BATCH, len(sents)), len(sents))
+    finally:  # count what was spent even if a batch failed
+        if usage[0] or usage[1]:
+            log(f"{model}: {usage[0]} input + {usage[1]} output tokens")
+            log_spend(model, usage, work.name)
     save_json(cache, sents)
     return sents
 
