@@ -33,7 +33,8 @@ main {
   max-width: 520px;
   min-height: 100%;
   margin: 0 auto;
-  padding: max(16px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom));
+  /* Room for the status bar, plus space for the soft blur iOS draws just below it */
+  padding: calc(env(safe-area-inset-top, 0px) + 20px) max(16px, env(safe-area-inset-right)) calc(env(safe-area-inset-bottom, 0px) + 24px) max(16px, env(safe-area-inset-left));
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -51,6 +52,18 @@ select {
 }
 
 button { font: inherit; color: inherit; cursor: pointer; }
+
+/* Solid strip behind the status bar, so content scrolled up doesn't show through it */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: env(safe-area-inset-top, 0px);
+  background: var(--bg);
+  z-index: 100;
+}
 
 .mode {
   display: grid;
