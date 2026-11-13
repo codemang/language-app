@@ -95,7 +95,6 @@ body::before {
 .sentence p { margin: 0; }
 .es { font-size: 24px; font-weight: 600; line-height: 1.3; }
 .en { font-size: 17px; color: var(--muted); transition: filter .2s; }
-.en.hidden { filter: blur(6px); cursor: pointer; user-select: none; }
 
 .progress input { width: 100%; accent-color: var(--accent); }
 .times {

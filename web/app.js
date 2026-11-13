@@ -19,7 +19,6 @@ let videos = [];     // data/videos.json
 let video = null;    // video currently open in the player
 let lesson = null;   // lesson.json of the audio being played
 let mode = "es";     // "es" | "mix"
-let revealEn = false;
 
 // ---------- helpers
 
@@ -483,7 +482,6 @@ async function openPlayer(id, force = false, engine = null) {
   const saved = loadState(v.id);
   mode = saved.mode || "es";
   renderMode();
-  lastSentence = -2;
   await loadAt(mode, saved.t || 0, false);
   updateMediaSession();
   render();
@@ -612,7 +610,6 @@ $("back").onclick = () => skip(-SKIP);
 $("fwd").onclick = () => skip(SKIP);
 $("mode-es").onclick = () => setMode("es");
 $("mode-mix").onclick = () => setMode("mix");
-$("en-text").onclick = () => { revealEn = true; render(); };
 $("engine-kokoro").onclick = () => chooseEngine("kokoro");
 $("engine-local").onclick = () => chooseEngine("local");
 $("engine-cloud").onclick = () => chooseEngine("cloud");
@@ -648,18 +645,13 @@ function renderMode() {
   $("mode-mix").setAttribute("aria-checked", mode === "mix");
 }
 
-let lastSentence = -2;
 function render() {
   if (!lesson) return;
   const t = audio.currentTime;
   const i = sentenceAt(t, mode === "es" ? "orig" : "mix_es");
-  if (i !== lastSentence) { lastSentence = i; revealEn = false; }
   const s = lesson.sentences[i];
   $("es-text").textContent = s ? s.es : "…";
-  const en = $("en-text");
-  en.textContent = s ? s.en : "";
-  // In Spanish-only mode the translation is blurred until tapped.
-  en.classList.toggle("hidden", mode === "es" && !revealEn);
+  $("en-text").textContent = s ? s.en : "";
 
   seek.max = audio.duration || 0;
   if (!seeking) { seek.value = t; $("cur").textContent = fmt(t); }
