@@ -152,7 +152,11 @@ function renderList() {
   $("list-empty").hidden = videos.length > 0;
   const words = fold($("search").value).split(/\s+/).filter(Boolean);
   const hideWatched = $("hide-watched").checked;
-  const onlyDownloaded = $("only-downloaded").checked;
+  // Offline, only downloaded videos can play, so nothing else is listed.
+  const offline = !navigator.onLine;
+  const onlyDownloaded = offline || $("only-downloaded").checked;
+  $("offline-note").hidden = !offline;
+  $("only-downloaded").closest("label").hidden = offline;  // the note says it all
   const shown = videos.filter((v) => {
     if (hideWatched && loadState(v.id).watched) return false;
     if (onlyDownloaded && !downloaded.has(v.id)) return false;
@@ -160,13 +164,14 @@ function renderList() {
     return words.every((w) => title.includes(w));
   });
   $("list-nomatch").hidden = !videos.length || shown.length > 0;
-  $("list-nomatch").textContent = onlyDownloaded && !downloaded.size
+  $("list-nomatch").textContent = offline && !downloaded.size
+    ? "Nothing is downloaded on this device yet. When you're online, open a lesson and tap “Download for offline”."
+    : onlyDownloaded && !downloaded.size
     ? "Nothing downloaded yet. Open a lesson and tap “Download for offline”."
-    : "No videos match.";
+    : offline ? "No downloaded videos match." : "No videos match.";
   for (const v of shown) {
     const st = loadState(v.id);
     const li = document.createElement("li");
-    if (!navigator.onLine && !downloaded.has(v.id)) li.className = "unavailable";
     li.innerHTML = `
       <a class="card" href="#/play/${encodeURIComponent(v.id)}">
         <div class="thumb">
@@ -240,10 +245,13 @@ function loadAt(m, t, autoplay) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 let openToken = 0;  // bumps whenever a different video is opened; stale loops stop
 
-function showPhase(phase) {  // "converting" | "choice" | "player"
-  $("converting").hidden = phase !== "converting";
-  $("conv-choice").hidden = phase !== "choice";
-  $("player-ui").hidden = phase !== "player";
+let phase = null;
+function showPhase(p) {  // "converting" | "choice" | "offline" | "player"
+  phase = p;
+  $("converting").hidden = p !== "converting";
+  $("conv-choice").hidden = p !== "choice";
+  $("offline-msg").hidden = p !== "offline";
+  $("player-ui").hidden = p !== "player";
 }
 
 // Rough estimates from test runs on 5-6.5 minute videos:
@@ -345,7 +353,8 @@ async function openPlayer(id, force = false, engine = null) {
       : await ensureLesson(v, token, engine);
   } catch (e) {
     if (token !== openToken) return;
-    showChoice(v, navigator.onLine ? "Can't reach the server." : "You're offline and this video isn't downloaded.");
+    if (navigator.onLine) showChoice(v, "Can't reach the server.");
+    else showPhase("offline");
     return;
   }
   if (!l || token !== openToken) return;
@@ -524,8 +533,16 @@ function route() {
   else { audio.pause(); saveState(); openToken++; video = null; lesson = null; renderList(); }
 }
 window.addEventListener("hashchange", route);
-window.addEventListener("online", () => { renderList(); showStorage(); });
-window.addEventListener("offline", renderList);
+window.addEventListener("online", () => {
+  renderList();
+  showStorage();
+  if (video && phase === "offline") openPlayer(video.id, true);  // load what the banner was waiting for
+});
+window.addEventListener("offline", () => {
+  renderList();
+  // Converting needs the Pi: swap the choice buttons for the banner.
+  if (video && phase === "choice") showPhase("offline");
+});
 
 async function init() {
   try { videos = await getJSON("data/videos.json"); } catch { videos = []; }

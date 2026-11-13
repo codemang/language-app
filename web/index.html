@@ -24,6 +24,7 @@
           <label class="toggle"><input id="hide-watched" type="checkbox"> Hide watched</label>
           <label class="toggle"><input id="only-downloaded" type="checkbox"> Downloaded only</label>
         </div>
+        <p id="offline-note" class="offline-note" hidden>You're offline · showing downloaded videos only</p>
       </div>
     </header>
     <ul id="videos" class="videos"></ul>
@@ -51,6 +52,12 @@
       <p id="conv-step" class="sub"></p>
       <div class="bar"><div id="conv-bar"></div></div>
       <p class="sub conv-note">This only happens once per video. You can leave this screen; it keeps going.</p>
+    </section>
+
+    <section id="offline-msg" class="offline-msg" hidden role="status">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.3 3.7 3.7 2.3l18 18-1.4 1.4-4.1-4.1L12 21.5 0 9.5A16.9 16.9 0 0 1 5.6 6.9zM12 4.5c4.6 0 8.8 1.8 12 4.9l-5.5 5.6L9 5.5c1-.6 2-.8 3-1z"/></svg>
+      <p class="conv-title">You're offline</p>
+      <p class="sub">This video isn't downloaded, so it can't be played or converted until you're back online. It will load on its own when the connection returns.</p>
     </section>
 
     <section id="conv-choice" class="choice" hidden>

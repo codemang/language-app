@@ -203,6 +203,20 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .bar > div.indeterminate { width: 35%; animation: slide 1.3s ease-in-out infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(290%); } }
+.offline-msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 28px 20px;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+.offline-msg svg { width: 44px; height: 44px; fill: var(--muted); }
+.offline-msg .conv-title { margin: 0; }
+.offline-msg .sub { margin: 0; max-width: 320px; }
 .choice { display: flex; flex-direction: column; gap: 10px; padding: 12px 0; text-align: center; }
 .choice .conv-title { margin: 0; }
 .option {
@@ -285,4 +299,13 @@ code { font-size: 14px; }
 .offline-btn:disabled { opacity: .6; cursor: default; }
 .offline .sub { margin: 0; }
 .badge.saved { right: auto; left: 8px; top: 8px; bottom: auto; }
-.unavailable .card { opacity: .45; }
+.offline-note {
+  margin: 0;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
