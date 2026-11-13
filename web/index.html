@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Escucha</title>
+  <meta name="theme-color" content="#14532d">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Video list -->
+  <main id="list-view">
+    <header>
+      <h1>Escucha</h1>
+      <p class="sub">Beginner · easiest first</p>
+    </header>
+    <ul id="videos" class="videos"></ul>
+    <p id="list-empty" class="empty" hidden>No videos yet. Run <code>scrape_dreaming.py</code> on the server.</p>
+  </main>
+
+  <!-- Player -->
+  <main id="player-view" hidden>
+    <header class="player-head">
+      <a href="#/" class="back-link" aria-label="Back to videos">
+        <svg viewBox="0 0 24 24"><path d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12z"/></svg>
+      </a>
+      <div class="player-title">
+        <h2 id="video-title"></h2>
+        <p id="video-meta" class="sub"></p>
+      </div>
+    </header>
+
+    <img id="video-thumb" class="player-thumb" alt="">
+
+    <section id="converting" class="converting" hidden aria-live="polite">
+      <div class="spinner" aria-hidden="true"></div>
+      <p id="conv-title" class="conv-title">Preparing your audio…</p>
+      <p id="conv-step" class="sub"></p>
+      <div class="bar"><div id="conv-bar"></div></div>
+      <p class="sub conv-note">This only happens once per video. You can leave this screen; it keeps going.</p>
+    </section>
+
+    <section id="conv-error" class="converting" hidden>
+      <p class="conv-title">Couldn't convert this video</p>
+      <p id="conv-error-detail" class="sub"></p>
+      <button id="conv-retry" class="retry">Try again</button>
+    </section>
+
+    <div id="player-ui" class="player-ui">
+    <section class="mode" role="radiogroup" aria-label="Playback mode">
+      <button id="mode-es" role="radio" aria-checked="true">Español</button>
+      <button id="mode-mix" role="radio" aria-checked="false">Español + English</button>
+    </section>
+
+    <section class="sentence" aria-live="polite">
+      <p id="es-text" class="es">&nbsp;</p>
+      <p id="en-text" class="en" title="Tap to reveal">&nbsp;</p>
+    </section>
+
+    <section class="progress">
+      <input id="seek" type="range" min="0" max="0" step="0.1" value="0" aria-label="Position">
+      <div class="times"><span id="cur">0:00</span><span id="dur">0:00</span></div>
+    </section>
+
+    <section class="controls">
+      <button id="back" aria-label="Back 5 seconds">
+        <svg viewBox="0 0 24 24"><path d="M12 5V2L7 6l5 4V7a6 6 0 1 1-6 6H4a8 8 0 1 0 8-8z"/><text x="12" y="16.5" text-anchor="middle">5</text></svg>
+      </button>
+      <button id="play" class="play" aria-label="Play">
+        <svg class="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        <svg class="i-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+      </button>
+      <button id="fwd" aria-label="Forward 5 seconds">
+        <svg viewBox="0 0 24 24"><path d="M12 5V2l5 4-5 4V7a6 6 0 1 0 6 6h2a8 8 0 1 1-8-8z"/><text x="12" y="16.5" text-anchor="middle">5</text></svg>
+      </button>
+    </section>
+    </div>
+  </main>
+
+  <audio id="audio" preload="auto"></audio>
+  <script src="app.js"></script>
+</body>
+</html>

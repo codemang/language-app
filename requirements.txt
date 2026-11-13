@@ -1,0 +1,15 @@
+# cloud engine
+anthropic>=2.8
+openai>=3.50
+python-dotenv
+yt-dlp
+
+# local (free) engine
+faster-whisper
+piper-tts
+subword-nmt
+sacremoses
+numpy
+
+# icons
+pillow

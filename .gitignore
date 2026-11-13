@@ -1,0 +1,13 @@
+# secrets & environments
+.env
+.venv/
+__pycache__/
+
+# downloaded models (see local_engine.py for where they come from)
+models/
+
+# generated / downloaded content
+work/
+output/
+web/lessons/
+web/data/thumbs/
