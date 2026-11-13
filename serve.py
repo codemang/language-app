@@ -132,7 +132,7 @@ class Converter:
         storage.make_room(storage.needed_bytes(v.get("duration") or 0), protect={video_id})
         with open(log_file, "w") as log:
             rc = subprocess.run(
-                [sys.executable, str(ROOT / "make_audio.py"), v.get("source") or v["youtube"],
+                [sys.executable, str(ROOT / "make_audio.py"), v.get("source") or v.get("youtube"),
                  "--lesson-id", video_id, "--status-file", str(status_file), *ENGINE_ARGS[engine]],
                 stdout=log, stderr=subprocess.STDOUT, cwd=ROOT,
             ).returncode

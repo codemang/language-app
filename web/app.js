@@ -97,7 +97,7 @@ async function downloadLesson(v) {
     await Promise.all(LESSON_FILES.map((f, i) => cache.put(lessonUrl(v.id, f), new Response(blobs[i], {
       headers: { "Content-Type": blobs[i].type, "Content-Length": String(blobs[i].size) },
     }))));
-    try {  // thumbnail, so the list looks right offline
+    if (v.thumbnail) try {  // thumbnail, so the list looks right offline
       const thumb = await fetch(v.thumbnail);
       if (thumb.ok) await cache.put(new URL(v.thumbnail, location.href).href, thumb);
     } catch {}
@@ -186,7 +186,8 @@ function renderList() {
           <p class="sub"><span class="diff" title="Difficulty (0–100)">${v.difficulty}</span> ${v.level}</p>
         </div>
       </a>`;
-    li.querySelector("img").src = v.thumbnail;
+    if (v.thumbnail) li.querySelector("img").src = v.thumbnail;
+    else li.querySelector("img").remove();  // grey placeholder
     li.querySelector("h3").textContent = v.title;
     ul.append(li);
   }
@@ -341,7 +342,8 @@ async function openPlayer(id, force = false, engine = null) {
   lesson = null;
   $("video-title").textContent = v.title;
   $("video-meta").textContent = `${fmt(v.duration)} · Difficulty ${v.difficulty} · ${v.level}`;
-  $("video-thumb").src = v.thumbnail;
+  $("video-thumb").hidden = !v.thumbnail;
+  if (v.thumbnail) $("video-thumb").src = v.thumbnail;
   showPhase("converting");
   showProgress({ message: "Checking" });
   downloadNote("");
@@ -503,7 +505,8 @@ let seeking = false;
 seek.oninput = () => { seeking = true; $("cur").textContent = fmt(+seek.value); };
 seek.onchange = () => { audio.currentTime = +seek.value; seeking = false; };
 
-$("search").oninput = renderList;
+let searchTimer;
+$("search").oninput = () => { clearTimeout(searchTimer); searchTimer = setTimeout(renderList, 150); };
 // List filters, remembered per device
 for (const [box, key] of [["hide-watched", "hideWatched"], ["only-downloaded", "onlyDownloaded"]]) {
   try { $(box).checked = !!localStorage.getItem(key); } catch {}
@@ -561,7 +564,7 @@ function updateMediaSession() {
   navigator.mediaSession.metadata = new MediaMetadata({
     title: video.title,
     artist: mode === "es" ? "Español" : "Español + English",
-    artwork: [{ src: video.thumbnail, sizes: "640x360", type: "image/jpeg" }],
+    artwork: video.thumbnail ? [{ src: video.thumbnail, sizes: "640x360", type: "image/jpeg" }] : [],
   });
 }
 function updatePositionState() {
