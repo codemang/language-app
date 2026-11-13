@@ -7,6 +7,7 @@ yt-dlp
 # local (free) engine
 faster-whisper
 piper-tts
+kokoro-onnx
 subword-nmt
 sacremoses
 numpy

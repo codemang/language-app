@@ -510,6 +510,9 @@ def main():
                    help="who translates to English (default: opus for --engine cloud, haiku for --engine local)")
     p.add_argument("--bulk", action="store_true",
                    help="bulk run: wait 3 minutes after the previous Dreaming Spanish download before downloading")
+    p.add_argument("--tts", choices=["openai", "piper", "kokoro"],
+                   help="English voice (default: openai for --engine cloud, piper for --engine local; "
+                        "kokoro = natural local voice, slower)")
     p.add_argument("--voice", default="coral", help="OpenAI TTS voice (alloy, ash, coral, echo, nova, sage, ...)")
     p.add_argument("--gap", type=float, default=0.5, help="silence between Spanish and English (s)")
     p.add_argument("--pair-gap", type=float, default=1.0, help="silence after each ES/EN pair (s)")
@@ -570,7 +573,12 @@ def main():
     else:
         sents = translate(sents, work, tag, TRANSLATORS[translator])
 
-    if args.engine == "local":
+    voice_engine = args.tts or ("piper" if args.engine == "local" else "openai")
+    if voice_engine == "kokoro":
+        import local_engine
+        en_paths = local_engine.tts_kokoro(sents, work / "en_kokoro", progress)
+    elif voice_engine == "piper":
+        import local_engine
         en_paths = local_engine.tts(sents, work / "en_piper", progress)
     else:
         en_paths = tts(sents, work, args.voice)

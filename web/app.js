@@ -117,14 +117,16 @@ function showPhase(phase) {  // "converting" | "choice" | "player"
   $("player-ui").hidden = phase !== "player";
 }
 
-// Rough estimates from test runs on a 6.5-minute video:
+// Rough estimates from test runs on 5-6.5 minute videos:
 //   Pi:   ~1.4x the video length, Claude Haiku translation ≈ $0.0008
+//   Pi + Kokoro voice: about 1x the video length more than that
 //   Fast: ~0.3x the video length, Whisper API + Claude Opus + OpenAI TTS ≈ $0.15
 function estimates(v) {
   const min = v.duration / 60;
   const t = (m) => (m < 1.5 ? "about a minute" : `about ${Math.round(m)} min`);
   return {
     local: { time: t(min * 1.4), cost: 0.001 },
+    kokoro: { time: t(min * 2.4), cost: 0.001 },
     cloud: { time: t(min * 0.3), cost: Math.max(0.05, min * 0.025) },
   };
 }
@@ -135,7 +137,8 @@ function showChoice(v, error) {
   $("choice-detail").textContent = error
     ? `${error} Pick an option to try again.`
     : "Choose how to convert it. Nothing starts until you pick.";
-  $("local-est").textContent = `${e.local.time} · free, except ≈ $0.001 for the translation`;
+  $("kokoro-est").textContent = `${e.kokoro.time} · free, except ≈ $0.001 for the translation`;
+  $("local-est").textContent = `${e.local.time} · robotic English voice · ≈ $0.001`;
   $("cloud-est").textContent = `${e.cloud.time} · ≈ $${e.cloud.cost.toFixed(2)} in API costs`;
   showPhase("choice");
 }
@@ -153,7 +156,7 @@ function showProgress(st) {
   const queued = st.state === "queued";
   $("conv-title").textContent = queued ? "Waiting in line…"
     : st.engine === "cloud" ? "Converting (fast)…"
-    : st.engine === "local" ? "Converting on the Pi…"
+    : st.engine === "local" || st.engine === "kokoro" ? "Converting on the Pi…"
     : "Preparing your audio…";
   const count = st.total ? ` (${st.done}/${st.total})` : "";
   $("conv-step").textContent = (st.message || "Starting") + count;
@@ -258,6 +261,7 @@ $("fwd").onclick = () => skip(SKIP);
 $("mode-es").onclick = () => setMode("es");
 $("mode-mix").onclick = () => setMode("mix");
 $("en-text").onclick = () => { revealEn = true; render(); };
+$("engine-kokoro").onclick = () => chooseEngine("kokoro");
 $("engine-local").onclick = () => chooseEngine("local");
 $("engine-cloud").onclick = () => chooseEngine("cloud");
 

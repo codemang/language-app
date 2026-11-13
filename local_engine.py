@@ -2,13 +2,16 @@
 
   transcribe  faster-whisper "small" (int8)        ~1.25x the audio length on a Pi 4
   translate   OPUS-MT es->en (Argos package) via CTranslate2
-  tts         Piper, voice en_US-lessac-medium
+  tts         Piper, voice en_US-lessac-medium     ~0.4x the English audio length (robotic)
+  tts_kokoro  Kokoro-82M int8, voice af_heart     ~4.4x the English audio length (natural)
 
 Models live in models/ (not in git). To fetch them:
   - faster-whisper downloads "small" automatically on first use
   - OPUS-MT: unzip https://argos-net.com/v1/translate-es_en-1_9.argosmodel into models/argos_es_en/
   - Piper:   en_US-lessac-medium.onnx + .onnx.json from
              https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/lessac/medium into models/piper/
+  - Kokoro:  kokoro-v1.0.int8.onnx + voices-v1.0.bin from
+             https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0 into models/kokoro/
 
 Same inputs and outputs as the cloud functions in make_audio.py, so the rest of
 the pipeline (sentence grouping, splicing, publishing) is shared.
@@ -27,6 +30,9 @@ MODELS = ROOT / "models"
 WHISPER_MODEL = "small"
 TRANSLATE_DIR = MODELS / "argos_es_en" / "translate-es_en-1_9"
 PIPER_VOICE = MODELS / "piper" / "en_US-lessac-medium.onnx"
+KOKORO_MODEL = MODELS / "kokoro" / "kokoro-v1.0.int8.onnx"
+KOKORO_VOICES = MODELS / "kokoro" / "voices-v1.0.bin"
+KOKORO_VOICE = "af_heart"
 THREADS = 4
 
 
@@ -117,6 +123,31 @@ def tts(sents, out_dir, progress):
             tmp = path.with_suffix(".tmp.wav")
             with wave.open(str(tmp), "wb") as w:
                 voice.synthesize_wav(s["en"], w, syn_config=cfg)
+            tmp.rename(path)
+        paths.append(path)
+        progress("Generating English audio", n, len(sents))
+    return paths
+
+
+def tts_kokoro(sents, out_dir, progress):
+    """Like tts(), with Kokoro: far more natural, roughly 10x slower than Piper."""
+    from kokoro_onnx import Kokoro
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    kokoro = None
+    paths = []
+    for n, s in enumerate(sents, 1):
+        path = out_dir / f"{hashlib.sha1(s['en'].encode()).hexdigest()[:16]}.wav"
+        if not path.exists():
+            kokoro = kokoro or Kokoro(str(KOKORO_MODEL), str(KOKORO_VOICES))
+            samples, sr = kokoro.create(s["en"], voice=KOKORO_VOICE, speed=0.95, lang="en-us")
+            pcm = (np.clip(samples, -1, 1) * 32767).astype(np.int16)
+            tmp = path.with_suffix(".tmp.wav")
+            with wave.open(str(tmp), "wb") as w:
+                w.setnchannels(1)
+                w.setsampwidth(2)
+                w.setframerate(sr)
+                w.writeframes(pcm.tobytes())
             tmp.rename(path)
         paths.append(path)
         progress("Generating English audio", n, len(sents))

@@ -3,7 +3,7 @@
 so the browser can seek inside the MP3s, plus a tiny conversion API:
 
   GET  /api/status?id=<video id>   -> {"state": "ready" | "running" | "queued" | "error" | "none", ...}
-  POST /api/convert?id=<video id>&engine=local|cloud
+  POST /api/convert?id=<video id>&engine=local|kokoro|cloud
                                    -> starts converting that video (once), returns status.
                                       engine is required: nothing is converted (or paid
                                       for) unless the app explicitly asks for an engine.
@@ -35,6 +35,13 @@ JOBS = ROOT / "work" / "jobs"
 
 
 # ---------------------------------------------------------------- conversion jobs
+
+# What each engine choice in the app means for make_audio.py
+ENGINE_ARGS = {
+    "local": ["--engine", "local", "--tts", "piper"],    # on the Pi, robotic voice, quick
+    "kokoro": ["--engine", "local", "--tts", "kokoro"],  # on the Pi, natural voice, slower
+    "cloud": ["--engine", "cloud"],                      # paid APIs, fastest
+}
 
 class Converter:
     def __init__(self):
@@ -80,7 +87,7 @@ class Converter:
         return {"state": "none"}
 
     def start(self, video_id, engine):
-        if engine not in ("local", "cloud"):
+        if engine not in ENGINE_ARGS:
             return {"state": "error", "message": "Choose how to convert this video"}
         if not self.video(video_id):
             return {"state": "error", "message": "Unknown video"}
@@ -115,7 +122,7 @@ class Converter:
         with open(log_file, "w") as log:
             rc = subprocess.run(
                 [sys.executable, str(ROOT / "make_audio.py"), v.get("source") or v["youtube"],
-                 "--lesson-id", video_id, "--status-file", str(status_file), "--engine", engine],
+                 "--lesson-id", video_id, "--status-file", str(status_file), *ENGINE_ARGS[engine]],
                 stdout=log, stderr=subprocess.STDOUT, cwd=ROOT,
             ).returncode
         if rc == 0 and (LESSONS / video_id / "lesson.json").exists():
