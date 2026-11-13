@@ -47,6 +47,102 @@ async function showStorage() {
   } catch { /* offline: leave it out */ }
 }
 
+// ---------- offline downloads (Cache Storage; sw.js serves them, with Range support)
+
+const OFFLINE = "escucha-offline";
+const LESSON_FILES = ["lesson.json", "es.mp3", "mix.mp3"];
+const downloaded = new Set();  // video ids saved on this device
+let downloading = null;         // { id, pct } while a download runs
+
+const lessonUrl = (id, f) => new URL(`lessons/${encodeURIComponent(id)}/${f}`, location.href).href;
+
+async function loadDownloaded() {
+  if (!("caches" in window)) return;
+  try {
+    const keys = await (await caches.open(OFFLINE)).keys();
+    for (const r of keys) {
+      const m = new URL(r.url).pathname.match(/\/lessons\/([^/]+)\/lesson\.json$/);
+      if (m) downloaded.add(decodeURIComponent(m[1]));
+    }
+  } catch { /* storage blocked: downloads just aren't available */ }
+}
+
+async function downloadLesson(v) {
+  if (downloading || !("caches" in window)) return;
+  downloading = { id: v.id, pct: 0 };
+  renderDownload();
+  try {
+    if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
+    // Fetch everything first, so a failed download leaves nothing half-saved.
+    const sizes = LESSON_FILES.map(() => 0), loaded = LESSON_FILES.map(() => 0);
+    const blobs = await Promise.all(LESSON_FILES.map(async (f, i) => {
+      const res = await fetch(lessonUrl(v.id, f) + `?dl=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`${f}: ${res.status}`);
+      sizes[i] = +res.headers.get("Content-Length") || 0;
+      const reader = res.body.getReader(), chunks = [];
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        chunks.push(value);
+        loaded[i] += value.length;
+        const total = sizes.reduce((a, b) => a + b, 0);
+        if (total && downloading) {
+          downloading.pct = Math.min(99, Math.round((100 * loaded.reduce((a, b) => a + b, 0)) / total));
+          renderDownload();
+        }
+      }
+      return new Blob(chunks, { type: res.headers.get("Content-Type") || "" });
+    }));
+    const cache = await caches.open(OFFLINE);
+    await Promise.all(LESSON_FILES.map((f, i) => cache.put(lessonUrl(v.id, f), new Response(blobs[i], {
+      headers: { "Content-Type": blobs[i].type, "Content-Length": String(blobs[i].size) },
+    }))));
+    try {  // thumbnail, so the list looks right offline
+      const thumb = await fetch(v.thumbnail);
+      if (thumb.ok) await cache.put(new URL(v.thumbnail, location.href).href, thumb);
+    } catch {}
+    downloaded.add(v.id);
+    downloadNote("");
+  } catch (e) {
+    downloadNote(/quota/i.test(String(e)) ? "Not enough space on this device." : "Download failed. Try again when online.");
+  } finally {
+    downloading = null;
+    renderDownload();
+  }
+}
+
+async function removeDownload(v) {
+  if (!confirm("Remove this lesson from this device? You can download it again later.")) return;
+  try {
+    const cache = await caches.open(OFFLINE);
+    await Promise.all(LESSON_FILES.map((f) => cache.delete(lessonUrl(v.id, f))));
+  } catch {}
+  downloaded.delete(v.id);
+  downloadNote("");
+  renderDownload();
+}
+
+function downloadNote(text) {
+  $("download-note").textContent = text;
+  $("download-note").hidden = !text;
+}
+
+function renderDownload() {
+  if (!video) return;
+  const btn = $("download"), label = $("download-label");
+  const mine = downloading && downloading.id === video.id;
+  btn.disabled = !!downloading || !("caches" in window);
+  btn.classList.toggle("done", downloaded.has(video.id));
+  label.textContent = mine ? `Downloading… ${downloading.pct}%`
+    : downloaded.has(video.id) ? "On this device · Remove"
+    : "Download for offline";
+}
+
+$("download").onclick = () => {
+  if (!video || !lesson) return;
+  downloaded.has(video.id) ? removeDownload(video) : downloadLesson(video);
+};
+
 // Lower case, accents stripped: "Mañana" matches "manana".
 const fold = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
@@ -56,20 +152,27 @@ function renderList() {
   $("list-empty").hidden = videos.length > 0;
   const words = fold($("search").value).split(/\s+/).filter(Boolean);
   const hideWatched = $("hide-watched").checked;
+  const onlyDownloaded = $("only-downloaded").checked;
   const shown = videos.filter((v) => {
     if (hideWatched && loadState(v.id).watched) return false;
+    if (onlyDownloaded && !downloaded.has(v.id)) return false;
     const title = fold(v.title);
     return words.every((w) => title.includes(w));
   });
   $("list-nomatch").hidden = !videos.length || shown.length > 0;
+  $("list-nomatch").textContent = onlyDownloaded && !downloaded.size
+    ? "Nothing downloaded yet. Open a lesson and tap “Download for offline”."
+    : "No videos match.";
   for (const v of shown) {
     const st = loadState(v.id);
     const li = document.createElement("li");
+    if (!navigator.onLine && !downloaded.has(v.id)) li.className = "unavailable";
     li.innerHTML = `
       <a class="card" href="#/play/${encodeURIComponent(v.id)}">
         <div class="thumb">
           <img loading="lazy" alt="">
           ${st.watched ? '<span class="badge watched">✓ Watched</span>' : ""}
+          ${downloaded.has(v.id) ? '<span class="badge saved" title="Downloaded for offline">Offline</span>' : ""}
           <span class="badge">${fmt(v.duration)}</span>
           ${!st.watched && st.frac > 0.02 ? `<div class="thumb-progress" style="width:${Math.round(st.frac * 100)}%"></div>` : ""}
         </div>
@@ -233,16 +336,22 @@ async function openPlayer(id, force = false, engine = null) {
   $("video-thumb").src = v.thumbnail;
   showPhase("converting");
   showProgress({ message: "Checking" });
+  downloadNote("");
 
   let l;
-  try { l = await ensureLesson(v, token, engine); } catch (e) {
+  try {
+    // Downloaded lessons open from this device (sw.js serves them), even offline.
+    l = downloaded.has(v.id) ? await getJSON(lessonUrl(v.id, "lesson.json"))
+      : await ensureLesson(v, token, engine);
+  } catch (e) {
     if (token !== openToken) return;
-    showChoice(v, "Can't reach the server.");
+    showChoice(v, navigator.onLine ? "Can't reach the server." : "You're offline and this video isn't downloaded.");
     return;
   }
   if (!l || token !== openToken) return;
   lesson = l;
   showPhase("player");
+  renderDownload();
   const saved = loadState(v.id);
   mode = saved.mode || "es";
   renderMode();
@@ -328,11 +437,14 @@ seek.oninput = () => { seeking = true; $("cur").textContent = fmt(+seek.value); 
 seek.onchange = () => { audio.currentTime = +seek.value; seeking = false; };
 
 $("search").oninput = renderList;
-$("hide-watched").onchange = () => {
-  try { localStorage.setItem("hideWatched", $("hide-watched").checked ? "1" : ""); } catch {}
-  renderList();
-};
-try { $("hide-watched").checked = !!localStorage.getItem("hideWatched"); } catch {}
+// List filters, remembered per device
+for (const [box, key] of [["hide-watched", "hideWatched"], ["only-downloaded", "onlyDownloaded"]]) {
+  try { $(box).checked = !!localStorage.getItem(key); } catch {}
+  $(box).onchange = () => {
+    try { localStorage.setItem(key, $(box).checked ? "1" : ""); } catch {}
+    renderList();
+  };
+}
 
 document.addEventListener("keydown", (e) => {
   if ($("player-view").hidden || e.target.tagName === "INPUT") return;
@@ -412,9 +524,12 @@ function route() {
   else { audio.pause(); saveState(); openToken++; video = null; lesson = null; renderList(); }
 }
 window.addEventListener("hashchange", route);
+window.addEventListener("online", () => { renderList(); showStorage(); });
+window.addEventListener("offline", renderList);
 
 async function init() {
   try { videos = await getJSON("data/videos.json"); } catch { videos = []; }
+  await loadDownloaded();
   showStorage();
   renderList();
   route();

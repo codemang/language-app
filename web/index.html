@@ -20,7 +20,10 @@
       <p class="sub">Beginner · easiest first<span id="storage"></span></p>
       <div class="filters">
         <input id="search" type="search" placeholder="Search videos" autocomplete="off" aria-label="Search videos">
-        <label class="toggle"><input id="hide-watched" type="checkbox"> Hide watched</label>
+        <div class="toggles">
+          <label class="toggle"><input id="hide-watched" type="checkbox"> Hide watched</label>
+          <label class="toggle"><input id="only-downloaded" type="checkbox"> Downloaded only</label>
+        </div>
       </div>
     </header>
     <ul id="videos" class="videos"></ul>
@@ -98,6 +101,14 @@
     </section>
 
     <section id="speed" class="speed" role="radiogroup" aria-label="Playback speed"></section>
+
+    <section class="offline">
+      <button id="download" class="offline-btn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4h2v9.2l3.6-3.6L18 11l-6 6-6-6 1.4-1.4 3.6 3.6zM5 18h14v2H5z"/></svg>
+        <span id="download-label">Download for offline</span>
+      </button>
+      <p id="download-note" class="sub" hidden></p>
+    </section>
     </div>
   </main>
 

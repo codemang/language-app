@@ -234,10 +234,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .empty { color: var(--muted); text-align: center; }
 
 /* ---- list filters */
-.filters { display: flex; align-items: center; gap: 12px; }
+.filters { display: flex; flex-direction: column; gap: 10px; }
+.toggles { display: flex; flex-wrap: wrap; gap: 8px 20px; }
 .filters input[type="search"] {
-  flex: 1;
-  min-width: 0;
+  width: 100%;
   padding: 10px 12px;
   font: inherit;
   color: var(--text);
@@ -265,3 +265,24 @@ button { font: inherit; color: inherit; cursor: pointer; }
 }
 .speed button[aria-checked="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
 code { font-size: 14px; }
+
+/* ---- offline downloads */
+.offline { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.offline-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+}
+.offline-btn svg { width: 18px; height: 18px; fill: currentColor; }
+.offline-btn.done { color: var(--accent); border-color: var(--accent); }
+.offline-btn:disabled { opacity: .6; cursor: default; }
+.offline .sub { margin: 0; }
+.badge.saved { right: auto; left: 8px; top: 8px; bottom: auto; }
+.unavailable .card { opacity: .45; }
