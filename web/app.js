@@ -4,15 +4,16 @@
 // Routes:  #/            video list (data/videos.json)
 //          #/play/<id>   player
 //
-// For now every video plays the same static lesson (the first entry in
-// lessons/index.json). A lesson has es.mp3, mix.mp3 and lesson.json with
-// per-sentence timings in both: orig = [start, end] in es.mp3, mix_es / mix_en =
+// Each video is converted once on the server into lessons/<video id>/: es.mp3,
+// mix.mp3 and lesson.json with per-sentence timings in both: orig = [start, end] in es.mp3, mix_es / mix_en =
 // where the Spanish clip and its English translation sit in mix.mp3. Switching
 // modes maps the position through those timings so you stay on the same sentence.
 
 const $ = (id) => document.getElementById(id);
 const audio = $("audio");
 const SKIP = 5;
+const SPEEDS = [0.75, 0.9, 1, 1.25, 1.5];
+const WATCHED_AT = 0.9;  // a lesson counts as watched once you're 90% through it
 
 let videos = [];     // data/videos.json
 let video = null;    // video currently open in the player
@@ -46,17 +47,31 @@ async function showStorage() {
   } catch { /* offline: leave it out */ }
 }
 
+// Lower case, accents stripped: "Mañana" matches "manana".
+const fold = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
 function renderList() {
   const ul = $("videos");
   ul.innerHTML = "";
   $("list-empty").hidden = videos.length > 0;
-  for (const v of videos) {
+  const words = fold($("search").value).split(/\s+/).filter(Boolean);
+  const hideWatched = $("hide-watched").checked;
+  const shown = videos.filter((v) => {
+    if (hideWatched && loadState(v.id).watched) return false;
+    const title = fold(v.title);
+    return words.every((w) => title.includes(w));
+  });
+  $("list-nomatch").hidden = !videos.length || shown.length > 0;
+  for (const v of shown) {
+    const st = loadState(v.id);
     const li = document.createElement("li");
     li.innerHTML = `
       <a class="card" href="#/play/${encodeURIComponent(v.id)}">
         <div class="thumb">
           <img loading="lazy" alt="">
+          ${st.watched ? '<span class="badge watched">✓ Watched</span>' : ""}
           <span class="badge">${fmt(v.duration)}</span>
+          ${!st.watched && st.frac > 0.02 ? `<div class="thumb-progress" style="width:${Math.round(st.frac * 100)}%"></div>` : ""}
         </div>
         <div class="card-body">
           <h3></h3>
@@ -109,6 +124,7 @@ function loadAt(m, t, autoplay) {
   return new Promise((resolve) => {
     audio.src = src(m);
     audio.addEventListener("loadedmetadata", () => {
+      audio.playbackRate = speed;  // a new src resets the rate
       audio.currentTime = Math.min(t, audio.duration || t);
       if (autoplay) audio.play().catch(() => {});
       resolve();
@@ -253,9 +269,40 @@ function loadState(id) {
   try { return JSON.parse(localStorage.getItem(`pos:${id}`)) || {}; } catch { return {}; }
 }
 function saveState() {
-  if (!video || !lesson) return;
-  try { localStorage.setItem(`pos:${video.id}`, JSON.stringify({ mode, t: audio.currentTime })); } catch {}
+  if (!video || !lesson || !audio.duration) return;
+  const frac = audio.currentTime / audio.duration;
+  const watched = loadState(video.id).watched || frac >= WATCHED_AT;
+  try { localStorage.setItem(`pos:${video.id}`, JSON.stringify({ mode, t: audio.currentTime, frac, watched })); } catch {}
 }
+
+// ---------- playback speed (one setting for all videos)
+
+let speed = 1;
+try { speed = SPEEDS.includes(+localStorage.getItem("speed")) ? +localStorage.getItem("speed") : 1; } catch {}
+
+function renderSpeed() {
+  const box = $("speed");
+  box.innerHTML = "";
+  for (const s of SPEEDS) {
+    const b = document.createElement("button");
+    b.setAttribute("role", "radio");
+    b.setAttribute("aria-checked", s === speed);
+    b.textContent = `${s}×`;
+    b.onclick = () => setSpeed(s);
+    box.append(b);
+  }
+}
+function setSpeed(s) {
+  speed = s;
+  audio.defaultPlaybackRate = s;
+  audio.playbackRate = s;
+  try { localStorage.setItem("speed", String(s)); } catch {}
+  renderSpeed();
+  updatePositionState();
+}
+audio.preservesPitch = true;
+audio.defaultPlaybackRate = speed;
+renderSpeed();
 
 // ---------- controls
 
@@ -279,6 +326,13 @@ const seek = $("seek");
 let seeking = false;
 seek.oninput = () => { seeking = true; $("cur").textContent = fmt(+seek.value); };
 seek.onchange = () => { audio.currentTime = +seek.value; seeking = false; };
+
+$("search").oninput = renderList;
+$("hide-watched").onchange = () => {
+  try { localStorage.setItem("hideWatched", $("hide-watched").checked ? "1" : ""); } catch {}
+  renderList();
+};
+try { $("hide-watched").checked = !!localStorage.getItem("hideWatched"); } catch {}
 
 document.addEventListener("keydown", (e) => {
   if ($("player-view").hidden || e.target.tagName === "INPUT") return;
@@ -316,6 +370,7 @@ audio.addEventListener("timeupdate", () => { render(); updatePositionState(); })
 audio.addEventListener("durationchange", render);
 audio.addEventListener("play", () => { $("play").classList.add("playing"); $("play").ariaLabel = "Pause"; });
 audio.addEventListener("pause", () => { $("play").classList.remove("playing"); $("play").ariaLabel = "Play"; saveState(); });
+audio.addEventListener("ended", saveState);
 setInterval(() => { if (!audio.paused) saveState(); }, 5000);
 
 // ---------- lock screen / headphone controls
@@ -354,7 +409,7 @@ function route() {
   $("player-view").hidden = !playing;
   window.scrollTo(0, 0);
   if (playing) openPlayer(decodeURIComponent(m[1]));
-  else { audio.pause(); openToken++; video = null; lesson = null; }
+  else { audio.pause(); saveState(); openToken++; video = null; lesson = null; renderList(); }
 }
 window.addEventListener("hashchange", route);
 

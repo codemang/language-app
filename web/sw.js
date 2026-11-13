@@ -1,7 +1,7 @@
 // Caches the app shell so it opens instantly / installs as a PWA.
 // Lesson data and audio always come from the network (audio uses Range
 // requests, which don't mix well with Cache Storage).
-const CACHE = "escucha-v6";
+const CACHE = "escucha-v7";
 const SHELL = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest",
                "icons/icon-192.png", "icons/icon-512.png"];
 

@@ -232,4 +232,36 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .choice .conv-note { align-self: center; }
 
 .empty { color: var(--muted); text-align: center; }
+
+/* ---- list filters */
+.filters { display: flex; align-items: center; gap: 12px; }
+.filters input[type="search"] {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.toggle { flex: none; display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); }
+.toggle input { width: 18px; height: 18px; margin: 0; accent-color: var(--accent); }
+.badge.watched { right: auto; left: 8px; background: var(--accent); color: var(--accent-text); }
+.thumb-progress { position: absolute; left: 0; bottom: 0; height: 4px; background: var(--accent); }
+
+/* ---- playback speed */
+.speed { display: flex; justify-content: center; gap: 6px; }
+.speed button {
+  min-width: 52px;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.speed button[aria-checked="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
 code { font-size: 14px; }
