@@ -12,10 +12,18 @@ import json
 import os
 import re
 import subprocess
+import time
 import urllib.request
+from pathlib import Path
 
 API = "https://app.dreaming.com/api"
 UA = "Mozilla/5.0 (language-app prototype)"
+
+# Bulk conversions wait this long between the end of one stream download and the
+# start of the next, so they don't look like a bot. One-off (UI) downloads don't wait,
+# but still record their time so a bulk download that follows waits too.
+BULK_DOWNLOAD_SPACING_SEC = 3 * 60
+THROTTLE_FILE = Path(__file__).resolve().parent / "work" / "cloudflare_last_download"
 
 
 class DreamingError(Exception):
@@ -50,10 +58,31 @@ def hls_url(v):
     return cf.rstrip("/") + "/manifest/video.m3u8"
 
 
-def download_audio(v, dest):
-    """Save just the audio track of the video's HLS stream to dest (.m4a)."""
-    subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", hls_url(v),
-                    "-map", "0:a:0", "-c", "copy", str(dest)], check=True)
+def _last_download():
+    try:
+        return float(THROTTLE_FILE.read_text().strip() or 0)
+    except (FileNotFoundError, ValueError):
+        return 0.0
+
+
+def download_audio(v, dest, spacing=0, on_wait=None):
+    """Save just the audio track of the video's HLS stream to dest (.m4a).
+
+    With spacing > 0 (bulk runs), first wait until that many seconds have passed since
+    the previous stream download finished, calling on_wait(seconds_left) while waiting."""
+    THROTTLE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    while (left := _last_download() + spacing - time.time()) > 0:
+        if on_wait:
+            on_wait(left)
+        time.sleep(min(left, 5))
+    url = hls_url(v)  # signed URLs expire, so take it after any wait
+    try:
+        subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", url,
+                        "-map", "0:a:0", "-c", "copy", str(dest)], check=True)
+    finally:  # a failed attempt still counts as a request to their CDN
+        tmp = THROTTLE_FILE.with_suffix(".tmp")
+        tmp.write_text(str(time.time()))
+        tmp.replace(THROTTLE_FILE)
     return dest
 
 

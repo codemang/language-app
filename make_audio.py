@@ -118,7 +118,7 @@ def dreaming_id(url):
     return None
 
 
-def download_dreaming(v, work):
+def download_dreaming(v, work, spacing=0):
     """Audio from Dreaming Spanish's own stream, plus its human-made Spanish subtitles."""
     import dreaming
     save_json(work / "subtitles.json", dreaming.subtitle_cues(v))
@@ -127,7 +127,9 @@ def download_dreaming(v, work):
         return existing[0]
     progress("Downloading audio")
     tmp = work / "download.m4a"
-    dreaming.download_audio(v, tmp)
+    dreaming.download_audio(v, tmp, spacing=spacing, on_wait=lambda left: progress(
+        f"Waiting {int(left) // 60}:{int(left) % 60:02} before downloading (spacing out downloads)"))
+    progress("Downloading audio")
     return tmp.rename(work / "source.m4a")
 
 
@@ -506,6 +508,8 @@ def main():
                         "local = faster-whisper + OPUS-MT + Piper on this machine (free, slower)")
     p.add_argument("--translator", choices=["opus", "haiku", "local"],
                    help="who translates to English (default: opus for --engine cloud, haiku for --engine local)")
+    p.add_argument("--bulk", action="store_true",
+                   help="bulk run: wait 3 minutes after the previous Dreaming Spanish download before downloading")
     p.add_argument("--voice", default="coral", help="OpenAI TTS voice (alloy, ash, coral, echo, nova, sage, ...)")
     p.add_argument("--gap", type=float, default=0.5, help="silence between Spanish and English (s)")
     p.add_argument("--pair-gap", type=float, default=1.0, help="silence after each ES/EN pair (s)")
@@ -531,7 +535,8 @@ def main():
     work.mkdir(parents=True, exist_ok=True)
     tag = f"{args.minutes:g}m" if args.minutes else "full"
 
-    source = download_dreaming(v, work) if ds_id else download(args.url, work)
+    spacing = dreaming.BULK_DOWNLOAD_SPACING_SEC if ds_id and args.bulk else 0
+    source = download_dreaming(v, work, spacing) if ds_id else download(args.url, work)
     master = make_master(source, work, args.minutes)
     if args.engine == "local":
         import local_engine
