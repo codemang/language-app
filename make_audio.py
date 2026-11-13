@@ -26,6 +26,7 @@ import hashlib
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import threading
@@ -584,6 +585,11 @@ def main():
         en_paths = tts(sents, work, args.voice)
 
     out = publish(vid, title, args.url, tag, master, sents, en_paths, work, args)
+    # Free disk space: the decoded WAV and the cut clips are rebuilt on any re-run.
+    # Kept: the download, transcripts, translations and English speech (the slow/paid parts).
+    shutil.rmtree(work / "clips", ignore_errors=True)
+    for f in [*work.glob("master_*.wav"), work / "concat.txt"]:
+        f.unlink(missing_ok=True)
     log(f"Done: {out}")
 
 
