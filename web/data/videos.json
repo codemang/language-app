@@ -3,8 +3,8 @@
     "id": "68dce12ae7b66772ed57d35a",
     "title": "The Airport Nightmare - Easy Spanish Story for Beginners",
     "duration": 439,
-    "difficulty": 16,
-    "difficultyScore": 590,
+    "difficulty": 17,
+    "difficultyScore": 602,
     "level": "beginner",
     "guides": [
       "Andrés",
@@ -13,98 +13,59 @@
       "Michelle"
     ],
     "thumbnail": "data/thumbs/68dce12ae7b66772ed57d35a.jpg",
+    "source": "dreaming:68dce12ae7b66772ed57d35a",
     "youtube": "https://www.youtube.com/watch?v=pHT1baomLJk"
   },
   {
     "id": "6957b73ab0b7b6f887702e8a",
     "title": "Beginner Spanish Story: \"I Can't Go to School!”",
     "duration": 494,
-    "difficulty": 22,
-    "difficultyScore": 723,
+    "difficulty": 20,
+    "difficultyScore": 679,
     "level": "beginner",
     "guides": [
       "Shelcin"
     ],
     "thumbnail": "data/thumbs/6957b73ab0b7b6f887702e8a.jpg",
+    "source": "dreaming:6957b73ab0b7b6f887702e8a",
     "youtube": "https://www.youtube.com/watch?v=SLgVwNulYhc"
   },
   {
     "id": "6a1eb2874a6295f32ed34f3b",
     "title": "Learn Spanish With This Terrible Babysitter",
     "duration": 769,
-    "difficulty": 24,
-    "difficultyScore": 780,
+    "difficulty": 21,
+    "difficultyScore": 714,
     "level": "beginner",
     "guides": [
       "Shelcin",
       "Ester"
     ],
     "thumbnail": "data/thumbs/6a1eb2874a6295f32ed34f3b.jpg",
+    "source": "dreaming:6a1eb2874a6295f32ed34f3b",
     "youtube": "https://www.youtube.com/watch?v=b4ALAtrJVuw"
-  },
-  {
-    "id": "6ab650c6c98eef07ed0d006a",
-    "title": "Learn Spanish with This Story: \"A Very Special Dinner\" (Beginner)",
-    "duration": 499,
-    "difficulty": 25,
-    "difficultyScore": 795,
-    "level": "beginner",
-    "guides": [
-      "Shelcin",
-      "Andrés"
-    ],
-    "thumbnail": "data/thumbs/6ab650c6c98eef07ed0d006a.jpg",
-    "youtube": "https://www.youtube.com/watch?v=wEO_8ghFM04"
-  },
-  {
-    "id": "6a186e8d4a6295f32ed34f24",
-    "title": "Beginner Spanish Story: \"Clueless at Harvard”",
-    "duration": 351,
-    "difficulty": 25,
-    "difficultyScore": 806,
-    "level": "beginner",
-    "guides": [
-      "Shelcin",
-      "Andrés"
-    ],
-    "thumbnail": "data/thumbs/6a186e8d4a6295f32ed34f24.jpg",
-    "youtube": "https://www.youtube.com/watch?v=fdyEWiPFS-I"
   },
   {
     "id": "69147b3ab0b7b6f887702b30",
     "title": "Spanish Story for Beginners: \"The Fortune Teller”",
     "duration": 471,
-    "difficulty": 25,
-    "difficultyScore": 810,
+    "difficulty": 23,
+    "difficultyScore": 762,
     "level": "beginner",
     "guides": [
       "Shelcin",
       "Andrés"
     ],
     "thumbnail": "data/thumbs/69147b3ab0b7b6f887702b30.jpg",
+    "source": "dreaming:69147b3ab0b7b6f887702b30",
     "youtube": "https://www.youtube.com/watch?v=aVROKKwcQL8"
-  },
-  {
-    "id": "69fdd77f4a6295f32ed34dc5",
-    "title": "Beginner Spanish Story: \"My Wi-Fi Stopped Working!”",
-    "duration": 605,
-    "difficulty": 26,
-    "difficultyScore": 815,
-    "level": "beginner",
-    "guides": [
-      "Shelcin",
-      "Ester",
-      "Andrés"
-    ],
-    "thumbnail": "data/thumbs/69fdd77f4a6295f32ed34dc5.jpg",
-    "youtube": "https://www.youtube.com/watch?v=VdzhL4xsrhA"
   },
   {
     "id": "6a05961c4a6295f32ed34e78",
     "title": "Spanish for Beginners: A New Girl in the Office",
     "duration": 318,
-    "difficulty": 26,
-    "difficultyScore": 816,
+    "difficulty": 24,
+    "difficultyScore": 772,
     "level": "beginner",
     "guides": [
       "Andrés",
@@ -113,33 +74,82 @@
       "Shelcin"
     ],
     "thumbnail": "data/thumbs/6a05961c4a6295f32ed34e78.jpg",
+    "source": "dreaming:6a05961c4a6295f32ed34e78",
     "youtube": "https://www.youtube.com/watch?v=0-Y0ayj9F-w"
+  },
+  {
+    "id": "6a0dc7b64a6295f32ed34eb1",
+    "title": "Spanish Story for Beginners: \"I Need Cash Now!”",
+    "duration": 492,
+    "difficulty": 24,
+    "difficultyScore": 772,
+    "level": "beginner",
+    "guides": [
+      "Shelcin",
+      "Andrés"
+    ],
+    "thumbnail": "data/thumbs/6a0dc7b64a6295f32ed34eb1.jpg",
+    "source": "dreaming:6a0dc7b64a6295f32ed34eb1",
+    "youtube": "https://www.youtube.com/watch?v=L71UG68wRMI"
+  },
+  {
+    "id": "6ab650c6c98eef07ed0d006a",
+    "title": "Learn Spanish with This Story: \"A Very Special Dinner\" (Beginner)",
+    "duration": 499,
+    "difficulty": 24,
+    "difficultyScore": 784,
+    "level": "beginner",
+    "guides": [
+      "Shelcin",
+      "Andrés"
+    ],
+    "thumbnail": "data/thumbs/6ab650c6c98eef07ed0d006a.jpg",
+    "source": "dreaming:6ab650c6c98eef07ed0d006a",
+    "youtube": "https://www.youtube.com/watch?v=wEO_8ghFM04"
   },
   {
     "id": "69f20b2badd1079282768fb2",
     "title": "Beginner Spanish Story: \"Becoming Kendall”",
     "duration": 986,
-    "difficulty": 26,
-    "difficultyScore": 819,
+    "difficulty": 25,
+    "difficultyScore": 800,
     "level": "beginner",
     "guides": [
       "Shelcin",
       "Andrés"
     ],
     "thumbnail": "data/thumbs/69f20b2badd1079282768fb2.jpg",
+    "source": "dreaming:69f20b2badd1079282768fb2",
     "youtube": "https://www.youtube.com/watch?v=5-_Aog7Jsjk"
   },
   {
-    "id": "68f9e44436dfb0b3c21fdbb4",
-    "title": "The Makeover - Spanish Story for Beginners (Comprehensible Input)",
-    "duration": 402,
-    "difficulty": 26,
-    "difficultyScore": 827,
+    "id": "6aaa7081c98eef07ed0cfee1",
+    "title": "Learn Spanish With This Teen Drama | Spanish for Beginners",
+    "duration": 610,
+    "difficulty": 25,
+    "difficultyScore": 803,
     "level": "beginner",
     "guides": [
       "Shelcin"
     ],
-    "thumbnail": "data/thumbs/68f9e44436dfb0b3c21fdbb4.jpg",
-    "youtube": "https://www.youtube.com/watch?v=bKiQkIqMFnA"
+    "thumbnail": "data/thumbs/6aaa7081c98eef07ed0cfee1.jpg",
+    "source": "dreaming:6aaa7081c98eef07ed0cfee1",
+    "youtube": "https://www.youtube.com/watch?v=ZUGPmm9WtGg"
+  },
+  {
+    "id": "69fdd77f4a6295f32ed34dc5",
+    "title": "Beginner Spanish Story: \"My Wi-Fi Stopped Working!”",
+    "duration": 605,
+    "difficulty": 25,
+    "difficultyScore": 804,
+    "level": "beginner",
+    "guides": [
+      "Shelcin",
+      "Ester",
+      "Andrés"
+    ],
+    "thumbnail": "data/thumbs/69fdd77f4a6295f32ed34dc5.jpg",
+    "source": "dreaming:69fdd77f4a6295f32ed34dc5",
+    "youtube": "https://www.youtube.com/watch?v=VdzhL4xsrhA"
   }
 ]

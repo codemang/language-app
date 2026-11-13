@@ -114,7 +114,7 @@ class Converter:
         status_file.write_text(json.dumps({"state": "running", "message": "Starting"}))
         with open(log_file, "w") as log:
             rc = subprocess.run(
-                [sys.executable, str(ROOT / "make_audio.py"), v["youtube"],
+                [sys.executable, str(ROOT / "make_audio.py"), v.get("source") or v["youtube"],
                  "--lesson-id", video_id, "--status-file", str(status_file), "--engine", engine],
                 stdout=log, stderr=subprocess.STDOUT, cwd=ROOT,
             ).returncode

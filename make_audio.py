@@ -12,7 +12,11 @@ Pipeline:
 Every step caches its output under work/<video_id>/, so re-running is cheap.
 
 Usage:
-  python make_audio.py <youtube_url> [--minutes 2]
+  python make_audio.py <youtube_url | dreaming:<video id>> [--minutes 2]
+
+For dreaming:<id>, audio comes from Dreaming Spanish's own stream and the Spanish
+text from its human-made subtitles (Whisper is then only used for word timings).
+Needs DREAMING_TOKEN in .env.
 
 Output: web/lessons/<id>/{es.mp3, mix.mp3, lesson.json} for the web app.
 """
@@ -100,6 +104,31 @@ def video_id(url):
     with yt_dlp.YoutubeDL({"quiet": True, "no_warnings": True}) as ydl:
         info = ydl.extract_info(url, download=False)
     return info["id"], info.get("title", "")
+
+
+DREAMING_PREFIX = "dreaming:"
+
+
+def dreaming_id(url):
+    """'dreaming:<id>' or an app.dreaming.com link -> Dreaming Spanish video id, else None."""
+    if url.startswith(DREAMING_PREFIX):
+        return url[len(DREAMING_PREFIX):]
+    if "dreaming.com" in url and (m := re.search(r"\b([0-9a-f]{24})\b", url)):
+        return m.group(1)
+    return None
+
+
+def download_dreaming(v, work):
+    """Audio from Dreaming Spanish's own stream, plus its human-made Spanish subtitles."""
+    import dreaming
+    save_json(work / "subtitles.json", dreaming.subtitle_cues(v))
+    existing = list(work.glob("source.*"))
+    if existing:
+        return existing[0]
+    progress("Downloading audio")
+    tmp = work / "download.m4a"
+    dreaming.download_audio(v, tmp)
+    return tmp.rename(work / "source.m4a")
 
 
 def download(url, work):
@@ -487,13 +516,22 @@ def main():
     if args.engine == "cloud" and not os.environ.get("OPENAI_API_KEY"):
         sys.exit("OPENAI_API_KEY is not set (put it in .env)")
 
-    vid, title = video_id(args.url)
+    ds_id = dreaming_id(args.url)
+    if ds_id:
+        import dreaming
+        try:
+            v = dreaming.video(ds_id)
+        except dreaming.DreamingError as e:
+            sys.exit(str(e))
+        vid, title = ds_id, v["title"]
+    else:
+        vid, title = video_id(args.url)
     log(f"Video: {title} ({vid})")
     work = ROOT / "work" / vid
     work.mkdir(parents=True, exist_ok=True)
     tag = f"{args.minutes:g}m" if args.minutes else "full"
 
-    source = download(args.url, work)
+    source = download_dreaming(v, work) if ds_id else download(args.url, work)
     master = make_master(source, work, args.minutes)
     if args.engine == "local":
         import local_engine
@@ -504,6 +542,12 @@ def main():
             save_json(cache, transcript)
     else:
         transcript = transcribe(master, work, args.minutes)
+    cues = load_json(work / "subtitles.json") if ds_id else None
+    if cues:
+        # Human subtitles give the words and punctuation; Whisper gives the word timings.
+        limit = args.minutes * 60 if args.minutes else float("inf")
+        transcript = {"words": transcript["words"], "segments": [c for c in cues if c["start"] < limit]}
+        log(f"Using {len(transcript['segments'])} subtitle lines for the Spanish text")
     sents = sentences(transcript)
     log(f"{len(sents)} sentences")
     if not sents:
