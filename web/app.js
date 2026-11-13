@@ -152,7 +152,10 @@ async function loadAuto() {
   try {
     const res = await fetch("api/auto", { cache: "no-store", signal: AbortSignal.timeout(5000) });
     if (!res.ok) return;
+    const before = auto ? auto.converted.join() : null;
     auto = await res.json();
+    // A video finished converting: refresh the list if it's filtered by that.
+    if ($("only-transcribed").checked && before !== auto.converted.join() && !$("list-view").hidden) renderList();
   } catch { return; }
   renderAuto();
   updateChips();
@@ -259,9 +262,15 @@ function renderList() {
   const onlyDownloaded = offline || $("only-downloaded").checked;
   $("offline-note").hidden = !offline;
   $("only-downloaded").closest("label").hidden = offline;  // the note says it all
+  // "Already transcribed" = converted on the Pi (from api/auto). Offline it's moot:
+  // only downloaded videos are listed, and those are transcribed by definition.
+  const onlyTranscribed = !offline && $("only-transcribed").checked;
+  $("only-transcribed").closest("label").hidden = offline;
+  const transcribed = new Set(auto ? auto.converted : []);
   const shown = videos.filter((v) => {
     if (hideWatched && loadState(v.id).watched) return false;
     if (onlyDownloaded && !downloaded.has(v.id)) return false;
+    if (onlyTranscribed && !transcribed.has(v.id)) return false;
     const title = fold(v.title);
     return words.every((w) => title.includes(w));
   });
@@ -270,6 +279,10 @@ function renderList() {
     ? "Nothing is downloaded on this device yet. When you're online, open a lesson and tap “Download for offline”."
     : onlyDownloaded && !downloaded.size
     ? "Nothing downloaded yet. Open a lesson and tap “Download for offline”."
+    : onlyTranscribed && !auto
+    ? "Loading which videos are transcribed…"
+    : onlyTranscribed && !transcribed.size
+    ? "Nothing transcribed yet. Open a video to convert it, or turn on auto-convert."
     : offline ? "No downloaded videos match." : "No videos match.";
   for (const v of shown) {
     const st = loadState(v.id);
@@ -612,7 +625,8 @@ seek.onchange = () => { audio.currentTime = +seek.value; seeking = false; };
 let searchTimer;
 $("search").oninput = () => { clearTimeout(searchTimer); searchTimer = setTimeout(renderList, 150); };
 // List filters, remembered per device
-for (const [box, key] of [["hide-watched", "hideWatched"], ["only-downloaded", "onlyDownloaded"]]) {
+for (const [box, key] of [["hide-watched", "hideWatched"], ["only-downloaded", "onlyDownloaded"],
+                          ["only-transcribed", "onlyTranscribed"]]) {
   try { $(box).checked = !!localStorage.getItem(key); } catch {}
   $(box).onchange = () => {
     try { localStorage.setItem(key, $(box).checked ? "1" : ""); } catch {}
