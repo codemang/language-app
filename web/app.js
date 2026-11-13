@@ -334,7 +334,7 @@ async function openPlayer(id, force = false, engine = null) {
   const v = videos.find((x) => x.id === id);
   if (!v) { location.hash = "#/"; return; }
   if (!force && video && video.id === v.id && lesson) return;  // already open
-  saveState();
+  saveState(true);  // the video being left
   audio.pause();
   const token = ++openToken;
   video = v;
@@ -383,14 +383,72 @@ async function setMode(m) {
 
 // ---------- persistence (per-viewer convenience only), keyed by video
 
+// Progress lives on the Pi (api/progress) so all devices share it; localStorage
+// is this device's copy, used offline. Entries changed offline are marked
+// `unsynced` and sent when the connection returns. Newest `updated` wins;
+// `watched` never goes back to false.
+
 function loadState(id) {
   try { return JSON.parse(localStorage.getItem(`pos:${id}`)) || {}; } catch { return {}; }
 }
-function saveState() {
+function storeLocal(id, st) {
+  try { localStorage.setItem(`pos:${id}`, JSON.stringify(st)); } catch {}
+}
+
+const SYNC_EVERY_MS = 15000;
+let lastSync = 0;
+
+function saveState(force = false) {
   if (!video || !lesson || !audio.duration) return;
   const frac = audio.currentTime / audio.duration;
-  const watched = loadState(video.id).watched || frac >= WATCHED_AT;
-  try { localStorage.setItem(`pos:${video.id}`, JSON.stringify({ mode, t: audio.currentTime, frac, watched })); } catch {}
+  const prev = loadState(video.id);
+  const st = { mode, t: audio.currentTime, frac, watched: !!prev.watched || frac >= WATCHED_AT,
+               updated: Date.now(), unsynced: true };
+  storeLocal(video.id, st);
+  // While playing this runs every 5 s; the Pi only needs it every 15 s, or right
+  // away on pause / leaving / finishing / becoming watched.
+  if (force || st.watched !== !!prev.watched || Date.now() - lastSync >= SYNC_EVERY_MS) {
+    lastSync = Date.now();
+    pushProgress(video.id);
+  }
+}
+
+async function pushProgress(id) {
+  const st = loadState(id);
+  if (!st.unsynced) return;
+  try {
+    const res = await fetch(`api/progress?id=${encodeURIComponent(id)}`, {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ t: st.t, mode: st.mode, frac: st.frac, watched: st.watched, updated: st.updated }),
+    });
+    if (!res.ok) return;
+    const saved = await res.json();
+    if (loadState(id).updated === st.updated) storeLocal(id, saved);  // unless it changed meanwhile
+  } catch { /* offline: stays unsynced */ }
+}
+
+// Pull everyone's progress from the Pi, then send anything this device changed offline.
+async function syncProgress() {
+  // Progress saved on this device before it was synced to the Pi: send it once.
+  for (const v of videos) {
+    const st = loadState(v.id);
+    if (Object.keys(st).length && !("updated" in st)) storeLocal(v.id, { ...st, updated: 0, unsynced: true });
+  }
+  let server;
+  try {  // short timeout: the phone may think it's online while the Pi is unreachable
+    const res = await fetch("api/progress", { cache: "no-store", signal: AbortSignal.timeout(4000) });
+    if (!res.ok) return;
+    server = await res.json();
+  } catch { return; }
+  for (const [id, remote] of Object.entries(server)) {
+    const local = loadState(id);
+    if (local.unsynced && (local.updated || 0) > (remote.updated || 0)) continue;  // pushed below
+    // The open video's position is managed by the player; only take "watched" for it.
+    if (video && video.id === id && lesson) { if (remote.watched && !local.watched) storeLocal(id, { ...local, watched: true }); continue; }
+    storeLocal(id, { ...remote, watched: !!remote.watched || !!local.watched });
+  }
+  for (const v of videos) if (loadState(v.id).unsynced) await pushProgress(v.id);
+  if (!video) renderList();
 }
 
 // ---------- playback speed (one setting for all videos)
@@ -490,9 +548,11 @@ function render() {
 audio.addEventListener("timeupdate", () => { render(); updatePositionState(); });
 audio.addEventListener("durationchange", render);
 audio.addEventListener("play", () => { $("play").classList.add("playing"); $("play").ariaLabel = "Pause"; });
-audio.addEventListener("pause", () => { $("play").classList.remove("playing"); $("play").ariaLabel = "Play"; saveState(); });
-audio.addEventListener("ended", saveState);
+audio.addEventListener("pause", () => { $("play").classList.remove("playing"); $("play").ariaLabel = "Play"; saveState(true); });
+audio.addEventListener("ended", () => saveState(true));
 setInterval(() => { if (!audio.paused) saveState(); }, 5000);
+// Phones may kill the app without a pause event: save when it goes to the background.
+document.addEventListener("visibilitychange", () => { if (document.hidden) saveState(true); });
 
 // ---------- lock screen / headphone controls
 
@@ -530,10 +590,11 @@ function route() {
   $("player-view").hidden = !playing;
   window.scrollTo(0, 0);
   if (playing) openPlayer(decodeURIComponent(m[1]));
-  else { audio.pause(); saveState(); openToken++; video = null; lesson = null; renderList(); }
+  else { audio.pause(); saveState(true); openToken++; video = null; lesson = null; renderList(); }
 }
 window.addEventListener("hashchange", route);
 window.addEventListener("online", () => {
+  syncProgress();
   renderList();
   showStorage();
   if (video && phase === "offline") openPlayer(video.id, true);  // load what the banner was waiting for
@@ -549,6 +610,7 @@ async function init() {
   await loadDownloaded();
   showStorage();
   renderList();
+  await syncProgress();  // progress from other devices, before a deep-linked lesson opens
   route();
 }
 init();

@@ -8,6 +8,7 @@ models/
 
 # generated / downloaded content
 work/
+state/
 output/
 web/lessons/
 web/data/thumbs/

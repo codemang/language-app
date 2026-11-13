@@ -8,6 +8,8 @@ so the browser can seek inside the MP3s, plus a tiny conversion API:
                                       engine is required: nothing is converted (or paid
                                       for) unless the app explicitly asks for an engine.
   GET  /api/storage                -> {"used": bytes, "cap": bytes}
+  GET  /api/progress               -> {video id: {t, mode, frac, watched, updated}} (progress.py)
+  POST /api/progress?id=<video id> -> body {t, mode, frac, watched, updated}; returns the merged entry
 
 Conversions run make_audio.py one at a time in the background. Finished lessons
 live in web/lessons/<video id>/; lesson.json there means "ready". Audio is kept
@@ -33,6 +35,7 @@ from urllib.parse import parse_qs, urlparse
 
 from dotenv import load_dotenv
 
+import progress
 import storage
 
 ROOT = Path(__file__).resolve().parent
@@ -167,6 +170,8 @@ class Handler(SimpleHTTPRequestHandler):
         url = urlparse(self.path)
         if url.path == "/api/storage" and method == "GET":
             return self._json(storage.status())
+        if url.path == "/api/progress" and method == "GET":
+            return self._json(progress.load())
         q = parse_qs(url.query)
         video_id = (q.get("id") or [""])[0]
         if not re.fullmatch(r"[A-Za-z0-9_-]{1,64}", video_id):
@@ -175,6 +180,18 @@ class Handler(SimpleHTTPRequestHandler):
             return self._json(CONVERTER.status(video_id))
         if url.path == "/api/convert" and method == "POST":
             return self._json(CONVERTER.start(video_id, (q.get("engine") or [""])[0]))
+        if url.path == "/api/progress" and method == "POST":
+            if not CONVERTER.video(video_id):
+                return self._json({"error": "Unknown video"}, 404)
+            length = int(self.headers.get("Content-Length") or 0)
+            if not 0 < length <= 4096:
+                return self._json({"error": "Bad body"}, 400)
+            try:
+                body = json.loads(self.rfile.read(length))
+            except ValueError:
+                return self._json({"error": "Bad JSON"}, 400)
+            saved = progress.save(video_id, body if isinstance(body, dict) else {})
+            return self._json(saved) if saved else self._json({"error": "Bad progress"}, 400)
         return self._json({"error": "not found"}, 404)
 
     def do_GET(self):
