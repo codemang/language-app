@@ -533,7 +533,7 @@ def main():
                         "kokoro = natural local voice, slower)")
     p.add_argument("--voice", default="coral", help="OpenAI TTS voice (alloy, ash, coral, echo, nova, sage, ...)")
     p.add_argument("--gap", type=float, default=0.5, help="silence between Spanish and English (s)")
-    p.add_argument("--pair-gap", type=float, default=1.0, help="silence after each ES/EN pair (s)")
+    p.add_argument("--pair-gap", type=float, default=2.0, help="silence after each ES/EN pair (s); respace_lessons.py changes it for existing lessons")
     args = p.parse_args()
     global STATUS_FILE
     STATUS_FILE = args.status_file
