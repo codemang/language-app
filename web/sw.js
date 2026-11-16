@@ -6,9 +6,9 @@
 // timings stay a matching set. Audio is fetched with Range requests (iOS insists
 // on 206 responses for media), so ranges are cut from the cached file here.
 // Lessons that aren't downloaded come straight from the network.
-const CACHE = "escucha-v18";
+const CACHE = "escucha-v24";
 const OFFLINE = "escucha-offline";
-const SHELL = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest",
+const SHELL = ["./", "index.html", "style.css", "app.js", "verbs.js", "manifest.webmanifest",
                "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {

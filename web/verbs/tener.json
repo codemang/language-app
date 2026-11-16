@@ -1,0 +1,240 @@
+{
+  "verb": "tener",
+  "meaning": "to have",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I have a dog.",
+      "en_clip": "clips/df31c6be4bf40f2e.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo tengo un perro.",
+          "clip": "clips/1a03422166c7e806.mp3"
+        },
+        "tu": {
+          "es": "Tú tienes un perro.",
+          "clip": "clips/4ff5e209bc428c31.mp3"
+        },
+        "usted": {
+          "es": "Usted tiene un perro.",
+          "clip": "clips/935f0539f253c6d8.mp3"
+        },
+        "el": {
+          "es": "Él tiene un perro.",
+          "clip": "clips/e6ca59cb53f6b074.mp3"
+        },
+        "ella": {
+          "es": "Ella tiene un perro.",
+          "clip": "clips/4953c9aa55e31dd6.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros tenemos un perro.",
+          "clip": "clips/a2ed428690bed6d0.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras tenemos un perro.",
+          "clip": "clips/7b863cf837f07480.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes tienen un perro.",
+          "clip": "clips/78106a9bd7f556ac.mp3"
+        },
+        "ellos": {
+          "es": "Ellos tienen un perro.",
+          "clip": "clips/04a3901c4456523f.mp3"
+        },
+        "ellas": {
+          "es": "Ellas tienen un perro.",
+          "clip": "clips/b3ddacfb28416614.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I had a dog.",
+      "en_clip": "clips/3df5b7d718f00542.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo tuve un perro.",
+          "clip": "clips/6d8ebd704475ba39.mp3"
+        },
+        "tu": {
+          "es": "Tú tuviste un perro.",
+          "clip": "clips/c3e56d7e886f1947.mp3"
+        },
+        "usted": {
+          "es": "Usted tuvo un perro.",
+          "clip": "clips/362d19182664d6b1.mp3"
+        },
+        "el": {
+          "es": "Él tuvo un perro.",
+          "clip": "clips/9b39f4fef46fca05.mp3"
+        },
+        "ella": {
+          "es": "Ella tuvo un perro.",
+          "clip": "clips/7fabc1a37220634e.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros tuvimos un perro.",
+          "clip": "clips/586debe61a8c8caf.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras tuvimos un perro.",
+          "clip": "clips/ab504586407a94b1.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes tuvieron un perro.",
+          "clip": "clips/c8c9bdbdeaefee98.mp3"
+        },
+        "ellos": {
+          "es": "Ellos tuvieron un perro.",
+          "clip": "clips/97244a3e12e85b03.mp3"
+        },
+        "ellas": {
+          "es": "Ellas tuvieron un perro.",
+          "clip": "clips/6ad1aae2071f1703.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to have a dog.",
+      "en_clip": "clips/87c602ead189b8d2.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo tenía un perro.",
+          "clip": "clips/75cf559255346e45.mp3"
+        },
+        "tu": {
+          "es": "Tú tenías un perro.",
+          "clip": "clips/6db9b37e641c82a9.mp3"
+        },
+        "usted": {
+          "es": "Usted tenía un perro.",
+          "clip": "clips/ca9895e3fd8c01da.mp3"
+        },
+        "el": {
+          "es": "Él tenía un perro.",
+          "clip": "clips/a72a2fe74d8197ff.mp3"
+        },
+        "ella": {
+          "es": "Ella tenía un perro.",
+          "clip": "clips/81898af683d91a7d.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros teníamos un perro.",
+          "clip": "clips/f72b2ed3ceb85217.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras teníamos un perro.",
+          "clip": "clips/a2a7dee4e789a0f3.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes tenían un perro.",
+          "clip": "clips/587ed08829915efd.mp3"
+        },
+        "ellos": {
+          "es": "Ellos tenían un perro.",
+          "clip": "clips/34398d285d783250.mp3"
+        },
+        "ellas": {
+          "es": "Ellas tenían un perro.",
+          "clip": "clips/a54a2fa7cd7dc519.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Have patience.",
+      "en_clip": "clips/63ed08a59a29c826.mp3",
+      "forms": {
+        "tu": {
+          "es": "Ten paciencia.",
+          "clip": "clips/d1c4369701e22753.mp3"
+        },
+        "usted": {
+          "es": "Tenga paciencia.",
+          "clip": "clips/82d6a580175f94df.mp3"
+        },
+        "nosotros": {
+          "es": "Tengamos paciencia.",
+          "clip": "clips/b413c4ae3fe11908.mp3"
+        },
+        "nosotras": {
+          "es": "Tengamos paciencia.",
+          "clip": "clips/b413c4ae3fe11908.mp3"
+        },
+        "ustedes": {
+          "es": "Tengan paciencia.",
+          "clip": "clips/1edc6ed8a667e371.mp3"
+        }
+      }
+    }
+  ]
+}

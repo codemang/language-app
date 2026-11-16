@@ -1,0 +1,240 @@
+{
+  "verb": "hablar",
+  "meaning": "to speak",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I speak Spanish.",
+      "en_clip": "clips/555c663ddbfe2bc4.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo hablo español.",
+          "clip": "clips/3d4d06fd4c30f7e0.mp3"
+        },
+        "tu": {
+          "es": "Tú hablas español.",
+          "clip": "clips/55e558a49eb926bd.mp3"
+        },
+        "usted": {
+          "es": "Usted habla español.",
+          "clip": "clips/483553b084000669.mp3"
+        },
+        "el": {
+          "es": "Él habla español.",
+          "clip": "clips/08929f1020bb9151.mp3"
+        },
+        "ella": {
+          "es": "Ella habla español.",
+          "clip": "clips/a9b084b66b9ef609.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros hablamos español.",
+          "clip": "clips/e6b01f206e6b86e7.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras hablamos español.",
+          "clip": "clips/8cd6f505b8ef026b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes hablan español.",
+          "clip": "clips/0eb6a1b94e28a93c.mp3"
+        },
+        "ellos": {
+          "es": "Ellos hablan español.",
+          "clip": "clips/3b3774c6996c7067.mp3"
+        },
+        "ellas": {
+          "es": "Ellas hablan español.",
+          "clip": "clips/ae1e0646adf13cf3.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I spoke Spanish.",
+      "en_clip": "clips/545140a85b172cb6.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo hablé español.",
+          "clip": "clips/7ba78311463c694e.mp3"
+        },
+        "tu": {
+          "es": "Tú hablaste español.",
+          "clip": "clips/10286fa721df25d3.mp3"
+        },
+        "usted": {
+          "es": "Usted habló español.",
+          "clip": "clips/850bbe97def88608.mp3"
+        },
+        "el": {
+          "es": "Él habló español.",
+          "clip": "clips/c7be640b46b7d456.mp3"
+        },
+        "ella": {
+          "es": "Ella habló español.",
+          "clip": "clips/18956b1013d5595c.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros hablamos español.",
+          "clip": "clips/e6b01f206e6b86e7.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras hablamos español.",
+          "clip": "clips/8cd6f505b8ef026b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes hablaron español.",
+          "clip": "clips/91ced40641f75a6b.mp3"
+        },
+        "ellos": {
+          "es": "Ellos hablaron español.",
+          "clip": "clips/a2dd29e32c898817.mp3"
+        },
+        "ellas": {
+          "es": "Ellas hablaron español.",
+          "clip": "clips/912ff93ddf00ca42.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to speak Spanish.",
+      "en_clip": "clips/1751e9332bbbe956.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo hablaba español.",
+          "clip": "clips/91dde5e4cf1e8857.mp3"
+        },
+        "tu": {
+          "es": "Tú hablabas español.",
+          "clip": "clips/415e785ae9341ac0.mp3"
+        },
+        "usted": {
+          "es": "Usted hablaba español.",
+          "clip": "clips/aa73265df9d74e53.mp3"
+        },
+        "el": {
+          "es": "Él hablaba español.",
+          "clip": "clips/f80e9c0b27b433bf.mp3"
+        },
+        "ella": {
+          "es": "Ella hablaba español.",
+          "clip": "clips/1583d6fc57f423e3.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros hablábamos español.",
+          "clip": "clips/045b61f3c58c26c6.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras hablábamos español.",
+          "clip": "clips/ebfb3fe71572da92.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes hablaban español.",
+          "clip": "clips/8e23fadbd5eef8bd.mp3"
+        },
+        "ellos": {
+          "es": "Ellos hablaban español.",
+          "clip": "clips/e9b927fa10d96be0.mp3"
+        },
+        "ellas": {
+          "es": "Ellas hablaban español.",
+          "clip": "clips/913e1305e2a19b03.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Speak Spanish.",
+      "en_clip": "clips/c2e588cb9728022a.mp3",
+      "forms": {
+        "tu": {
+          "es": "Habla español.",
+          "clip": "clips/498589eb66c72cf1.mp3"
+        },
+        "usted": {
+          "es": "Hable español.",
+          "clip": "clips/8462d999e1e7bcca.mp3"
+        },
+        "nosotros": {
+          "es": "Hablemos español.",
+          "clip": "clips/c761a221edee8a23.mp3"
+        },
+        "nosotras": {
+          "es": "Hablemos español.",
+          "clip": "clips/c761a221edee8a23.mp3"
+        },
+        "ustedes": {
+          "es": "Hablen español.",
+          "clip": "clips/bbde119a073e1cc1.mp3"
+        }
+      }
+    }
+  ]
+}

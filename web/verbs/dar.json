@@ -1,0 +1,240 @@
+{
+  "verb": "dar",
+  "meaning": "to give",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I give a gift.",
+      "en_clip": "clips/d9d8a0f676a6a776.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo doy un regalo.",
+          "clip": "clips/9cad9b9a72730324.mp3"
+        },
+        "tu": {
+          "es": "Tú das un regalo.",
+          "clip": "clips/05dc4049d793b62d.mp3"
+        },
+        "usted": {
+          "es": "Usted da un regalo.",
+          "clip": "clips/8983cc12d73f160c.mp3"
+        },
+        "el": {
+          "es": "Él da un regalo.",
+          "clip": "clips/0594106a6daeccbc.mp3"
+        },
+        "ella": {
+          "es": "Ella da un regalo.",
+          "clip": "clips/f8048d0fe3cf795a.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros damos un regalo.",
+          "clip": "clips/3b167e8b64e9d8e2.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras damos un regalo.",
+          "clip": "clips/3d64476b5bc161eb.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes dan un regalo.",
+          "clip": "clips/d145d9a5260aa82a.mp3"
+        },
+        "ellos": {
+          "es": "Ellos dan un regalo.",
+          "clip": "clips/d90b0d2ea9d81c13.mp3"
+        },
+        "ellas": {
+          "es": "Ellas dan un regalo.",
+          "clip": "clips/1257aa3126a4794c.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I gave a gift.",
+      "en_clip": "clips/a87b42cf0e3da829.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo di un regalo.",
+          "clip": "clips/97f425e2b0d11fb7.mp3"
+        },
+        "tu": {
+          "es": "Tú diste un regalo.",
+          "clip": "clips/626052a48a614bef.mp3"
+        },
+        "usted": {
+          "es": "Usted dio un regalo.",
+          "clip": "clips/510492a56e3d39a4.mp3"
+        },
+        "el": {
+          "es": "Él dio un regalo.",
+          "clip": "clips/b16e3ceb31677546.mp3"
+        },
+        "ella": {
+          "es": "Ella dio un regalo.",
+          "clip": "clips/13fed2d1147fb5db.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros dimos un regalo.",
+          "clip": "clips/4b3aed7b736957ed.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras dimos un regalo.",
+          "clip": "clips/65d1cd6a1e9acca7.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes dieron un regalo.",
+          "clip": "clips/34c38b246fa35bfe.mp3"
+        },
+        "ellos": {
+          "es": "Ellos dieron un regalo.",
+          "clip": "clips/126a0f792c0eda4c.mp3"
+        },
+        "ellas": {
+          "es": "Ellas dieron un regalo.",
+          "clip": "clips/c181b8724117c856.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to give a gift.",
+      "en_clip": "clips/1448969d26ed59e7.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo daba un regalo.",
+          "clip": "clips/858450f9713e7aab.mp3"
+        },
+        "tu": {
+          "es": "Tú dabas un regalo.",
+          "clip": "clips/4e9ca8eb47fd0628.mp3"
+        },
+        "usted": {
+          "es": "Usted daba un regalo.",
+          "clip": "clips/acef2df816f45bf0.mp3"
+        },
+        "el": {
+          "es": "Él daba un regalo.",
+          "clip": "clips/b44cd3cb0a0d7c42.mp3"
+        },
+        "ella": {
+          "es": "Ella daba un regalo.",
+          "clip": "clips/50023c6aa52816f7.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros dábamos un regalo.",
+          "clip": "clips/61a7c9e74f5edbef.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras dábamos un regalo.",
+          "clip": "clips/1096d6155202297d.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes daban un regalo.",
+          "clip": "clips/c4408710c82af580.mp3"
+        },
+        "ellos": {
+          "es": "Ellos daban un regalo.",
+          "clip": "clips/53247d0c7836ad68.mp3"
+        },
+        "ellas": {
+          "es": "Ellas daban un regalo.",
+          "clip": "clips/adff5d4128338a0a.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Give a gift.",
+      "en_clip": "clips/8e0cd54c5b5a8d2d.mp3",
+      "forms": {
+        "tu": {
+          "es": "Da un regalo.",
+          "clip": "clips/f6a9743c76b22d95.mp3"
+        },
+        "usted": {
+          "es": "Dé un regalo.",
+          "clip": "clips/dd6a187366560339.mp3"
+        },
+        "nosotros": {
+          "es": "Demos un regalo.",
+          "clip": "clips/a3bde1fbd00831fe.mp3"
+        },
+        "nosotras": {
+          "es": "Demos un regalo.",
+          "clip": "clips/a3bde1fbd00831fe.mp3"
+        },
+        "ustedes": {
+          "es": "Den un regalo.",
+          "clip": "clips/be9d6c550e2fd142.mp3"
+        }
+      }
+    }
+  ]
+}

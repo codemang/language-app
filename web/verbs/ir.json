@@ -1,0 +1,240 @@
+{
+  "verb": "ir",
+  "meaning": "to go",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I go to the beach.",
+      "en_clip": "clips/df4f3b7580d3616b.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo voy a la playa.",
+          "clip": "clips/29a69627e9d3e884.mp3"
+        },
+        "tu": {
+          "es": "Tú vas a la playa.",
+          "clip": "clips/b02744f7fcf6f149.mp3"
+        },
+        "usted": {
+          "es": "Usted va a la playa.",
+          "clip": "clips/22cf63bf15d366c6.mp3"
+        },
+        "el": {
+          "es": "Él va a la playa.",
+          "clip": "clips/70ca4bbdc7b3732d.mp3"
+        },
+        "ella": {
+          "es": "Ella va a la playa.",
+          "clip": "clips/7b92fc200c09c7f8.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros vamos a la playa.",
+          "clip": "clips/9ccc69150ef7f7c0.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras vamos a la playa.",
+          "clip": "clips/d11ab3593ea8481a.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes van a la playa.",
+          "clip": "clips/b7d810011d442f02.mp3"
+        },
+        "ellos": {
+          "es": "Ellos van a la playa.",
+          "clip": "clips/86b1781575e50fd8.mp3"
+        },
+        "ellas": {
+          "es": "Ellas van a la playa.",
+          "clip": "clips/52d54cb5af6fff10.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I went to the beach.",
+      "en_clip": "clips/3b27e780560180b0.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo fui a la playa.",
+          "clip": "clips/7a64933e2e465ede.mp3"
+        },
+        "tu": {
+          "es": "Tú fuiste a la playa.",
+          "clip": "clips/a4956fe46ec6b9a7.mp3"
+        },
+        "usted": {
+          "es": "Usted fue a la playa.",
+          "clip": "clips/d633c68244a5637b.mp3"
+        },
+        "el": {
+          "es": "Él fue a la playa.",
+          "clip": "clips/81dfa016cb4ab1c9.mp3"
+        },
+        "ella": {
+          "es": "Ella fue a la playa.",
+          "clip": "clips/70b27dbb64f1c8f1.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros fuimos a la playa.",
+          "clip": "clips/d2a3b8a41df9d9f2.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras fuimos a la playa.",
+          "clip": "clips/cfff68bd68b4c351.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes fueron a la playa.",
+          "clip": "clips/27860c5d077b6dd3.mp3"
+        },
+        "ellos": {
+          "es": "Ellos fueron a la playa.",
+          "clip": "clips/a0fefafe4de7cdff.mp3"
+        },
+        "ellas": {
+          "es": "Ellas fueron a la playa.",
+          "clip": "clips/7548015caff73117.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to go to the beach.",
+      "en_clip": "clips/9b0bd41276a17da0.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo iba a la playa.",
+          "clip": "clips/12a99790ec2c9002.mp3"
+        },
+        "tu": {
+          "es": "Tú ibas a la playa.",
+          "clip": "clips/7314c1747e6cff47.mp3"
+        },
+        "usted": {
+          "es": "Usted iba a la playa.",
+          "clip": "clips/51b3c545156f58a6.mp3"
+        },
+        "el": {
+          "es": "Él iba a la playa.",
+          "clip": "clips/9ca0c2c0eda0f7cb.mp3"
+        },
+        "ella": {
+          "es": "Ella iba a la playa.",
+          "clip": "clips/1a1df52a7132aec2.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros íbamos a la playa.",
+          "clip": "clips/0b6c4bd9e8e8141b.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras íbamos a la playa.",
+          "clip": "clips/aeeafbfe807e9aec.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes iban a la playa.",
+          "clip": "clips/47a754988638cea4.mp3"
+        },
+        "ellos": {
+          "es": "Ellos iban a la playa.",
+          "clip": "clips/21249ea40d37ba28.mp3"
+        },
+        "ellas": {
+          "es": "Ellas iban a la playa.",
+          "clip": "clips/9bf18d178370b9d6.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Go to the beach.",
+      "en_clip": "clips/33973adef5e8ca95.mp3",
+      "forms": {
+        "tu": {
+          "es": "Ve a la playa.",
+          "clip": "clips/74805c8322855a42.mp3"
+        },
+        "usted": {
+          "es": "Vaya a la playa.",
+          "clip": "clips/1fb9e6ff82ffebc2.mp3"
+        },
+        "nosotros": {
+          "es": "Vamos a la playa.",
+          "clip": "clips/83c4d419592aa303.mp3"
+        },
+        "nosotras": {
+          "es": "Vamos a la playa.",
+          "clip": "clips/83c4d419592aa303.mp3"
+        },
+        "ustedes": {
+          "es": "Vayan a la playa.",
+          "clip": "clips/53658424819d8013.mp3"
+        }
+      }
+    }
+  ]
+}

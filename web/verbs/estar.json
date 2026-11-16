@@ -1,0 +1,240 @@
+{
+  "verb": "estar",
+  "meaning": "to be (where or how)",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I am at home.",
+      "en_clip": "clips/9292af51dfb459e6.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo estoy en casa.",
+          "clip": "clips/742bde3d7ed4d76a.mp3"
+        },
+        "tu": {
+          "es": "Tú estás en casa.",
+          "clip": "clips/c189598ef619aa52.mp3"
+        },
+        "usted": {
+          "es": "Usted está en casa.",
+          "clip": "clips/5cd571e8922d963f.mp3"
+        },
+        "el": {
+          "es": "Él está en casa.",
+          "clip": "clips/be4b17e2da8fe95f.mp3"
+        },
+        "ella": {
+          "es": "Ella está en casa.",
+          "clip": "clips/773095de70a0b2a0.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros estamos en casa.",
+          "clip": "clips/258a19fd7f688dcb.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras estamos en casa.",
+          "clip": "clips/cf2ffe6877e4c960.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes están en casa.",
+          "clip": "clips/86a8939914580cd2.mp3"
+        },
+        "ellos": {
+          "es": "Ellos están en casa.",
+          "clip": "clips/87fb0b9cd9c0dc30.mp3"
+        },
+        "ellas": {
+          "es": "Ellas están en casa.",
+          "clip": "clips/b3c8694b5384af8d.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I was at home.",
+      "en_clip": "clips/7c582040c462a822.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo estuve en casa.",
+          "clip": "clips/ce24ee749c01434a.mp3"
+        },
+        "tu": {
+          "es": "Tú estuviste en casa.",
+          "clip": "clips/75fe51692489652e.mp3"
+        },
+        "usted": {
+          "es": "Usted estuvo en casa.",
+          "clip": "clips/7e6877f5e6d69f3e.mp3"
+        },
+        "el": {
+          "es": "Él estuvo en casa.",
+          "clip": "clips/6f8a9fad90db3360.mp3"
+        },
+        "ella": {
+          "es": "Ella estuvo en casa.",
+          "clip": "clips/2753378ad8f9e28b.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros estuvimos en casa.",
+          "clip": "clips/525f30c7715f99dd.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras estuvimos en casa.",
+          "clip": "clips/faab10df0a72f825.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes estuvieron en casa.",
+          "clip": "clips/3c29170e12ccc2ed.mp3"
+        },
+        "ellos": {
+          "es": "Ellos estuvieron en casa.",
+          "clip": "clips/5b2670ed1f9923eb.mp3"
+        },
+        "ellas": {
+          "es": "Ellas estuvieron en casa.",
+          "clip": "clips/4951921abecc6a83.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to be at home.",
+      "en_clip": "clips/55a8f2c9e3ae4bc5.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo estaba en casa.",
+          "clip": "clips/e4a5c84b62d883ad.mp3"
+        },
+        "tu": {
+          "es": "Tú estabas en casa.",
+          "clip": "clips/be513bbc6b86cd43.mp3"
+        },
+        "usted": {
+          "es": "Usted estaba en casa.",
+          "clip": "clips/bdd7570d06eb8e5e.mp3"
+        },
+        "el": {
+          "es": "Él estaba en casa.",
+          "clip": "clips/2ab3f3dbef54e000.mp3"
+        },
+        "ella": {
+          "es": "Ella estaba en casa.",
+          "clip": "clips/f6abd3727700cbc4.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros estábamos en casa.",
+          "clip": "clips/3e82d37b7a65afdd.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras estábamos en casa.",
+          "clip": "clips/81a47a282a556c39.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes estaban en casa.",
+          "clip": "clips/9b6f80db6101e5e2.mp3"
+        },
+        "ellos": {
+          "es": "Ellos estaban en casa.",
+          "clip": "clips/16fc1d705f36a82e.mp3"
+        },
+        "ellas": {
+          "es": "Ellas estaban en casa.",
+          "clip": "clips/55c20d52162175f1.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Be at home at eight.",
+      "en_clip": "clips/1907d25863e86a0a.mp3",
+      "forms": {
+        "tu": {
+          "es": "Está en casa a las ocho.",
+          "clip": "clips/2ac0725436634be6.mp3"
+        },
+        "usted": {
+          "es": "Esté en casa a las ocho.",
+          "clip": "clips/126ba2c53fcafb71.mp3"
+        },
+        "nosotros": {
+          "es": "Estemos en casa a las ocho.",
+          "clip": "clips/8703b15d254ceba9.mp3"
+        },
+        "nosotras": {
+          "es": "Estemos en casa a las ocho.",
+          "clip": "clips/8703b15d254ceba9.mp3"
+        },
+        "ustedes": {
+          "es": "Estén en casa a las ocho.",
+          "clip": "clips/7cbb5e052c8e50fa.mp3"
+        }
+      }
+    }
+  ]
+}

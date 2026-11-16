@@ -1,0 +1,212 @@
+{
+  "verb": "querer",
+  "meaning": "to want",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I want a coffee.",
+      "en_clip": "clips/3f99c1f11c9b8437.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo quiero un café.",
+          "clip": "clips/40b814db6cce0d18.mp3"
+        },
+        "tu": {
+          "es": "Tú quieres un café.",
+          "clip": "clips/2fec65ead7078533.mp3"
+        },
+        "usted": {
+          "es": "Usted quiere un café.",
+          "clip": "clips/5e79a8e33434dc99.mp3"
+        },
+        "el": {
+          "es": "Él quiere un café.",
+          "clip": "clips/f2b1167b54b45fa2.mp3"
+        },
+        "ella": {
+          "es": "Ella quiere un café.",
+          "clip": "clips/8d57b24e85f4d6b3.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros queremos un café.",
+          "clip": "clips/eb92cd336517fd24.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras queremos un café.",
+          "clip": "clips/d969ff736bdcd5cb.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes quieren un café.",
+          "clip": "clips/da4e0beb0ef39111.mp3"
+        },
+        "ellos": {
+          "es": "Ellos quieren un café.",
+          "clip": "clips/766d7f0a244c569d.mp3"
+        },
+        "ellas": {
+          "es": "Ellas quieren un café.",
+          "clip": "clips/648520bb2976eab0.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I wanted a coffee.",
+      "en_clip": "clips/56b712342212d608.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo quise un café.",
+          "clip": "clips/fe98f206773437a5.mp3"
+        },
+        "tu": {
+          "es": "Tú quisiste un café.",
+          "clip": "clips/2167552aee9b23c4.mp3"
+        },
+        "usted": {
+          "es": "Usted quiso un café.",
+          "clip": "clips/b69e0e4135449627.mp3"
+        },
+        "el": {
+          "es": "Él quiso un café.",
+          "clip": "clips/81cba839a105b62a.mp3"
+        },
+        "ella": {
+          "es": "Ella quiso un café.",
+          "clip": "clips/524c68f049cc884a.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros quisimos un café.",
+          "clip": "clips/2811846ce78808d3.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras quisimos un café.",
+          "clip": "clips/e815a592227bef79.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes quisieron un café.",
+          "clip": "clips/5ad0d992b3900ab4.mp3"
+        },
+        "ellos": {
+          "es": "Ellos quisieron un café.",
+          "clip": "clips/2632ad1d7295c4c9.mp3"
+        },
+        "ellas": {
+          "es": "Ellas quisieron un café.",
+          "clip": "clips/72ed316541583e19.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to want a coffee.",
+      "en_clip": "clips/789cb6b4b6e4f4c5.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo quería un café.",
+          "clip": "clips/5e9ee42eb49c3414.mp3"
+        },
+        "tu": {
+          "es": "Tú querías un café.",
+          "clip": "clips/34c1f6067362e717.mp3"
+        },
+        "usted": {
+          "es": "Usted quería un café.",
+          "clip": "clips/7cc0a80703986793.mp3"
+        },
+        "el": {
+          "es": "Él quería un café.",
+          "clip": "clips/b37635537b43fc0b.mp3"
+        },
+        "ella": {
+          "es": "Ella quería un café.",
+          "clip": "clips/8a511ccb157d6dca.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros queríamos un café.",
+          "clip": "clips/ea1c83ed0cbefac2.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras queríamos un café.",
+          "clip": "clips/67106dd389be6997.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes querían un café.",
+          "clip": "clips/44dd07c507b64946.mp3"
+        },
+        "ellos": {
+          "es": "Ellos querían un café.",
+          "clip": "clips/08fb1f1ca0860f04.mp3"
+        },
+        "ellas": {
+          "es": "Ellas querían un café.",
+          "clip": "clips/36884e7839b94465.mp3"
+        }
+      }
+    }
+  ]
+}

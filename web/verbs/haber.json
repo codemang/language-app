@@ -1,0 +1,164 @@
+{
+  "verb": "haber",
+  "meaning": "to have (done something)",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I have eaten.",
+      "en_clip": "clips/41e285450be2097a.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo he comido.",
+          "clip": "clips/eedbe9802fdbafa8.mp3"
+        },
+        "tu": {
+          "es": "Tú has comido.",
+          "clip": "clips/ae7068ae7a0f09cb.mp3"
+        },
+        "usted": {
+          "es": "Usted ha comido.",
+          "clip": "clips/62d4412232891be5.mp3"
+        },
+        "el": {
+          "es": "Él ha comido.",
+          "clip": "clips/b005cc43ff76d84e.mp3"
+        },
+        "ella": {
+          "es": "Ella ha comido.",
+          "clip": "clips/6cb1d448c18f4d17.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros hemos comido.",
+          "clip": "clips/2b9366a87ac124d7.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras hemos comido.",
+          "clip": "clips/6180780d22dd8d78.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes han comido.",
+          "clip": "clips/3af7dc1dfedd41d6.mp3"
+        },
+        "ellos": {
+          "es": "Ellos han comido.",
+          "clip": "clips/984f5fc7e615a395.mp3"
+        },
+        "ellas": {
+          "es": "Ellas han comido.",
+          "clip": "clips/e2d211cbc0da9c56.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I had eaten.",
+      "en_clip": "clips/28281b54f0dbfa4a.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo había comido.",
+          "clip": "clips/f9d9977be9dd9241.mp3"
+        },
+        "tu": {
+          "es": "Tú habías comido.",
+          "clip": "clips/219f317edf3f1b20.mp3"
+        },
+        "usted": {
+          "es": "Usted había comido.",
+          "clip": "clips/6c61bb9ea64df6ba.mp3"
+        },
+        "el": {
+          "es": "Él había comido.",
+          "clip": "clips/bc95f55f90dfc1fb.mp3"
+        },
+        "ella": {
+          "es": "Ella había comido.",
+          "clip": "clips/af198d9e36dc54dd.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros habíamos comido.",
+          "clip": "clips/910112097b17e1f0.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras habíamos comido.",
+          "clip": "clips/8ee323a1b2725963.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes habían comido.",
+          "clip": "clips/9b7f91d6b9e6497c.mp3"
+        },
+        "ellos": {
+          "es": "Ellos habían comido.",
+          "clip": "clips/96a897b3d3681cbf.mp3"
+        },
+        "ellas": {
+          "es": "Ellas habían comido.",
+          "clip": "clips/3320633719615d27.mp3"
+        }
+      }
+    }
+  ]
+}

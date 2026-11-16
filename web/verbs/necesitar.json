@@ -1,0 +1,212 @@
+{
+  "verb": "necesitar",
+  "meaning": "to need",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I need help.",
+      "en_clip": "clips/d3293215eb1e8951.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo necesito ayuda.",
+          "clip": "clips/fcca6e9f7209f3fc.mp3"
+        },
+        "tu": {
+          "es": "Tú necesitas ayuda.",
+          "clip": "clips/38d035a6d72b22ef.mp3"
+        },
+        "usted": {
+          "es": "Usted necesita ayuda.",
+          "clip": "clips/c5d445f52ae75a1f.mp3"
+        },
+        "el": {
+          "es": "Él necesita ayuda.",
+          "clip": "clips/5a6f58637b27e9a9.mp3"
+        },
+        "ella": {
+          "es": "Ella necesita ayuda.",
+          "clip": "clips/732d3e6333ffd1e1.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros necesitamos ayuda.",
+          "clip": "clips/ded2ac3dc8ed6a6d.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras necesitamos ayuda.",
+          "clip": "clips/4c1af61dd68c5553.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes necesitan ayuda.",
+          "clip": "clips/b0a175dc563f4da9.mp3"
+        },
+        "ellos": {
+          "es": "Ellos necesitan ayuda.",
+          "clip": "clips/0a97548716f5bddb.mp3"
+        },
+        "ellas": {
+          "es": "Ellas necesitan ayuda.",
+          "clip": "clips/92e4c6b3e33feeeb.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I needed help.",
+      "en_clip": "clips/d9473ad597c90a2a.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo necesité ayuda.",
+          "clip": "clips/8dd3a0d4ee9a8e3d.mp3"
+        },
+        "tu": {
+          "es": "Tú necesitaste ayuda.",
+          "clip": "clips/898ca35182833f42.mp3"
+        },
+        "usted": {
+          "es": "Usted necesitó ayuda.",
+          "clip": "clips/8af622e3aadf6be0.mp3"
+        },
+        "el": {
+          "es": "Él necesitó ayuda.",
+          "clip": "clips/e4527589ef955c99.mp3"
+        },
+        "ella": {
+          "es": "Ella necesitó ayuda.",
+          "clip": "clips/c94d1c157019a126.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros necesitamos ayuda.",
+          "clip": "clips/ded2ac3dc8ed6a6d.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras necesitamos ayuda.",
+          "clip": "clips/4c1af61dd68c5553.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes necesitaron ayuda.",
+          "clip": "clips/79f8e817a93ff989.mp3"
+        },
+        "ellos": {
+          "es": "Ellos necesitaron ayuda.",
+          "clip": "clips/407a98779b0cab9d.mp3"
+        },
+        "ellas": {
+          "es": "Ellas necesitaron ayuda.",
+          "clip": "clips/efcc50b1f64b617b.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to need help.",
+      "en_clip": "clips/8806a5dcc1482dcd.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo necesitaba ayuda.",
+          "clip": "clips/1754ff400f764835.mp3"
+        },
+        "tu": {
+          "es": "Tú necesitabas ayuda.",
+          "clip": "clips/4a3abb385e188af2.mp3"
+        },
+        "usted": {
+          "es": "Usted necesitaba ayuda.",
+          "clip": "clips/cd323e9ef8b4fe45.mp3"
+        },
+        "el": {
+          "es": "Él necesitaba ayuda.",
+          "clip": "clips/513b7e7e4d64bfd8.mp3"
+        },
+        "ella": {
+          "es": "Ella necesitaba ayuda.",
+          "clip": "clips/4b6a86255ae0e70f.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros necesitábamos ayuda.",
+          "clip": "clips/35921c4a30e13d4d.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras necesitábamos ayuda.",
+          "clip": "clips/b16af0052cdf057e.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes necesitaban ayuda.",
+          "clip": "clips/818538024e173335.mp3"
+        },
+        "ellos": {
+          "es": "Ellos necesitaban ayuda.",
+          "clip": "clips/fb12730eeac4cf58.mp3"
+        },
+        "ellas": {
+          "es": "Ellas necesitaban ayuda.",
+          "clip": "clips/677b1498981ebe76.mp3"
+        }
+      }
+    }
+  ]
+}

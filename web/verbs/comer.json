@@ -1,0 +1,240 @@
+{
+  "verb": "comer",
+  "meaning": "to eat",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I eat bread.",
+      "en_clip": "clips/59b60c34447e65bf.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo como pan.",
+          "clip": "clips/90599bb7bbb79a21.mp3"
+        },
+        "tu": {
+          "es": "Tú comes pan.",
+          "clip": "clips/e8db0206e4407e80.mp3"
+        },
+        "usted": {
+          "es": "Usted come pan.",
+          "clip": "clips/216e6ce0b0fc9c08.mp3"
+        },
+        "el": {
+          "es": "Él come pan.",
+          "clip": "clips/4b725790e0075253.mp3"
+        },
+        "ella": {
+          "es": "Ella come pan.",
+          "clip": "clips/8d9cb87ddcf309af.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros comemos pan.",
+          "clip": "clips/b53aee61daaac37a.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras comemos pan.",
+          "clip": "clips/ee2a3cbae449480d.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes comen pan.",
+          "clip": "clips/b4655ddcb4f05835.mp3"
+        },
+        "ellos": {
+          "es": "Ellos comen pan.",
+          "clip": "clips/410c95c9bff0f24a.mp3"
+        },
+        "ellas": {
+          "es": "Ellas comen pan.",
+          "clip": "clips/1bfb938c374cc35b.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I ate bread.",
+      "en_clip": "clips/74119bb31fafa4c5.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo comí pan.",
+          "clip": "clips/8834ba3b1f8b3e4d.mp3"
+        },
+        "tu": {
+          "es": "Tú comiste pan.",
+          "clip": "clips/9ede214d2a753f76.mp3"
+        },
+        "usted": {
+          "es": "Usted comió pan.",
+          "clip": "clips/aac807fb863c823b.mp3"
+        },
+        "el": {
+          "es": "Él comió pan.",
+          "clip": "clips/210121db7eaf4a84.mp3"
+        },
+        "ella": {
+          "es": "Ella comió pan.",
+          "clip": "clips/955a803d117b5628.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros comimos pan.",
+          "clip": "clips/5db655ebda4ee468.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras comimos pan.",
+          "clip": "clips/ca4601c8fcbc9120.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes comieron pan.",
+          "clip": "clips/5a86135a185ba6fe.mp3"
+        },
+        "ellos": {
+          "es": "Ellos comieron pan.",
+          "clip": "clips/f240b695838a1340.mp3"
+        },
+        "ellas": {
+          "es": "Ellas comieron pan.",
+          "clip": "clips/c708161de4895b87.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to eat bread.",
+      "en_clip": "clips/b2ec1ca9b13e4ead.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo comía pan.",
+          "clip": "clips/9b51ce8dcee89e95.mp3"
+        },
+        "tu": {
+          "es": "Tú comías pan.",
+          "clip": "clips/92c08d678cabcd0b.mp3"
+        },
+        "usted": {
+          "es": "Usted comía pan.",
+          "clip": "clips/847ca704ea0bbb73.mp3"
+        },
+        "el": {
+          "es": "Él comía pan.",
+          "clip": "clips/226c6d02d8a6336b.mp3"
+        },
+        "ella": {
+          "es": "Ella comía pan.",
+          "clip": "clips/170fb3e1fe9677a2.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros comíamos pan.",
+          "clip": "clips/da9c7f6f6ab5e1af.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras comíamos pan.",
+          "clip": "clips/70ed0703d002b251.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes comían pan.",
+          "clip": "clips/a9e6356408625669.mp3"
+        },
+        "ellos": {
+          "es": "Ellos comían pan.",
+          "clip": "clips/8bb134fa41ebfa02.mp3"
+        },
+        "ellas": {
+          "es": "Ellas comían pan.",
+          "clip": "clips/215103b178feab61.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Eat bread.",
+      "en_clip": "clips/d3a379544adf2272.mp3",
+      "forms": {
+        "tu": {
+          "es": "Come pan.",
+          "clip": "clips/e509ea5116bc9179.mp3"
+        },
+        "usted": {
+          "es": "Coma pan.",
+          "clip": "clips/1ba35f87a17214da.mp3"
+        },
+        "nosotros": {
+          "es": "Comamos pan.",
+          "clip": "clips/227becf18abd4c56.mp3"
+        },
+        "nosotras": {
+          "es": "Comamos pan.",
+          "clip": "clips/227becf18abd4c56.mp3"
+        },
+        "ustedes": {
+          "es": "Coman pan.",
+          "clip": "clips/d7a32d6091eb3318.mp3"
+        }
+      }
+    }
+  ]
+}

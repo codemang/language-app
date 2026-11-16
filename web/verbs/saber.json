@@ -1,0 +1,212 @@
+{
+  "verb": "saber",
+  "meaning": "to know (facts)",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I know the answer.",
+      "en_clip": "clips/88a2071779314341.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo sé la respuesta.",
+          "clip": "clips/aa65b7a9e34a866a.mp3"
+        },
+        "tu": {
+          "es": "Tú sabes la respuesta.",
+          "clip": "clips/ae5d2d40dddf062b.mp3"
+        },
+        "usted": {
+          "es": "Usted sabe la respuesta.",
+          "clip": "clips/b537014edf73fa13.mp3"
+        },
+        "el": {
+          "es": "Él sabe la respuesta.",
+          "clip": "clips/189cdb25c0f350ed.mp3"
+        },
+        "ella": {
+          "es": "Ella sabe la respuesta.",
+          "clip": "clips/4029d7705ca6e3d4.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros sabemos la respuesta.",
+          "clip": "clips/b564b4cf83302456.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras sabemos la respuesta.",
+          "clip": "clips/e47737f278303e01.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes saben la respuesta.",
+          "clip": "clips/d0340a48eebffb75.mp3"
+        },
+        "ellos": {
+          "es": "Ellos saben la respuesta.",
+          "clip": "clips/42fa540674bd51f9.mp3"
+        },
+        "ellas": {
+          "es": "Ellas saben la respuesta.",
+          "clip": "clips/0b4318227ba9d134.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I found out the answer.",
+      "en_clip": "clips/339365198d08ab41.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo supe la respuesta.",
+          "clip": "clips/2688fda226ae3f83.mp3"
+        },
+        "tu": {
+          "es": "Tú supiste la respuesta.",
+          "clip": "clips/94b589dbf0ca3654.mp3"
+        },
+        "usted": {
+          "es": "Usted supo la respuesta.",
+          "clip": "clips/65c88c838bee2f5c.mp3"
+        },
+        "el": {
+          "es": "Él supo la respuesta.",
+          "clip": "clips/a5368a0ef0912bce.mp3"
+        },
+        "ella": {
+          "es": "Ella supo la respuesta.",
+          "clip": "clips/90487dc1ab6e6a32.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros supimos la respuesta.",
+          "clip": "clips/1eb74bd84c08572b.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras supimos la respuesta.",
+          "clip": "clips/0191f48cc9dfebcb.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes supieron la respuesta.",
+          "clip": "clips/a48089c9cfdd6cd6.mp3"
+        },
+        "ellos": {
+          "es": "Ellos supieron la respuesta.",
+          "clip": "clips/a72f489f55eae025.mp3"
+        },
+        "ellas": {
+          "es": "Ellas supieron la respuesta.",
+          "clip": "clips/a97154fc74c80215.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I knew the answer.",
+      "en_clip": "clips/1d6f269647a00626.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo sabía la respuesta.",
+          "clip": "clips/2c34f5210946093e.mp3"
+        },
+        "tu": {
+          "es": "Tú sabías la respuesta.",
+          "clip": "clips/951fe596f76e06e2.mp3"
+        },
+        "usted": {
+          "es": "Usted sabía la respuesta.",
+          "clip": "clips/e55b221d5d777f1d.mp3"
+        },
+        "el": {
+          "es": "Él sabía la respuesta.",
+          "clip": "clips/2aea35355eaa859e.mp3"
+        },
+        "ella": {
+          "es": "Ella sabía la respuesta.",
+          "clip": "clips/1185889680888b3a.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros sabíamos la respuesta.",
+          "clip": "clips/3388aab41afa9a00.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras sabíamos la respuesta.",
+          "clip": "clips/165f39dd174507fb.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes sabían la respuesta.",
+          "clip": "clips/645beac1e2037c9e.mp3"
+        },
+        "ellos": {
+          "es": "Ellos sabían la respuesta.",
+          "clip": "clips/e9d18e9c8593adad.mp3"
+        },
+        "ellas": {
+          "es": "Ellas sabían la respuesta.",
+          "clip": "clips/72c96875e8e102f8.mp3"
+        }
+      }
+    }
+  ]
+}

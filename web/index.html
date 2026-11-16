@@ -18,10 +18,13 @@
     <header>
       <div class="title-row">
         <h1>Escucha</h1>
+        <div class="head-actions">
+        <a href="#/verbs" class="pill-link">Verbs</a>
         <a href="#/auto" id="auto-btn" class="icon-btn" aria-label="Auto-convert settings" title="Auto-convert">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V1L8 5l4 4V6a6 6 0 0 1 5.7 7.9l1.5 1.5A8 8 0 0 0 12 4zm0 14a6 6 0 0 1-5.7-7.9L4.8 8.6A8 8 0 0 0 12 20v3l4-4-4-4v3z"/></svg>
           <span class="dot" hidden></span>
         </a>
+        </div>
       </div>
       <p class="sub">Beginner · easiest first<span id="storage"></span></p>
       <div class="filters">
@@ -66,6 +69,49 @@
       <ul id="auto-list" class="mini-list"></ul>
       <p class="sub auto-help">Converts the first unwatched videos of the list (up to 30 min each), one at a time, on the Pi. Videos you convert yourself go first. Turning it off cancels the conversion in progress; converted lessons stay.</p>
     </section>
+  </main>
+
+  <!-- Verb drills -->
+  <main id="verbs-view" hidden>
+    <header class="player-head">
+      <a href="#/" id="verbs-back" class="back-link" aria-label="Back">
+        <svg viewBox="0 0 24 24"><path d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12z"/></svg>
+      </a>
+      <div class="player-title">
+        <h2 id="verbs-heading">Verbs</h2>
+        <p id="verbs-sub" class="sub"></p>
+      </div>
+    </header>
+    <p id="verbs-error" class="offline-note" hidden></p>
+    <ul id="verbs-list" class="mini-list"></ul>
+    <div id="verb-drill" class="verb-drill" hidden>
+      <section>
+        <h3 class="section-title">Tenses</h3>
+        <div id="verb-tenses" class="chip-checks"></div>
+      </section>
+      <section>
+        <h3 class="section-title">Pronouns</h3>
+        <div id="verb-pronouns" class="chip-checks"></div>
+      </section>
+      <label class="toggle"><input id="verb-english" type="checkbox" checked> Say the English</label>
+      <section class="sentence" aria-live="polite">
+        <p id="verb-es" class="es">&nbsp;</p>
+        <p id="verb-en" class="en">&nbsp;</p>
+      </section>
+      <section class="controls">
+        <button id="verb-restart" aria-label="Start over">
+          <svg viewBox="0 0 24 24"><path d="M12 5V2L7 6l5 4V7a6 6 0 1 1-6 6H4a8 8 0 1 0 8-8z"/></svg>
+        </button>
+        <button id="verb-play" class="play" aria-label="Play">
+          <svg class="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <svg class="i-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+        </button>
+        <button id="verb-repeat" class="repeat" aria-pressed="false" aria-label="Repeat">
+          <svg viewBox="0 0 24 24"><path d="M7 7h10v3l4-4-4-4v3H5v6h2zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2z"/></svg>
+        </button>
+      </section>
+      <p class="sub verb-status"><span id="verb-hint"></span> <span id="verb-time"></span></p>
+    </div>
   </main>
 
   <!-- Player -->
@@ -156,6 +202,8 @@
   </main>
 
   <audio id="audio" preload="auto"></audio>
+  <audio id="verb-audio" preload="auto"></audio>
+  <script src="verbs.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

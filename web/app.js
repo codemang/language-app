@@ -698,17 +698,26 @@ if ("mediaSession" in navigator) {
 
 function route() {
   const m = location.hash.match(/^#\/play\/(.+)$/);
-  const playing = !!m, settings = location.hash === "#/auto";
-  $("list-view").hidden = playing || settings;
+  const vm = location.hash.match(/^#\/verbs(?:\/(.+))?$/);
+  const playing = !!m, settings = location.hash === "#/auto", verbs = !!vm;
+  $("list-view").hidden = playing || settings || verbs;
   $("auto-view").hidden = !settings;
+  $("verbs-view").hidden = !verbs;
   $("player-view").hidden = !playing;
   window.scrollTo(0, 0);
+  if (!verbs) leaveVerbs();
   if (playing) { openPlayer(decodeURIComponent(m[1])); return; }
   audio.pause(); saveState(true); openToken++; video = null; lesson = null;
+  if (verbs) {
+    $("verbs-back").href = vm[1] ? "#/verbs" : "#/";
+    showVerbs(vm[1] && decodeURIComponent(vm[1]));
+    return;
+  }
   if (settings) renderAuto(); else renderList();
   loadAuto();
 }
 window.addEventListener("hashchange", route);
+initVerbs();
 window.addEventListener("online", () => {
   syncProgress();
   loadAuto();

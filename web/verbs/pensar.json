@@ -1,0 +1,240 @@
+{
+  "verb": "pensar",
+  "meaning": "to think",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I think about the trip.",
+      "en_clip": "clips/b7be61582d861d77.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo pienso en el viaje.",
+          "clip": "clips/d267bac6eb891661.mp3"
+        },
+        "tu": {
+          "es": "Tú piensas en el viaje.",
+          "clip": "clips/3d3cd7a36664cf1f.mp3"
+        },
+        "usted": {
+          "es": "Usted piensa en el viaje.",
+          "clip": "clips/189a00557ef16229.mp3"
+        },
+        "el": {
+          "es": "Él piensa en el viaje.",
+          "clip": "clips/8449ac40d023ae1c.mp3"
+        },
+        "ella": {
+          "es": "Ella piensa en el viaje.",
+          "clip": "clips/bfa0a292b5096e31.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros pensamos en el viaje.",
+          "clip": "clips/19b35a13141876a9.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras pensamos en el viaje.",
+          "clip": "clips/8f984b5d59438307.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes piensan en el viaje.",
+          "clip": "clips/ac0ccfee43873226.mp3"
+        },
+        "ellos": {
+          "es": "Ellos piensan en el viaje.",
+          "clip": "clips/18496cd30bfaec63.mp3"
+        },
+        "ellas": {
+          "es": "Ellas piensan en el viaje.",
+          "clip": "clips/0783ca3ac286231f.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I thought about the trip.",
+      "en_clip": "clips/be2efff3c331fb46.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo pensé en el viaje.",
+          "clip": "clips/13fd740950e86a15.mp3"
+        },
+        "tu": {
+          "es": "Tú pensaste en el viaje.",
+          "clip": "clips/6b7d3607cc5996f3.mp3"
+        },
+        "usted": {
+          "es": "Usted pensó en el viaje.",
+          "clip": "clips/cdbd29240543e6bf.mp3"
+        },
+        "el": {
+          "es": "Él pensó en el viaje.",
+          "clip": "clips/f9056f5176d426b1.mp3"
+        },
+        "ella": {
+          "es": "Ella pensó en el viaje.",
+          "clip": "clips/fd2fbeaaa8fafc8a.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros pensamos en el viaje.",
+          "clip": "clips/19b35a13141876a9.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras pensamos en el viaje.",
+          "clip": "clips/8f984b5d59438307.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes pensaron en el viaje.",
+          "clip": "clips/c052b80b9ecd8767.mp3"
+        },
+        "ellos": {
+          "es": "Ellos pensaron en el viaje.",
+          "clip": "clips/9dda7f0a55a303a4.mp3"
+        },
+        "ellas": {
+          "es": "Ellas pensaron en el viaje.",
+          "clip": "clips/60dcde2045da7600.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to think about the trip.",
+      "en_clip": "clips/a012ff6226b19e20.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo pensaba en el viaje.",
+          "clip": "clips/ae4f5bc1c2276cf0.mp3"
+        },
+        "tu": {
+          "es": "Tú pensabas en el viaje.",
+          "clip": "clips/dc6241e2ee682406.mp3"
+        },
+        "usted": {
+          "es": "Usted pensaba en el viaje.",
+          "clip": "clips/40ab530effb32def.mp3"
+        },
+        "el": {
+          "es": "Él pensaba en el viaje.",
+          "clip": "clips/3fba9241e94aa99a.mp3"
+        },
+        "ella": {
+          "es": "Ella pensaba en el viaje.",
+          "clip": "clips/44a5c413190d4d73.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros pensábamos en el viaje.",
+          "clip": "clips/8da52d4d23901c1b.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras pensábamos en el viaje.",
+          "clip": "clips/0b8078dc2e3aef4b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes pensaban en el viaje.",
+          "clip": "clips/21fd92906b856293.mp3"
+        },
+        "ellos": {
+          "es": "Ellos pensaban en el viaje.",
+          "clip": "clips/928199aaa78319c2.mp3"
+        },
+        "ellas": {
+          "es": "Ellas pensaban en el viaje.",
+          "clip": "clips/bcf3cf6f08ebcb78.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Think about the trip.",
+      "en_clip": "clips/a623a35b4eac1b35.mp3",
+      "forms": {
+        "tu": {
+          "es": "Piensa en el viaje.",
+          "clip": "clips/8b3a6b1302b672a8.mp3"
+        },
+        "usted": {
+          "es": "Piense en el viaje.",
+          "clip": "clips/4b19eda787a8f858.mp3"
+        },
+        "nosotros": {
+          "es": "Pensemos en el viaje.",
+          "clip": "clips/1f706b55352ebf9e.mp3"
+        },
+        "nosotras": {
+          "es": "Pensemos en el viaje.",
+          "clip": "clips/1f706b55352ebf9e.mp3"
+        },
+        "ustedes": {
+          "es": "Piensen en el viaje.",
+          "clip": "clips/85365f0f9692918b.mp3"
+        }
+      }
+    }
+  ]
+}

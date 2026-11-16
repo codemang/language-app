@@ -1,0 +1,240 @@
+{
+  "verb": "venir",
+  "meaning": "to come",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I come to the party.",
+      "en_clip": "clips/4c755da7ae059578.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo vengo a la fiesta.",
+          "clip": "clips/a815882e8c9e7bae.mp3"
+        },
+        "tu": {
+          "es": "Tú vienes a la fiesta.",
+          "clip": "clips/799b7355abc5ab2f.mp3"
+        },
+        "usted": {
+          "es": "Usted viene a la fiesta.",
+          "clip": "clips/e2576aa69cc803f5.mp3"
+        },
+        "el": {
+          "es": "Él viene a la fiesta.",
+          "clip": "clips/96db60beac7431f6.mp3"
+        },
+        "ella": {
+          "es": "Ella viene a la fiesta.",
+          "clip": "clips/6ba4894bacc93914.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros venimos a la fiesta.",
+          "clip": "clips/9d60271369e7eb43.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras venimos a la fiesta.",
+          "clip": "clips/57f49b9352c88e7c.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes vienen a la fiesta.",
+          "clip": "clips/507adb2a301cfa5a.mp3"
+        },
+        "ellos": {
+          "es": "Ellos vienen a la fiesta.",
+          "clip": "clips/31bc9f4009d7ceeb.mp3"
+        },
+        "ellas": {
+          "es": "Ellas vienen a la fiesta.",
+          "clip": "clips/7ad8d6b3f1099dbe.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I came to the party.",
+      "en_clip": "clips/c6c1bbea7103f16f.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo vine a la fiesta.",
+          "clip": "clips/1d40079647ff4d43.mp3"
+        },
+        "tu": {
+          "es": "Tú viniste a la fiesta.",
+          "clip": "clips/977e488fe540849c.mp3"
+        },
+        "usted": {
+          "es": "Usted vino a la fiesta.",
+          "clip": "clips/46524f86c9aae320.mp3"
+        },
+        "el": {
+          "es": "Él vino a la fiesta.",
+          "clip": "clips/c88fe35269c8cd40.mp3"
+        },
+        "ella": {
+          "es": "Ella vino a la fiesta.",
+          "clip": "clips/ae6b1a0033d3a6c8.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros vinimos a la fiesta.",
+          "clip": "clips/2ee84ff5f990d631.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras vinimos a la fiesta.",
+          "clip": "clips/878f68512ef7863c.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes vinieron a la fiesta.",
+          "clip": "clips/b435b92f6e668d1e.mp3"
+        },
+        "ellos": {
+          "es": "Ellos vinieron a la fiesta.",
+          "clip": "clips/d7e37eb2b321fb08.mp3"
+        },
+        "ellas": {
+          "es": "Ellas vinieron a la fiesta.",
+          "clip": "clips/d3f309db7c4c6956.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to come to the party.",
+      "en_clip": "clips/a28de3d6f8ceadce.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo venía a la fiesta.",
+          "clip": "clips/16d21060c818e644.mp3"
+        },
+        "tu": {
+          "es": "Tú venías a la fiesta.",
+          "clip": "clips/db9655509c946154.mp3"
+        },
+        "usted": {
+          "es": "Usted venía a la fiesta.",
+          "clip": "clips/3941b08eaf01d394.mp3"
+        },
+        "el": {
+          "es": "Él venía a la fiesta.",
+          "clip": "clips/66f74593d799bfff.mp3"
+        },
+        "ella": {
+          "es": "Ella venía a la fiesta.",
+          "clip": "clips/22380805e5538a41.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros veníamos a la fiesta.",
+          "clip": "clips/ec0b06799687cea1.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras veníamos a la fiesta.",
+          "clip": "clips/b76470669e5c177f.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes venían a la fiesta.",
+          "clip": "clips/63a35c1fb03d19a4.mp3"
+        },
+        "ellos": {
+          "es": "Ellos venían a la fiesta.",
+          "clip": "clips/06480f13366b1c4a.mp3"
+        },
+        "ellas": {
+          "es": "Ellas venían a la fiesta.",
+          "clip": "clips/523a1203e564cfc7.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Come to the party.",
+      "en_clip": "clips/f2746f76a1fc7213.mp3",
+      "forms": {
+        "tu": {
+          "es": "Ven a la fiesta.",
+          "clip": "clips/e406a6f5ec869972.mp3"
+        },
+        "usted": {
+          "es": "Venga a la fiesta.",
+          "clip": "clips/e88c87459c7c1f08.mp3"
+        },
+        "nosotros": {
+          "es": "Vengamos a la fiesta.",
+          "clip": "clips/299429dbff11c56c.mp3"
+        },
+        "nosotras": {
+          "es": "Vengamos a la fiesta.",
+          "clip": "clips/299429dbff11c56c.mp3"
+        },
+        "ustedes": {
+          "es": "Vengan a la fiesta.",
+          "clip": "clips/0d0d9ca96a7f3834.mp3"
+        }
+      }
+    }
+  ]
+}

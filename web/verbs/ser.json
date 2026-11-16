@@ -1,0 +1,240 @@
+{
+  "verb": "ser",
+  "meaning": "to be (who or what)",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I am a student.",
+      "en_clip": "clips/7a8547f0430641eb.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo soy estudiante.",
+          "clip": "clips/b6f566b7f80855f7.mp3"
+        },
+        "tu": {
+          "es": "Tú eres estudiante.",
+          "clip": "clips/052c6cb9222179d6.mp3"
+        },
+        "usted": {
+          "es": "Usted es estudiante.",
+          "clip": "clips/3cb83ee0f5abe1ec.mp3"
+        },
+        "el": {
+          "es": "Él es estudiante.",
+          "clip": "clips/7d2c97518f83500d.mp3"
+        },
+        "ella": {
+          "es": "Ella es estudiante.",
+          "clip": "clips/317b0df019c3efcc.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros somos estudiantes.",
+          "clip": "clips/ba161fc6c5119620.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras somos estudiantes.",
+          "clip": "clips/e135c03e94222932.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes son estudiantes.",
+          "clip": "clips/7a6a663990f73ab5.mp3"
+        },
+        "ellos": {
+          "es": "Ellos son estudiantes.",
+          "clip": "clips/f70a595db5d27d32.mp3"
+        },
+        "ellas": {
+          "es": "Ellas son estudiantes.",
+          "clip": "clips/9826e3a20f6c1cf1.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I was a student.",
+      "en_clip": "clips/cb4baea729dc9978.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo fui estudiante.",
+          "clip": "clips/939bdd0b3fa81f87.mp3"
+        },
+        "tu": {
+          "es": "Tú fuiste estudiante.",
+          "clip": "clips/f6740b22a0e7a24a.mp3"
+        },
+        "usted": {
+          "es": "Usted fue estudiante.",
+          "clip": "clips/70782ad2369fba6d.mp3"
+        },
+        "el": {
+          "es": "Él fue estudiante.",
+          "clip": "clips/35331d9a7b9bc514.mp3"
+        },
+        "ella": {
+          "es": "Ella fue estudiante.",
+          "clip": "clips/de4dcbd1add26947.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros fuimos estudiantes.",
+          "clip": "clips/d9aa6c8cfba942f1.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras fuimos estudiantes.",
+          "clip": "clips/4fe1c4788b79525f.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes fueron estudiantes.",
+          "clip": "clips/1c34b3d8d9127ec8.mp3"
+        },
+        "ellos": {
+          "es": "Ellos fueron estudiantes.",
+          "clip": "clips/a512642231578a5b.mp3"
+        },
+        "ellas": {
+          "es": "Ellas fueron estudiantes.",
+          "clip": "clips/929c8a8044ba80b6.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to be a student.",
+      "en_clip": "clips/da95b977f8343b80.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo era estudiante.",
+          "clip": "clips/db46f6326fcf629e.mp3"
+        },
+        "tu": {
+          "es": "Tú eras estudiante.",
+          "clip": "clips/6103a9091084712d.mp3"
+        },
+        "usted": {
+          "es": "Usted era estudiante.",
+          "clip": "clips/1baaac5fd521e036.mp3"
+        },
+        "el": {
+          "es": "Él era estudiante.",
+          "clip": "clips/62f2fe1bb41af7a5.mp3"
+        },
+        "ella": {
+          "es": "Ella era estudiante.",
+          "clip": "clips/fad39a9927df68dc.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros éramos estudiantes.",
+          "clip": "clips/37c9d2a007bca400.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras éramos estudiantes.",
+          "clip": "clips/dffa9a552b48407f.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes eran estudiantes.",
+          "clip": "clips/4a166ca0bf3edeb4.mp3"
+        },
+        "ellos": {
+          "es": "Ellos eran estudiantes.",
+          "clip": "clips/2fbda07d0a22f572.mp3"
+        },
+        "ellas": {
+          "es": "Ellas eran estudiantes.",
+          "clip": "clips/319dd65e6c9a89cc.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Be patient.",
+      "en_clip": "clips/1c00f06085e1944f.mp3",
+      "forms": {
+        "tu": {
+          "es": "Sé paciente.",
+          "clip": "clips/12bcd1973815b872.mp3"
+        },
+        "usted": {
+          "es": "Sea paciente.",
+          "clip": "clips/b6c9e3d1f6bb00d3.mp3"
+        },
+        "nosotros": {
+          "es": "Seamos pacientes.",
+          "clip": "clips/a0b0589c029c9426.mp3"
+        },
+        "nosotras": {
+          "es": "Seamos pacientes.",
+          "clip": "clips/a0b0589c029c9426.mp3"
+        },
+        "ustedes": {
+          "es": "Sean pacientes.",
+          "clip": "clips/e90b729b9ea3defe.mp3"
+        }
+      }
+    }
+  ]
+}

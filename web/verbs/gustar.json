@@ -1,0 +1,212 @@
+{
+  "verb": "gustar",
+  "meaning": "to like (to be pleasing)",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I like coffee.",
+      "en_clip": "clips/61a292e456cd0a98.mp3",
+      "forms": {
+        "yo": {
+          "es": "A mí me gusta el café.",
+          "clip": "clips/9cdd0f9758cc5648.mp3"
+        },
+        "tu": {
+          "es": "A ti te gusta el café.",
+          "clip": "clips/1cd1e4d3e37f1a48.mp3"
+        },
+        "usted": {
+          "es": "A usted le gusta el café.",
+          "clip": "clips/0fd16fda1aac99c0.mp3"
+        },
+        "el": {
+          "es": "A él le gusta el café.",
+          "clip": "clips/27b85ce9dae177bb.mp3"
+        },
+        "ella": {
+          "es": "A ella le gusta el café.",
+          "clip": "clips/327e3f8ee72439fb.mp3"
+        },
+        "nosotros": {
+          "es": "A nosotros nos gusta el café.",
+          "clip": "clips/12e792a8c6ef14b7.mp3"
+        },
+        "nosotras": {
+          "es": "A nosotras nos gusta el café.",
+          "clip": "clips/3e744e039a4d8149.mp3"
+        },
+        "ustedes": {
+          "es": "A ustedes les gusta el café.",
+          "clip": "clips/cf166c1e595ca926.mp3"
+        },
+        "ellos": {
+          "es": "A ellos les gusta el café.",
+          "clip": "clips/bc0cb9900bc1450d.mp3"
+        },
+        "ellas": {
+          "es": "A ellas les gusta el café.",
+          "clip": "clips/0cba96b7704f3e90.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I liked the coffee.",
+      "en_clip": "clips/93e667944f593b38.mp3",
+      "forms": {
+        "yo": {
+          "es": "A mí me gustó el café.",
+          "clip": "clips/ba450b7778655b43.mp3"
+        },
+        "tu": {
+          "es": "A ti te gustó el café.",
+          "clip": "clips/0fccfb806551982e.mp3"
+        },
+        "usted": {
+          "es": "A usted le gustó el café.",
+          "clip": "clips/67630fdf6021693c.mp3"
+        },
+        "el": {
+          "es": "A él le gustó el café.",
+          "clip": "clips/3eb004237951effa.mp3"
+        },
+        "ella": {
+          "es": "A ella le gustó el café.",
+          "clip": "clips/efc326d975a6f773.mp3"
+        },
+        "nosotros": {
+          "es": "A nosotros nos gustó el café.",
+          "clip": "clips/24531105d656f985.mp3"
+        },
+        "nosotras": {
+          "es": "A nosotras nos gustó el café.",
+          "clip": "clips/095cd3cb2afb7cca.mp3"
+        },
+        "ustedes": {
+          "es": "A ustedes les gustó el café.",
+          "clip": "clips/8a2955f3fa506dd8.mp3"
+        },
+        "ellos": {
+          "es": "A ellos les gustó el café.",
+          "clip": "clips/cf8c3397487ab3c6.mp3"
+        },
+        "ellas": {
+          "es": "A ellas les gustó el café.",
+          "clip": "clips/a190731792fc870a.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to like coffee.",
+      "en_clip": "clips/9a8dd19957e3d665.mp3",
+      "forms": {
+        "yo": {
+          "es": "A mí me gustaba el café.",
+          "clip": "clips/6f8defbc2212eb62.mp3"
+        },
+        "tu": {
+          "es": "A ti te gustaba el café.",
+          "clip": "clips/efbdb2d60938d116.mp3"
+        },
+        "usted": {
+          "es": "A usted le gustaba el café.",
+          "clip": "clips/6f87a64927227b81.mp3"
+        },
+        "el": {
+          "es": "A él le gustaba el café.",
+          "clip": "clips/cb6b04ccd76ab121.mp3"
+        },
+        "ella": {
+          "es": "A ella le gustaba el café.",
+          "clip": "clips/4565bbbdd6663463.mp3"
+        },
+        "nosotros": {
+          "es": "A nosotros nos gustaba el café.",
+          "clip": "clips/e79e0c1da64fd597.mp3"
+        },
+        "nosotras": {
+          "es": "A nosotras nos gustaba el café.",
+          "clip": "clips/edb264c89a11a6d3.mp3"
+        },
+        "ustedes": {
+          "es": "A ustedes les gustaba el café.",
+          "clip": "clips/3d827e0788ff3eff.mp3"
+        },
+        "ellos": {
+          "es": "A ellos les gustaba el café.",
+          "clip": "clips/298b40a806c24673.mp3"
+        },
+        "ellas": {
+          "es": "A ellas les gustaba el café.",
+          "clip": "clips/ae37177d499beaaf.mp3"
+        }
+      }
+    }
+  ]
+}

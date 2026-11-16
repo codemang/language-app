@@ -1,0 +1,82 @@
+[
+  {
+    "verb": "ser",
+    "meaning": "to be (who or what)"
+  },
+  {
+    "verb": "estar",
+    "meaning": "to be (where or how)"
+  },
+  {
+    "verb": "tener",
+    "meaning": "to have"
+  },
+  {
+    "verb": "hacer",
+    "meaning": "to do, to make"
+  },
+  {
+    "verb": "ir",
+    "meaning": "to go"
+  },
+  {
+    "verb": "poder",
+    "meaning": "can, to be able to"
+  },
+  {
+    "verb": "decir",
+    "meaning": "to say, to tell"
+  },
+  {
+    "verb": "querer",
+    "meaning": "to want"
+  },
+  {
+    "verb": "haber",
+    "meaning": "to have (done something)"
+  },
+  {
+    "verb": "saber",
+    "meaning": "to know (facts)"
+  },
+  {
+    "verb": "ver",
+    "meaning": "to see, to watch"
+  },
+  {
+    "verb": "dar",
+    "meaning": "to give"
+  },
+  {
+    "verb": "venir",
+    "meaning": "to come"
+  },
+  {
+    "verb": "hablar",
+    "meaning": "to speak"
+  },
+  {
+    "verb": "comer",
+    "meaning": "to eat"
+  },
+  {
+    "verb": "vivir",
+    "meaning": "to live"
+  },
+  {
+    "verb": "gustar",
+    "meaning": "to like (to be pleasing)"
+  },
+  {
+    "verb": "necesitar",
+    "meaning": "to need"
+  },
+  {
+    "verb": "conocer",
+    "meaning": "to know (people, places)"
+  },
+  {
+    "verb": "pensar",
+    "meaning": "to think"
+  }
+]

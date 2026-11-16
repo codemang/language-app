@@ -1,0 +1,240 @@
+{
+  "verb": "decir",
+  "meaning": "to say, to tell",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I tell the truth.",
+      "en_clip": "clips/f7f99f63c9c525bb.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo digo la verdad.",
+          "clip": "clips/df84380441b8a6bb.mp3"
+        },
+        "tu": {
+          "es": "Tú dices la verdad.",
+          "clip": "clips/877506e53d43763a.mp3"
+        },
+        "usted": {
+          "es": "Usted dice la verdad.",
+          "clip": "clips/b1e7a4ab6cf81d6d.mp3"
+        },
+        "el": {
+          "es": "Él dice la verdad.",
+          "clip": "clips/448c142a6802566d.mp3"
+        },
+        "ella": {
+          "es": "Ella dice la verdad.",
+          "clip": "clips/9fd1b13ee9357805.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros decimos la verdad.",
+          "clip": "clips/b9ebf6f01ae1fbd5.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras decimos la verdad.",
+          "clip": "clips/75e99fd4170819d3.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes dicen la verdad.",
+          "clip": "clips/32c16da48197f153.mp3"
+        },
+        "ellos": {
+          "es": "Ellos dicen la verdad.",
+          "clip": "clips/95186b06347aa376.mp3"
+        },
+        "ellas": {
+          "es": "Ellas dicen la verdad.",
+          "clip": "clips/4b0ce4d61ef1aff2.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I told the truth.",
+      "en_clip": "clips/bde9ae8abb61aa79.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo dije la verdad.",
+          "clip": "clips/9c2f3cf4b0721075.mp3"
+        },
+        "tu": {
+          "es": "Tú dijiste la verdad.",
+          "clip": "clips/5b50a2ddbb24b1b7.mp3"
+        },
+        "usted": {
+          "es": "Usted dijo la verdad.",
+          "clip": "clips/cfbe48cffbda3e67.mp3"
+        },
+        "el": {
+          "es": "Él dijo la verdad.",
+          "clip": "clips/864e1c2dec2e570d.mp3"
+        },
+        "ella": {
+          "es": "Ella dijo la verdad.",
+          "clip": "clips/3f5add0c12f3291e.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros dijimos la verdad.",
+          "clip": "clips/0b0fb0dd9e0a9f9e.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras dijimos la verdad.",
+          "clip": "clips/f51fa105600fdcc9.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes dijeron la verdad.",
+          "clip": "clips/895bafaa0a2158f1.mp3"
+        },
+        "ellos": {
+          "es": "Ellos dijeron la verdad.",
+          "clip": "clips/a1520a3f22183915.mp3"
+        },
+        "ellas": {
+          "es": "Ellas dijeron la verdad.",
+          "clip": "clips/5ec9cd9a7f322084.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to tell the truth.",
+      "en_clip": "clips/e46bfe4ec916d428.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo decía la verdad.",
+          "clip": "clips/fc3ccbad0657d588.mp3"
+        },
+        "tu": {
+          "es": "Tú decías la verdad.",
+          "clip": "clips/81a56679b7594eb5.mp3"
+        },
+        "usted": {
+          "es": "Usted decía la verdad.",
+          "clip": "clips/b6d99fcdaff3e3de.mp3"
+        },
+        "el": {
+          "es": "Él decía la verdad.",
+          "clip": "clips/4abeb05bae99f7d4.mp3"
+        },
+        "ella": {
+          "es": "Ella decía la verdad.",
+          "clip": "clips/8d83cc254c980f53.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros decíamos la verdad.",
+          "clip": "clips/9cca167d48a4b997.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras decíamos la verdad.",
+          "clip": "clips/417d4370b0c58252.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes decían la verdad.",
+          "clip": "clips/5abd8306b21eadd5.mp3"
+        },
+        "ellos": {
+          "es": "Ellos decían la verdad.",
+          "clip": "clips/461035d558e7a035.mp3"
+        },
+        "ellas": {
+          "es": "Ellas decían la verdad.",
+          "clip": "clips/176fe06a23a191a8.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Tell the truth.",
+      "en_clip": "clips/8efd63999715f945.mp3",
+      "forms": {
+        "tu": {
+          "es": "Di la verdad.",
+          "clip": "clips/5f655e401c4f0685.mp3"
+        },
+        "usted": {
+          "es": "Diga la verdad.",
+          "clip": "clips/eb379b35fe353bcf.mp3"
+        },
+        "nosotros": {
+          "es": "Digamos la verdad.",
+          "clip": "clips/307d2634fa69a629.mp3"
+        },
+        "nosotras": {
+          "es": "Digamos la verdad.",
+          "clip": "clips/307d2634fa69a629.mp3"
+        },
+        "ustedes": {
+          "es": "Digan la verdad.",
+          "clip": "clips/0c415a6832f1209b.mp3"
+        }
+      }
+    }
+  ]
+}

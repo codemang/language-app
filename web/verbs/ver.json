@@ -1,0 +1,240 @@
+{
+  "verb": "ver",
+  "meaning": "to see, to watch",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I watch TV.",
+      "en_clip": "clips/ec7eb59ac66a95a3.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo veo la televisión.",
+          "clip": "clips/9983bcb10a9e19fa.mp3"
+        },
+        "tu": {
+          "es": "Tú ves la televisión.",
+          "clip": "clips/bd7e2528c92a567e.mp3"
+        },
+        "usted": {
+          "es": "Usted ve la televisión.",
+          "clip": "clips/edc2ee55307ae836.mp3"
+        },
+        "el": {
+          "es": "Él ve la televisión.",
+          "clip": "clips/91eeefeed523dc66.mp3"
+        },
+        "ella": {
+          "es": "Ella ve la televisión.",
+          "clip": "clips/77fc48eb046ec7b8.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros vemos la televisión.",
+          "clip": "clips/b6f06f8d252d4b61.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras vemos la televisión.",
+          "clip": "clips/4fa9fafbab145e5c.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes ven la televisión.",
+          "clip": "clips/a71f7c7a091259ab.mp3"
+        },
+        "ellos": {
+          "es": "Ellos ven la televisión.",
+          "clip": "clips/f9be8f22fe8c9023.mp3"
+        },
+        "ellas": {
+          "es": "Ellas ven la televisión.",
+          "clip": "clips/912d9998181a5ecb.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I watched TV.",
+      "en_clip": "clips/5e2c7100b3bc6a34.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo vi la televisión.",
+          "clip": "clips/562914bf4304f8bf.mp3"
+        },
+        "tu": {
+          "es": "Tú viste la televisión.",
+          "clip": "clips/a0fcd3b1209cf238.mp3"
+        },
+        "usted": {
+          "es": "Usted vio la televisión.",
+          "clip": "clips/d832d5bbb9228dee.mp3"
+        },
+        "el": {
+          "es": "Él vio la televisión.",
+          "clip": "clips/086f21243c94149b.mp3"
+        },
+        "ella": {
+          "es": "Ella vio la televisión.",
+          "clip": "clips/028e6cae8905fa00.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros vimos la televisión.",
+          "clip": "clips/80b1732239033ab0.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras vimos la televisión.",
+          "clip": "clips/b2e08c40c078ec01.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes vieron la televisión.",
+          "clip": "clips/2261a17ebbe2c1e4.mp3"
+        },
+        "ellos": {
+          "es": "Ellos vieron la televisión.",
+          "clip": "clips/f801c4d53d979cb2.mp3"
+        },
+        "ellas": {
+          "es": "Ellas vieron la televisión.",
+          "clip": "clips/a7a88468abcb0006.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to watch TV.",
+      "en_clip": "clips/519ef9bc6091982d.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo veía la televisión.",
+          "clip": "clips/2576fcea38129071.mp3"
+        },
+        "tu": {
+          "es": "Tú veías la televisión.",
+          "clip": "clips/8b0fbcea298116f1.mp3"
+        },
+        "usted": {
+          "es": "Usted veía la televisión.",
+          "clip": "clips/1089fb5a5af39f9e.mp3"
+        },
+        "el": {
+          "es": "Él veía la televisión.",
+          "clip": "clips/a6d53a47573ba1f1.mp3"
+        },
+        "ella": {
+          "es": "Ella veía la televisión.",
+          "clip": "clips/2c919730683b9db0.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros veíamos la televisión.",
+          "clip": "clips/5b23dcc8fd9c6db0.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras veíamos la televisión.",
+          "clip": "clips/66ab360537a7eb51.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes veían la televisión.",
+          "clip": "clips/8f4a0e72efb6a7dc.mp3"
+        },
+        "ellos": {
+          "es": "Ellos veían la televisión.",
+          "clip": "clips/103a4dc247d7a980.mp3"
+        },
+        "ellas": {
+          "es": "Ellas veían la televisión.",
+          "clip": "clips/15324ecc6edd7236.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Watch TV.",
+      "en_clip": "clips/d24e1941ef92a9ab.mp3",
+      "forms": {
+        "tu": {
+          "es": "Ve la televisión.",
+          "clip": "clips/d1d15130bf933f93.mp3"
+        },
+        "usted": {
+          "es": "Vea la televisión.",
+          "clip": "clips/4fce08a526cce9da.mp3"
+        },
+        "nosotros": {
+          "es": "Veamos la televisión.",
+          "clip": "clips/7c52abd9a3fbcf09.mp3"
+        },
+        "nosotras": {
+          "es": "Veamos la televisión.",
+          "clip": "clips/7c52abd9a3fbcf09.mp3"
+        },
+        "ustedes": {
+          "es": "Vean la televisión.",
+          "clip": "clips/46b0ddb05e528996.mp3"
+        }
+      }
+    }
+  ]
+}

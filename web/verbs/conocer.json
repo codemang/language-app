@@ -1,0 +1,240 @@
+{
+  "verb": "conocer",
+  "meaning": "to know (people, places)",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I know María.",
+      "en_clip": "clips/269c1633230d9bfd.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo conozco a María.",
+          "clip": "clips/bb54121ab0b86382.mp3"
+        },
+        "tu": {
+          "es": "Tú conoces a María.",
+          "clip": "clips/a5548ddc7aa48672.mp3"
+        },
+        "usted": {
+          "es": "Usted conoce a María.",
+          "clip": "clips/4f4e753c4d207cb8.mp3"
+        },
+        "el": {
+          "es": "Él conoce a María.",
+          "clip": "clips/7a76f4e2f6eb7449.mp3"
+        },
+        "ella": {
+          "es": "Ella conoce a María.",
+          "clip": "clips/9f4be85e30d1c678.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros conocemos a María.",
+          "clip": "clips/c8aab2c043c96374.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras conocemos a María.",
+          "clip": "clips/1b568af495bd3eb9.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes conocen a María.",
+          "clip": "clips/18c9feaa557accad.mp3"
+        },
+        "ellos": {
+          "es": "Ellos conocen a María.",
+          "clip": "clips/c609a38dd1b11a38.mp3"
+        },
+        "ellas": {
+          "es": "Ellas conocen a María.",
+          "clip": "clips/cdbc44fe4a599afd.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I met María.",
+      "en_clip": "clips/32bbcba8fee4109e.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo conocí a María.",
+          "clip": "clips/5fc7fbd74fe8a882.mp3"
+        },
+        "tu": {
+          "es": "Tú conociste a María.",
+          "clip": "clips/0b7bd4041b99d863.mp3"
+        },
+        "usted": {
+          "es": "Usted conoció a María.",
+          "clip": "clips/52b0bcf2b38c6b35.mp3"
+        },
+        "el": {
+          "es": "Él conoció a María.",
+          "clip": "clips/fd4508312483a622.mp3"
+        },
+        "ella": {
+          "es": "Ella conoció a María.",
+          "clip": "clips/edda552131de425c.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros conocimos a María.",
+          "clip": "clips/34ba867bf14625c8.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras conocimos a María.",
+          "clip": "clips/302d0be7d5e5ffb8.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes conocieron a María.",
+          "clip": "clips/c73dc485dbb0589d.mp3"
+        },
+        "ellos": {
+          "es": "Ellos conocieron a María.",
+          "clip": "clips/a7dc7940a2b1dc89.mp3"
+        },
+        "ellas": {
+          "es": "Ellas conocieron a María.",
+          "clip": "clips/1e822843fd560f80.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I knew María.",
+      "en_clip": "clips/a70d8c45b31791b1.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo conocía a María.",
+          "clip": "clips/0fb96750cd51d343.mp3"
+        },
+        "tu": {
+          "es": "Tú conocías a María.",
+          "clip": "clips/44e13f7a83c16fdd.mp3"
+        },
+        "usted": {
+          "es": "Usted conocía a María.",
+          "clip": "clips/864571ccf4d6ba68.mp3"
+        },
+        "el": {
+          "es": "Él conocía a María.",
+          "clip": "clips/d4c2cf9c9226f29e.mp3"
+        },
+        "ella": {
+          "es": "Ella conocía a María.",
+          "clip": "clips/db794a25c51513a4.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros conocíamos a María.",
+          "clip": "clips/b700cd9b77c09732.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras conocíamos a María.",
+          "clip": "clips/d034d5ef7787033b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes conocían a María.",
+          "clip": "clips/8c22dd87c3485218.mp3"
+        },
+        "ellos": {
+          "es": "Ellos conocían a María.",
+          "clip": "clips/4b62c727e18c8686.mp3"
+        },
+        "ellas": {
+          "es": "Ellas conocían a María.",
+          "clip": "clips/7c5a9509510e586f.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Meet María.",
+      "en_clip": "clips/b40e2aa634e9164d.mp3",
+      "forms": {
+        "tu": {
+          "es": "Conoce a María.",
+          "clip": "clips/a511aa84220625f0.mp3"
+        },
+        "usted": {
+          "es": "Conozca a María.",
+          "clip": "clips/01b7f2ffaa461fea.mp3"
+        },
+        "nosotros": {
+          "es": "Conozcamos a María.",
+          "clip": "clips/3c25477ebf57f5d5.mp3"
+        },
+        "nosotras": {
+          "es": "Conozcamos a María.",
+          "clip": "clips/3c25477ebf57f5d5.mp3"
+        },
+        "ustedes": {
+          "es": "Conozcan a María.",
+          "clip": "clips/ddb9491a015af280.mp3"
+        }
+      }
+    }
+  ]
+}

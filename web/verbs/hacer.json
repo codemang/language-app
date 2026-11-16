@@ -1,0 +1,240 @@
+{
+  "verb": "hacer",
+  "meaning": "to do, to make",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I do the homework.",
+      "en_clip": "clips/12acdb3f24ece286.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo hago la tarea.",
+          "clip": "clips/6ecae42d0f7b1a77.mp3"
+        },
+        "tu": {
+          "es": "Tú haces la tarea.",
+          "clip": "clips/3e47d461c3d03adf.mp3"
+        },
+        "usted": {
+          "es": "Usted hace la tarea.",
+          "clip": "clips/82c45d3f18c5b73d.mp3"
+        },
+        "el": {
+          "es": "Él hace la tarea.",
+          "clip": "clips/f14997d6fa22d333.mp3"
+        },
+        "ella": {
+          "es": "Ella hace la tarea.",
+          "clip": "clips/7e734f333bb32c48.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros hacemos la tarea.",
+          "clip": "clips/72881e4556071501.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras hacemos la tarea.",
+          "clip": "clips/19187de7153cd19a.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes hacen la tarea.",
+          "clip": "clips/110b48397fcccf11.mp3"
+        },
+        "ellos": {
+          "es": "Ellos hacen la tarea.",
+          "clip": "clips/8e5f525bf1c145c8.mp3"
+        },
+        "ellas": {
+          "es": "Ellas hacen la tarea.",
+          "clip": "clips/c81e051097f8ba86.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I did the homework.",
+      "en_clip": "clips/1450bd4dcc9e2428.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo hice la tarea.",
+          "clip": "clips/ed10ea926622b27d.mp3"
+        },
+        "tu": {
+          "es": "Tú hiciste la tarea.",
+          "clip": "clips/1194029347988475.mp3"
+        },
+        "usted": {
+          "es": "Usted hizo la tarea.",
+          "clip": "clips/dc55632ef8d00718.mp3"
+        },
+        "el": {
+          "es": "Él hizo la tarea.",
+          "clip": "clips/d35a03c8ea5d6f5d.mp3"
+        },
+        "ella": {
+          "es": "Ella hizo la tarea.",
+          "clip": "clips/e981426b2b65b3e9.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros hicimos la tarea.",
+          "clip": "clips/9b99c17db8f9f869.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras hicimos la tarea.",
+          "clip": "clips/5404c416ce816da2.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes hicieron la tarea.",
+          "clip": "clips/17082b4da45f58ac.mp3"
+        },
+        "ellos": {
+          "es": "Ellos hicieron la tarea.",
+          "clip": "clips/897d90f66d135cd7.mp3"
+        },
+        "ellas": {
+          "es": "Ellas hicieron la tarea.",
+          "clip": "clips/a2211dd495ed979e.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to do the homework.",
+      "en_clip": "clips/ac9e307b50e168da.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo hacía la tarea.",
+          "clip": "clips/3207b748513740ae.mp3"
+        },
+        "tu": {
+          "es": "Tú hacías la tarea.",
+          "clip": "clips/955635f0e16ae960.mp3"
+        },
+        "usted": {
+          "es": "Usted hacía la tarea.",
+          "clip": "clips/68f63d33d7ffe462.mp3"
+        },
+        "el": {
+          "es": "Él hacía la tarea.",
+          "clip": "clips/0c0a51cd71637d82.mp3"
+        },
+        "ella": {
+          "es": "Ella hacía la tarea.",
+          "clip": "clips/8fa4e45325735696.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros hacíamos la tarea.",
+          "clip": "clips/66de0b23d50d8c12.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras hacíamos la tarea.",
+          "clip": "clips/ddee33720ccdf797.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes hacían la tarea.",
+          "clip": "clips/a7cee5136cb78556.mp3"
+        },
+        "ellos": {
+          "es": "Ellos hacían la tarea.",
+          "clip": "clips/905037db6fa5c49c.mp3"
+        },
+        "ellas": {
+          "es": "Ellas hacían la tarea.",
+          "clip": "clips/bac9e8197c058119.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Do the homework.",
+      "en_clip": "clips/56e09200ebd12c58.mp3",
+      "forms": {
+        "tu": {
+          "es": "Haz la tarea.",
+          "clip": "clips/6ac5582857863c56.mp3"
+        },
+        "usted": {
+          "es": "Haga la tarea.",
+          "clip": "clips/d89d8a675e520bd7.mp3"
+        },
+        "nosotros": {
+          "es": "Hagamos la tarea.",
+          "clip": "clips/b4ab3edf879f8c45.mp3"
+        },
+        "nosotras": {
+          "es": "Hagamos la tarea.",
+          "clip": "clips/b4ab3edf879f8c45.mp3"
+        },
+        "ustedes": {
+          "es": "Hagan la tarea.",
+          "clip": "clips/00d4ff5674cf5db2.mp3"
+        }
+      }
+    }
+  ]
+}
