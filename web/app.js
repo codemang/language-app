@@ -699,7 +699,8 @@ if ("mediaSession" in navigator) {
 function route() {
   const m = location.hash.match(/^#\/play\/(.+)$/);
   const vm = location.hash.match(/^#\/verbs(?:\/(.+))?$/);
-  const playing = !!m, settings = location.hash === "#/auto", verbs = !!vm;
+  const pronouns = location.hash === "#/pronouns";
+  const playing = !!m, settings = location.hash === "#/auto", verbs = !!vm || pronouns;
   $("list-view").hidden = playing || settings || verbs;
   $("auto-view").hidden = !settings;
   $("verbs-view").hidden = !verbs;
@@ -708,6 +709,7 @@ function route() {
   if (!verbs) leaveVerbs();
   if (playing) { openPlayer(decodeURIComponent(m[1])); return; }
   audio.pause(); saveState(true); openToken++; video = null; lesson = null;
+  if (pronouns) { $("verbs-back").href = "#/"; showPronouns(); return; }
   if (verbs) {
     $("verbs-back").href = vm[1] ? "#/verbs" : "#/";
     showVerbs(vm[1] && decodeURIComponent(vm[1]));

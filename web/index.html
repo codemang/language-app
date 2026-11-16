@@ -20,6 +20,7 @@
         <h1>Escucha</h1>
         <div class="head-actions">
         <a href="#/verbs" class="pill-link">Verbs</a>
+        <a href="#/pronouns" class="pill-link">Pronouns</a>
         <a href="#/auto" id="auto-btn" class="icon-btn" aria-label="Auto-convert settings" title="Auto-convert">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V1L8 5l4 4V6a6 6 0 0 1 5.7 7.9l1.5 1.5A8 8 0 0 0 12 4zm0 14a6 6 0 0 1-5.7-7.9L4.8 8.6A8 8 0 0 0 12 20v3l4-4-4-4v3z"/></svg>
           <span class="dot" hidden></span>
@@ -85,14 +86,7 @@
     <p id="verbs-error" class="offline-note" hidden></p>
     <ul id="verbs-list" class="mini-list"></ul>
     <div id="verb-drill" class="verb-drill" hidden>
-      <section>
-        <h3 class="section-title">Tenses</h3>
-        <div id="verb-tenses" class="chip-checks"></div>
-      </section>
-      <section>
-        <h3 class="section-title">Pronouns</h3>
-        <div id="verb-pronouns" class="chip-checks"></div>
-      </section>
+      <div id="drill-groups" class="verb-drill"></div>
       <label class="toggle"><input id="verb-english" type="checkbox" checked> Say the English</label>
       <section class="sentence" aria-live="polite">
         <p id="verb-es" class="es">&nbsp;</p>

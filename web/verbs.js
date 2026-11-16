@@ -1,4 +1,8 @@
-// Verb drills — #/verbs (list) and #/verbs/<verb> (drill).
+// Verb drills — #/verbs (list) and #/verbs/<verb> (drill) — and object-pronoun
+// drills — #/pronouns — on the same screen.
+//
+// Pronouns (pronouns.py -> verbs/pronouns.json): pick items in three sets
+// (direct, indirect, both); each plays its English sentence, then the Spanish.
 //
 // verbs.py makes one short clip per Spanish sentence, per tense intro and per
 // pronoun cue (verbs/<verb>.json says which). Pick tenses and pronouns, and the
@@ -10,7 +14,8 @@
 const V = {
   el: (id) => document.getElementById(id),
   audio: null,
-  data: null,        // verbs/<verb>.json of the open verb
+  kind: "verb",      // "verb" | "pron"
+  data: null,        // verbs/<verb>.json of the open verb, or verbs/pronouns.json
   cues: [],          // [{start, end, es, en}] of the assembled drill
   builtFor: "",      // selection the current audio was built from
   url: null,
@@ -29,6 +34,41 @@ function verbSel() {
            english: s.english !== false };
 }
 function saveVerbSel(s) { try { localStorage.setItem("verbSel", JSON.stringify(s)); } catch {} }
+// Pronoun picks: {direct: [...], indirect: [...], both: [...]}. "Say the English"
+// is shared with the verbs (it lives in verbSel).
+function pronSel() {
+  let s = {};
+  try { s = JSON.parse(localStorage.getItem("pronSel")) || {}; } catch {}
+  return { direct: s.direct || ["me", "te", "lo", "la", "nos", "los", "las"], indirect: s.indirect || [], both: s.both || [] };
+}
+function savePronSel(s) { try { localStorage.setItem("pronSel", JSON.stringify(s)); } catch {} }
+
+async function showPronouns() {
+  const token = ++V.token;
+  V.el("verbs-list").hidden = true;
+  V.el("verb-drill").hidden = false;
+  V.el("verbs-error").hidden = true;
+  V.el("verbs-heading").textContent = "Pronouns";
+  V.el("verbs-sub").textContent = "Direct and indirect object pronouns";
+  if (V.kind !== "pron" || !V.data) {
+    resetVerbAudio();
+    V.kind = "pron"; V.data = null;
+    try { V.data = await (await fetch("verbs/pronouns.json", { cache: "no-cache" })).json(); }
+    catch { if (token === V.token) { V.el("verb-drill").hidden = true; verbsError("Couldn't load the pronouns. Are you online?"); } return; }
+    if (token !== V.token) return;
+  }
+  const sel = pronSel();
+  renderGroups(V.data.sets.map((set) => ({
+    title: set.title, picked: sel[set.id], items: set.items.map((it) => ({ id: it.id, label: it.label })),
+    toggle: (id, on) => {
+      const s = pronSel();
+      const picked = new Set(s[set.id]);
+      on ? picked.add(id) : picked.delete(id);
+      s[set.id] = set.items.map((x) => x.id).filter((x) => picked.has(x));
+      savePronSel(s);
+    },
+  })));
+}
 
 async function showVerbs(verb) {
   const token = ++V.token;
@@ -55,8 +95,9 @@ async function showVerbs(verb) {
   }
   V.el("verbs-heading").textContent = verb;
   V.el("verbs-sub").textContent = "";
-  if (!V.data || V.data.verb !== verb) {
+  if (V.kind !== "verb" || !V.data || V.data.verb !== verb) {
     resetVerbAudio();
+    V.kind = "verb"; V.data = null;
     try { V.data = await (await fetch(`verbs/${encodeURIComponent(verb)}.json`, { cache: "no-cache" })).json(); }
     catch { if (token === V.token) verbsError("Couldn't load this verb. Are you online?"); return; }
     if (token !== V.token) return;
@@ -70,43 +111,61 @@ function verbsError(msg) {
   V.el("verbs-error").hidden = false;
 }
 
-function renderVerbChoices() {
-  const sel = verbSel();
-  const chips = (box, items, key) => {
-    box.innerHTML = "";
-    for (const it of items) {
+// groups: [{title, items: [{id, label}], picked: [ids], toggle(id, on)}]
+function renderGroups(groups) {
+  const box = V.el("drill-groups");
+  box.innerHTML = "";
+  for (const g of groups) {
+    const sec = document.createElement("section");
+    sec.innerHTML = `<h3 class="section-title"></h3><div class="chip-checks"></div>`;
+    sec.querySelector("h3").textContent = g.title;
+    const chips = sec.querySelector("div");
+    for (const it of g.items) {
       const label = document.createElement("label");
       label.className = "chip-check";
       label.innerHTML = `<input type="checkbox"><span></span>`;
       label.querySelector("span").textContent = it.label;
       const input = label.querySelector("input");
-      input.checked = sel[key].includes(it.id);
-      input.onchange = () => {
-        const s = verbSel();
-        const on = new Set(s[key]);
-        input.checked ? on.add(it.id) : on.delete(it.id);
-        // Drill order; keep choices this verb doesn't show (haber has no preterite).
-        const all = key === "tenses" ? ["present", "preterite", "imperfect", "imperative"] : items.map((x) => x.id);
-        s[key] = all.filter((id) => on.has(id));
-        saveVerbSel(s);
-        selectionChanged();
-      };
-      box.append(label);
+      input.checked = g.picked.includes(it.id);
+      input.onchange = () => { g.toggle(it.id, input.checked); selectionChanged(); };
+      chips.append(label);
     }
-  };
-  chips(V.el("verb-tenses"), V.data.tenses.map((t) => ({ id: t.id, label: t.label })), "tenses");
-  chips(V.el("verb-pronouns"), V.data.pronouns.map((p) => ({ id: p.id, label: p.es })), "pronouns");
+    box.append(sec);
+  }
   selectionChanged();
+}
+
+function renderVerbChoices() {
+  const sel = verbSel();
+  const group = (title, key, items, all) => ({
+    title, items, picked: sel[key],
+    toggle: (id, on) => {
+      const s = verbSel();
+      const picked = new Set(s[key]);
+      on ? picked.add(id) : picked.delete(id);
+      s[key] = all.filter((x) => picked.has(x));  // drill order
+      saveVerbSel(s);
+    },
+  });
+  renderGroups([
+    // keep choices this verb doesn't show (haber has no preterite)
+    group("Tenses", "tenses", V.data.tenses.map((t) => ({ id: t.id, label: t.label })),
+          ["present", "preterite", "imperfect", "imperative"]),
+    group("Pronouns", "pronouns", V.data.pronouns.map((p) => ({ id: p.id, label: p.es })),
+          V.data.pronouns.map((p) => p.id)),
+  ]);
 }
 
 function selectionKey() {
   const s = verbSel();
+  if (V.kind === "pron") return `pron|${JSON.stringify(pronSel())}|${s.english}`;
   return `${V.data.verb}|${s.tenses}|${s.pronouns}|${s.english}`;
 }
 
 // The drill: [{clip, pause, es, en}] in play order. With English off only the
 // Spanish is spoken; the English (intro / "She form.") still shows on screen.
 function drillSteps() {
+  if (V.kind === "pron") return pronSteps();
   const s = verbSel();
   const steps = [];
   for (const t of V.data.tenses.filter((t) => s.tenses.includes(t.id))) {
@@ -124,12 +183,29 @@ function drillSteps() {
   return steps;
 }
 
+// Pronouns: each picked item says its English sentence, then the Spanish.
+function pronSteps() {
+  const english = verbSel().english, sel = pronSel();
+  const steps = [];
+  for (const set of V.data.sets) {
+    const items = set.items.filter((it) => sel[set.id].includes(it.id));
+    if (items.length && steps.length) steps[steps.length - 1].pause += PAUSE_TENSE;
+    for (const it of items) {
+      if (english) steps.push({ clip: it.en_clip, pause: PAUSE_AFTER_CUE, en: it.en, es: "" });
+      steps.push({ clip: it.clip, pause: PAUSE_AFTER_ES, en: it.en, es: it.es });
+    }
+  }
+  return steps;
+}
+
 function selectionChanged() {
+  if (!V.data) return;
   // Count what will actually play: haber has no preterite, commands only have
   // tú / usted / nosotros / nosotras / ustedes.
   const n = drillSteps().filter((x) => x.es).length;
   V.el("verb-play").disabled = !n;
   V.el("verb-hint").textContent = n ? `${n} sentence${n > 1 ? "s" : ""}`
+    : V.kind === "pron" ? "Nothing to play. Pick at least one pronoun."
     : "Nothing to play. Pick a tense, and a pronoun it has (commands: Tú, Usted, Nosotros, Nosotras, Ustedes).";
   if (V.builtFor && V.builtFor !== selectionKey()) resetVerbAudio();
 }
@@ -197,7 +273,9 @@ async function verbPlay() {
     a.src = V.url;
     a.playbackRate = Number(localStorage.getItem("speed")) || 1;
     if ("mediaSession" in navigator) {
-      navigator.mediaSession.metadata = new MediaMetadata({ title: `${V.data.verb} · ${V.data.meaning}`, artist: "Verbs" });
+      navigator.mediaSession.metadata = V.kind === "pron"
+        ? new MediaMetadata({ title: "Object pronouns", artist: "Pronouns" })
+        : new MediaMetadata({ title: `${V.data.verb} · ${V.data.meaning}`, artist: "Verbs" });
     }
     await a.play();
   } catch (e) {
