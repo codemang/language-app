@@ -1,82 +1,194 @@
-[
-  {
-    "verb": "ser",
-    "meaning": "to be (who or what)"
-  },
-  {
-    "verb": "estar",
-    "meaning": "to be (where or how)"
-  },
-  {
-    "verb": "tener",
-    "meaning": "to have"
-  },
-  {
-    "verb": "hacer",
-    "meaning": "to do, to make"
-  },
-  {
-    "verb": "ir",
-    "meaning": "to go"
-  },
-  {
-    "verb": "poder",
-    "meaning": "can, to be able to"
-  },
-  {
-    "verb": "decir",
-    "meaning": "to say, to tell"
-  },
-  {
-    "verb": "querer",
-    "meaning": "to want"
-  },
-  {
-    "verb": "haber",
-    "meaning": "to have (done something)"
-  },
-  {
-    "verb": "saber",
-    "meaning": "to know (facts)"
-  },
-  {
-    "verb": "ver",
-    "meaning": "to see, to watch"
-  },
-  {
-    "verb": "dar",
-    "meaning": "to give"
-  },
-  {
-    "verb": "venir",
-    "meaning": "to come"
-  },
-  {
-    "verb": "hablar",
-    "meaning": "to speak"
-  },
-  {
-    "verb": "comer",
-    "meaning": "to eat"
-  },
-  {
-    "verb": "vivir",
-    "meaning": "to live"
-  },
-  {
-    "verb": "gustar",
-    "meaning": "to like (to be pleasing)"
-  },
-  {
-    "verb": "necesitar",
-    "meaning": "to need"
-  },
-  {
-    "verb": "conocer",
-    "meaning": "to know (people, places)"
-  },
-  {
-    "verb": "pensar",
-    "meaning": "to think"
-  }
-]
+{
+  "verbs": [
+    {
+      "verb": "ser",
+      "meaning": "to be (who or what)"
+    },
+    {
+      "verb": "estar",
+      "meaning": "to be (where or how)"
+    },
+    {
+      "verb": "tener",
+      "meaning": "to have"
+    },
+    {
+      "verb": "hacer",
+      "meaning": "to do, to make"
+    },
+    {
+      "verb": "ir",
+      "meaning": "to go"
+    },
+    {
+      "verb": "poder",
+      "meaning": "can, to be able to"
+    },
+    {
+      "verb": "decir",
+      "meaning": "to say, to tell"
+    },
+    {
+      "verb": "querer",
+      "meaning": "to want"
+    },
+    {
+      "verb": "haber",
+      "meaning": "to have (done something)"
+    },
+    {
+      "verb": "saber",
+      "meaning": "to know (facts)"
+    },
+    {
+      "verb": "ver",
+      "meaning": "to see, to watch"
+    },
+    {
+      "verb": "dar",
+      "meaning": "to give"
+    },
+    {
+      "verb": "venir",
+      "meaning": "to come"
+    },
+    {
+      "verb": "hablar",
+      "meaning": "to speak"
+    },
+    {
+      "verb": "comer",
+      "meaning": "to eat"
+    },
+    {
+      "verb": "vivir",
+      "meaning": "to live"
+    },
+    {
+      "verb": "gustar",
+      "meaning": "to like (to be pleasing)"
+    },
+    {
+      "verb": "necesitar",
+      "meaning": "to need"
+    },
+    {
+      "verb": "conocer",
+      "meaning": "to know (people, places)"
+    },
+    {
+      "verb": "pensar",
+      "meaning": "to think"
+    },
+    {
+      "verb": "despertarse",
+      "meaning": "to wake up"
+    },
+    {
+      "verb": "levantarse",
+      "meaning": "to get up"
+    },
+    {
+      "verb": "ducharse",
+      "meaning": "to shower"
+    },
+    {
+      "verb": "vestirse",
+      "meaning": "to get dressed"
+    },
+    {
+      "verb": "desayunar",
+      "meaning": "to have breakfast"
+    },
+    {
+      "verb": "volver",
+      "meaning": "to come back, to return"
+    }
+  ],
+  "collections": [
+    {
+      "id": "essentials",
+      "title": "The essentials",
+      "desc": "The verbs everything else leans on",
+      "verbs": [
+        "ser",
+        "estar",
+        "tener",
+        "hacer",
+        "ir",
+        "haber",
+        "poder",
+        "dar"
+      ]
+    },
+    {
+      "id": "routine",
+      "title": "Daily routine",
+      "desc": "Morning to night",
+      "verbs": [
+        "despertarse",
+        "levantarse",
+        "ducharse",
+        "vestirse",
+        "desayunar",
+        "volver"
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food & eating out",
+      "desc": "Ordering, cooking, paying",
+      "verbs": [
+        "comer"
+      ]
+    },
+    {
+      "id": "around",
+      "title": "Getting around",
+      "desc": "Coming, going and traveling",
+      "verbs": [
+        "ir",
+        "venir",
+        "volver"
+      ]
+    },
+    {
+      "id": "talking",
+      "title": "Talking & listening",
+      "desc": "Conversations, calls and reading",
+      "verbs": [
+        "hablar",
+        "decir"
+      ]
+    },
+    {
+      "id": "wants",
+      "title": "Wants, needs & likes",
+      "desc": "Saying what you want and like",
+      "verbs": [
+        "querer",
+        "necesitar",
+        "gustar"
+      ]
+    },
+    {
+      "id": "thinking",
+      "title": "Thinking & knowing",
+      "desc": "Knowing, remembering, learning",
+      "verbs": [
+        "saber",
+        "conocer",
+        "pensar"
+      ]
+    },
+    {
+      "id": "life",
+      "title": "Home, work & life",
+      "desc": "Everyday life at home and work",
+      "verbs": [
+        "vivir",
+        "ver"
+      ]
+    }
+  ]
+}

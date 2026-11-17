@@ -1,0 +1,250 @@
+{
+  "verb": "volver",
+  "meaning": "to come back, to return",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to come back home.",
+      "en_clip": "clips/1e9d7a6a6320a1c3.mp3",
+      "single": {
+        "es": "Quiero volver a casa.",
+        "clip": "clips/bc41e541b6b55715.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I come back home.",
+      "en_clip": "clips/6f3637196c3b3c55.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo vuelvo a casa.",
+          "clip": "clips/70078050b4a95d5e.mp3"
+        },
+        "tu": {
+          "es": "Tú vuelves a casa.",
+          "clip": "clips/2586517d618e93c5.mp3"
+        },
+        "usted": {
+          "es": "Usted vuelve a casa.",
+          "clip": "clips/d62c6c99ea3080fc.mp3"
+        },
+        "el": {
+          "es": "Él vuelve a casa.",
+          "clip": "clips/9e7775bbc1012ebf.mp3"
+        },
+        "ella": {
+          "es": "Ella vuelve a casa.",
+          "clip": "clips/136bf502e7d4fd58.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros volvemos a casa.",
+          "clip": "clips/4c28805b287fd6d5.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras volvemos a casa.",
+          "clip": "clips/1ce7d0e5e1ea6b2b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes vuelven a casa.",
+          "clip": "clips/b4778312b492e13c.mp3"
+        },
+        "ellos": {
+          "es": "Ellos vuelven a casa.",
+          "clip": "clips/ded069ff571f5be3.mp3"
+        },
+        "ellas": {
+          "es": "Ellas vuelven a casa.",
+          "clip": "clips/f55890d596b4424d.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I came back home.",
+      "en_clip": "clips/1ea4057dccf06340.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo volví a casa.",
+          "clip": "clips/d42ea00b57606c0b.mp3"
+        },
+        "tu": {
+          "es": "Tú volviste a casa.",
+          "clip": "clips/c627d57d27bb5035.mp3"
+        },
+        "usted": {
+          "es": "Usted volvió a casa.",
+          "clip": "clips/911382469ff0f411.mp3"
+        },
+        "el": {
+          "es": "Él volvió a casa.",
+          "clip": "clips/f0890342abf5a171.mp3"
+        },
+        "ella": {
+          "es": "Ella volvió a casa.",
+          "clip": "clips/704dceedfccc9a0a.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros volvimos a casa.",
+          "clip": "clips/b93797cf5140d22c.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras volvimos a casa.",
+          "clip": "clips/6ef2c42ddfcd9d46.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes volvieron a casa.",
+          "clip": "clips/74b1714e24377c44.mp3"
+        },
+        "ellos": {
+          "es": "Ellos volvieron a casa.",
+          "clip": "clips/1cf64c70778ea43e.mp3"
+        },
+        "ellas": {
+          "es": "Ellas volvieron a casa.",
+          "clip": "clips/535610adeb9b3c58.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to come back home.",
+      "en_clip": "clips/060363720a15ba2b.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo volvía a casa.",
+          "clip": "clips/071d59487865b907.mp3"
+        },
+        "tu": {
+          "es": "Tú volvías a casa.",
+          "clip": "clips/da3bf5299b6352c5.mp3"
+        },
+        "usted": {
+          "es": "Usted volvía a casa.",
+          "clip": "clips/6c693deb8f107649.mp3"
+        },
+        "el": {
+          "es": "Él volvía a casa.",
+          "clip": "clips/06f20baf15e072c1.mp3"
+        },
+        "ella": {
+          "es": "Ella volvía a casa.",
+          "clip": "clips/4f538995599d63d4.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros volvíamos a casa.",
+          "clip": "clips/796707b2bfbb0e1c.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras volvíamos a casa.",
+          "clip": "clips/b952b23a8698ab08.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes volvían a casa.",
+          "clip": "clips/5e340670e2770f18.mp3"
+        },
+        "ellos": {
+          "es": "Ellos volvían a casa.",
+          "clip": "clips/81cd1a0c7ce5f50b.mp3"
+        },
+        "ellas": {
+          "es": "Ellas volvían a casa.",
+          "clip": "clips/94d41e5b40afd863.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Come back home.",
+      "en_clip": "clips/b6d4cfdab1ae683e.mp3",
+      "forms": {
+        "tu": {
+          "es": "Vuelve a casa.",
+          "clip": "clips/d98dd6da3036b044.mp3"
+        },
+        "usted": {
+          "es": "Vuelva a casa.",
+          "clip": "clips/99fdaf0c2d171e11.mp3"
+        },
+        "nosotros": {
+          "es": "Volvamos a casa.",
+          "clip": "clips/651f68a4d5ea02db.mp3"
+        },
+        "nosotras": {
+          "es": "Volvamos a casa.",
+          "clip": "clips/651f68a4d5ea02db.mp3"
+        },
+        "ustedes": {
+          "es": "Vuelvan a casa.",
+          "clip": "clips/8e859e49f1540287.mp3"
+        }
+      }
+    }
+  ]
+}

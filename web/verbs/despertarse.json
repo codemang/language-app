@@ -1,0 +1,250 @@
+{
+  "verb": "despertarse",
+  "meaning": "to wake up",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to wake up early.",
+      "en_clip": "clips/4a5c3a0489c6bf24.mp3",
+      "single": {
+        "es": "Quiero despertarme temprano.",
+        "clip": "clips/848ca1421bf09539.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I wake up early.",
+      "en_clip": "clips/bb3065cd7cfe3b73.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo me despierto temprano.",
+          "clip": "clips/ffb42364a5db37b4.mp3"
+        },
+        "tu": {
+          "es": "Tú te despiertas temprano.",
+          "clip": "clips/c8bfa6247b88dd40.mp3"
+        },
+        "usted": {
+          "es": "Usted se despierta temprano.",
+          "clip": "clips/672d7bb54f27f67e.mp3"
+        },
+        "el": {
+          "es": "Él se despierta temprano.",
+          "clip": "clips/f00dbee7cb49e464.mp3"
+        },
+        "ella": {
+          "es": "Ella se despierta temprano.",
+          "clip": "clips/e817b645e7441c61.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros nos despertamos temprano.",
+          "clip": "clips/5c410a88dfff32ce.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras nos despertamos temprano.",
+          "clip": "clips/727ea9d085c2fd83.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes se despiertan temprano.",
+          "clip": "clips/2a6add7d1c3dd075.mp3"
+        },
+        "ellos": {
+          "es": "Ellos se despiertan temprano.",
+          "clip": "clips/f153b1e5cf1cf50c.mp3"
+        },
+        "ellas": {
+          "es": "Ellas se despiertan temprano.",
+          "clip": "clips/3dd54a6ae5cfc515.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I woke up early.",
+      "en_clip": "clips/7069ce10f0152c1e.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo me desperté temprano.",
+          "clip": "clips/8c6435754cf2c2d2.mp3"
+        },
+        "tu": {
+          "es": "Tú te despertaste temprano.",
+          "clip": "clips/4c74821bed39c9a1.mp3"
+        },
+        "usted": {
+          "es": "Usted se despertó temprano.",
+          "clip": "clips/71d64d1528cb4391.mp3"
+        },
+        "el": {
+          "es": "Él se despertó temprano.",
+          "clip": "clips/a3193184977c9ff9.mp3"
+        },
+        "ella": {
+          "es": "Ella se despertó temprano.",
+          "clip": "clips/3952fd4d1d27eee6.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros nos despertamos temprano.",
+          "clip": "clips/5c410a88dfff32ce.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras nos despertamos temprano.",
+          "clip": "clips/727ea9d085c2fd83.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes se despertaron temprano.",
+          "clip": "clips/d421842bbaacc792.mp3"
+        },
+        "ellos": {
+          "es": "Ellos se despertaron temprano.",
+          "clip": "clips/e6d5820f998fdaea.mp3"
+        },
+        "ellas": {
+          "es": "Ellas se despertaron temprano.",
+          "clip": "clips/33dab54e583ed496.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to wake up early.",
+      "en_clip": "clips/a6fe889a6aec704a.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo me despertaba temprano.",
+          "clip": "clips/f8c47482f2e9db2a.mp3"
+        },
+        "tu": {
+          "es": "Tú te despertabas temprano.",
+          "clip": "clips/7b264e55dc74e6ff.mp3"
+        },
+        "usted": {
+          "es": "Usted se despertaba temprano.",
+          "clip": "clips/b4edfd155361918a.mp3"
+        },
+        "el": {
+          "es": "Él se despertaba temprano.",
+          "clip": "clips/c85423948ba54e67.mp3"
+        },
+        "ella": {
+          "es": "Ella se despertaba temprano.",
+          "clip": "clips/17b79a439636b679.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros nos despertábamos temprano.",
+          "clip": "clips/313ece353535becc.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras nos despertábamos temprano.",
+          "clip": "clips/f3c54fc6be416f2c.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes se despertaban temprano.",
+          "clip": "clips/bdd60dbcb5fc5595.mp3"
+        },
+        "ellos": {
+          "es": "Ellos se despertaban temprano.",
+          "clip": "clips/e0b320fe4d952274.mp3"
+        },
+        "ellas": {
+          "es": "Ellas se despertaban temprano.",
+          "clip": "clips/3be9681a5f811e03.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Wake up early.",
+      "en_clip": "clips/f83333fd7e3f9b28.mp3",
+      "forms": {
+        "tu": {
+          "es": "Despiértate temprano.",
+          "clip": "clips/d0570e5a8acb0372.mp3"
+        },
+        "usted": {
+          "es": "Despiértese temprano.",
+          "clip": "clips/46e9d09b04950f21.mp3"
+        },
+        "nosotros": {
+          "es": "Despertémonos temprano.",
+          "clip": "clips/b7bee7b68c597497.mp3"
+        },
+        "nosotras": {
+          "es": "Despertémonos temprano.",
+          "clip": "clips/b7bee7b68c597497.mp3"
+        },
+        "ustedes": {
+          "es": "Despiértense temprano.",
+          "clip": "clips/3d749bf4fbfb2418.mp3"
+        }
+      }
+    }
+  ]
+}

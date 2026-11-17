@@ -472,3 +472,4 @@ code { font-size: 14px; }
 .home-title { font-size: 18px; font-weight: 650; }
 .home-desc { font-size: 14px; color: var(--muted); line-height: 1.35; }
 .home-go { flex: none; width: 22px; height: 22px; fill: var(--muted); }
+#verbs-dl { align-items: center; text-align: center; }

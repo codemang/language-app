@@ -1,0 +1,250 @@
+{
+  "verb": "desayunar",
+  "meaning": "to have breakfast",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to have eggs for breakfast.",
+      "en_clip": "clips/8f5234203a129d44.mp3",
+      "single": {
+        "es": "Quiero desayunar huevos.",
+        "clip": "clips/7ec2aed19a90edd2.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I have eggs for breakfast.",
+      "en_clip": "clips/488a2e416a78da91.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo desayuno huevos.",
+          "clip": "clips/0fc6e910bc22c6a2.mp3"
+        },
+        "tu": {
+          "es": "Tú desayunas huevos.",
+          "clip": "clips/1602160a7e4215c9.mp3"
+        },
+        "usted": {
+          "es": "Usted desayuna huevos.",
+          "clip": "clips/3f8d753b383c692c.mp3"
+        },
+        "el": {
+          "es": "Él desayuna huevos.",
+          "clip": "clips/cf5567ed479d30f4.mp3"
+        },
+        "ella": {
+          "es": "Ella desayuna huevos.",
+          "clip": "clips/c06ce1ceff46a492.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros desayunamos huevos.",
+          "clip": "clips/6540d3a7c1cc7a52.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras desayunamos huevos.",
+          "clip": "clips/d79604498361a918.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes desayunan huevos.",
+          "clip": "clips/952f8b627210310b.mp3"
+        },
+        "ellos": {
+          "es": "Ellos desayunan huevos.",
+          "clip": "clips/b5fe4e1652e42bdd.mp3"
+        },
+        "ellas": {
+          "es": "Ellas desayunan huevos.",
+          "clip": "clips/f28c13d566a18e61.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I had eggs for breakfast.",
+      "en_clip": "clips/a734db80d5e0174a.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo desayuné huevos.",
+          "clip": "clips/b76e39d2d98dd163.mp3"
+        },
+        "tu": {
+          "es": "Tú desayunaste huevos.",
+          "clip": "clips/e192716805bbaa43.mp3"
+        },
+        "usted": {
+          "es": "Usted desayunó huevos.",
+          "clip": "clips/dd6818bf4d0eb51a.mp3"
+        },
+        "el": {
+          "es": "Él desayunó huevos.",
+          "clip": "clips/e4c8882ca0903804.mp3"
+        },
+        "ella": {
+          "es": "Ella desayunó huevos.",
+          "clip": "clips/68ee07e594750839.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros desayunamos huevos.",
+          "clip": "clips/6540d3a7c1cc7a52.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras desayunamos huevos.",
+          "clip": "clips/d79604498361a918.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes desayunaron huevos.",
+          "clip": "clips/ae6037d11c0b2def.mp3"
+        },
+        "ellos": {
+          "es": "Ellos desayunaron huevos.",
+          "clip": "clips/9327091ac9a6d826.mp3"
+        },
+        "ellas": {
+          "es": "Ellas desayunaron huevos.",
+          "clip": "clips/1e1c6334c87050ce.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to have eggs for breakfast.",
+      "en_clip": "clips/4436d55124f92074.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo desayunaba huevos.",
+          "clip": "clips/6cfb70b8fb39cb14.mp3"
+        },
+        "tu": {
+          "es": "Tú desayunabas huevos.",
+          "clip": "clips/2c3b9ad24605e30b.mp3"
+        },
+        "usted": {
+          "es": "Usted desayunaba huevos.",
+          "clip": "clips/2dc0dac7955d9adc.mp3"
+        },
+        "el": {
+          "es": "Él desayunaba huevos.",
+          "clip": "clips/546bc4570ea139a4.mp3"
+        },
+        "ella": {
+          "es": "Ella desayunaba huevos.",
+          "clip": "clips/e1ea0fdfa87ca074.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros desayunábamos huevos.",
+          "clip": "clips/a64f8f07d7d44a55.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras desayunábamos huevos.",
+          "clip": "clips/890f1202dd68853d.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes desayunaban huevos.",
+          "clip": "clips/ddd6445c9eea01af.mp3"
+        },
+        "ellos": {
+          "es": "Ellos desayunaban huevos.",
+          "clip": "clips/c90c70819c450246.mp3"
+        },
+        "ellas": {
+          "es": "Ellas desayunaban huevos.",
+          "clip": "clips/a9fd6abe8aa42292.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Have some breakfast.",
+      "en_clip": "clips/a1fee8415e2fb170.mp3",
+      "forms": {
+        "tu": {
+          "es": "Desayuna algo.",
+          "clip": "clips/90ec141132a1304f.mp3"
+        },
+        "usted": {
+          "es": "Desayune algo.",
+          "clip": "clips/031b6d4e83468928.mp3"
+        },
+        "nosotros": {
+          "es": "Desayunemos algo.",
+          "clip": "clips/aca8947aaec5f2b8.mp3"
+        },
+        "nosotras": {
+          "es": "Desayunemos algo.",
+          "clip": "clips/aca8947aaec5f2b8.mp3"
+        },
+        "ustedes": {
+          "es": "Desayunen algo.",
+          "clip": "clips/4a8ab1c19b7b6bb1.mp3"
+        }
+      }
+    }
+  ]
+}

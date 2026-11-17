@@ -1,0 +1,250 @@
+{
+  "verb": "vestirse",
+  "meaning": "to get dressed",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I have to get dressed quickly.",
+      "en_clip": "clips/71fe4a32672b2170.mp3",
+      "single": {
+        "es": "Tengo que vestirme rápido.",
+        "clip": "clips/f938305e51125cc0.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I get dressed quickly.",
+      "en_clip": "clips/fefe2483b79fd5f9.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo me visto rápido.",
+          "clip": "clips/6c109a66d7dd0853.mp3"
+        },
+        "tu": {
+          "es": "Tú te vistes rápido.",
+          "clip": "clips/e866d559bdce2496.mp3"
+        },
+        "usted": {
+          "es": "Usted se viste rápido.",
+          "clip": "clips/4de96ad86145a36a.mp3"
+        },
+        "el": {
+          "es": "Él se viste rápido.",
+          "clip": "clips/4f716a1634c05de3.mp3"
+        },
+        "ella": {
+          "es": "Ella se viste rápido.",
+          "clip": "clips/7a98ca045750eb43.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros nos vestimos rápido.",
+          "clip": "clips/75ab7911f0341f11.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras nos vestimos rápido.",
+          "clip": "clips/7e8c012edd0782f5.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes se visten rápido.",
+          "clip": "clips/38a1ff688478941d.mp3"
+        },
+        "ellos": {
+          "es": "Ellos se visten rápido.",
+          "clip": "clips/10884dbcd7818a0b.mp3"
+        },
+        "ellas": {
+          "es": "Ellas se visten rápido.",
+          "clip": "clips/bba993fb33723027.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I got dressed quickly.",
+      "en_clip": "clips/f7429499b01ee73c.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo me vestí rápido.",
+          "clip": "clips/00ad3d4e5a6ddee8.mp3"
+        },
+        "tu": {
+          "es": "Tú te vestiste rápido.",
+          "clip": "clips/dd4c2dd072a54b7b.mp3"
+        },
+        "usted": {
+          "es": "Usted se vistió rápido.",
+          "clip": "clips/a831784fbc841911.mp3"
+        },
+        "el": {
+          "es": "Él se vistió rápido.",
+          "clip": "clips/7027540b68b2d60c.mp3"
+        },
+        "ella": {
+          "es": "Ella se vistió rápido.",
+          "clip": "clips/2b7f3535fd003a4a.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros nos vestimos rápido.",
+          "clip": "clips/75ab7911f0341f11.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras nos vestimos rápido.",
+          "clip": "clips/7e8c012edd0782f5.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes se vistieron rápido.",
+          "clip": "clips/51918b718c27de86.mp3"
+        },
+        "ellos": {
+          "es": "Ellos se vistieron rápido.",
+          "clip": "clips/2c33ee6acb88d722.mp3"
+        },
+        "ellas": {
+          "es": "Ellas se vistieron rápido.",
+          "clip": "clips/60e0d93eeb032dd6.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to get dressed quickly.",
+      "en_clip": "clips/829c9b0e0bdbe67f.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo me vestía rápido.",
+          "clip": "clips/69ad78a2e9e45756.mp3"
+        },
+        "tu": {
+          "es": "Tú te vestías rápido.",
+          "clip": "clips/f11bbddeeb032d54.mp3"
+        },
+        "usted": {
+          "es": "Usted se vestía rápido.",
+          "clip": "clips/c0f8e228c1d7fffc.mp3"
+        },
+        "el": {
+          "es": "Él se vestía rápido.",
+          "clip": "clips/d22237936372fb65.mp3"
+        },
+        "ella": {
+          "es": "Ella se vestía rápido.",
+          "clip": "clips/2ba78075395dfa97.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros nos vestíamos rápido.",
+          "clip": "clips/dd1f42083a680b2e.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras nos vestíamos rápido.",
+          "clip": "clips/8b64a9790e4a4480.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes se vestían rápido.",
+          "clip": "clips/8a03e2b01d1207fd.mp3"
+        },
+        "ellos": {
+          "es": "Ellos se vestían rápido.",
+          "clip": "clips/becf1a22655cae9a.mp3"
+        },
+        "ellas": {
+          "es": "Ellas se vestían rápido.",
+          "clip": "clips/2907d051be05810a.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Get dressed quickly.",
+      "en_clip": "clips/11f645955453a15b.mp3",
+      "forms": {
+        "tu": {
+          "es": "Vístete rápido.",
+          "clip": "clips/6a40cfba028016e2.mp3"
+        },
+        "usted": {
+          "es": "Vístase rápido.",
+          "clip": "clips/56c9ed50ba9781a2.mp3"
+        },
+        "nosotros": {
+          "es": "Vistámonos rápido.",
+          "clip": "clips/c52330b36e56a732.mp3"
+        },
+        "nosotras": {
+          "es": "Vistámonos rápido.",
+          "clip": "clips/c52330b36e56a732.mp3"
+        },
+        "ustedes": {
+          "es": "Vístanse rápido.",
+          "clip": "clips/ba3b496ce53c603a.mp3"
+        }
+      }
+    }
+  ]
+}

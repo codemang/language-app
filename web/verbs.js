@@ -71,32 +71,58 @@ async function showPronouns() {
   })));
 }
 
-async function showVerbs(verb) {
+// verbs/index.json: {verbs: [{verb, meaning}], collections: [{id, title, desc, verbs}]}
+// (an older copy saved offline may still be the plain verb list)
+function readIndex(idx) {
+  return Array.isArray(idx) ? { verbs: idx, collections: [] } : idx;
+}
+
+// #/verbs: the collections · #/verbs/c/<id>: one collection (c/all: every verb)
+// · #/verbs/<verb>: the drill
+async function showVerbs(arg) {
   const token = ++V.token;
+  const col = arg && arg.startsWith("c/") ? arg.slice(2) : null;
+  const verb = col ? null : arg;
   V.el("verbs-list").hidden = !!verb;
   V.el("verb-drill").hidden = !verb;
   V.el("verbs-error").hidden = true;
-  V.el("verbs-dl").hidden = !!verb;
+  V.el("verbs-dl").hidden = !!arg;
   if (!verb) {
-    renderVerbsDl();
+    if (!col) renderVerbsDl();
+    V.el("verbs-back").href = col ? "#/verbs" : "#/";
+    V.lastList = col ? `#/verbs/${arg}` : "#/verbs";
     V.el("verbs-heading").textContent = "Verbs";
-    V.el("verbs-sub").textContent = "Pick a verb to drill";
+    V.el("verbs-sub").textContent = col ? " " : "Pick a collection";
     try {
-      const list = await (await fetch("verbs/index.json", { cache: "no-cache" })).json();
+      const idx = readIndex(await (await fetch("verbs/index.json", { cache: "no-cache" })).json());
       if (token !== V.token) return;
       const ul = V.el("verbs-list");
       ul.innerHTML = "";
-      for (const v of list) {
+      const item = (href, title, detail) => {
         const li = document.createElement("li");
-        li.innerHTML = `<a href="#/verbs/${encodeURIComponent(v.verb)}"><span class="t"></span><span class="d"></span></a>`;
-        li.querySelector(".t").textContent = v.verb;
-        li.querySelector(".d").textContent = v.meaning;
+        li.innerHTML = `<a href="${href}"><span class="t"></span><span class="d"></span></a>`;
+        li.querySelector(".t").textContent = title;
+        li.querySelector(".d").textContent = detail;
         ul.append(li);
+      };
+      const count = (n) => `${n} verb${n === 1 ? "" : "s"}`;
+      if (!col) {
+        for (const c of idx.collections.filter((c) => c.verbs.length)) item(`#/verbs/c/${c.id}`, c.title, count(c.verbs.length));
+        item("#/verbs/c/all", "All verbs", count(idx.verbs.length));
+        renderVerbsDl(idx.verbs);
+        return;
       }
-      renderVerbsDl(list);
+      const c = col === "all" ? { title: "All verbs", desc: "Every verb in the app", verbs: idx.verbs.map((v) => v.verb) }
+        : idx.collections.find((x) => x.id === col);
+      if (!c) { verbsError("That collection doesn't exist."); return; }
+      V.el("verbs-heading").textContent = c.title;
+      V.el("verbs-sub").textContent = c.desc || "";
+      const meaning = Object.fromEntries(idx.verbs.map((v) => [v.verb, v.meaning]));
+      for (const v of c.verbs) item(`#/verbs/${encodeURIComponent(v)}`, v, meaning[v] || "");
     } catch { verbsError("Couldn't load the verbs. Are you online?"); }
     return;
   }
+  V.el("verbs-back").href = V.lastList || "#/verbs";
   V.el("verbs-heading").textContent = verb;
   V.el("verbs-sub").textContent = "";
   if (V.kind !== "verb" || !V.data || V.data.verb !== verb) {
@@ -149,6 +175,7 @@ async function downloadAllVerbs() {
       return { path, text, data: JSON.parse(text) };
     };
     const index = await getJSON("index.json");
+    index.data = readIndex(index.data).verbs;  // just the verb list; the file itself is saved as is
     const docs = [index, await getJSON("pronouns.json")];
     for (const v of index.data) docs.push(await getJSON(`${encodeURIComponent(v.verb)}.json`));
     const clips = new Set();

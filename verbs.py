@@ -254,6 +254,320 @@ VERBS = {
 }
 
 
+# ---------- more verbs, for the collections (same format, written compactly)
+# Reflexive verbs: "me_levanto" keeps "me levanto" one form (the _ becomes a space).
+GUSTAR_SUBJECT = VERBS["gustar"]["subject"]
+
+
+def _verb(verb, meaning, rest, present, preterite, imperfect, en, inf, cmd=None, subject=None):
+    """en: (present, preterite, imperfect) English yo sentences; inf: (es, en); cmd: (forms, rest, en)."""
+    VERBS[verb] = {"meaning": meaning, "rest": rest,
+                   "present": (present, f"Present tense: {en[0]}"),
+                   "preterite": (preterite, f"Preterite: {en[1]}"),
+                   "imperfect": (imperfect, f"Imperfect: {en[2]}")}
+    if subject:
+        VERBS[verb]["subject"] = subject
+    INFINITIVES[verb] = inf
+    if cmd:
+        IMPERATIVES[verb] = (cmd[0], cmd[1], f"Command: {cmd[2]}")
+
+
+# Daily routine
+_verb("despertarse", "to wake up", "temprano.",
+      "me_despierto te_despiertas se_despierta nos_despertamos os_despertáis se_despiertan",
+      "me_desperté te_despertaste se_despertó nos_despertamos os_despertasteis se_despertaron",
+      "me_despertaba te_despertabas se_despertaba nos_despertábamos os_despertabais se_despertaban",
+      ("I wake up early.", "I woke up early.", "I used to wake up early."),
+      ("Quiero despertarme temprano.", "I want to wake up early."),
+      ("despiértate despiértese despertémonos despiértense", "temprano.", "Wake up early."))
+_verb("levantarse", "to get up", "a las siete.",
+      "me_levanto te_levantas se_levanta nos_levantamos os_levantáis se_levantan",
+      "me_levanté te_levantaste se_levantó nos_levantamos os_levantasteis se_levantaron",
+      "me_levantaba te_levantabas se_levantaba nos_levantábamos os_levantabais se_levantaban",
+      ("I get up at seven.", "I got up at seven.", "I used to get up at seven."),
+      ("Tengo que levantarme a las siete.", "I have to get up at seven."),
+      ("levántate levántese levantémonos levántense", "a las siete.", "Get up at seven."))
+_verb("ducharse", "to shower", "por la mañana.",
+      "me_ducho te_duchas se_ducha nos_duchamos os_ducháis se_duchan",
+      "me_duché te_duchaste se_duchó nos_duchamos os_duchasteis se_ducharon",
+      "me_duchaba te_duchabas se_duchaba nos_duchábamos os_duchabais se_duchaban",
+      ("I shower in the morning.", "I showered in the morning.", "I used to shower in the morning."),
+      ("Necesito ducharme por la mañana.", "I need to shower in the morning."),
+      ("dúchate dúchese duchémonos dúchense", "ahora.", "Shower now."))
+_verb("vestirse", "to get dressed", "rápido.",
+      "me_visto te_vistes se_viste nos_vestimos os_vestís se_visten",
+      "me_vestí te_vestiste se_vistió nos_vestimos os_vestisteis se_vistieron",
+      "me_vestía te_vestías se_vestía nos_vestíamos os_vestíais se_vestían",
+      ("I get dressed quickly.", "I got dressed quickly.", "I used to get dressed quickly."),
+      ("Tengo que vestirme rápido.", "I have to get dressed quickly."),
+      ("vístete vístase vistámonos vístanse", "rápido.", "Get dressed quickly."))
+_verb("desayunar", "to have breakfast", "huevos.",
+      "desayuno desayunas desayuna desayunamos desayunáis desayunan",
+      "desayuné desayunaste desayunó desayunamos desayunasteis desayunaron",
+      "desayunaba desayunabas desayunaba desayunábamos desayunabais desayunaban",
+      ("I have eggs for breakfast.", "I had eggs for breakfast.", "I used to have eggs for breakfast."),
+      ("Quiero desayunar huevos.", "I want to have eggs for breakfast."),
+      ("desayuna desayune desayunemos desayunen", "algo.", "Have some breakfast."))
+_verb("volver", "to come back, to return", "a casa.",
+      "vuelvo vuelves vuelve volvemos volvéis vuelven",
+      "volví volviste volvió volvimos volvisteis volvieron",
+      "volvía volvías volvía volvíamos volvíais volvían",
+      ("I come back home.", "I came back home.", "I used to come back home."),
+      ("Quiero volver a casa.", "I want to come back home."),
+      ("vuelve vuelva volvamos vuelvan", "a casa.", "Come back home."))
+_verb("acostarse", "to go to bed", "tarde.",
+      "me_acuesto te_acuestas se_acuesta nos_acostamos os_acostáis se_acuestan",
+      "me_acosté te_acostaste se_acostó nos_acostamos os_acostasteis se_acostaron",
+      "me_acostaba te_acostabas se_acostaba nos_acostábamos os_acostabais se_acostaban",
+      ("I go to bed late.", "I went to bed late.", "I used to go to bed late."),
+      ("No quiero acostarme tarde.", "I don't want to go to bed late."),
+      ("acuéstate acuéstese acostémonos acuéstense", "temprano.", "Go to bed early."))
+
+# Food & eating out
+_verb("beber", "to drink", "agua.",
+      "bebo bebes bebe bebemos bebéis beben",
+      "bebí bebiste bebió bebimos bebisteis bebieron",
+      "bebía bebías bebía bebíamos bebíais bebían",
+      ("I drink water.", "I drank water.", "I used to drink water."),
+      ("Necesito beber agua.", "I need to drink water."),
+      ("bebe beba bebamos beban", "agua.", "Drink water."))
+_verb("cocinar", "to cook", "la cena.",
+      "cocino cocinas cocina cocinamos cocináis cocinan",
+      "cociné cocinaste cocinó cocinamos cocinasteis cocinaron",
+      "cocinaba cocinabas cocinaba cocinábamos cocinabais cocinaban",
+      ("I cook dinner.", "I cooked dinner.", "I used to cook dinner."),
+      ("Quiero cocinar la cena.", "I want to cook dinner."),
+      ("cocina cocine cocinemos cocinen", "la cena.", "Cook dinner."))
+_verb("pedir", "to ask for, to order", "un café.",
+      "pido pides pide pedimos pedís piden",
+      "pedí pediste pidió pedimos pedisteis pidieron",
+      "pedía pedías pedía pedíamos pedíais pedían",
+      ("I order a coffee.", "I ordered a coffee.", "I used to order a coffee."),
+      ("Voy a pedir un café.", "I'm going to order a coffee."),
+      ("pide pida pidamos pidan", "un café.", "Order a coffee."))
+_verb("pagar", "to pay", "la cuenta.",
+      "pago pagas paga pagamos pagáis pagan",
+      "pagué pagaste pagó pagamos pagasteis pagaron",
+      "pagaba pagabas pagaba pagábamos pagabais pagaban",
+      ("I pay the bill.", "I paid the bill.", "I used to pay the bill."),
+      ("Quiero pagar la cuenta.", "I want to pay the bill."),
+      ("paga pague paguemos paguen", "la cuenta.", "Pay the bill."))
+_verb("tomar", "to take, to have (a drink)", "un té.",
+      "tomo tomas toma tomamos tomáis toman",
+      "tomé tomaste tomó tomamos tomasteis tomaron",
+      "tomaba tomabas tomaba tomábamos tomabais tomaban",
+      ("I have a tea.", "I had a tea.", "I used to have a tea."),
+      ("Quiero tomar un té.", "I want to have a tea."),
+      ("toma tome tomemos tomen", "un té.", "Have a tea."))
+_verb("cenar", "to have dinner", "en un restaurante.",
+      "ceno cenas cena cenamos cenáis cenan",
+      "cené cenaste cenó cenamos cenasteis cenaron",
+      "cenaba cenabas cenaba cenábamos cenabais cenaban",
+      ("I have dinner at a restaurant.", "I had dinner at a restaurant.", "I used to have dinner at a restaurant."),
+      ("Quiero cenar en un restaurante.", "I want to have dinner at a restaurant."),
+      ("cena cene cenemos cenen", "en casa.", "Have dinner at home."))
+
+# Getting around
+_verb("llegar", "to arrive", "tarde.",
+      "llego llegas llega llegamos llegáis llegan",
+      "llegué llegaste llegó llegamos llegasteis llegaron",
+      "llegaba llegabas llegaba llegábamos llegabais llegaban",
+      ("I arrive late.", "I arrived late.", "I used to arrive late."),
+      ("No quiero llegar tarde.", "I don't want to arrive late."),
+      ("llega llegue lleguemos lleguen", "temprano.", "Arrive early."))
+_verb("salir", "to leave, to go out", "de casa.",
+      "salgo sales sale salimos salís salen",
+      "salí saliste salió salimos salisteis salieron",
+      "salía salías salía salíamos salíais salían",
+      ("I leave the house.", "I left the house.", "I used to leave the house."),
+      ("Tengo que salir de casa.", "I have to leave the house."),
+      ("sal salga salgamos salgan", "de casa.", "Leave the house."))
+_verb("viajar", "to travel", "a México.",
+      "viajo viajas viaja viajamos viajáis viajan",
+      "viajé viajaste viajó viajamos viajasteis viajaron",
+      "viajaba viajabas viajaba viajábamos viajabais viajaban",
+      ("I travel to Mexico.", "I traveled to Mexico.", "I used to travel to Mexico."),
+      ("Quiero viajar a México.", "I want to travel to Mexico."),
+      ("viaja viaje viajemos viajen", "a México.", "Travel to Mexico."))
+_verb("caminar", "to walk", "al parque.",
+      "camino caminas camina caminamos camináis caminan",
+      "caminé caminaste caminó caminamos caminasteis caminaron",
+      "caminaba caminabas caminaba caminábamos caminabais caminaban",
+      ("I walk to the park.", "I walked to the park.", "I used to walk to the park."),
+      ("Quiero caminar al parque.", "I want to walk to the park."),
+      ("camina camine caminemos caminen", "al parque.", "Walk to the park."))
+
+# Talking & listening
+_verb("preguntar", "to ask", "la hora.",
+      "pregunto preguntas pregunta preguntamos preguntáis preguntan",
+      "pregunté preguntaste preguntó preguntamos preguntasteis preguntaron",
+      "preguntaba preguntabas preguntaba preguntábamos preguntabais preguntaban",
+      ("I ask the time.", "I asked the time.", "I used to ask the time."),
+      ("Voy a preguntar la hora.", "I'm going to ask the time."),
+      ("pregunta pregunte preguntemos pregunten", "la hora.", "Ask the time."))
+_verb("contestar", "to answer", "el teléfono.",
+      "contesto contestas contesta contestamos contestáis contestan",
+      "contesté contestaste contestó contestamos contestasteis contestaron",
+      "contestaba contestabas contestaba contestábamos contestabais contestaban",
+      ("I answer the phone.", "I answered the phone.", "I used to answer the phone."),
+      ("Tengo que contestar el teléfono.", "I have to answer the phone."),
+      ("contesta conteste contestemos contesten", "el teléfono.", "Answer the phone."))
+_verb("llamar", "to call", "a mi madre.",
+      "llamo llamas llama llamamos llamáis llaman",
+      "llamé llamaste llamó llamamos llamasteis llamaron",
+      "llamaba llamabas llamaba llamábamos llamabais llamaban",
+      ("I call my mother.", "I called my mother.", "I used to call my mother."),
+      ("Voy a llamar a mi madre.", "I'm going to call my mother."),
+      ("llama llame llamemos llamen", "a mi madre.", "Call my mother."))
+_verb("escribir", "to write", "una carta.",
+      "escribo escribes escribe escribimos escribís escriben",
+      "escribí escribiste escribió escribimos escribisteis escribieron",
+      "escribía escribías escribía escribíamos escribíais escribían",
+      ("I write a letter.", "I wrote a letter.", "I used to write a letter."),
+      ("Quiero escribir una carta.", "I want to write a letter."),
+      ("escribe escriba escribamos escriban", "una carta.", "Write a letter."))
+_verb("leer", "to read", "un libro.",
+      "leo lees lee leemos leéis leen",
+      "leí leíste leyó leímos leísteis leyeron",
+      "leía leías leía leíamos leíais leían",
+      ("I read a book.", "I read a book yesterday.", "I used to read a book."),
+      ("Quiero leer un libro.", "I want to read a book."),
+      ("lee lea leamos lean", "un libro.", "Read a book."))
+_verb("escuchar", "to listen to", "música.",
+      "escucho escuchas escucha escuchamos escucháis escuchan",
+      "escuché escuchaste escuchó escuchamos escuchasteis escucharon",
+      "escuchaba escuchabas escuchaba escuchábamos escuchabais escuchaban",
+      ("I listen to music.", "I listened to music.", "I used to listen to music."),
+      ("Quiero escuchar música.", "I want to listen to music."),
+      ("escucha escuche escuchemos escuchen", "la canción.", "Listen to the song."))
+
+# Wants, needs & likes
+_verb("preferir", "to prefer", "el té.",
+      "prefiero prefieres prefiere preferimos preferís prefieren",
+      "preferí preferiste prefirió preferimos preferisteis prefirieron",
+      "prefería preferías prefería preferíamos preferíais preferían",
+      ("I prefer tea.", "I preferred tea.", "I used to prefer tea."),
+      ("Es normal preferir el té.", "It's normal to prefer tea."))
+_verb("esperar", "to wait (for), to hope", "el autobús.",
+      "espero esperas espera esperamos esperáis esperan",
+      "esperé esperaste esperó esperamos esperasteis esperaron",
+      "esperaba esperabas esperaba esperábamos esperabais esperaban",
+      ("I wait for the bus.", "I waited for the bus.", "I used to wait for the bus."),
+      ("Tengo que esperar el autobús.", "I have to wait for the bus."),
+      ("espera espere esperemos esperen", "aquí.", "Wait here."))
+_verb("encantar", "to love (a thing)", "la música.",
+      "encanta encanta encanta encanta encanta encanta",
+      "encantó encantó encantó encantó encantó encantó",
+      "encantaba encantaba encantaba encantaba encantaba encantaba",
+      ("I love music.", "I loved the music.", "I used to love music."),
+      ("Te va a encantar la música.", "You're going to love the music."),
+      subject=GUSTAR_SUBJECT)
+_verb("deber", "should, to owe", "estudiar más.",
+      "debo debes debe debemos debéis deben",
+      "debí debiste debió debimos debisteis debieron",
+      "debía debías debía debíamos debíais debían",
+      ("I should study more.", "I should have studied more.", "I was supposed to study more."),
+      ("No quiero deber dinero.", "I don't want to owe money."))
+
+# Thinking & knowing
+_verb("creer", "to believe", "la historia.",
+      "creo crees cree creemos creéis creen",
+      "creí creíste creyó creímos creísteis creyeron",
+      "creía creías creía creíamos creíais creían",
+      ("I believe the story.", "I believed the story.", "I used to believe the story."),
+      ("Es difícil creer la historia.", "It's hard to believe the story."))
+_verb("entender", "to understand", "la pregunta.",
+      "entiendo entiendes entiende entendemos entendéis entienden",
+      "entendí entendiste entendió entendimos entendisteis entendieron",
+      "entendía entendías entendía entendíamos entendíais entendían",
+      ("I understand the question.", "I understood the question.", "I used to understand the question."),
+      ("Quiero entender la pregunta.", "I want to understand the question."))
+_verb("recordar", "to remember", "su nombre.",
+      "recuerdo recuerdas recuerda recordamos recordáis recuerdan",
+      "recordé recordaste recordó recordamos recordasteis recordaron",
+      "recordaba recordabas recordaba recordábamos recordabais recordaban",
+      ("I remember her name.", "I remembered her name.", "I used to remember her name."),
+      ("Necesito recordar su nombre.", "I need to remember her name."),
+      ("recuerda recuerde recordemos recuerden", "su nombre.", "Remember her name."))
+_verb("aprender", "to learn", "español.",
+      "aprendo aprendes aprende aprendemos aprendéis aprenden",
+      "aprendí aprendiste aprendió aprendimos aprendisteis aprendieron",
+      "aprendía aprendías aprendía aprendíamos aprendíais aprendían",
+      ("I learn Spanish.", "I learned Spanish.", "I used to learn Spanish."),
+      ("Quiero aprender español.", "I want to learn Spanish."),
+      ("aprende aprenda aprendamos aprendan", "español.", "Learn Spanish."))
+_verb("olvidar", "to forget", "las llaves.",
+      "olvido olvidas olvida olvidamos olvidáis olvidan",
+      "olvidé olvidaste olvidó olvidamos olvidasteis olvidaron",
+      "olvidaba olvidabas olvidaba olvidábamos olvidabais olvidaban",
+      ("I forget the keys.", "I forgot the keys.", "I used to forget the keys."),
+      ("No quiero olvidar las llaves.", "I don't want to forget the keys."))
+
+# Home, work & life
+_verb("trabajar", "to work", "en una oficina.",
+      "trabajo trabajas trabaja trabajamos trabajáis trabajan",
+      "trabajé trabajaste trabajó trabajamos trabajasteis trabajaron",
+      "trabajaba trabajabas trabajaba trabajábamos trabajabais trabajaban",
+      ("I work in an office.", "I worked in an office.", "I used to work in an office."),
+      ("Quiero trabajar en una oficina.", "I want to work in an office."),
+      ("trabaja trabaje trabajemos trabajen", "mucho.", "Work hard."))
+_verb("estudiar", "to study", "por la noche.",
+      "estudio estudias estudia estudiamos estudiáis estudian",
+      "estudié estudiaste estudió estudiamos estudiasteis estudiaron",
+      "estudiaba estudiabas estudiaba estudiábamos estudiabais estudiaban",
+      ("I study at night.", "I studied at night.", "I used to study at night."),
+      ("Tengo que estudiar por la noche.", "I have to study at night."),
+      ("estudia estudie estudiemos estudien", "para el examen.", "Study for the exam."))
+_verb("dormir", "to sleep", "ocho horas.",
+      "duermo duermes duerme dormimos dormís duermen",
+      "dormí dormiste durmió dormimos dormisteis durmieron",
+      "dormía dormías dormía dormíamos dormíais dormían",
+      ("I sleep eight hours.", "I slept eight hours.", "I used to sleep eight hours."),
+      ("Necesito dormir ocho horas.", "I need to sleep eight hours."),
+      ("duerme duerma durmamos duerman", "ocho horas.", "Sleep eight hours."))
+_verb("limpiar", "to clean", "la casa.",
+      "limpio limpias limpia limpiamos limpiáis limpian",
+      "limpié limpiaste limpió limpiamos limpiasteis limpiaron",
+      "limpiaba limpiabas limpiaba limpiábamos limpiabais limpiaban",
+      ("I clean the house.", "I cleaned the house.", "I used to clean the house."),
+      ("Tengo que limpiar la casa.", "I have to clean the house."),
+      ("limpia limpie limpiemos limpien", "la casa.", "Clean the house."))
+_verb("comprar", "to buy", "comida.",
+      "compro compras compra compramos compráis compran",
+      "compré compraste compró compramos comprasteis compraron",
+      "compraba comprabas compraba comprábamos comprabais compraban",
+      ("I buy food.", "I bought food.", "I used to buy food."),
+      ("Voy a comprar comida.", "I'm going to buy food."),
+      ("compra compre compremos compren", "comida.", "Buy food."))
+_verb("ayudar", "to help", "a mi amigo.",
+      "ayudo ayudas ayuda ayudamos ayudáis ayudan",
+      "ayudé ayudaste ayudó ayudamos ayudasteis ayudaron",
+      "ayudaba ayudabas ayudaba ayudábamos ayudabais ayudaban",
+      ("I help my friend.", "I helped my friend.", "I used to help my friend."),
+      ("Quiero ayudar a mi amigo.", "I want to help my friend."),
+      ("ayuda ayude ayudemos ayuden", "a mi amigo.", "Help my friend."))
+
+# Collections shown in the app: id, title, description, verbs (a verb can be in several)
+COLLECTIONS = [
+    ("essentials", "The essentials", "The verbs everything else leans on",
+     ["ser", "estar", "tener", "hacer", "ir", "haber", "poder", "dar"]),
+    ("routine", "Daily routine", "Morning to night",
+     ["despertarse", "levantarse", "ducharse", "vestirse", "desayunar", "volver", "acostarse"]),
+    ("food", "Food & eating out", "Ordering, cooking, paying",
+     ["comer", "beber", "cocinar", "pedir", "pagar", "tomar", "cenar"]),
+    ("around", "Getting around", "Coming, going and traveling",
+     ["ir", "venir", "llegar", "salir", "viajar", "caminar", "volver"]),
+    ("talking", "Talking & listening", "Conversations, calls and reading",
+     ["hablar", "decir", "preguntar", "contestar", "llamar", "escribir", "leer", "escuchar"]),
+    ("wants", "Wants, needs & likes", "Saying what you want and like",
+     ["querer", "necesitar", "gustar", "preferir", "esperar", "encantar", "deber"]),
+    ("thinking", "Thinking & knowing", "Knowing, remembering, learning",
+     ["saber", "conocer", "pensar", "creer", "entender", "recordar", "aprender", "olvidar"]),
+    ("life", "Home, work & life", "Everyday life at home and work",
+     ["vivir", "ver", "trabajar", "estudiar", "dormir", "limpiar", "comprar", "ayudar"]),
+]
+
+
 class Speaker:
     def __init__(self):
         self.kokoro = None
@@ -310,7 +624,7 @@ def build(verb, spk):
         if tid not in v:
             continue
         forms, en = v[tid]
-        forms = forms.split()
+        forms = [f.replace("_", " ") for f in forms.split()]  # me_levanto -> me levanto
         assert len(forms) == 6, (verb, tid)
         t = {"id": tid, "label": label, "en": en, "en_clip": spk.clip(en, "en"), "forms": {}}
         for pid, es, _, slot in PRONOUNS:
@@ -335,8 +649,11 @@ def imperative(verb, label, spk):
 
 def write_index():
     built = {f.stem for f in OUT.glob("*.json") if f.stem in VERBS}
-    (OUT / "index.json").write_text(json.dumps(
-        [{"verb": k, "meaning": VERBS[k]["meaning"]} for k in VERBS if k in built], ensure_ascii=False, indent=2))
+    (OUT / "index.json").write_text(json.dumps({
+        "verbs": [{"verb": k, "meaning": VERBS[k]["meaning"]} for k in VERBS if k in built],
+        "collections": [{"id": cid, "title": title, "desc": desc, "verbs": [v for v in verbs if v in built]}
+                        for cid, title, desc, verbs in COLLECTIONS],
+    }, ensure_ascii=False, indent=2))
 
 
 def main():
