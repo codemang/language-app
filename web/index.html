@@ -120,12 +120,33 @@
     <ul id="verbs-list" class="mini-list"></ul>
     <div id="verb-drill" class="verb-drill" hidden>
       <div id="drill-groups" class="verb-drill"></div>
-      <label class="toggle"><input id="verb-english" type="checkbox" checked> Say the English</label>
-      <section class="sentence" aria-live="polite">
+      <div class="drill-toggles">
+        <label class="toggle"><input id="verb-english" type="checkbox" checked> Say the English</label>
+        <label class="toggle"><input id="verb-quiz" type="checkbox"> Quiz mode</label>
+      </div>
+      <section id="quiz" class="quiz" hidden>
+        <div class="sentence" aria-live="polite">
+          <p id="quiz-ctx" class="quiz-ctx">&nbsp;</p>
+          <p id="quiz-en" class="es">&nbsp;</p>
+          <p id="quiz-es" class="es quiz-es">&nbsp;</p>
+        </div>
+        <div class="controls">
+          <button id="quiz-prev" aria-label="Previous sentence">
+            <svg viewBox="0 0 24 24"><path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"/></svg>
+          </button>
+          <button id="quiz-next" class="play" aria-label="Next">
+            <svg viewBox="0 0 24 24"><path d="M4 11h12.2l-5.6-5.6L12 4l8 8-8 8-1.4-1.4 5.6-5.6H4z"/></svg>
+          </button>
+          <button id="quiz-replay" aria-label="Play again">
+            <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>
+          </button>
+        </div>
+      </section>
+      <section id="verb-sentence" class="sentence" aria-live="polite">
         <p id="verb-es" class="es">&nbsp;</p>
         <p id="verb-en" class="en">&nbsp;</p>
       </section>
-      <section class="controls">
+      <section id="verb-controls" class="controls">
         <button id="verb-restart" aria-label="Start over">
           <svg viewBox="0 0 24 24"><path d="M12 5V2L7 6l5 4V7a6 6 0 1 1-6 6H4a8 8 0 1 0 8-8z"/></svg>
         </button>

@@ -473,3 +473,11 @@ code { font-size: 14px; }
 .home-desc { font-size: 14px; color: var(--muted); line-height: 1.35; }
 .home-go { flex: none; width: 22px; height: 22px; fill: var(--muted); }
 #verbs-dl { align-items: center; text-align: center; }
+
+/* Quiz: English prompt, say it, then -> reveals and plays the Spanish */
+.drill-toggles { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.quiz { display: flex; flex-direction: column; gap: 18px; }
+.quiz[hidden] { display: none; }
+.quiz-ctx { font-size: 14px; color: var(--muted); }
+.quiz-es { color: var(--accent); }
+.quiz-es.waiting { color: var(--muted); font-size: 15px; font-weight: 400; }

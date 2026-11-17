@@ -31,7 +31,7 @@ function verbSel() {
   let s = {};
   try { s = JSON.parse(localStorage.getItem("verbSel")) || {}; } catch {}
   return { tenses: s.tenses || ["present"], pronouns: s.pronouns || ["yo", "tu", "el", "ella", "nosotros", "ellos", "ellas"],
-           english: s.english !== false };
+           english: s.english !== false, quiz: !!s.quiz };
 }
 function saveVerbSel(s) { try { localStorage.setItem("verbSel", JSON.stringify(s)); } catch {} }
 // Pronoun picks: {direct: [...], indirect: [...], both: [...]}. "Say the English"
@@ -331,6 +331,117 @@ function selectionChanged() {
     : V.kind === "pron" ? "Nothing to play. Pick at least one pronoun."
     : "Nothing to play. Pick a tense, and a pronoun it has (commands: Tú, Usted, Nosotros, Nosotras, Ustedes).";
   if (V.builtFor && V.builtFor !== selectionKey()) resetVerbAudio();
+  // Quiz restarts when the picks change (not when "Say the English" does)
+  if (verbSel().quiz) V.quiz.key !== quizKey() ? quizStart() : quizRender();
+}
+
+// ---------- Quiz mode
+// One sentence at a time: the English prompt shows (and is spoken, with "Say the
+// English" on), you say the Spanish out loud, -> reveals and plays the Spanish,
+// -> again moves to the next prompt. Same tenses / pronouns as the drill.
+
+V.quiz = { cards: [], i: 0, answer: false, key: "" };
+const quizKey = () => selectionKey().replace(/\|(true|false)$/, "");
+
+// [{ctx, en, en_clip, es, clip}]
+function quizCards() {
+  const cards = [];
+  if (V.kind === "pron") {
+    const sel = pronSel();
+    for (const set of V.data.sets) for (const it of set.items.filter((it) => sel[set.id].includes(it.id)))
+      cards.push({ ctx: set.title, en: it.en, en_clip: it.en_clip, es: it.es, clip: it.clip });
+    return cards;
+  }
+  const s = verbSel();
+  for (const t of V.data.tenses.filter((t) => s.tenses.includes(t.id))) {
+    if (t.single) {
+      cards.push({ ctx: t.label, en: t.en.replace(/^Infinitive: /, ""), en_clip: t.en_clip, es: t.single.es, clip: t.single.clip });
+      continue;
+    }
+    // The tense intro is the yo sentence; other pronouns get their cue ("She form."),
+    // with the intro shown above as the model sentence.
+    for (const p of V.data.pronouns.filter((p) => s.pronouns.includes(p.id) && t.forms[p.id])) {
+      const f = t.forms[p.id];
+      cards.push(p.id === "yo" ? { ctx: t.label, en: t.en.replace(/^[^:]*: /, ""), en_clip: t.en_clip, es: f.es, clip: f.clip }
+        : { ctx: `${t.label} · ${t.en.replace(/^[^:]*: /, "")}`, en: p.cue, en_clip: p.cue_clip, es: f.es, clip: f.clip });
+    }
+  }
+  return cards;
+}
+
+function quizStart() {
+  V.quiz = { cards: quizCards(), i: 0, answer: false, key: quizKey() };
+  quizRender();
+}
+
+function quizRender() {
+  const P = V.quiz, c = P.cards[P.i];
+  const es = V.el("quiz-es");
+  V.el("quiz-prev").disabled = P.i === 0;
+  V.el("quiz-next").disabled = !P.cards.length;
+  V.el("quiz-replay").disabled = !c;
+  if (!c) {  // past the last card (or nothing picked)
+    V.el("quiz-ctx").textContent = P.cards.length ? "Done" : " ";
+    V.el("quiz-en").textContent = P.cards.length ? "All done!" : " ";
+    es.textContent = P.cards.length ? "Tap → to start again" : " ";
+    es.classList.add("waiting");
+    V.el("verb-hint").textContent = P.cards.length ? `${P.cards.length} of ${P.cards.length}` : V.el("verb-hint").textContent;
+    return;
+  }
+  V.el("quiz-ctx").textContent = c.ctx;
+  V.el("quiz-en").textContent = c.en;
+  es.textContent = P.answer ? c.es : "Say it in Spanish, then tap →";
+  es.classList.toggle("waiting", !P.answer);
+  V.el("verb-hint").textContent = `${P.i + 1} of ${P.cards.length}`;
+}
+
+function quizSay(clip) {
+  const a = V.clipAudio || (V.clipAudio = new Audio());
+  a.src = `verbs/${clip}`;
+  a.playbackRate = Number(localStorage.getItem("speed")) || 1;
+  a.play().catch(() => {});
+}
+
+function quizPrompt() {  // show the current prompt, speaking it if "Say the English" is on
+  quizRender();
+  const c = V.quiz.cards[V.quiz.i];
+  if (c && verbSel().english) quizSay(c.en_clip);
+}
+
+function quizNext() {
+  const P = V.quiz;
+  if (!P.cards.length) return;
+  if (P.i >= P.cards.length) { P.i = 0; P.answer = false; quizPrompt(); return; }
+  if (!P.answer) {  // reveal
+    P.answer = true;
+    quizRender();
+    quizSay(P.cards[P.i].clip);
+    return;
+  }
+  P.i++; P.answer = false;
+  if (P.i >= P.cards.length) { if (V.clipAudio) V.clipAudio.pause(); quizRender(); return; }
+  quizPrompt();
+}
+
+function quizPrev() {
+  const P = V.quiz;
+  if (P.i === 0) return;
+  P.i--; P.answer = false;
+  quizPrompt();
+}
+
+function quizReplay() {
+  const c = V.quiz.cards[V.quiz.i];
+  if (c) quizSay(V.quiz.answer ? c.clip : c.en_clip);
+}
+
+function setQuiz(on) {
+  V.el("quiz").hidden = !on;
+  V.el("verb-sentence").hidden = on;
+  V.el("verb-controls").hidden = on;
+  V.el("verb-time").hidden = on;
+  if (on) { if (V.audio) V.audio.pause(); if (V.data) quizStart(); }
+  else { if (V.clipAudio) V.clipAudio.pause(); V.quiz.key = ""; if (V.data) selectionChanged(); }
 }
 
 function resetVerbAudio() {
@@ -441,10 +552,24 @@ function initVerbs() {
   try { saved = localStorage.getItem("verbRepeat") === "1"; } catch {}
   setRepeat(saved);
   rep.onclick = () => setRepeat(!V.audio.loop);
+  // Quiz
+  const quiz = V.el("verb-quiz");
+  quiz.checked = verbSel().quiz;
+  setQuiz(quiz.checked);
+  quiz.onchange = () => { const s = verbSel(); s.quiz = quiz.checked; saveVerbSel(s); setQuiz(quiz.checked); };
+  V.el("quiz-next").onclick = quizNext;
+  V.el("quiz-prev").onclick = quizPrev;
+  V.el("quiz-replay").onclick = quizReplay;
+  document.addEventListener("keydown", (e) => {
+    if (V.el("verb-drill").hidden || V.el("quiz").hidden || (e.target.closest && e.target.closest("input, textarea"))) return;
+    if (e.key === "ArrowRight") { e.preventDefault(); quizNext(); }
+    if (e.key === "ArrowLeft") { e.preventDefault(); quizPrev(); }
+  });
   V.el("verb-restart").onclick = () => { if (V.audio.src) { V.audio.currentTime = 0; V.audio.play(); } };
 }
 
 function leaveVerbs() {
   if (V.audio) V.audio.pause();
+  if (V.clipAudio) V.clipAudio.pause();
   V.token++;
 }
