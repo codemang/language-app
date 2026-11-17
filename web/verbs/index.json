@@ -199,6 +199,14 @@
     {
       "verb": "recordar",
       "meaning": "to remember"
+    },
+    {
+      "verb": "aprender",
+      "meaning": "to learn"
+    },
+    {
+      "verb": "olvidar",
+      "meaning": "to forget"
     }
   ],
   "collections": [
@@ -298,7 +306,9 @@
         "pensar",
         "creer",
         "entender",
-        "recordar"
+        "recordar",
+        "aprender",
+        "olvidar"
       ]
     },
     {

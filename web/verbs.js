@@ -26,16 +26,19 @@ const V = {
   kind: "verb",      // "verb" | "pron"
   data: null,        // {verbs: [verbs/<verb>.json...]} of the session, or verbs/pronouns.json
   title: "",         // session name for the lock screen
-  cues: [],          // [{start, end, es, en}] of the assembled drill
+  cues: [],          // [{start, end, es, en}] of the part that's loaded
   builtFor: "",      // selection the current audio was built from
   url: null,
-  buffers: new Map(),
+  seg: null,         // the drill in parts: {key, steps, parts: [[from, to]], i, offset, nextI, next}
+  repeat: false,
   ctx: null,
   token: 0,
 };
 const PAUSE_AFTER_CUE = 0.6;  // English cue -> its Spanish (s)
 const PAUSE_AFTER_ES = 1.8;   // after each Spanish sentence: time to repeat it (s)
 const PAUSE_TENSE = 1.0;      // extra pause before the next tense (s)
+const PART_STEPS = 30;        // clips per part: a long drill starts playing once its first part is ready
+const BUNDLE_OVER = 6;        // sessions with more verbs than this load verbs/all.json instead
 
 function verbSel() {
   let s = {};
@@ -80,6 +83,25 @@ async function showPronouns() {
   })));
 }
 
+// [verbs/<verb>.json] for these verbs. Many verbs: the one bundle (falls back
+// to one file each if the bundle is missing or older than the index).
+async function loadVerbData(verbs) {
+  if (verbs.length > BUNDLE_OVER) {
+    try {
+      const res = await fetch("verbs/all.json", { cache: "no-cache" });
+      if (res.ok) {
+        const all = new Map((await res.json()).verbs.map((v) => [v.verb, v]));
+        if (verbs.every((v) => all.has(v))) return verbs.map((v) => all.get(v));
+      }
+    } catch {}
+  }
+  return Promise.all(verbs.map(async (v) => {
+    const res = await fetch(`verbs/${encodeURIComponent(v)}.json`, { cache: "no-cache" });
+    if (!res.ok) throw new Error(v);
+    return res.json();
+  }));
+}
+
 // verbs/index.json: {verbs: [{verb, meaning}], collections: [{id, title, desc, verbs}]}
 // (an older copy saved offline may still be the plain verb list)
 function readIndex(idx) {
@@ -95,6 +117,7 @@ function showParts(part) {
   V.el("verb-drill").hidden = part !== "drill";
   V.el("verb-mode").hidden = part !== "col" && part !== "drill";
   V.el("verbs-error").hidden = true;
+  V.el("verbs-loading").hidden = true;
   renderVerbMode();
 }
 
@@ -131,8 +154,9 @@ async function showVerbs(arg) {
   } else if (m && !session) {
     showParts("col");
     V.el("verbs-back").href = "#/verbs";
-  } else {
+  } else {  // a session: say so while its verbs load
     showParts("none");
+    V.el("verbs-loading").hidden = false;
   }
   let idx;
   try { idx = await loadIndex(); }
@@ -181,12 +205,10 @@ async function showVerbs(arg) {
   if (V.kind !== "verb" || !V.data || V.data.verbs.map((v) => v.verb).join() !== verbs.join()) {
     resetVerbAudio();
     V.kind = "verb"; V.data = null;
+    V.el("verb-mode").hidden = false;  // the header and the switch show while it loads
+    V.el("verbs-loading").textContent = verbs.length > 1 ? `Loading ${count(verbs.length)}…` : "Loading…";
     try {
-      V.data = { verbs: await Promise.all(verbs.map(async (v) => {
-        const res = await fetch(`verbs/${encodeURIComponent(v)}.json`, { cache: "no-cache" });
-        if (!res.ok) throw new Error(v);
-        return res.json();
-      })) };
+      V.data = { verbs: await loadVerbData(verbs) };
     } catch { if (token === V.token) verbsError("Couldn't load the verbs. Are you online?"); return; }
     if (token !== V.token) return;
   }
@@ -287,7 +309,14 @@ async function downloadAllVerbs() {
     const index = await getJSON("index.json");
     index.data = readIndex(index.data).verbs;  // just the verb list; the file itself is saved as is
     const docs = [index, await getJSON("pronouns.json")];
-    for (const v of index.data) docs.push(await getJSON(`${encodeURIComponent(v.verb)}.json`));
+    // the bundle, and each verb's own file (taken from the bundle when it has it)
+    let bundle = null;
+    try { bundle = await getJSON("all.json"); docs.push(bundle); } catch {}
+    const inBundle = new Map(bundle ? bundle.data.verbs.map((v) => [v.verb, v]) : []);
+    for (const v of index.data) {
+      const path = `${encodeURIComponent(v.verb)}.json`, data = inBundle.get(v.verb);
+      docs.push(data ? { path, text: JSON.stringify(data), data } : await getJSON(path));
+    }
     const clips = new Set();
     for (const d of docs) clipPaths(d.data, clips);
     verbsDl.total = clips.size;
@@ -336,6 +365,7 @@ function renderVerbsDl(list) {
 }
 
 function verbsError(msg) {
+  V.el("verbs-loading").hidden = true;
   V.el("verbs-error").textContent = msg;
   V.el("verbs-error").hidden = false;
 }
@@ -588,26 +618,23 @@ function resetVerbAudio() {
   const a = V.audio;
   if (a) { a.pause(); a.removeAttribute("src"); a.load(); }
   if (V.url) URL.revokeObjectURL(V.url);
-  V.url = null; V.builtFor = ""; V.cues = [];
+  V.url = null; V.builtFor = ""; V.cues = []; V.seg = null;
   V.el("verb-play").classList.remove("playing");
-  V.el("verb-es").textContent = " ";
-  V.el("verb-en").textContent = " ";
+  V.el("verb-es").textContent = " ";
+  V.el("verb-en").textContent = " ";
   V.el("verb-time").textContent = "";
 }
 
-async function decodeClip(path) {
-  if (V.buffers.has(path)) return V.buffers.get(path);
-  const bytes = await (await fetch(`verbs/${path}`)).arrayBuffer();
-  const buf = await V.ctx.decodeAudioData(bytes);
-  V.buffers.set(path, buf);
-  return buf;
+async function decodeClip(path, memo) {
+  if (!memo.has(path)) memo.set(path, fetch(`verbs/${path}`).then((r) => r.arrayBuffer()).then((b) => V.ctx.decodeAudioData(b)));
+  return memo.get(path);
 }
 
-// Join the clips and pauses into one mono 16-bit WAV.
-async function buildDrill() {
+// Join these steps' clips and pauses into one mono 16-bit WAV.
+async function buildDrill(steps) {
   V.ctx = V.ctx || new (window.AudioContext || window.webkitAudioContext)();
-  const steps = drillSteps();
-  const bufs = await Promise.all(steps.map((s) => decodeClip(s.clip)));
+  const memo = new Map();  // per part: a whole long drill decoded at once would be hundreds of MB
+  const bufs = await Promise.all(steps.map((s) => decodeClip(s.clip, memo)));
   const sr = V.ctx.sampleRate;
   let n = 0;
   for (let i = 0; i < steps.length; i++) n += bufs[i].length + Math.round(steps[i].pause * sr);
@@ -630,6 +657,46 @@ async function buildDrill() {
   return { blob: new Blob([head, pcm], { type: "audio/wav" }), cues };
 }
 
+// Long drills play in parts of about PART_STEPS clips, each cut after a Spanish
+// sentence (in its pause), so playback starts as soon as the first part is
+// built and the next one builds while this one plays.
+function splitParts(steps) {
+  const parts = [];
+  let from = 0;
+  steps.forEach((s, i) => { if (i + 1 - from >= PART_STEPS && s.es) { parts.push([from, i + 1]); from = i + 1; } });
+  if (from < steps.length) parts.push([from, steps.length]);
+  return parts;
+}
+
+const buildPart = (seg, i) => buildDrill(seg.steps.slice(...seg.parts[i]));
+
+async function playPart(i, autoplay = true) {
+  const seg = V.seg, a = V.audio;
+  const built = (seg.nextI === i && (await seg.next)) || (await buildPart(seg, i));
+  if (V.seg !== seg || selectionKey() !== seg.key) return;  // changed while it built
+  if (V.url) URL.revokeObjectURL(V.url);
+  V.url = URL.createObjectURL(built.blob);
+  V.cues = built.cues;
+  V.builtFor = seg.key;
+  seg.i = i;
+  if (i === 0) seg.offset = 0;
+  a.src = V.url;
+  a.loop = V.repeat && seg.parts.length === 1;  // more parts: "ended" moves on, and wraps when repeating
+  a.playbackRate = Number(localStorage.getItem("speed")) || 1;
+  seg.nextI = i + 1;
+  seg.next = i + 1 < seg.parts.length ? buildPart(seg, i + 1).catch(() => null) : null;
+  if (autoplay) await a.play();
+}
+
+async function verbPartEnded() {
+  const seg = V.seg;
+  if (!seg || seg.parts.length < 2) return;
+  const last = seg.i === seg.parts.length - 1;
+  if (!last) seg.offset += V.audio.duration;
+  try { await playPart(last ? 0 : seg.i + 1, !last || V.repeat); }  // at the end: back to the start, paused
+  catch { verbsError("Couldn't prepare the audio. Are you online?"); }
+}
+
 async function verbPlay() {
   const a = V.audio;
   const key = selectionKey();
@@ -638,18 +705,13 @@ async function verbPlay() {
   btn.disabled = true;
   V.el("verb-hint").textContent = "Preparing…";
   try {
-    const { blob, cues } = await buildDrill();
-    if (selectionKey() !== key) return;  // changed while loading
     resetVerbAudio();
-    V.url = URL.createObjectURL(blob);
-    V.cues = cues;
-    V.builtFor = key;
-    a.src = V.url;
-    a.playbackRate = Number(localStorage.getItem("speed")) || 1;
+    const steps = drillSteps();
+    V.seg = { key, steps, parts: splitParts(steps), i: 0, offset: 0, nextI: -1, next: null };
     if ("mediaSession" in navigator) {
       navigator.mediaSession.metadata = new MediaMetadata({ title: V.title, artist: V.kind === "pron" ? "Pronouns" : "Verbs" });
     }
-    await a.play();
+    await playPart(0);
   } catch (e) {
     verbsError("Couldn't prepare the audio. Are you online?");
   } finally {
@@ -662,10 +724,13 @@ function verbTick() {
   const t = V.audio.currentTime;
   const c = V.cues.find((c) => t >= c.start && t < c.end) || V.cues[V.cues.length - 1];
   if (!c) return;
-  V.el("verb-es").textContent = c.es || " ";
-  V.el("verb-en").textContent = c.en || " ";
+  V.el("verb-es").textContent = c.es || " ";
+  V.el("verb-en").textContent = c.en || " ";
   const fmtT = (x) => `${Math.floor(x / 60)}:${String(Math.floor(x % 60)).padStart(2, "0")}`;
-  V.el("verb-time").textContent = `${fmtT(t)} / ${fmtT(V.audio.duration || 0)}`;
+  const seg = V.seg;
+  V.el("verb-time").textContent = seg && seg.parts.length > 1
+    ? `${fmtT(seg.offset + t)} · part ${seg.i + 1} of ${seg.parts.length}`
+    : `${fmtT(t)} / ${fmtT(V.audio.duration || 0)}`;
 }
 
 function initVerbs() {
@@ -673,6 +738,7 @@ function initVerbs() {
   V.el("verb-play").onclick = verbPlay;
   V.el("verbs-dl-btn").onclick = downloadAllVerbs;
   V.audio.addEventListener("timeupdate", verbTick);
+  V.audio.addEventListener("ended", verbPartEnded);
   V.audio.addEventListener("play", () => V.el("verb-play").classList.add("playing"));
   V.audio.addEventListener("pause", () => V.el("verb-play").classList.remove("playing"));
   // Say English: off = Spanish sentences only
@@ -682,14 +748,15 @@ function initVerbs() {
   // Repeat: loop the drill until it's turned off. Remembered between visits.
   const rep = V.el("verb-repeat");
   const setRepeat = (on) => {
-    V.audio.loop = on;
+    V.repeat = on;
+    V.audio.loop = on && (!V.seg || V.seg.parts.length === 1);
     rep.setAttribute("aria-pressed", on);
     try { localStorage.setItem("verbRepeat", on ? "1" : ""); } catch {}
   };
   let saved = false;
   try { saved = localStorage.getItem("verbRepeat") === "1"; } catch {}
   setRepeat(saved);
-  rep.onclick = () => setRepeat(!V.audio.loop);
+  rep.onclick = () => setRepeat(!V.repeat);
   V.el("drill-opts").onclick = () => V.el("opts-dialog").showModal();
   V.el("opts-dialog").addEventListener("click", (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });  // tap outside
   // Learn | Practice
@@ -704,7 +771,11 @@ function initVerbs() {
     if (e.key === "ArrowRight") { e.preventDefault(); quizNext(); }
     if (e.key === "ArrowLeft") { e.preventDefault(); quizPrev(); }
   });
-  V.el("verb-restart").onclick = () => { if (V.audio.src) { V.audio.currentTime = 0; V.audio.play(); } };
+  V.el("verb-restart").onclick = () => {
+    if (!V.audio.src) return;
+    if (V.seg && V.seg.i > 0) { V.audio.pause(); playPart(0).catch(() => {}); return; }
+    V.audio.currentTime = 0; V.audio.play();
+  };
 }
 
 function leaveVerbs() {

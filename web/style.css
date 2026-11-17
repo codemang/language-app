@@ -537,3 +537,4 @@ code { font-size: 14px; }
 .opts-edit { flex: none; color: var(--accent); font-weight: 600; font-size: 15px; }
 .opts-body { overflow-y: auto; flex: 1; padding: 14px 18px 16px; display: flex; flex-direction: column; gap: 18px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .opts .toggle { font-size: 15px; color: inherit; }
+.verbs-loading { text-align: center; margin: 32px 0; }

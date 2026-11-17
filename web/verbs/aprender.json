@@ -1,0 +1,250 @@
+{
+  "verb": "aprender",
+  "meaning": "to learn",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to learn Spanish.",
+      "en_clip": "clips/a4151b5d6aeca52b.mp3",
+      "single": {
+        "es": "Quiero aprender español.",
+        "clip": "clips/92d44da2b5295e6b.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I learn Spanish.",
+      "en_clip": "clips/66fa0a5c55ad64d2.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo aprendo español.",
+          "clip": "clips/96602a29558d2355.mp3"
+        },
+        "tu": {
+          "es": "Tú aprendes español.",
+          "clip": "clips/d7697ac3117191cd.mp3"
+        },
+        "usted": {
+          "es": "Usted aprende español.",
+          "clip": "clips/ecbc13d4cc0e700a.mp3"
+        },
+        "el": {
+          "es": "Él aprende español.",
+          "clip": "clips/3622b2c207083087.mp3"
+        },
+        "ella": {
+          "es": "Ella aprende español.",
+          "clip": "clips/34b8f4ea1221708f.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros aprendemos español.",
+          "clip": "clips/69e9db8991968e8c.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras aprendemos español.",
+          "clip": "clips/14bf609ecf97de09.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes aprenden español.",
+          "clip": "clips/d7d94f90dcff6751.mp3"
+        },
+        "ellos": {
+          "es": "Ellos aprenden español.",
+          "clip": "clips/80b43ebb771179b3.mp3"
+        },
+        "ellas": {
+          "es": "Ellas aprenden español.",
+          "clip": "clips/08c0816fc3c6f4e4.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I learned Spanish.",
+      "en_clip": "clips/98a6f2962ba3caa2.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo aprendí español.",
+          "clip": "clips/e6676c4cf8fbd14e.mp3"
+        },
+        "tu": {
+          "es": "Tú aprendiste español.",
+          "clip": "clips/98f0d6e6ab62921e.mp3"
+        },
+        "usted": {
+          "es": "Usted aprendió español.",
+          "clip": "clips/a51f2f042b48888f.mp3"
+        },
+        "el": {
+          "es": "Él aprendió español.",
+          "clip": "clips/63ef163e1f2ad24d.mp3"
+        },
+        "ella": {
+          "es": "Ella aprendió español.",
+          "clip": "clips/0cac545b5318ac1c.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros aprendimos español.",
+          "clip": "clips/2855dad5c15cc276.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras aprendimos español.",
+          "clip": "clips/3ff9cc2ce790bfd9.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes aprendieron español.",
+          "clip": "clips/275dc09cde246768.mp3"
+        },
+        "ellos": {
+          "es": "Ellos aprendieron español.",
+          "clip": "clips/c80666033fe01333.mp3"
+        },
+        "ellas": {
+          "es": "Ellas aprendieron español.",
+          "clip": "clips/95adf8a2b2caffb9.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to learn Spanish.",
+      "en_clip": "clips/61173c75b4db5e9f.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo aprendía español.",
+          "clip": "clips/1b14783f353bee67.mp3"
+        },
+        "tu": {
+          "es": "Tú aprendías español.",
+          "clip": "clips/f084503948bbfebd.mp3"
+        },
+        "usted": {
+          "es": "Usted aprendía español.",
+          "clip": "clips/d89e074d009c5edd.mp3"
+        },
+        "el": {
+          "es": "Él aprendía español.",
+          "clip": "clips/cfb124b9a404e14d.mp3"
+        },
+        "ella": {
+          "es": "Ella aprendía español.",
+          "clip": "clips/2e4312196e9c7806.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros aprendíamos español.",
+          "clip": "clips/a589c407d1c1416d.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras aprendíamos español.",
+          "clip": "clips/29b2b89280d54b7b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes aprendían español.",
+          "clip": "clips/523b0550abbacce8.mp3"
+        },
+        "ellos": {
+          "es": "Ellos aprendían español.",
+          "clip": "clips/3b56e5e30e9a3953.mp3"
+        },
+        "ellas": {
+          "es": "Ellas aprendían español.",
+          "clip": "clips/b51421ffac0e4732.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Learn Spanish.",
+      "en_clip": "clips/2f17cd7f29cf3e98.mp3",
+      "forms": {
+        "tu": {
+          "es": "Aprende español.",
+          "clip": "clips/b2c9c2fc4f717cea.mp3"
+        },
+        "usted": {
+          "es": "Aprenda español.",
+          "clip": "clips/ce320afc6d236f9b.mp3"
+        },
+        "nosotros": {
+          "es": "Aprendamos español.",
+          "clip": "clips/d5e7a572af095217.mp3"
+        },
+        "nosotras": {
+          "es": "Aprendamos español.",
+          "clip": "clips/d5e7a572af095217.mp3"
+        },
+        "ustedes": {
+          "es": "Aprendan español.",
+          "clip": "clips/dbe5bc5033019ec9.mp3"
+        }
+      }
+    }
+  ]
+}

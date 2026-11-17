@@ -654,6 +654,10 @@ def write_index():
         "collections": [{"id": cid, "title": title, "desc": desc, "verbs": [v for v in verbs if v in built]}
                         for cid, title, desc, verbs in COLLECTIONS],
     }, ensure_ascii=False, indent=2))
+    # Every verb in one file, so a session with many verbs is one request, not one each
+    (OUT / "all.json").write_text(json.dumps(
+        {"verbs": [json.loads((OUT / f"{k}.json").read_text()) for k in VERBS if k in built]},
+        ensure_ascii=False, separators=(",", ":")))
 
 
 def main():

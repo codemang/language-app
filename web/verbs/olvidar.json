@@ -1,0 +1,222 @@
+{
+  "verb": "olvidar",
+  "meaning": "to forget",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I don't want to forget the keys.",
+      "en_clip": "clips/5c547ebbb41446a5.mp3",
+      "single": {
+        "es": "No quiero olvidar las llaves.",
+        "clip": "clips/9b976c8cd9fcd943.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I forget the keys.",
+      "en_clip": "clips/eabad1918532e49c.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo olvido las llaves.",
+          "clip": "clips/5e39d0ca09b3bdaf.mp3"
+        },
+        "tu": {
+          "es": "Tú olvidas las llaves.",
+          "clip": "clips/64c702d5e88ba12d.mp3"
+        },
+        "usted": {
+          "es": "Usted olvida las llaves.",
+          "clip": "clips/169ca7b965e6923e.mp3"
+        },
+        "el": {
+          "es": "Él olvida las llaves.",
+          "clip": "clips/0451d6b029db1307.mp3"
+        },
+        "ella": {
+          "es": "Ella olvida las llaves.",
+          "clip": "clips/3e00ffb7e33cd7e5.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros olvidamos las llaves.",
+          "clip": "clips/b9f4a06c42ee1407.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras olvidamos las llaves.",
+          "clip": "clips/e28c923c97be3f2b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes olvidan las llaves.",
+          "clip": "clips/ef33ebaf3f9537dd.mp3"
+        },
+        "ellos": {
+          "es": "Ellos olvidan las llaves.",
+          "clip": "clips/9937243b21968a79.mp3"
+        },
+        "ellas": {
+          "es": "Ellas olvidan las llaves.",
+          "clip": "clips/33756289e3a7e913.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I forgot the keys.",
+      "en_clip": "clips/e961994db8afea70.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo olvidé las llaves.",
+          "clip": "clips/aa7eee1813ec8ebe.mp3"
+        },
+        "tu": {
+          "es": "Tú olvidaste las llaves.",
+          "clip": "clips/0a912969d6364c96.mp3"
+        },
+        "usted": {
+          "es": "Usted olvidó las llaves.",
+          "clip": "clips/82c3b8a301b6cfc2.mp3"
+        },
+        "el": {
+          "es": "Él olvidó las llaves.",
+          "clip": "clips/6eb45b5a860e49a6.mp3"
+        },
+        "ella": {
+          "es": "Ella olvidó las llaves.",
+          "clip": "clips/9b2c4ef9bca60f62.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros olvidamos las llaves.",
+          "clip": "clips/b9f4a06c42ee1407.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras olvidamos las llaves.",
+          "clip": "clips/e28c923c97be3f2b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes olvidaron las llaves.",
+          "clip": "clips/8d8b75d36cf4bbf2.mp3"
+        },
+        "ellos": {
+          "es": "Ellos olvidaron las llaves.",
+          "clip": "clips/eff8dabe1ec4566a.mp3"
+        },
+        "ellas": {
+          "es": "Ellas olvidaron las llaves.",
+          "clip": "clips/31fe409eb96b7c26.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to forget the keys.",
+      "en_clip": "clips/f56fa04f97674219.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo olvidaba las llaves.",
+          "clip": "clips/2f7b97c28cc05b63.mp3"
+        },
+        "tu": {
+          "es": "Tú olvidabas las llaves.",
+          "clip": "clips/7b1d4b09206a21fa.mp3"
+        },
+        "usted": {
+          "es": "Usted olvidaba las llaves.",
+          "clip": "clips/4aa3e56415817820.mp3"
+        },
+        "el": {
+          "es": "Él olvidaba las llaves.",
+          "clip": "clips/db72ebad5740b617.mp3"
+        },
+        "ella": {
+          "es": "Ella olvidaba las llaves.",
+          "clip": "clips/49352889ff65bd2d.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros olvidábamos las llaves.",
+          "clip": "clips/fcb868692929e234.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras olvidábamos las llaves.",
+          "clip": "clips/0d9f59e75205a60f.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes olvidaban las llaves.",
+          "clip": "clips/1b24862c6e447f5f.mp3"
+        },
+        "ellos": {
+          "es": "Ellos olvidaban las llaves.",
+          "clip": "clips/6eb1efa0218786e6.mp3"
+        },
+        "ellas": {
+          "es": "Ellas olvidaban las llaves.",
+          "clip": "clips/16eae9cb0fcc3f2d.mp3"
+        }
+      }
+    }
+  ]
+}
