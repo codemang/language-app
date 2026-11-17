@@ -48,6 +48,7 @@ async function showPronouns() {
   V.el("verbs-list").hidden = true;
   V.el("verb-drill").hidden = false;
   V.el("verbs-error").hidden = true;
+  V.el("verbs-dl").hidden = true;
   V.el("verbs-heading").textContent = "Pronouns";
   V.el("verbs-sub").textContent = "Direct and indirect object pronouns";
   if (V.kind !== "pron" || !V.data) {
@@ -75,7 +76,9 @@ async function showVerbs(verb) {
   V.el("verbs-list").hidden = !!verb;
   V.el("verb-drill").hidden = !verb;
   V.el("verbs-error").hidden = true;
+  V.el("verbs-dl").hidden = !!verb;
   if (!verb) {
+    renderVerbsDl();
     V.el("verbs-heading").textContent = "Verbs";
     V.el("verbs-sub").textContent = "Pick a verb to drill";
     try {
@@ -90,6 +93,7 @@ async function showVerbs(verb) {
         li.querySelector(".d").textContent = v.meaning;
         ul.append(li);
       }
+      renderVerbsDl(list);
     } catch { verbsError("Couldn't load the verbs. Are you online?"); }
     return;
   }
@@ -104,6 +108,94 @@ async function showVerbs(verb) {
   }
   V.el("verbs-sub").textContent = V.data.meaning;
   renderVerbChoices();
+}
+
+// ---------- download all (verb data, pronouns and every clip) for offline use
+// Kept in their own cache, which app updates never clear; sw.js serves clips from
+// it first (they're named by a hash of their content, so they never change).
+// Tapping again refetches the lists and only downloads clips not saved yet.
+
+const VERBS_CACHE = "escucha-verbs";
+let verbsDl = null;     // {done, total} while downloading
+let verbsDlError = "";
+
+function verbsSaved() {
+  try { return JSON.parse(localStorage.getItem("verbsSaved")) || null; } catch { return null; }
+}
+
+function clipPaths(obj, out = new Set()) {
+  if (typeof obj === "string") { if (/^clips\/[^/]+\.mp3$/.test(obj)) out.add(obj); }
+  else if (obj && typeof obj === "object") for (const v of Object.values(obj)) clipPaths(v, out);
+  return out;
+}
+
+async function downloadAllVerbs() {
+  if (verbsDl || !("caches" in window)) return;
+  verbsDl = { done: 0, total: 0 };
+  verbsDlError = "";
+  renderVerbsDl();
+  try {
+    if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
+    const cache = await caches.open(VERBS_CACHE);
+    const url = (path) => new URL(`verbs/${path}`, location.href).href;
+    // ?dl= makes sw.js go straight to the network (no stale cached copy)
+    const get = async (path) => {
+      const res = await fetch(`${url(path)}?dl=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`${path}: ${res.status}`);
+      return res;
+    };
+    const getJSON = async (path) => {
+      const text = await (await get(path)).text();
+      return { path, text, data: JSON.parse(text) };
+    };
+    const index = await getJSON("index.json");
+    const docs = [index, await getJSON("pronouns.json")];
+    for (const v of index.data) docs.push(await getJSON(`${encodeURIComponent(v.verb)}.json`));
+    const clips = new Set();
+    for (const d of docs) clipPaths(d.data, clips);
+    verbsDl.total = clips.size;
+    renderVerbsDl();
+    const todo = [...clips];
+    const worker = async () => {
+      while (todo.length) {
+        const path = todo.pop();
+        if (!(await cache.match(url(path)))) {
+          const blob = await (await get(path)).blob();
+          await cache.put(url(path), new Response(blob, { headers: { "Content-Type": "audio/mpeg" } }));
+        }
+        verbsDl.done++;
+        renderVerbsDl();
+      }
+    };
+    await Promise.all(Array.from({ length: 6 }, worker));
+    // the lists last, so they never point at clips that aren't saved
+    for (const d of docs) await cache.put(url(d.path), new Response(d.text, { headers: { "Content-Type": "application/json" } }));
+    try { localStorage.setItem("verbsSaved", JSON.stringify({ verbs: index.data.map((v) => v.verb), at: Date.now() })); } catch {}
+  } catch (e) {
+    verbsDlError = /quota/i.test(String(e)) ? "Not enough space on this device." : "Download stopped. Tap again when online to finish.";
+  } finally {
+    verbsDl = null;
+    renderVerbsDl();
+  }
+}
+
+let verbsListed = null;  // verbs shown in the list, to spot new ones
+function renderVerbsDl(list) {
+  if (list) verbsListed = list;
+  const btn = V.el("verbs-dl-btn"), label = V.el("verbs-dl-label"), note = V.el("verbs-dl-note");
+  const saved = verbsSaved();
+  btn.disabled = !!verbsDl || !("caches" in window);
+  btn.classList.toggle("done", !!saved && !verbsDl);
+  label.textContent = verbsDl ? (verbsDl.total ? `Downloading… ${verbsDl.done} of ${verbsDl.total}` : "Downloading…")
+    : saved ? "Downloaded · Check for new" : "Download all for offline";
+  let text = verbsDlError;
+  if (!text && saved && !verbsDl) {
+    const fresh = (verbsListed || []).filter((v) => !saved.verbs.includes(v.verb)).length;
+    text = fresh ? `${fresh} new verb${fresh > 1 ? "s" : ""} since your last download. Tap to get ${fresh > 1 ? "them" : "it"}.`
+      : `${saved.verbs.length} verbs and the pronouns are on this device.`;
+  }
+  note.textContent = text;
+  note.hidden = !text;
 }
 
 function verbsError(msg) {
@@ -303,6 +395,7 @@ function verbTick() {
 function initVerbs() {
   V.audio = V.el("verb-audio");
   V.el("verb-play").onclick = verbPlay;
+  V.el("verbs-dl-btn").onclick = downloadAllVerbs;
   V.audio.addEventListener("timeupdate", verbTick);
   V.audio.addEventListener("play", () => V.el("verb-play").classList.add("playing"));
   V.audio.addEventListener("pause", () => V.el("verb-play").classList.remove("playing"));

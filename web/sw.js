@@ -6,8 +6,9 @@
 // timings stay a matching set. Audio is fetched with Range requests (iOS insists
 // on 206 responses for media), so ranges are cut from the cached file here.
 // Lessons that aren't downloaded come straight from the network.
-const CACHE = "escucha-v27";
+const CACHE = "escucha-v28";
 const OFFLINE = "escucha-offline";
+const VERBS = "escucha-verbs";    // verb drills saved with "Download all" (verbs.js)
 const NET_WAIT = 3000;  // ms: longer than this, a cached copy is used instead
 const SHELL = ["./", "index.html", "style.css", "app.js", "verbs.js", "manifest.webmanifest",
                "icons/icon-192.png", "icons/icon-512.png"];
@@ -18,7 +19,7 @@ self.addEventListener("install", (e) => {
 
 self.addEventListener("activate", (e) => {
   e.waitUntil(caches.keys()
-    .then((keys) => Promise.all(keys.filter((k) => k !== CACHE && k !== OFFLINE).map((k) => caches.delete(k))))
+    .then((keys) => Promise.all(keys.filter((k) => k !== CACHE && k !== OFFLINE && k !== VERBS).map((k) => caches.delete(k))))
     .then(() => self.clients.claim()));
 });
 
@@ -52,6 +53,12 @@ self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET" || url.origin !== location.origin || url.pathname.includes("/api/")) return;
   if (url.pathname.includes("/lessons/")) {
     e.respondWith(fromOffline(e.request));
+    return;
+  }
+  if (url.searchParams.has("dl")) return;  // a download: always the network
+  // Verb clips are named by a hash of their content, so a saved copy is never stale.
+  if (url.pathname.includes("/verbs/clips/")) {
+    e.respondWith(caches.match(e.request, { ignoreSearch: true }).then((hit) => hit || fetch(e.request)));
     return;
   }
   // App shell, video list, thumbnails, verb data: network first so updates show
