@@ -1,0 +1,222 @@
+{
+  "verb": "encantar",
+  "meaning": "to love (a thing)",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: You're going to love the music.",
+      "en_clip": "clips/ca92be5c7561bedc.mp3",
+      "single": {
+        "es": "Te va a encantar la música.",
+        "clip": "clips/17f78fa7c3ed529b.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I love music.",
+      "en_clip": "clips/12f8e0a347c659a9.mp3",
+      "forms": {
+        "yo": {
+          "es": "A mí me encanta la música.",
+          "clip": "clips/4688a541ed3fa849.mp3"
+        },
+        "tu": {
+          "es": "A ti te encanta la música.",
+          "clip": "clips/cea8007e2293f820.mp3"
+        },
+        "usted": {
+          "es": "A usted le encanta la música.",
+          "clip": "clips/3c8db584b31fc76e.mp3"
+        },
+        "el": {
+          "es": "A él le encanta la música.",
+          "clip": "clips/333e9422ceadacd2.mp3"
+        },
+        "ella": {
+          "es": "A ella le encanta la música.",
+          "clip": "clips/9326f14086ee033c.mp3"
+        },
+        "nosotros": {
+          "es": "A nosotros nos encanta la música.",
+          "clip": "clips/be8ab92091d6e3d4.mp3"
+        },
+        "nosotras": {
+          "es": "A nosotras nos encanta la música.",
+          "clip": "clips/63c34e8d46fccb94.mp3"
+        },
+        "ustedes": {
+          "es": "A ustedes les encanta la música.",
+          "clip": "clips/59017ffae6d0e01f.mp3"
+        },
+        "ellos": {
+          "es": "A ellos les encanta la música.",
+          "clip": "clips/15e8874bab2bdf30.mp3"
+        },
+        "ellas": {
+          "es": "A ellas les encanta la música.",
+          "clip": "clips/f16d3d05008c815e.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I loved the music.",
+      "en_clip": "clips/10d6e9fbe8ffbd59.mp3",
+      "forms": {
+        "yo": {
+          "es": "A mí me encantó la música.",
+          "clip": "clips/1f5f41fb171b1a6a.mp3"
+        },
+        "tu": {
+          "es": "A ti te encantó la música.",
+          "clip": "clips/936f5b3ee3b6888b.mp3"
+        },
+        "usted": {
+          "es": "A usted le encantó la música.",
+          "clip": "clips/efafc590f66121b9.mp3"
+        },
+        "el": {
+          "es": "A él le encantó la música.",
+          "clip": "clips/78c69014175b6817.mp3"
+        },
+        "ella": {
+          "es": "A ella le encantó la música.",
+          "clip": "clips/199feb396f457144.mp3"
+        },
+        "nosotros": {
+          "es": "A nosotros nos encantó la música.",
+          "clip": "clips/717206112e54f55a.mp3"
+        },
+        "nosotras": {
+          "es": "A nosotras nos encantó la música.",
+          "clip": "clips/b009fe168aaa65a5.mp3"
+        },
+        "ustedes": {
+          "es": "A ustedes les encantó la música.",
+          "clip": "clips/910a3bcf4d692c4a.mp3"
+        },
+        "ellos": {
+          "es": "A ellos les encantó la música.",
+          "clip": "clips/9045d797af01c87f.mp3"
+        },
+        "ellas": {
+          "es": "A ellas les encantó la música.",
+          "clip": "clips/78860f4bddbc5e0e.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to love music.",
+      "en_clip": "clips/bd351060a53e6670.mp3",
+      "forms": {
+        "yo": {
+          "es": "A mí me encantaba la música.",
+          "clip": "clips/c86a7e617366f770.mp3"
+        },
+        "tu": {
+          "es": "A ti te encantaba la música.",
+          "clip": "clips/b33f50fa06aa1b96.mp3"
+        },
+        "usted": {
+          "es": "A usted le encantaba la música.",
+          "clip": "clips/b410d487d3d1f275.mp3"
+        },
+        "el": {
+          "es": "A él le encantaba la música.",
+          "clip": "clips/5504c7ff23e6d539.mp3"
+        },
+        "ella": {
+          "es": "A ella le encantaba la música.",
+          "clip": "clips/2672cfe31cbf800c.mp3"
+        },
+        "nosotros": {
+          "es": "A nosotros nos encantaba la música.",
+          "clip": "clips/78152ab55460ebdb.mp3"
+        },
+        "nosotras": {
+          "es": "A nosotras nos encantaba la música.",
+          "clip": "clips/287e0f9b073bf303.mp3"
+        },
+        "ustedes": {
+          "es": "A ustedes les encantaba la música.",
+          "clip": "clips/9d463e2d13c0a872.mp3"
+        },
+        "ellos": {
+          "es": "A ellos les encantaba la música.",
+          "clip": "clips/6fcdaabe2d8b25e2.mp3"
+        },
+        "ellas": {
+          "es": "A ellas les encantaba la música.",
+          "clip": "clips/13aff2f938e1a1e7.mp3"
+        }
+      }
+    }
+  ]
+}

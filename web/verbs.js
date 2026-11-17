@@ -1,5 +1,14 @@
-// Verb drills — #/verbs (list) and #/verbs/<verb> (drill) — and object-pronoun
-// drills — #/pronouns — on the same screen.
+// Verb drills and object-pronoun drills, on the same screen.
+//
+//   #/verbs                 the collections
+//   #/verbs/c/<id>          one collection: Learn | Practice, All verbs / Choose my own
+//   #/verbs/c/<id>/all      a session with every verb of the collection
+//   #/verbs/c/<id>/pick     a session with the verbs picked in the popup
+//   #/verbs/<verb>          a session with one verb
+//   #/pronouns              the pronoun drill
+//
+// Learn plays the drill as audio; Practice (quiz) shows each English prompt and
+// waits for you to say the Spanish before revealing it.
 //
 // Pronouns (pronouns.py -> verbs/pronouns.json): pick items in three sets
 // (direct, indirect, both); each plays its English sentence, then the Spanish.
@@ -15,7 +24,8 @@ const V = {
   el: (id) => document.getElementById(id),
   audio: null,
   kind: "verb",      // "verb" | "pron"
-  data: null,        // verbs/<verb>.json of the open verb, or verbs/pronouns.json
+  data: null,        // {verbs: [verbs/<verb>.json...]} of the session, or verbs/pronouns.json
+  title: "",         // session name for the lock screen
   cues: [],          // [{start, end, es, en}] of the assembled drill
   builtFor: "",      // selection the current audio was built from
   url: null,
@@ -31,7 +41,7 @@ function verbSel() {
   let s = {};
   try { s = JSON.parse(localStorage.getItem("verbSel")) || {}; } catch {}
   return { tenses: s.tenses || ["present"], pronouns: s.pronouns || ["yo", "tu", "el", "ella", "nosotros", "ellos", "ellas"],
-           english: s.english !== false, quiz: !!s.quiz };
+           english: s.english !== false, quiz: !!s.quiz };  // quiz: Practice mode
 }
 function saveVerbSel(s) { try { localStorage.setItem("verbSel", JSON.stringify(s)); } catch {} }
 // Pronoun picks: {direct: [...], indirect: [...], both: [...]}. "Say the English"
@@ -45,10 +55,9 @@ function savePronSel(s) { try { localStorage.setItem("pronSel", JSON.stringify(s
 
 async function showPronouns() {
   const token = ++V.token;
-  V.el("verbs-list").hidden = true;
-  V.el("verb-drill").hidden = false;
-  V.el("verbs-error").hidden = true;
-  V.el("verbs-dl").hidden = true;
+  showParts("drill");
+  V.el("verbs-back").href = "#/";
+  V.title = "Object pronouns";
   V.el("verbs-heading").textContent = "Pronouns";
   V.el("verbs-sub").textContent = "Direct and indirect object pronouns";
   if (V.kind !== "pron" || !V.data) {
@@ -77,63 +86,164 @@ function readIndex(idx) {
   return Array.isArray(idx) ? { verbs: idx, collections: [] } : idx;
 }
 
-// #/verbs: the collections · #/verbs/c/<id>: one collection (c/all: every verb)
-// · #/verbs/<verb>: the drill
+// Which parts of the screen show: "top" (collections), "col" (one collection),
+// "drill" (a session or the pronouns), "none" (still loading / error)
+function showParts(part) {
+  V.el("verbs-list").hidden = part !== "top";
+  V.el("verbs-dl").hidden = part !== "top";
+  V.el("col-page").hidden = part !== "col";
+  V.el("verb-drill").hidden = part !== "drill";
+  V.el("verb-mode").hidden = part !== "col" && part !== "drill";
+  V.el("verbs-error").hidden = true;
+  renderVerbMode();
+}
+
+async function loadIndex() {
+  V.index = readIndex(await (await fetch("verbs/index.json", { cache: "no-cache" })).json());
+  return V.index;
+}
+
+function collection(idx, id) {
+  if (id === "all") return { id, title: "All verbs", desc: "Every verb in the app", verbs: idx.verbs.map((v) => v.verb) };
+  return idx.collections.find((x) => x.id === id);
+}
+
+const count = (n) => `${n} verb${n === 1 ? "" : "s"}`;
+
+function pickedVerbs(c) {
+  let saved = null;
+  try { saved = JSON.parse(localStorage.getItem(`verbPick:${c.id}`)); } catch {}
+  const picked = Array.isArray(saved) ? c.verbs.filter((v) => saved.includes(v)) : [];
+  return picked.length ? picked : c.verbs;
+}
+
 async function showVerbs(arg) {
   const token = ++V.token;
-  const col = arg && arg.startsWith("c/") ? arg.slice(2) : null;
-  const verb = col ? null : arg;
-  V.el("verbs-list").hidden = !!verb;
-  V.el("verb-drill").hidden = !verb;
-  V.el("verbs-error").hidden = true;
-  V.el("verbs-dl").hidden = !!arg;
-  if (!verb) {
-    if (!col) renderVerbsDl();
-    V.el("verbs-back").href = col ? "#/verbs" : "#/";
-    V.lastList = col ? `#/verbs/${arg}` : "#/verbs";
-    V.el("verbs-heading").textContent = "Verbs";
-    V.el("verbs-sub").textContent = col ? " " : "Pick a collection";
-    try {
-      const idx = readIndex(await (await fetch("verbs/index.json", { cache: "no-cache" })).json());
-      if (token !== V.token) return;
-      const ul = V.el("verbs-list");
-      ul.innerHTML = "";
-      const item = (href, title, detail) => {
-        const li = document.createElement("li");
-        li.innerHTML = `<a href="${href}"><span class="t"></span><span class="d"></span></a>`;
-        li.querySelector(".t").textContent = title;
-        li.querySelector(".d").textContent = detail;
-        ul.append(li);
-      };
-      const count = (n) => `${n} verb${n === 1 ? "" : "s"}`;
-      if (!col) {
-        for (const c of idx.collections.filter((c) => c.verbs.length)) item(`#/verbs/c/${c.id}`, c.title, count(c.verbs.length));
-        item("#/verbs/c/all", "All verbs", count(idx.verbs.length));
-        renderVerbsDl(idx.verbs);
-        return;
-      }
-      const c = col === "all" ? { title: "All verbs", desc: "Every verb in the app", verbs: idx.verbs.map((v) => v.verb) }
-        : idx.collections.find((x) => x.id === col);
-      if (!c) { verbsError("That collection doesn't exist."); return; }
-      V.el("verbs-heading").textContent = c.title;
-      V.el("verbs-sub").textContent = c.desc || "";
-      const meaning = Object.fromEntries(idx.verbs.map((v) => [v.verb, v.meaning]));
-      for (const v of c.verbs) item(`#/verbs/${encodeURIComponent(v)}`, v, meaning[v] || "");
-    } catch { verbsError("Couldn't load the verbs. Are you online?"); }
+  const m = arg && arg.match(/^c\/([^/]+)(?:\/(all|pick))?$/);
+  const colId = m && m[1], session = m && m[2];
+  V.el("verbs-heading").textContent = "Verbs";
+  V.el("verbs-sub").textContent = " ";
+  if (!arg) {  // the collections
+    showParts("top");
+    renderVerbsDl();
+    V.el("verbs-back").href = "#/";
+    V.el("verbs-sub").textContent = "Pick a collection";
+  } else if (m && !session) {
+    showParts("col");
+    V.el("verbs-back").href = "#/verbs";
+  } else {
+    showParts("none");
+  }
+  let idx;
+  try { idx = await loadIndex(); }
+  catch { if (token === V.token) verbsError("Couldn't load the verbs. Are you online?"); return; }
+  if (token !== V.token) return;
+
+  if (!arg) {
+    const ul = V.el("verbs-list");
+    ul.innerHTML = "";
+    const item = (href, title, detail) => {
+      const li = document.createElement("li");
+      li.innerHTML = `<a href="${href}"><span class="t"></span><span class="d"></span></a>`;
+      li.querySelector(".t").textContent = title;
+      li.querySelector(".d").textContent = detail;
+      ul.append(li);
+    };
+    for (const c of idx.collections.filter((c) => c.verbs.length)) item(`#/verbs/c/${c.id}`, c.title, count(c.verbs.length));
+    item("#/verbs/c/all", "All verbs", count(idx.verbs.length));
+    renderVerbsDl(idx.verbs);
     return;
   }
-  V.el("verbs-back").href = V.lastList || "#/verbs";
-  V.el("verbs-heading").textContent = verb;
-  V.el("verbs-sub").textContent = "";
-  if (V.kind !== "verb" || !V.data || V.data.verb !== verb) {
+
+  let verbs, back;
+  if (m) {
+    const c = collection(idx, colId);
+    if (!c) { verbsError("That collection doesn't exist."); return; }
+    V.el("verbs-heading").textContent = c.title;
+    if (!session) {  // the collection page
+      V.el("verbs-sub").textContent = c.desc || "";
+      V.el("col-all").href = `#/verbs/c/${c.id}/all`;
+      V.el("col-all").textContent = `All ${count(c.verbs.length)}`;
+      V.el("col-pick").onclick = () => openPicker(c, idx);
+      V.el("col-verbs").textContent = c.verbs.join(" · ");
+      return;
+    }
+    verbs = session === "all" ? c.verbs : pickedVerbs(c);
+    back = `#/verbs/c/${c.id}`;
+    V.title = c.title;
+    V.el("verbs-sub").textContent = verbs.length === c.verbs.length ? `All ${count(verbs.length)}` : verbs.join(", ");
+  } else {
+    verbs = [arg];
+    back = "#/verbs";
+    V.el("verbs-heading").textContent = arg;
+  }
+  V.el("verbs-back").href = back;
+  if (V.kind !== "verb" || !V.data || V.data.verbs.map((v) => v.verb).join() !== verbs.join()) {
     resetVerbAudio();
     V.kind = "verb"; V.data = null;
-    try { V.data = await (await fetch(`verbs/${encodeURIComponent(verb)}.json`, { cache: "no-cache" })).json(); }
-    catch { if (token === V.token) verbsError("Couldn't load this verb. Are you online?"); return; }
+    try {
+      V.data = { verbs: await Promise.all(verbs.map(async (v) => {
+        const res = await fetch(`verbs/${encodeURIComponent(v)}.json`, { cache: "no-cache" });
+        if (!res.ok) throw new Error(v);
+        return res.json();
+      })) };
+    } catch { if (token === V.token) verbsError("Couldn't load the verbs. Are you online?"); return; }
     if (token !== V.token) return;
   }
-  V.el("verbs-sub").textContent = V.data.meaning;
+  if (!m) {
+    V.title = `${arg} · ${V.data.verbs[0].meaning}`;
+    V.el("verbs-sub").textContent = V.data.verbs[0].meaning;
+  }
+  showParts("drill");
   renderVerbChoices();
+}
+
+// The "Choose my own verbs" popup: every verb of the collection, ticked as last time.
+function openPicker(c, idx) {
+  const dlg = V.el("pick-dialog"), ul = V.el("pick-list"), start = V.el("pick-start");
+  const meaning = Object.fromEntries(idx.verbs.map((v) => [v.verb, v.meaning]));
+  const picked = new Set(pickedVerbs(c));
+  ul.innerHTML = "";
+  for (const v of c.verbs) {
+    const li = document.createElement("li");
+    li.innerHTML = `<label><input type="checkbox"><span class="t"></span><span class="d"></span></label>`;
+    li.querySelector("input").checked = picked.has(v);
+    li.querySelector("input").value = v;
+    li.querySelector(".t").textContent = v;
+    li.querySelector(".d").textContent = meaning[v] || "";
+    ul.append(li);
+  }
+  const boxes = () => [...ul.querySelectorAll("input")];
+  const update = () => { start.disabled = !boxes().some((b) => b.checked); };
+  ul.onchange = update;
+  V.el("pick-all").onclick = () => { boxes().forEach((b) => (b.checked = true)); update(); };
+  V.el("pick-none").onclick = () => { boxes().forEach((b) => (b.checked = false)); update(); };
+  update();
+  dlg.onclose = () => {
+    if (dlg.returnValue !== "start") return;
+    const chosen = boxes().filter((b) => b.checked).map((b) => b.value);
+    try { localStorage.setItem(`verbPick:${c.id}`, JSON.stringify(chosen)); } catch {}
+    location.hash = `#/verbs/c/${c.id}/pick`;
+  };
+  dlg.returnValue = "";
+  dlg.showModal();
+}
+
+// Learn | Practice
+function renderVerbMode() {
+  const quiz = verbSel().quiz;
+  V.el("mode-learn").setAttribute("aria-checked", !quiz);
+  V.el("mode-practice").setAttribute("aria-checked", quiz);
+  const help = V.el("verb-mode-help");
+  help.hidden = V.el("col-page").hidden;  // explain on the collection page only
+  help.textContent = quiz ? "Hear the English, say the Spanish, then tap → to check."
+    : "Listen to every sentence in English and Spanish.";
+}
+
+function setVerbMode(quiz) {
+  const s = verbSel(); s.quiz = quiz; saveVerbSel(s);
+  renderVerbMode();
+  setQuiz(quiz);
 }
 
 // ---------- download all (verb data, pronouns and every clip) for offline use
@@ -232,6 +342,7 @@ function verbsError(msg) {
 
 // groups: [{title, items: [{id, label}], picked: [ids], toggle(id, on)}]
 function renderGroups(groups) {
+  V.groups = groups;
   const box = V.el("drill-groups");
   box.innerHTML = "";
   for (const g of groups) {
@@ -246,7 +357,11 @@ function renderGroups(groups) {
       label.querySelector("span").textContent = it.label;
       const input = label.querySelector("input");
       input.checked = g.picked.includes(it.id);
-      input.onchange = () => { g.toggle(it.id, input.checked); selectionChanged(); };
+      input.onchange = () => {
+        g.toggle(it.id, input.checked);
+        g.picked = input.checked ? [...g.picked, it.id] : g.picked.filter((x) => x !== it.id);
+        selectionChanged();
+      };
       chips.append(label);
     }
     box.append(sec);
@@ -266,19 +381,21 @@ function renderVerbChoices() {
       saveVerbSel(s);
     },
   });
+  const ALL_TENSES = ["infinitive", "present", "preterite", "imperfect", "imperative"];
+  const tenses = new Map();  // every tense any of the verbs has, in drill order
+  for (const v of V.data.verbs) for (const t of v.tenses) tenses.set(t.id, t.label);
+  const pronouns = V.data.verbs[0].pronouns;
   renderGroups([
-    // keep choices this verb doesn't show (haber has no preterite)
-    group("Tenses", "tenses", V.data.tenses.map((t) => ({ id: t.id, label: t.label })),
-          ["infinitive", "present", "preterite", "imperfect", "imperative"]),
-    group("Pronouns", "pronouns", V.data.pronouns.map((p) => ({ id: p.id, label: p.es })),
-          V.data.pronouns.map((p) => p.id)),
+    // keep choices these verbs don't show (haber has no preterite)
+    group("Tenses", "tenses", ALL_TENSES.filter((id) => tenses.has(id)).map((id) => ({ id, label: tenses.get(id) })), ALL_TENSES),
+    group("Pronouns", "pronouns", pronouns.map((p) => ({ id: p.id, label: p.es })), pronouns.map((p) => p.id)),
   ]);
 }
 
 function selectionKey() {
   const s = verbSel();
   if (V.kind === "pron") return `pron|${JSON.stringify(pronSel())}|${s.english}`;
-  return `${V.data.verb}|${s.tenses}|${s.pronouns}|${s.english}`;
+  return `${V.data.verbs.map((v) => v.verb)}|${s.tenses}|${s.pronouns}|${s.english}`;
 }
 
 // The drill: [{clip, pause, es, en}] in play order. With English off only the
@@ -287,7 +404,7 @@ function drillSteps() {
   if (V.kind === "pron") return pronSteps();
   const s = verbSel();
   const steps = [];
-  for (const t of V.data.tenses.filter((t) => s.tenses.includes(t.id))) {
+  for (const v of V.data.verbs) for (const t of v.tenses.filter((t) => s.tenses.includes(t.id))) {
     if (steps.length) steps[steps.length - 1].pause += PAUSE_TENSE;
     if (s.english) steps.push({ clip: t.en_clip, pause: PAUSE_AFTER_CUE, en: t.en, es: "" });
     if (t.single) {  // infinitive: the verb itself, no pronouns
@@ -295,7 +412,7 @@ function drillSteps() {
       continue;
     }
     // Commands only have tú / usted / nosotros / nosotras / ustedes forms.
-    V.data.pronouns.filter((p) => s.pronouns.includes(p.id) && t.forms[p.id]).forEach((p, i) => {
+    v.pronouns.filter((p) => s.pronouns.includes(p.id) && t.forms[p.id]).forEach((p, i) => {
       const f = t.forms[p.id];
       // The intro already is the yo sentence in English: no "I form." right after it.
       const en = i === 0 ? t.en : p.cue;
@@ -321,8 +438,30 @@ function pronSteps() {
   return steps;
 }
 
+// The one-line-per-group summary shown on the drill page; tap it to edit.
+function renderOptsSummary() {
+  const box = V.el("opts-lines");
+  box.innerHTML = "";
+  const line = (title, text) => {
+    const p = document.createElement("span");
+    p.innerHTML = "<b></b> <span></span>";
+    p.querySelector("b").textContent = title;
+    p.lastChild.textContent = text;
+    box.append(p);
+  };
+  for (const g of V.groups || []) {
+    const picked = g.items.filter((it) => g.picked.includes(it.id)).map((it) => it.label.split(" · ")[0]);
+    line(g.title, !picked.length ? "None"
+      : picked.length === g.items.length && g.items.length > 2 ? "All"
+      : picked.length > 4 ? `${picked.slice(0, 3).join(", ")} +${picked.length - 3}`
+      : picked.join(", "));
+  }
+  line("English", verbSel().english ? "Spoken" : "Not spoken");
+}
+
 function selectionChanged() {
   if (!V.data) return;
+  renderOptsSummary();
   // Count what will actually play: haber has no preterite, commands only have
   // tú / usted / nosotros / nosotras / ustedes.
   const n = drillSteps().filter((x) => x.es).length;
@@ -352,18 +491,19 @@ function quizCards() {
       cards.push({ ctx: set.title, en: it.en, en_clip: it.en_clip, es: it.es, clip: it.clip });
     return cards;
   }
-  const s = verbSel();
-  for (const t of V.data.tenses.filter((t) => s.tenses.includes(t.id))) {
+  const s = verbSel(), several = V.data.verbs.length > 1;
+  for (const v of V.data.verbs) for (const t of v.tenses.filter((t) => s.tenses.includes(t.id))) {
+    const tense = several ? `${v.verb} · ${t.label}` : t.label;  // which verb, in a mixed session
     if (t.single) {
-      cards.push({ ctx: t.label, en: t.en.replace(/^Infinitive: /, ""), en_clip: t.en_clip, es: t.single.es, clip: t.single.clip });
+      cards.push({ ctx: tense, en: t.en.replace(/^Infinitive: /, ""), en_clip: t.en_clip, es: t.single.es, clip: t.single.clip });
       continue;
     }
     // The tense intro is the yo sentence; other pronouns get their cue ("She form."),
     // with the intro shown above as the model sentence.
-    for (const p of V.data.pronouns.filter((p) => s.pronouns.includes(p.id) && t.forms[p.id])) {
+    for (const p of v.pronouns.filter((p) => s.pronouns.includes(p.id) && t.forms[p.id])) {
       const f = t.forms[p.id];
-      cards.push(p.id === "yo" ? { ctx: t.label, en: t.en.replace(/^[^:]*: /, ""), en_clip: t.en_clip, es: f.es, clip: f.clip }
-        : { ctx: `${t.label} · ${t.en.replace(/^[^:]*: /, "")}`, en: p.cue, en_clip: p.cue_clip, es: f.es, clip: f.clip });
+      cards.push(p.id === "yo" ? { ctx: tense, en: t.en.replace(/^[^:]*: /, ""), en_clip: t.en_clip, es: f.es, clip: f.clip }
+        : { ctx: `${tense} · ${t.en.replace(/^[^:]*: /, "")}`, en: p.cue, en_clip: p.cue_clip, es: f.es, clip: f.clip });
     }
   }
   return cards;
@@ -507,9 +647,7 @@ async function verbPlay() {
     a.src = V.url;
     a.playbackRate = Number(localStorage.getItem("speed")) || 1;
     if ("mediaSession" in navigator) {
-      navigator.mediaSession.metadata = V.kind === "pron"
-        ? new MediaMetadata({ title: "Object pronouns", artist: "Pronouns" })
-        : new MediaMetadata({ title: `${V.data.verb} · ${V.data.meaning}`, artist: "Verbs" });
+      navigator.mediaSession.metadata = new MediaMetadata({ title: V.title, artist: V.kind === "pron" ? "Pronouns" : "Verbs" });
     }
     await a.play();
   } catch (e) {
@@ -552,11 +690,12 @@ function initVerbs() {
   try { saved = localStorage.getItem("verbRepeat") === "1"; } catch {}
   setRepeat(saved);
   rep.onclick = () => setRepeat(!V.audio.loop);
-  // Quiz
-  const quiz = V.el("verb-quiz");
-  quiz.checked = verbSel().quiz;
-  setQuiz(quiz.checked);
-  quiz.onchange = () => { const s = verbSel(); s.quiz = quiz.checked; saveVerbSel(s); setQuiz(quiz.checked); };
+  V.el("drill-opts").onclick = () => V.el("opts-dialog").showModal();
+  V.el("opts-dialog").addEventListener("click", (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });  // tap outside
+  // Learn | Practice
+  setQuiz(verbSel().quiz);
+  V.el("mode-learn").onclick = () => setVerbMode(false);
+  V.el("mode-practice").onclick = () => setVerbMode(true);
   V.el("quiz-next").onclick = quizNext;
   V.el("quiz-prev").onclick = quizPrev;
   V.el("quiz-replay").onclick = quizReplay;

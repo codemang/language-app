@@ -1,0 +1,250 @@
+{
+  "verb": "cenar",
+  "meaning": "to have dinner",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to have dinner at a restaurant.",
+      "en_clip": "clips/e060e51bc131c88e.mp3",
+      "single": {
+        "es": "Quiero cenar en un restaurante.",
+        "clip": "clips/3031ff03adf91f59.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I have dinner at a restaurant.",
+      "en_clip": "clips/4daca20ef454895c.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo ceno en un restaurante.",
+          "clip": "clips/3d43fad8d964fc7f.mp3"
+        },
+        "tu": {
+          "es": "Tú cenas en un restaurante.",
+          "clip": "clips/f5ea2cbdda0679f1.mp3"
+        },
+        "usted": {
+          "es": "Usted cena en un restaurante.",
+          "clip": "clips/9693df55a92559f1.mp3"
+        },
+        "el": {
+          "es": "Él cena en un restaurante.",
+          "clip": "clips/6e70d5f8f093cd48.mp3"
+        },
+        "ella": {
+          "es": "Ella cena en un restaurante.",
+          "clip": "clips/041bb41b41eebd79.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros cenamos en un restaurante.",
+          "clip": "clips/3c4e76bb6f249fcb.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras cenamos en un restaurante.",
+          "clip": "clips/44eaa5c2ee7f790b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes cenan en un restaurante.",
+          "clip": "clips/c5d5c4dd6e23c21c.mp3"
+        },
+        "ellos": {
+          "es": "Ellos cenan en un restaurante.",
+          "clip": "clips/52874374c69a14f4.mp3"
+        },
+        "ellas": {
+          "es": "Ellas cenan en un restaurante.",
+          "clip": "clips/a22f1d73b177bd30.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I had dinner at a restaurant.",
+      "en_clip": "clips/eb7788811133325b.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo cené en un restaurante.",
+          "clip": "clips/7a6314cab1a68bdd.mp3"
+        },
+        "tu": {
+          "es": "Tú cenaste en un restaurante.",
+          "clip": "clips/2728b3021284d8c5.mp3"
+        },
+        "usted": {
+          "es": "Usted cenó en un restaurante.",
+          "clip": "clips/64cc244e2ecf2986.mp3"
+        },
+        "el": {
+          "es": "Él cenó en un restaurante.",
+          "clip": "clips/6927f85ad0acab0d.mp3"
+        },
+        "ella": {
+          "es": "Ella cenó en un restaurante.",
+          "clip": "clips/075359c1ba482846.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros cenamos en un restaurante.",
+          "clip": "clips/3c4e76bb6f249fcb.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras cenamos en un restaurante.",
+          "clip": "clips/44eaa5c2ee7f790b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes cenaron en un restaurante.",
+          "clip": "clips/97fc82ba5f5979a2.mp3"
+        },
+        "ellos": {
+          "es": "Ellos cenaron en un restaurante.",
+          "clip": "clips/11d9b5cf4219c879.mp3"
+        },
+        "ellas": {
+          "es": "Ellas cenaron en un restaurante.",
+          "clip": "clips/4d49cb7708549604.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to have dinner at a restaurant.",
+      "en_clip": "clips/62fa5c0e3ac7f401.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo cenaba en un restaurante.",
+          "clip": "clips/c513c5c16d9e4130.mp3"
+        },
+        "tu": {
+          "es": "Tú cenabas en un restaurante.",
+          "clip": "clips/a6545ded1bb7b0af.mp3"
+        },
+        "usted": {
+          "es": "Usted cenaba en un restaurante.",
+          "clip": "clips/fb45feea6506a536.mp3"
+        },
+        "el": {
+          "es": "Él cenaba en un restaurante.",
+          "clip": "clips/e58dc24e638e38c9.mp3"
+        },
+        "ella": {
+          "es": "Ella cenaba en un restaurante.",
+          "clip": "clips/1970f8eb1abd8910.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros cenábamos en un restaurante.",
+          "clip": "clips/d64e404a28561983.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras cenábamos en un restaurante.",
+          "clip": "clips/29491b027c5c5a27.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes cenaban en un restaurante.",
+          "clip": "clips/280e5480b50e81dd.mp3"
+        },
+        "ellos": {
+          "es": "Ellos cenaban en un restaurante.",
+          "clip": "clips/12cf1eb43a2f80e3.mp3"
+        },
+        "ellas": {
+          "es": "Ellas cenaban en un restaurante.",
+          "clip": "clips/c12b9d1de0f3b483.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Have dinner at home.",
+      "en_clip": "clips/2d6ccec1a369247a.mp3",
+      "forms": {
+        "tu": {
+          "es": "Cena en casa.",
+          "clip": "clips/28670609080b69e6.mp3"
+        },
+        "usted": {
+          "es": "Cene en casa.",
+          "clip": "clips/dffe5806147b49ef.mp3"
+        },
+        "nosotros": {
+          "es": "Cenemos en casa.",
+          "clip": "clips/3fb9c7353cccc5ac.mp3"
+        },
+        "nosotras": {
+          "es": "Cenemos en casa.",
+          "clip": "clips/3fb9c7353cccc5ac.mp3"
+        },
+        "ustedes": {
+          "es": "Cenen en casa.",
+          "clip": "clips/006cfd96bdded800.mp3"
+        }
+      }
+    }
+  ]
+}

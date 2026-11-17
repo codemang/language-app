@@ -1,0 +1,250 @@
+{
+  "verb": "viajar",
+  "meaning": "to travel",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to travel to Mexico.",
+      "en_clip": "clips/d73795d271227726.mp3",
+      "single": {
+        "es": "Quiero viajar a México.",
+        "clip": "clips/3861e5859af7eade.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I travel to Mexico.",
+      "en_clip": "clips/fe6213c529c86482.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo viajo a México.",
+          "clip": "clips/ac0f9eea155b82c4.mp3"
+        },
+        "tu": {
+          "es": "Tú viajas a México.",
+          "clip": "clips/f7ac5633e965bc07.mp3"
+        },
+        "usted": {
+          "es": "Usted viaja a México.",
+          "clip": "clips/92eab6d5a69fda50.mp3"
+        },
+        "el": {
+          "es": "Él viaja a México.",
+          "clip": "clips/d04af25542a4cc8e.mp3"
+        },
+        "ella": {
+          "es": "Ella viaja a México.",
+          "clip": "clips/cebbe53cfe8d2c1d.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros viajamos a México.",
+          "clip": "clips/543976fb924ab627.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras viajamos a México.",
+          "clip": "clips/45741b4acc7d8d0e.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes viajan a México.",
+          "clip": "clips/d14c4b1f64a1467b.mp3"
+        },
+        "ellos": {
+          "es": "Ellos viajan a México.",
+          "clip": "clips/16ef4826a11599a6.mp3"
+        },
+        "ellas": {
+          "es": "Ellas viajan a México.",
+          "clip": "clips/6ce5de81694ef05b.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I traveled to Mexico.",
+      "en_clip": "clips/60faf91e114e1552.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo viajé a México.",
+          "clip": "clips/21ba44b6f42c9d71.mp3"
+        },
+        "tu": {
+          "es": "Tú viajaste a México.",
+          "clip": "clips/7afdf1ea470ba3da.mp3"
+        },
+        "usted": {
+          "es": "Usted viajó a México.",
+          "clip": "clips/caa63f98fd24e070.mp3"
+        },
+        "el": {
+          "es": "Él viajó a México.",
+          "clip": "clips/77ca8d9e05725946.mp3"
+        },
+        "ella": {
+          "es": "Ella viajó a México.",
+          "clip": "clips/ee81d73edaac13e0.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros viajamos a México.",
+          "clip": "clips/543976fb924ab627.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras viajamos a México.",
+          "clip": "clips/45741b4acc7d8d0e.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes viajaron a México.",
+          "clip": "clips/72301b3fe523f39d.mp3"
+        },
+        "ellos": {
+          "es": "Ellos viajaron a México.",
+          "clip": "clips/f84cb2eb512c7072.mp3"
+        },
+        "ellas": {
+          "es": "Ellas viajaron a México.",
+          "clip": "clips/4da5e48d69228a71.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to travel to Mexico.",
+      "en_clip": "clips/772e4f17080d450f.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo viajaba a México.",
+          "clip": "clips/ba5f217c7e87795b.mp3"
+        },
+        "tu": {
+          "es": "Tú viajabas a México.",
+          "clip": "clips/5209d541e76be009.mp3"
+        },
+        "usted": {
+          "es": "Usted viajaba a México.",
+          "clip": "clips/ee6dba281159dbbe.mp3"
+        },
+        "el": {
+          "es": "Él viajaba a México.",
+          "clip": "clips/65a6a0c9735eaa00.mp3"
+        },
+        "ella": {
+          "es": "Ella viajaba a México.",
+          "clip": "clips/a58a9253fa6eed65.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros viajábamos a México.",
+          "clip": "clips/db5dbb83e579a14a.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras viajábamos a México.",
+          "clip": "clips/f458eec5eec6af66.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes viajaban a México.",
+          "clip": "clips/cc94bb2f88349461.mp3"
+        },
+        "ellos": {
+          "es": "Ellos viajaban a México.",
+          "clip": "clips/94b9cb4955b10af6.mp3"
+        },
+        "ellas": {
+          "es": "Ellas viajaban a México.",
+          "clip": "clips/a71ff147873a7589.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Travel to Mexico.",
+      "en_clip": "clips/abba29b2c2018c52.mp3",
+      "forms": {
+        "tu": {
+          "es": "Viaja a México.",
+          "clip": "clips/b693c478d423546f.mp3"
+        },
+        "usted": {
+          "es": "Viaje a México.",
+          "clip": "clips/3960ffdf34417d9e.mp3"
+        },
+        "nosotros": {
+          "es": "Viajemos a México.",
+          "clip": "clips/0afcc382dcde8d00.mp3"
+        },
+        "nosotras": {
+          "es": "Viajemos a México.",
+          "clip": "clips/0afcc382dcde8d00.mp3"
+        },
+        "ustedes": {
+          "es": "Viajen a México.",
+          "clip": "clips/cab02e282aadc764.mp3"
+        }
+      }
+    }
+  ]
+}

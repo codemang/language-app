@@ -1,0 +1,222 @@
+{
+  "verb": "creer",
+  "meaning": "to believe",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: It's hard to believe the story.",
+      "en_clip": "clips/20754e7b99ac9b71.mp3",
+      "single": {
+        "es": "Es difícil creer la historia.",
+        "clip": "clips/9144a0f746710986.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I believe the story.",
+      "en_clip": "clips/e840bffde6793170.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo creo la historia.",
+          "clip": "clips/04c67663dbd7ae82.mp3"
+        },
+        "tu": {
+          "es": "Tú crees la historia.",
+          "clip": "clips/e8e994872eef0945.mp3"
+        },
+        "usted": {
+          "es": "Usted cree la historia.",
+          "clip": "clips/216468959762c35b.mp3"
+        },
+        "el": {
+          "es": "Él cree la historia.",
+          "clip": "clips/495bcaa8678de4e3.mp3"
+        },
+        "ella": {
+          "es": "Ella cree la historia.",
+          "clip": "clips/ce70c88dd16aa70b.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros creemos la historia.",
+          "clip": "clips/b48015c57ce31cf0.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras creemos la historia.",
+          "clip": "clips/1d5474434f063ab5.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes creen la historia.",
+          "clip": "clips/2739c12769e6e247.mp3"
+        },
+        "ellos": {
+          "es": "Ellos creen la historia.",
+          "clip": "clips/46ef027dc077d7b7.mp3"
+        },
+        "ellas": {
+          "es": "Ellas creen la historia.",
+          "clip": "clips/660dbc5e475c78d2.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I believed the story.",
+      "en_clip": "clips/f700a54f28de1e6b.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo creí la historia.",
+          "clip": "clips/de0d8602b7e31575.mp3"
+        },
+        "tu": {
+          "es": "Tú creíste la historia.",
+          "clip": "clips/4e0f3168a293e662.mp3"
+        },
+        "usted": {
+          "es": "Usted creyó la historia.",
+          "clip": "clips/c69f91ea017590fe.mp3"
+        },
+        "el": {
+          "es": "Él creyó la historia.",
+          "clip": "clips/8852dc2cf10ae9c2.mp3"
+        },
+        "ella": {
+          "es": "Ella creyó la historia.",
+          "clip": "clips/dc2ca2302f37e655.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros creímos la historia.",
+          "clip": "clips/c0277c1378c98368.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras creímos la historia.",
+          "clip": "clips/d733fbe1362b9f62.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes creyeron la historia.",
+          "clip": "clips/5a6cabcd7f0b6e52.mp3"
+        },
+        "ellos": {
+          "es": "Ellos creyeron la historia.",
+          "clip": "clips/51caa708f0baa892.mp3"
+        },
+        "ellas": {
+          "es": "Ellas creyeron la historia.",
+          "clip": "clips/017cf89a09260b44.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to believe the story.",
+      "en_clip": "clips/c322477b974d9113.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo creía la historia.",
+          "clip": "clips/60de6e19d778fb72.mp3"
+        },
+        "tu": {
+          "es": "Tú creías la historia.",
+          "clip": "clips/d86cfb8d166a6dfc.mp3"
+        },
+        "usted": {
+          "es": "Usted creía la historia.",
+          "clip": "clips/e22b81058e2cba34.mp3"
+        },
+        "el": {
+          "es": "Él creía la historia.",
+          "clip": "clips/1c1979f2ea48f9a6.mp3"
+        },
+        "ella": {
+          "es": "Ella creía la historia.",
+          "clip": "clips/5f14749e86bda270.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros creíamos la historia.",
+          "clip": "clips/44645623ad4381cc.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras creíamos la historia.",
+          "clip": "clips/cd3a6fa79a360f6a.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes creían la historia.",
+          "clip": "clips/90d41248335751de.mp3"
+        },
+        "ellos": {
+          "es": "Ellos creían la historia.",
+          "clip": "clips/ca98d8809c469205.mp3"
+        },
+        "ellas": {
+          "es": "Ellas creían la historia.",
+          "clip": "clips/d3f1f6ffe68225f6.mp3"
+        }
+      }
+    }
+  ]
+}

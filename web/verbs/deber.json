@@ -1,0 +1,222 @@
+{
+  "verb": "deber",
+  "meaning": "should, to owe",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I don't want to owe money.",
+      "en_clip": "clips/2f03200e66ca6f36.mp3",
+      "single": {
+        "es": "No quiero deber dinero.",
+        "clip": "clips/54682ddb80ff4f66.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I should study more.",
+      "en_clip": "clips/3e631c2c5c7d570f.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo debo estudiar más.",
+          "clip": "clips/26c684c99d81f9b1.mp3"
+        },
+        "tu": {
+          "es": "Tú debes estudiar más.",
+          "clip": "clips/d1b3c432e7bf8d0d.mp3"
+        },
+        "usted": {
+          "es": "Usted debe estudiar más.",
+          "clip": "clips/9fbc38aa5e87b019.mp3"
+        },
+        "el": {
+          "es": "Él debe estudiar más.",
+          "clip": "clips/5f2854984661efe7.mp3"
+        },
+        "ella": {
+          "es": "Ella debe estudiar más.",
+          "clip": "clips/b5b289363cbf7a5a.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros debemos estudiar más.",
+          "clip": "clips/5818cabee6227979.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras debemos estudiar más.",
+          "clip": "clips/3be44d615f4af358.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes deben estudiar más.",
+          "clip": "clips/1a21bd35d35d1dad.mp3"
+        },
+        "ellos": {
+          "es": "Ellos deben estudiar más.",
+          "clip": "clips/75f9e7c240b11260.mp3"
+        },
+        "ellas": {
+          "es": "Ellas deben estudiar más.",
+          "clip": "clips/ffc7f82afdb28e71.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I should have studied more.",
+      "en_clip": "clips/4dc305af0ff8af84.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo debí estudiar más.",
+          "clip": "clips/74a77645234f503a.mp3"
+        },
+        "tu": {
+          "es": "Tú debiste estudiar más.",
+          "clip": "clips/823f1f7456568fdd.mp3"
+        },
+        "usted": {
+          "es": "Usted debió estudiar más.",
+          "clip": "clips/2a9d54f92a855dcd.mp3"
+        },
+        "el": {
+          "es": "Él debió estudiar más.",
+          "clip": "clips/d3f70115793a9dde.mp3"
+        },
+        "ella": {
+          "es": "Ella debió estudiar más.",
+          "clip": "clips/8a87be6e8f664624.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros debimos estudiar más.",
+          "clip": "clips/996b2972a6631ac2.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras debimos estudiar más.",
+          "clip": "clips/6575d9ec81b612db.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes debieron estudiar más.",
+          "clip": "clips/d1bcd50c329c1cc3.mp3"
+        },
+        "ellos": {
+          "es": "Ellos debieron estudiar más.",
+          "clip": "clips/af3eda49e23799ed.mp3"
+        },
+        "ellas": {
+          "es": "Ellas debieron estudiar más.",
+          "clip": "clips/ddf28edcc1bb273c.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I was supposed to study more.",
+      "en_clip": "clips/4c0f3609b2da1ace.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo debía estudiar más.",
+          "clip": "clips/6c5a8199d6717238.mp3"
+        },
+        "tu": {
+          "es": "Tú debías estudiar más.",
+          "clip": "clips/0d29f5c1a0688a63.mp3"
+        },
+        "usted": {
+          "es": "Usted debía estudiar más.",
+          "clip": "clips/bc46e175a2ccf41a.mp3"
+        },
+        "el": {
+          "es": "Él debía estudiar más.",
+          "clip": "clips/61db0db60e0226da.mp3"
+        },
+        "ella": {
+          "es": "Ella debía estudiar más.",
+          "clip": "clips/4efaff86324bde40.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros debíamos estudiar más.",
+          "clip": "clips/3aef98084ad384c6.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras debíamos estudiar más.",
+          "clip": "clips/af0d9f00f32f252c.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes debían estudiar más.",
+          "clip": "clips/31a8c8aeb59d6ca6.mp3"
+        },
+        "ellos": {
+          "es": "Ellos debían estudiar más.",
+          "clip": "clips/c847c670cf475568.mp3"
+        },
+        "ellas": {
+          "es": "Ellas debían estudiar más.",
+          "clip": "clips/bdea242ce1b6e4c1.mp3"
+        }
+      }
+    }
+  ]
+}

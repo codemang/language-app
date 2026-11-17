@@ -103,6 +103,102 @@
     {
       "verb": "volver",
       "meaning": "to come back, to return"
+    },
+    {
+      "verb": "acostarse",
+      "meaning": "to go to bed"
+    },
+    {
+      "verb": "beber",
+      "meaning": "to drink"
+    },
+    {
+      "verb": "cocinar",
+      "meaning": "to cook"
+    },
+    {
+      "verb": "pedir",
+      "meaning": "to ask for, to order"
+    },
+    {
+      "verb": "pagar",
+      "meaning": "to pay"
+    },
+    {
+      "verb": "tomar",
+      "meaning": "to take, to have (a drink)"
+    },
+    {
+      "verb": "cenar",
+      "meaning": "to have dinner"
+    },
+    {
+      "verb": "llegar",
+      "meaning": "to arrive"
+    },
+    {
+      "verb": "salir",
+      "meaning": "to leave, to go out"
+    },
+    {
+      "verb": "viajar",
+      "meaning": "to travel"
+    },
+    {
+      "verb": "caminar",
+      "meaning": "to walk"
+    },
+    {
+      "verb": "preguntar",
+      "meaning": "to ask"
+    },
+    {
+      "verb": "contestar",
+      "meaning": "to answer"
+    },
+    {
+      "verb": "llamar",
+      "meaning": "to call"
+    },
+    {
+      "verb": "escribir",
+      "meaning": "to write"
+    },
+    {
+      "verb": "leer",
+      "meaning": "to read"
+    },
+    {
+      "verb": "escuchar",
+      "meaning": "to listen to"
+    },
+    {
+      "verb": "preferir",
+      "meaning": "to prefer"
+    },
+    {
+      "verb": "esperar",
+      "meaning": "to wait (for), to hope"
+    },
+    {
+      "verb": "encantar",
+      "meaning": "to love (a thing)"
+    },
+    {
+      "verb": "deber",
+      "meaning": "should, to owe"
+    },
+    {
+      "verb": "creer",
+      "meaning": "to believe"
+    },
+    {
+      "verb": "entender",
+      "meaning": "to understand"
+    },
+    {
+      "verb": "recordar",
+      "meaning": "to remember"
     }
   ],
   "collections": [
@@ -131,7 +227,8 @@
         "ducharse",
         "vestirse",
         "desayunar",
-        "volver"
+        "volver",
+        "acostarse"
       ]
     },
     {
@@ -139,7 +236,13 @@
       "title": "Food & eating out",
       "desc": "Ordering, cooking, paying",
       "verbs": [
-        "comer"
+        "comer",
+        "beber",
+        "cocinar",
+        "pedir",
+        "pagar",
+        "tomar",
+        "cenar"
       ]
     },
     {
@@ -149,6 +252,10 @@
       "verbs": [
         "ir",
         "venir",
+        "llegar",
+        "salir",
+        "viajar",
+        "caminar",
         "volver"
       ]
     },
@@ -158,7 +265,13 @@
       "desc": "Conversations, calls and reading",
       "verbs": [
         "hablar",
-        "decir"
+        "decir",
+        "preguntar",
+        "contestar",
+        "llamar",
+        "escribir",
+        "leer",
+        "escuchar"
       ]
     },
     {
@@ -168,7 +281,11 @@
       "verbs": [
         "querer",
         "necesitar",
-        "gustar"
+        "gustar",
+        "preferir",
+        "esperar",
+        "encantar",
+        "deber"
       ]
     },
     {
@@ -178,7 +295,10 @@
       "verbs": [
         "saber",
         "conocer",
-        "pensar"
+        "pensar",
+        "creer",
+        "entender",
+        "recordar"
       ]
     },
     {

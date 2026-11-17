@@ -1,0 +1,250 @@
+{
+  "verb": "caminar",
+  "meaning": "to walk",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to walk to the park.",
+      "en_clip": "clips/20ebfff3af9351f0.mp3",
+      "single": {
+        "es": "Quiero caminar al parque.",
+        "clip": "clips/3180056f1191e644.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I walk to the park.",
+      "en_clip": "clips/95b33e7c6baf21e9.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo camino al parque.",
+          "clip": "clips/013b0372b94cc77a.mp3"
+        },
+        "tu": {
+          "es": "Tú caminas al parque.",
+          "clip": "clips/1d18d655418ec4c0.mp3"
+        },
+        "usted": {
+          "es": "Usted camina al parque.",
+          "clip": "clips/64adedc3da0bb09a.mp3"
+        },
+        "el": {
+          "es": "Él camina al parque.",
+          "clip": "clips/5e04ba35b14bfffc.mp3"
+        },
+        "ella": {
+          "es": "Ella camina al parque.",
+          "clip": "clips/65f23069774d90d9.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros caminamos al parque.",
+          "clip": "clips/c86a767f64251fce.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras caminamos al parque.",
+          "clip": "clips/df9a32e0f8991951.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes caminan al parque.",
+          "clip": "clips/454a1a87980eec02.mp3"
+        },
+        "ellos": {
+          "es": "Ellos caminan al parque.",
+          "clip": "clips/dd44b9626b846e71.mp3"
+        },
+        "ellas": {
+          "es": "Ellas caminan al parque.",
+          "clip": "clips/249dbd0fe1ea3b81.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I walked to the park.",
+      "en_clip": "clips/2c4d76d027b7542c.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo caminé al parque.",
+          "clip": "clips/f76c29c43b01a876.mp3"
+        },
+        "tu": {
+          "es": "Tú caminaste al parque.",
+          "clip": "clips/97cec3ccfc2caaec.mp3"
+        },
+        "usted": {
+          "es": "Usted caminó al parque.",
+          "clip": "clips/be5a6a094992b66d.mp3"
+        },
+        "el": {
+          "es": "Él caminó al parque.",
+          "clip": "clips/2fd12a6ea18ab54e.mp3"
+        },
+        "ella": {
+          "es": "Ella caminó al parque.",
+          "clip": "clips/a5806dcfc7714df0.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros caminamos al parque.",
+          "clip": "clips/c86a767f64251fce.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras caminamos al parque.",
+          "clip": "clips/df9a32e0f8991951.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes caminaron al parque.",
+          "clip": "clips/7ad55325bf1b7549.mp3"
+        },
+        "ellos": {
+          "es": "Ellos caminaron al parque.",
+          "clip": "clips/54f9451173cdaa25.mp3"
+        },
+        "ellas": {
+          "es": "Ellas caminaron al parque.",
+          "clip": "clips/52c8cf891f17205d.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to walk to the park.",
+      "en_clip": "clips/bc03ef880f5f3259.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo caminaba al parque.",
+          "clip": "clips/0b448524ce268289.mp3"
+        },
+        "tu": {
+          "es": "Tú caminabas al parque.",
+          "clip": "clips/cdb435799435e326.mp3"
+        },
+        "usted": {
+          "es": "Usted caminaba al parque.",
+          "clip": "clips/916a95960ba6ebc3.mp3"
+        },
+        "el": {
+          "es": "Él caminaba al parque.",
+          "clip": "clips/ba747455f47e1736.mp3"
+        },
+        "ella": {
+          "es": "Ella caminaba al parque.",
+          "clip": "clips/1702ea84602cdfb7.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros caminábamos al parque.",
+          "clip": "clips/cf4d5489bea1863b.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras caminábamos al parque.",
+          "clip": "clips/3e77da49d85c7a0a.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes caminaban al parque.",
+          "clip": "clips/e40a6948dc61ca84.mp3"
+        },
+        "ellos": {
+          "es": "Ellos caminaban al parque.",
+          "clip": "clips/ed0211624a952100.mp3"
+        },
+        "ellas": {
+          "es": "Ellas caminaban al parque.",
+          "clip": "clips/7c80cad379bfed87.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Walk to the park.",
+      "en_clip": "clips/337a81d493f5f4c6.mp3",
+      "forms": {
+        "tu": {
+          "es": "Camina al parque.",
+          "clip": "clips/eb215acc7b64b7a7.mp3"
+        },
+        "usted": {
+          "es": "Camine al parque.",
+          "clip": "clips/b96c24255e2e249c.mp3"
+        },
+        "nosotros": {
+          "es": "Caminemos al parque.",
+          "clip": "clips/8a57f08ef7779542.mp3"
+        },
+        "nosotras": {
+          "es": "Caminemos al parque.",
+          "clip": "clips/8a57f08ef7779542.mp3"
+        },
+        "ustedes": {
+          "es": "Caminen al parque.",
+          "clip": "clips/24a277395a143b16.mp3"
+        }
+      }
+    }
+  ]
+}

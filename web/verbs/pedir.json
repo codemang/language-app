@@ -1,0 +1,250 @@
+{
+  "verb": "pedir",
+  "meaning": "to ask for, to order",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I'm going to order a coffee.",
+      "en_clip": "clips/50c0c86b857e9674.mp3",
+      "single": {
+        "es": "Voy a pedir un café.",
+        "clip": "clips/a00d57b08f3cd594.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I order a coffee.",
+      "en_clip": "clips/ed5fcb024df74d20.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo pido un café.",
+          "clip": "clips/584b5e5321bfd4f7.mp3"
+        },
+        "tu": {
+          "es": "Tú pides un café.",
+          "clip": "clips/8c71f023e3dc722b.mp3"
+        },
+        "usted": {
+          "es": "Usted pide un café.",
+          "clip": "clips/222bba45905e1731.mp3"
+        },
+        "el": {
+          "es": "Él pide un café.",
+          "clip": "clips/a7124b95df275e90.mp3"
+        },
+        "ella": {
+          "es": "Ella pide un café.",
+          "clip": "clips/ea80488f4f919d8f.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros pedimos un café.",
+          "clip": "clips/aebf153c8748b000.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras pedimos un café.",
+          "clip": "clips/dc515695cae1ae86.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes piden un café.",
+          "clip": "clips/36c493c438444a27.mp3"
+        },
+        "ellos": {
+          "es": "Ellos piden un café.",
+          "clip": "clips/a4b3f3b188e66c92.mp3"
+        },
+        "ellas": {
+          "es": "Ellas piden un café.",
+          "clip": "clips/d0b525a9418231c6.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I ordered a coffee.",
+      "en_clip": "clips/9baaae78ae9e5972.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo pedí un café.",
+          "clip": "clips/9a940b7dd6d1ba90.mp3"
+        },
+        "tu": {
+          "es": "Tú pediste un café.",
+          "clip": "clips/648a105ff1b4bd91.mp3"
+        },
+        "usted": {
+          "es": "Usted pidió un café.",
+          "clip": "clips/aebff13501e4585c.mp3"
+        },
+        "el": {
+          "es": "Él pidió un café.",
+          "clip": "clips/0886fa8e660148ff.mp3"
+        },
+        "ella": {
+          "es": "Ella pidió un café.",
+          "clip": "clips/0c3815ae61b39387.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros pedimos un café.",
+          "clip": "clips/aebf153c8748b000.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras pedimos un café.",
+          "clip": "clips/dc515695cae1ae86.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes pidieron un café.",
+          "clip": "clips/fcbd6fa307142b53.mp3"
+        },
+        "ellos": {
+          "es": "Ellos pidieron un café.",
+          "clip": "clips/50f027fe38fc60aa.mp3"
+        },
+        "ellas": {
+          "es": "Ellas pidieron un café.",
+          "clip": "clips/896a529295e64309.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to order a coffee.",
+      "en_clip": "clips/46b20abaec03704c.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo pedía un café.",
+          "clip": "clips/e61b7fdc28b0e1f8.mp3"
+        },
+        "tu": {
+          "es": "Tú pedías un café.",
+          "clip": "clips/cbb77338fdc9784a.mp3"
+        },
+        "usted": {
+          "es": "Usted pedía un café.",
+          "clip": "clips/ee1b2b7c8ce66e31.mp3"
+        },
+        "el": {
+          "es": "Él pedía un café.",
+          "clip": "clips/fe01264274bb3da1.mp3"
+        },
+        "ella": {
+          "es": "Ella pedía un café.",
+          "clip": "clips/9d199c8d8d659eb7.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros pedíamos un café.",
+          "clip": "clips/69462668a141eea6.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras pedíamos un café.",
+          "clip": "clips/e7720ddbf70b8673.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes pedían un café.",
+          "clip": "clips/d653817d67c5a07a.mp3"
+        },
+        "ellos": {
+          "es": "Ellos pedían un café.",
+          "clip": "clips/028038d8fb1e3b1f.mp3"
+        },
+        "ellas": {
+          "es": "Ellas pedían un café.",
+          "clip": "clips/6e77dc0617bde042.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Order a coffee.",
+      "en_clip": "clips/f02947724680fd5c.mp3",
+      "forms": {
+        "tu": {
+          "es": "Pide un café.",
+          "clip": "clips/8a63bb8662227568.mp3"
+        },
+        "usted": {
+          "es": "Pida un café.",
+          "clip": "clips/e06f5fd3cf439ab9.mp3"
+        },
+        "nosotros": {
+          "es": "Pidamos un café.",
+          "clip": "clips/d403ebbddbaafd18.mp3"
+        },
+        "nosotras": {
+          "es": "Pidamos un café.",
+          "clip": "clips/d403ebbddbaafd18.mp3"
+        },
+        "ustedes": {
+          "es": "Pidan un café.",
+          "clip": "clips/b62dfef4c3ff85f5.mp3"
+        }
+      }
+    }
+  ]
+}

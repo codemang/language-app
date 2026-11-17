@@ -1,0 +1,222 @@
+{
+  "verb": "preferir",
+  "meaning": "to prefer",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: It's normal to prefer tea.",
+      "en_clip": "clips/71169cb33bb94305.mp3",
+      "single": {
+        "es": "Es normal preferir el té.",
+        "clip": "clips/c33bf2b38fd9a873.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I prefer tea.",
+      "en_clip": "clips/763403bc7054277e.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo prefiero el té.",
+          "clip": "clips/e1fd27835302317c.mp3"
+        },
+        "tu": {
+          "es": "Tú prefieres el té.",
+          "clip": "clips/a763191203982ba7.mp3"
+        },
+        "usted": {
+          "es": "Usted prefiere el té.",
+          "clip": "clips/3d38ea27e87b967c.mp3"
+        },
+        "el": {
+          "es": "Él prefiere el té.",
+          "clip": "clips/739c69142f9de0ce.mp3"
+        },
+        "ella": {
+          "es": "Ella prefiere el té.",
+          "clip": "clips/8e2433288d0e5572.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros preferimos el té.",
+          "clip": "clips/5cf248edfac599e0.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras preferimos el té.",
+          "clip": "clips/413625b5399d09aa.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes prefieren el té.",
+          "clip": "clips/48473b5d6c4d3154.mp3"
+        },
+        "ellos": {
+          "es": "Ellos prefieren el té.",
+          "clip": "clips/c66242fac8b1f48c.mp3"
+        },
+        "ellas": {
+          "es": "Ellas prefieren el té.",
+          "clip": "clips/2df5a34e0169f65f.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I preferred tea.",
+      "en_clip": "clips/7a157bbc1544b0dc.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo preferí el té.",
+          "clip": "clips/59695ad2c0e5f50b.mp3"
+        },
+        "tu": {
+          "es": "Tú preferiste el té.",
+          "clip": "clips/79a9ff03f5d20f48.mp3"
+        },
+        "usted": {
+          "es": "Usted prefirió el té.",
+          "clip": "clips/081f2451fd1d9a40.mp3"
+        },
+        "el": {
+          "es": "Él prefirió el té.",
+          "clip": "clips/464adca918e6c000.mp3"
+        },
+        "ella": {
+          "es": "Ella prefirió el té.",
+          "clip": "clips/67c128eab2f33589.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros preferimos el té.",
+          "clip": "clips/5cf248edfac599e0.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras preferimos el té.",
+          "clip": "clips/413625b5399d09aa.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes prefirieron el té.",
+          "clip": "clips/23419bf076774680.mp3"
+        },
+        "ellos": {
+          "es": "Ellos prefirieron el té.",
+          "clip": "clips/007788f24bbecea6.mp3"
+        },
+        "ellas": {
+          "es": "Ellas prefirieron el té.",
+          "clip": "clips/fedcf9edb46adbe6.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to prefer tea.",
+      "en_clip": "clips/015ca9f173394fb4.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo prefería el té.",
+          "clip": "clips/a833d4d32e12122b.mp3"
+        },
+        "tu": {
+          "es": "Tú preferías el té.",
+          "clip": "clips/0618f611ba8abd97.mp3"
+        },
+        "usted": {
+          "es": "Usted prefería el té.",
+          "clip": "clips/18952d94c1ac5673.mp3"
+        },
+        "el": {
+          "es": "Él prefería el té.",
+          "clip": "clips/75a568b1cf5a32ee.mp3"
+        },
+        "ella": {
+          "es": "Ella prefería el té.",
+          "clip": "clips/949acec9467eb7fb.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros preferíamos el té.",
+          "clip": "clips/4f3c1203d54cb9ee.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras preferíamos el té.",
+          "clip": "clips/6bc579888fd2f39f.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes preferían el té.",
+          "clip": "clips/94595f2bb5b701bd.mp3"
+        },
+        "ellos": {
+          "es": "Ellos preferían el té.",
+          "clip": "clips/36d7102fead34474.mp3"
+        },
+        "ellas": {
+          "es": "Ellas preferían el té.",
+          "clip": "clips/9d34870d76e0b4f6.mp3"
+        }
+      }
+    }
+  ]
+}

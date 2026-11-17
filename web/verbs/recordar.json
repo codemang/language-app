@@ -1,0 +1,250 @@
+{
+  "verb": "recordar",
+  "meaning": "to remember",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I need to remember her name.",
+      "en_clip": "clips/25d8fa0a739098e3.mp3",
+      "single": {
+        "es": "Necesito recordar su nombre.",
+        "clip": "clips/edda166a78f1fbe8.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I remember her name.",
+      "en_clip": "clips/b527168005e296ca.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo recuerdo su nombre.",
+          "clip": "clips/8187b6edf10d615e.mp3"
+        },
+        "tu": {
+          "es": "Tú recuerdas su nombre.",
+          "clip": "clips/2cbcd21f3a6a26f6.mp3"
+        },
+        "usted": {
+          "es": "Usted recuerda su nombre.",
+          "clip": "clips/79fd10f50e9fc973.mp3"
+        },
+        "el": {
+          "es": "Él recuerda su nombre.",
+          "clip": "clips/de39635be9fd08cc.mp3"
+        },
+        "ella": {
+          "es": "Ella recuerda su nombre.",
+          "clip": "clips/a6bbcd9bf1af7e4f.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros recordamos su nombre.",
+          "clip": "clips/71726ae588f0bb2e.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras recordamos su nombre.",
+          "clip": "clips/f6aaf3b06c307eed.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes recuerdan su nombre.",
+          "clip": "clips/a5f6e9476ba4d1bb.mp3"
+        },
+        "ellos": {
+          "es": "Ellos recuerdan su nombre.",
+          "clip": "clips/26ef84a447256e61.mp3"
+        },
+        "ellas": {
+          "es": "Ellas recuerdan su nombre.",
+          "clip": "clips/c06f13142b91e7b9.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I remembered her name.",
+      "en_clip": "clips/e0fcafd02aeef8c6.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo recordé su nombre.",
+          "clip": "clips/3fa1c2c2d1d302d2.mp3"
+        },
+        "tu": {
+          "es": "Tú recordaste su nombre.",
+          "clip": "clips/f1883214e7cb8498.mp3"
+        },
+        "usted": {
+          "es": "Usted recordó su nombre.",
+          "clip": "clips/5f540736246038f1.mp3"
+        },
+        "el": {
+          "es": "Él recordó su nombre.",
+          "clip": "clips/4f8e4f510cc50527.mp3"
+        },
+        "ella": {
+          "es": "Ella recordó su nombre.",
+          "clip": "clips/747e90f6f5838a98.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros recordamos su nombre.",
+          "clip": "clips/71726ae588f0bb2e.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras recordamos su nombre.",
+          "clip": "clips/f6aaf3b06c307eed.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes recordaron su nombre.",
+          "clip": "clips/5b228fa9bc2301e2.mp3"
+        },
+        "ellos": {
+          "es": "Ellos recordaron su nombre.",
+          "clip": "clips/c310745e682833e1.mp3"
+        },
+        "ellas": {
+          "es": "Ellas recordaron su nombre.",
+          "clip": "clips/8bb7f42e8766a5af.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to remember her name.",
+      "en_clip": "clips/74ea27041e77f689.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo recordaba su nombre.",
+          "clip": "clips/e9e696749fd799e4.mp3"
+        },
+        "tu": {
+          "es": "Tú recordabas su nombre.",
+          "clip": "clips/b14b9337ac89d88c.mp3"
+        },
+        "usted": {
+          "es": "Usted recordaba su nombre.",
+          "clip": "clips/d5ea4133d063853a.mp3"
+        },
+        "el": {
+          "es": "Él recordaba su nombre.",
+          "clip": "clips/8de4d746febe8bde.mp3"
+        },
+        "ella": {
+          "es": "Ella recordaba su nombre.",
+          "clip": "clips/a9b656105dcab444.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros recordábamos su nombre.",
+          "clip": "clips/6bd64144a13167ba.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras recordábamos su nombre.",
+          "clip": "clips/35679fd41cd550bf.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes recordaban su nombre.",
+          "clip": "clips/2775fac1022badc2.mp3"
+        },
+        "ellos": {
+          "es": "Ellos recordaban su nombre.",
+          "clip": "clips/10c691fd3a3d04a4.mp3"
+        },
+        "ellas": {
+          "es": "Ellas recordaban su nombre.",
+          "clip": "clips/7d6793b6bbd187ca.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Remember her name.",
+      "en_clip": "clips/2cb9ed1cc114f0a6.mp3",
+      "forms": {
+        "tu": {
+          "es": "Recuerda su nombre.",
+          "clip": "clips/ea0a192c11efe7b8.mp3"
+        },
+        "usted": {
+          "es": "Recuerde su nombre.",
+          "clip": "clips/23b21b4bfb7454cd.mp3"
+        },
+        "nosotros": {
+          "es": "Recordemos su nombre.",
+          "clip": "clips/a3d09945e70b443f.mp3"
+        },
+        "nosotras": {
+          "es": "Recordemos su nombre.",
+          "clip": "clips/a3d09945e70b443f.mp3"
+        },
+        "ustedes": {
+          "es": "Recuerden su nombre.",
+          "clip": "clips/0d9bfdbcdf7062f6.mp3"
+        }
+      }
+    }
+  ]
+}

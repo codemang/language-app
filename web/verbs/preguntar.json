@@ -1,0 +1,250 @@
+{
+  "verb": "preguntar",
+  "meaning": "to ask",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I'm going to ask the time.",
+      "en_clip": "clips/390f3e03d65cd18d.mp3",
+      "single": {
+        "es": "Voy a preguntar la hora.",
+        "clip": "clips/cc96701991b709b3.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I ask the time.",
+      "en_clip": "clips/4ed4f5e01b468dfb.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo pregunto la hora.",
+          "clip": "clips/def84dc05c695722.mp3"
+        },
+        "tu": {
+          "es": "Tú preguntas la hora.",
+          "clip": "clips/03852fe79f88a976.mp3"
+        },
+        "usted": {
+          "es": "Usted pregunta la hora.",
+          "clip": "clips/85538a9354b4018a.mp3"
+        },
+        "el": {
+          "es": "Él pregunta la hora.",
+          "clip": "clips/ce78e76aadbb6ca0.mp3"
+        },
+        "ella": {
+          "es": "Ella pregunta la hora.",
+          "clip": "clips/d6fb88fa79c2bafa.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros preguntamos la hora.",
+          "clip": "clips/d9c5ba5f99522dfa.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras preguntamos la hora.",
+          "clip": "clips/8190a4c0785f806b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes preguntan la hora.",
+          "clip": "clips/d180e7157ad0acee.mp3"
+        },
+        "ellos": {
+          "es": "Ellos preguntan la hora.",
+          "clip": "clips/6fe13c96108df7d4.mp3"
+        },
+        "ellas": {
+          "es": "Ellas preguntan la hora.",
+          "clip": "clips/2a8e1324e6c2f086.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I asked the time.",
+      "en_clip": "clips/4048b44535b5b9b0.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo pregunté la hora.",
+          "clip": "clips/64d34cce58451e25.mp3"
+        },
+        "tu": {
+          "es": "Tú preguntaste la hora.",
+          "clip": "clips/200d94e91cf63841.mp3"
+        },
+        "usted": {
+          "es": "Usted preguntó la hora.",
+          "clip": "clips/1186824c7ced3f5e.mp3"
+        },
+        "el": {
+          "es": "Él preguntó la hora.",
+          "clip": "clips/d1b63a28138478f4.mp3"
+        },
+        "ella": {
+          "es": "Ella preguntó la hora.",
+          "clip": "clips/bc36ae43ee58b485.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros preguntamos la hora.",
+          "clip": "clips/d9c5ba5f99522dfa.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras preguntamos la hora.",
+          "clip": "clips/8190a4c0785f806b.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes preguntaron la hora.",
+          "clip": "clips/39e6f42e6669a787.mp3"
+        },
+        "ellos": {
+          "es": "Ellos preguntaron la hora.",
+          "clip": "clips/4a07efff47cc8e64.mp3"
+        },
+        "ellas": {
+          "es": "Ellas preguntaron la hora.",
+          "clip": "clips/0c6434f3520056cb.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to ask the time.",
+      "en_clip": "clips/efce5d43354dd299.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo preguntaba la hora.",
+          "clip": "clips/b14926a574bfddf6.mp3"
+        },
+        "tu": {
+          "es": "Tú preguntabas la hora.",
+          "clip": "clips/f19873235b48bd4d.mp3"
+        },
+        "usted": {
+          "es": "Usted preguntaba la hora.",
+          "clip": "clips/87b9e00e3d15a9f8.mp3"
+        },
+        "el": {
+          "es": "Él preguntaba la hora.",
+          "clip": "clips/16879395ac459468.mp3"
+        },
+        "ella": {
+          "es": "Ella preguntaba la hora.",
+          "clip": "clips/cfb3b5b961858fb7.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros preguntábamos la hora.",
+          "clip": "clips/62060838aceeb24d.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras preguntábamos la hora.",
+          "clip": "clips/1086ee17d12a5acb.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes preguntaban la hora.",
+          "clip": "clips/e4eda0a4d60a56f7.mp3"
+        },
+        "ellos": {
+          "es": "Ellos preguntaban la hora.",
+          "clip": "clips/632e050403b1647c.mp3"
+        },
+        "ellas": {
+          "es": "Ellas preguntaban la hora.",
+          "clip": "clips/856c547b364ec9a3.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Ask the time.",
+      "en_clip": "clips/400d2aed2759c771.mp3",
+      "forms": {
+        "tu": {
+          "es": "Pregunta la hora.",
+          "clip": "clips/1d9cc4293a8d55a3.mp3"
+        },
+        "usted": {
+          "es": "Pregunte la hora.",
+          "clip": "clips/ff328681fe02260a.mp3"
+        },
+        "nosotros": {
+          "es": "Preguntemos la hora.",
+          "clip": "clips/8c3c91fd78f85b8d.mp3"
+        },
+        "nosotras": {
+          "es": "Preguntemos la hora.",
+          "clip": "clips/8c3c91fd78f85b8d.mp3"
+        },
+        "ustedes": {
+          "es": "Pregunten la hora.",
+          "clip": "clips/e00dccba91133f4f.mp3"
+        }
+      }
+    }
+  ]
+}

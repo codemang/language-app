@@ -6,7 +6,7 @@
 // timings stay a matching set. Audio is fetched with Range requests (iOS insists
 // on 206 responses for media), so ranges are cut from the cached file here.
 // Lessons that aren't downloaded come straight from the network.
-const CACHE = "escucha-v32";
+const CACHE = "escucha-v34";
 const OFFLINE = "escucha-offline";
 const VERBS = "escucha-verbs";    // verb drills saved with "Download all" (verbs.js)
 const NET_WAIT = 3000;  // ms: longer than this, a cached copy is used instead

@@ -1,0 +1,250 @@
+{
+  "verb": "acostarse",
+  "meaning": "to go to bed",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I don't want to go to bed late.",
+      "en_clip": "clips/454239a1a381be70.mp3",
+      "single": {
+        "es": "No quiero acostarme tarde.",
+        "clip": "clips/22d0bb9d42a053ea.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I go to bed late.",
+      "en_clip": "clips/9902e6b17e1fd2e3.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo me acuesto tarde.",
+          "clip": "clips/37a57dd9f8cb4abb.mp3"
+        },
+        "tu": {
+          "es": "Tú te acuestas tarde.",
+          "clip": "clips/fe3565e79ac08716.mp3"
+        },
+        "usted": {
+          "es": "Usted se acuesta tarde.",
+          "clip": "clips/03705a98a5bcd026.mp3"
+        },
+        "el": {
+          "es": "Él se acuesta tarde.",
+          "clip": "clips/09e1cd2cb7cbe870.mp3"
+        },
+        "ella": {
+          "es": "Ella se acuesta tarde.",
+          "clip": "clips/8a46f90b7acc0853.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros nos acostamos tarde.",
+          "clip": "clips/d04e52a5f4d8bf91.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras nos acostamos tarde.",
+          "clip": "clips/2cc4c37df9214880.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes se acuestan tarde.",
+          "clip": "clips/e8d9a587d0a2ea11.mp3"
+        },
+        "ellos": {
+          "es": "Ellos se acuestan tarde.",
+          "clip": "clips/0e2fe834725e225b.mp3"
+        },
+        "ellas": {
+          "es": "Ellas se acuestan tarde.",
+          "clip": "clips/de22121807d9f2ba.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I went to bed late.",
+      "en_clip": "clips/c8e2b84ba92bf48b.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo me acosté tarde.",
+          "clip": "clips/72b6ab380eb56cb6.mp3"
+        },
+        "tu": {
+          "es": "Tú te acostaste tarde.",
+          "clip": "clips/866a38a551829cef.mp3"
+        },
+        "usted": {
+          "es": "Usted se acostó tarde.",
+          "clip": "clips/fa169fb34f4e0152.mp3"
+        },
+        "el": {
+          "es": "Él se acostó tarde.",
+          "clip": "clips/ca0b1a5333ecc9e4.mp3"
+        },
+        "ella": {
+          "es": "Ella se acostó tarde.",
+          "clip": "clips/0ed7f0e0bc4e4826.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros nos acostamos tarde.",
+          "clip": "clips/d04e52a5f4d8bf91.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras nos acostamos tarde.",
+          "clip": "clips/2cc4c37df9214880.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes se acostaron tarde.",
+          "clip": "clips/e837fa1ee63dc86e.mp3"
+        },
+        "ellos": {
+          "es": "Ellos se acostaron tarde.",
+          "clip": "clips/153dc0e99e756246.mp3"
+        },
+        "ellas": {
+          "es": "Ellas se acostaron tarde.",
+          "clip": "clips/d0ae5cb8c1c225a3.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to go to bed late.",
+      "en_clip": "clips/c0bc64e5dc1180e0.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo me acostaba tarde.",
+          "clip": "clips/1f2eca2b78981dce.mp3"
+        },
+        "tu": {
+          "es": "Tú te acostabas tarde.",
+          "clip": "clips/3f3d7bf7f521f11d.mp3"
+        },
+        "usted": {
+          "es": "Usted se acostaba tarde.",
+          "clip": "clips/5fb896ba423974b5.mp3"
+        },
+        "el": {
+          "es": "Él se acostaba tarde.",
+          "clip": "clips/e5dbfbe7221f8964.mp3"
+        },
+        "ella": {
+          "es": "Ella se acostaba tarde.",
+          "clip": "clips/5581bbc93f7e5706.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros nos acostábamos tarde.",
+          "clip": "clips/f23ba01f7130e917.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras nos acostábamos tarde.",
+          "clip": "clips/2e9e0c57007a4ca0.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes se acostaban tarde.",
+          "clip": "clips/81d064e6e7bebea8.mp3"
+        },
+        "ellos": {
+          "es": "Ellos se acostaban tarde.",
+          "clip": "clips/9609ce8fdcdab242.mp3"
+        },
+        "ellas": {
+          "es": "Ellas se acostaban tarde.",
+          "clip": "clips/d807748f2532aee4.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Go to bed early.",
+      "en_clip": "clips/cbeb57fda1bb3bc2.mp3",
+      "forms": {
+        "tu": {
+          "es": "Acuéstate temprano.",
+          "clip": "clips/4b358b9284f7b8ba.mp3"
+        },
+        "usted": {
+          "es": "Acuéstese temprano.",
+          "clip": "clips/beca481a17705e21.mp3"
+        },
+        "nosotros": {
+          "es": "Acostémonos temprano.",
+          "clip": "clips/fab7aac71f241697.mp3"
+        },
+        "nosotras": {
+          "es": "Acostémonos temprano.",
+          "clip": "clips/fab7aac71f241697.mp3"
+        },
+        "ustedes": {
+          "es": "Acuéstense temprano.",
+          "clip": "clips/972df2e2acc7a6b6.mp3"
+        }
+      }
+    }
+  ]
+}

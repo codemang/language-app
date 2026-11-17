@@ -1,0 +1,250 @@
+{
+  "verb": "tomar",
+  "meaning": "to take, to have (a drink)",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to have a tea.",
+      "en_clip": "clips/e79811fab503daa0.mp3",
+      "single": {
+        "es": "Quiero tomar un té.",
+        "clip": "clips/5139a86f1eb247cc.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I have a tea.",
+      "en_clip": "clips/a66541de3c32cc4c.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo tomo un té.",
+          "clip": "clips/d55569b281150e46.mp3"
+        },
+        "tu": {
+          "es": "Tú tomas un té.",
+          "clip": "clips/8c57f46b97df27dc.mp3"
+        },
+        "usted": {
+          "es": "Usted toma un té.",
+          "clip": "clips/4882c5c0b767ccdc.mp3"
+        },
+        "el": {
+          "es": "Él toma un té.",
+          "clip": "clips/8b741e5de80e83d7.mp3"
+        },
+        "ella": {
+          "es": "Ella toma un té.",
+          "clip": "clips/3def343c3a4144fa.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros tomamos un té.",
+          "clip": "clips/00ff4d8928f76041.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras tomamos un té.",
+          "clip": "clips/b3f2def4fe263af6.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes toman un té.",
+          "clip": "clips/8f1a5382a151bc6b.mp3"
+        },
+        "ellos": {
+          "es": "Ellos toman un té.",
+          "clip": "clips/07d429a56269be60.mp3"
+        },
+        "ellas": {
+          "es": "Ellas toman un té.",
+          "clip": "clips/d55e5d75dd195d5d.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I had a tea.",
+      "en_clip": "clips/b39bc0db0c1cb2ff.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo tomé un té.",
+          "clip": "clips/a1b7f2bab45984f8.mp3"
+        },
+        "tu": {
+          "es": "Tú tomaste un té.",
+          "clip": "clips/9bedb6e74fdc5fc6.mp3"
+        },
+        "usted": {
+          "es": "Usted tomó un té.",
+          "clip": "clips/9d46d4374472201f.mp3"
+        },
+        "el": {
+          "es": "Él tomó un té.",
+          "clip": "clips/6e98ba12c4aa9528.mp3"
+        },
+        "ella": {
+          "es": "Ella tomó un té.",
+          "clip": "clips/615354faedbe0076.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros tomamos un té.",
+          "clip": "clips/00ff4d8928f76041.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras tomamos un té.",
+          "clip": "clips/b3f2def4fe263af6.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes tomaron un té.",
+          "clip": "clips/7f937ac67c932a63.mp3"
+        },
+        "ellos": {
+          "es": "Ellos tomaron un té.",
+          "clip": "clips/16abf069eb9011b8.mp3"
+        },
+        "ellas": {
+          "es": "Ellas tomaron un té.",
+          "clip": "clips/2f1b0439e11e80de.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to have a tea.",
+      "en_clip": "clips/ca4fa0c428c9ea1f.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo tomaba un té.",
+          "clip": "clips/38f9e9535f3a75fa.mp3"
+        },
+        "tu": {
+          "es": "Tú tomabas un té.",
+          "clip": "clips/626508aba1d1fdaa.mp3"
+        },
+        "usted": {
+          "es": "Usted tomaba un té.",
+          "clip": "clips/27f73d8c6982a2f6.mp3"
+        },
+        "el": {
+          "es": "Él tomaba un té.",
+          "clip": "clips/66310c029e4f610e.mp3"
+        },
+        "ella": {
+          "es": "Ella tomaba un té.",
+          "clip": "clips/294947f760e0b5d5.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros tomábamos un té.",
+          "clip": "clips/ee531dd17334e42d.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras tomábamos un té.",
+          "clip": "clips/a728d9eb8a9aab74.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes tomaban un té.",
+          "clip": "clips/e2c9a1ea0ae78eed.mp3"
+        },
+        "ellos": {
+          "es": "Ellos tomaban un té.",
+          "clip": "clips/e5e71b59fba2cca6.mp3"
+        },
+        "ellas": {
+          "es": "Ellas tomaban un té.",
+          "clip": "clips/6ca61c7f21e9d989.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Have a tea.",
+      "en_clip": "clips/261dadaa4e9ab2d1.mp3",
+      "forms": {
+        "tu": {
+          "es": "Toma un té.",
+          "clip": "clips/df4fa1da7713fa4f.mp3"
+        },
+        "usted": {
+          "es": "Tome un té.",
+          "clip": "clips/6db19a4840a7c6d7.mp3"
+        },
+        "nosotros": {
+          "es": "Tomemos un té.",
+          "clip": "clips/ffcb19235909f8c7.mp3"
+        },
+        "nosotras": {
+          "es": "Tomemos un té.",
+          "clip": "clips/ffcb19235909f8c7.mp3"
+        },
+        "ustedes": {
+          "es": "Tomen un té.",
+          "clip": "clips/f5821bd391c1758b.mp3"
+        }
+      }
+    }
+  ]
+}

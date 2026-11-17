@@ -1,0 +1,250 @@
+{
+  "verb": "escribir",
+  "meaning": "to write",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to write a letter.",
+      "en_clip": "clips/da11ea4d9f7f9580.mp3",
+      "single": {
+        "es": "Quiero escribir una carta.",
+        "clip": "clips/45477400ad6710ef.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I write a letter.",
+      "en_clip": "clips/e232e5fc8bbc9625.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo escribo una carta.",
+          "clip": "clips/52fe7027f5b09ac0.mp3"
+        },
+        "tu": {
+          "es": "Tú escribes una carta.",
+          "clip": "clips/816a79cd119455ec.mp3"
+        },
+        "usted": {
+          "es": "Usted escribe una carta.",
+          "clip": "clips/e5cb004850076b28.mp3"
+        },
+        "el": {
+          "es": "Él escribe una carta.",
+          "clip": "clips/eefb30040e930a43.mp3"
+        },
+        "ella": {
+          "es": "Ella escribe una carta.",
+          "clip": "clips/863d34ce54cdd4f0.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros escribimos una carta.",
+          "clip": "clips/6dbf71d0010380a1.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras escribimos una carta.",
+          "clip": "clips/858fd598a4e61692.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes escriben una carta.",
+          "clip": "clips/a04658cb1ae3cea8.mp3"
+        },
+        "ellos": {
+          "es": "Ellos escriben una carta.",
+          "clip": "clips/0634293705fd6fcc.mp3"
+        },
+        "ellas": {
+          "es": "Ellas escriben una carta.",
+          "clip": "clips/9e24debcb08a28bd.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I wrote a letter.",
+      "en_clip": "clips/34b4684b381742b7.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo escribí una carta.",
+          "clip": "clips/d92085f9fb60184b.mp3"
+        },
+        "tu": {
+          "es": "Tú escribiste una carta.",
+          "clip": "clips/2db136d53a667da5.mp3"
+        },
+        "usted": {
+          "es": "Usted escribió una carta.",
+          "clip": "clips/6650e4c1376f3ca9.mp3"
+        },
+        "el": {
+          "es": "Él escribió una carta.",
+          "clip": "clips/38c969af5cfc7284.mp3"
+        },
+        "ella": {
+          "es": "Ella escribió una carta.",
+          "clip": "clips/a6755ee519c36a5f.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros escribimos una carta.",
+          "clip": "clips/6dbf71d0010380a1.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras escribimos una carta.",
+          "clip": "clips/858fd598a4e61692.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes escribieron una carta.",
+          "clip": "clips/2acd3448dea20376.mp3"
+        },
+        "ellos": {
+          "es": "Ellos escribieron una carta.",
+          "clip": "clips/ddd9a0a7913c21b0.mp3"
+        },
+        "ellas": {
+          "es": "Ellas escribieron una carta.",
+          "clip": "clips/236282e55a5fe807.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to write a letter.",
+      "en_clip": "clips/7d3ae77df5ef0aaa.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo escribía una carta.",
+          "clip": "clips/b28fa6ea7ab0fab4.mp3"
+        },
+        "tu": {
+          "es": "Tú escribías una carta.",
+          "clip": "clips/9c9d086cd018dd32.mp3"
+        },
+        "usted": {
+          "es": "Usted escribía una carta.",
+          "clip": "clips/5f2197c5c71851bd.mp3"
+        },
+        "el": {
+          "es": "Él escribía una carta.",
+          "clip": "clips/5780b6cdd42e920a.mp3"
+        },
+        "ella": {
+          "es": "Ella escribía una carta.",
+          "clip": "clips/4f08c712693b0a3d.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros escribíamos una carta.",
+          "clip": "clips/be6e5dfe422bc3b8.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras escribíamos una carta.",
+          "clip": "clips/7d84b569a74b541a.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes escribían una carta.",
+          "clip": "clips/c0c242935bbcd286.mp3"
+        },
+        "ellos": {
+          "es": "Ellos escribían una carta.",
+          "clip": "clips/908e498172560eb8.mp3"
+        },
+        "ellas": {
+          "es": "Ellas escribían una carta.",
+          "clip": "clips/1b64d4e7d94601b6.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Write a letter.",
+      "en_clip": "clips/8f674d99a141f1ff.mp3",
+      "forms": {
+        "tu": {
+          "es": "Escribe una carta.",
+          "clip": "clips/68d60baa4b4cb764.mp3"
+        },
+        "usted": {
+          "es": "Escriba una carta.",
+          "clip": "clips/7b7c54ccb13c40cd.mp3"
+        },
+        "nosotros": {
+          "es": "Escribamos una carta.",
+          "clip": "clips/f6a21448a7166ab8.mp3"
+        },
+        "nosotras": {
+          "es": "Escribamos una carta.",
+          "clip": "clips/f6a21448a7166ab8.mp3"
+        },
+        "ustedes": {
+          "es": "Escriban una carta.",
+          "clip": "clips/b768086078becd7e.mp3"
+        }
+      }
+    }
+  ]
+}

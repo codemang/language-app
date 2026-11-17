@@ -1,0 +1,250 @@
+{
+  "verb": "escuchar",
+  "meaning": "to listen to",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to listen to music.",
+      "en_clip": "clips/047b52ec08c46274.mp3",
+      "single": {
+        "es": "Quiero escuchar música.",
+        "clip": "clips/255c84f53a7f4c55.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I listen to music.",
+      "en_clip": "clips/3b26b7e2c1b5605f.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo escucho música.",
+          "clip": "clips/84c0274494382a4f.mp3"
+        },
+        "tu": {
+          "es": "Tú escuchas música.",
+          "clip": "clips/c275f713d4b8e2b5.mp3"
+        },
+        "usted": {
+          "es": "Usted escucha música.",
+          "clip": "clips/a16c6f4b394b87ce.mp3"
+        },
+        "el": {
+          "es": "Él escucha música.",
+          "clip": "clips/842ee53bdbe65188.mp3"
+        },
+        "ella": {
+          "es": "Ella escucha música.",
+          "clip": "clips/5fd3ba3bc4e569c0.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros escuchamos música.",
+          "clip": "clips/64671e774f140358.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras escuchamos música.",
+          "clip": "clips/493db6d4d7b72ee7.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes escuchan música.",
+          "clip": "clips/c750def3769ef936.mp3"
+        },
+        "ellos": {
+          "es": "Ellos escuchan música.",
+          "clip": "clips/7165eb56ad1248dd.mp3"
+        },
+        "ellas": {
+          "es": "Ellas escuchan música.",
+          "clip": "clips/c1b1c81e0cf7d8ad.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I listened to music.",
+      "en_clip": "clips/ac7df75c92137954.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo escuché música.",
+          "clip": "clips/4b972ac6f8a06567.mp3"
+        },
+        "tu": {
+          "es": "Tú escuchaste música.",
+          "clip": "clips/25776e1f39c5e849.mp3"
+        },
+        "usted": {
+          "es": "Usted escuchó música.",
+          "clip": "clips/948722769da1b4cb.mp3"
+        },
+        "el": {
+          "es": "Él escuchó música.",
+          "clip": "clips/8693f0711a242aeb.mp3"
+        },
+        "ella": {
+          "es": "Ella escuchó música.",
+          "clip": "clips/9e75ae604e980526.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros escuchamos música.",
+          "clip": "clips/64671e774f140358.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras escuchamos música.",
+          "clip": "clips/493db6d4d7b72ee7.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes escucharon música.",
+          "clip": "clips/7fe40b95fda9eeb7.mp3"
+        },
+        "ellos": {
+          "es": "Ellos escucharon música.",
+          "clip": "clips/23c4b30f59c81c4c.mp3"
+        },
+        "ellas": {
+          "es": "Ellas escucharon música.",
+          "clip": "clips/2fa1d820ddc835d7.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to listen to music.",
+      "en_clip": "clips/9181102d2e0bf8ae.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo escuchaba música.",
+          "clip": "clips/74f27a254c2834ef.mp3"
+        },
+        "tu": {
+          "es": "Tú escuchabas música.",
+          "clip": "clips/2e997b5dd4a1e357.mp3"
+        },
+        "usted": {
+          "es": "Usted escuchaba música.",
+          "clip": "clips/459dd7475c2c3b1d.mp3"
+        },
+        "el": {
+          "es": "Él escuchaba música.",
+          "clip": "clips/4159febc3264565c.mp3"
+        },
+        "ella": {
+          "es": "Ella escuchaba música.",
+          "clip": "clips/e005cd3d0f5e1d6a.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros escuchábamos música.",
+          "clip": "clips/443498b485ae8fa6.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras escuchábamos música.",
+          "clip": "clips/d3a9818473c72b31.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes escuchaban música.",
+          "clip": "clips/8dc5bda7a8d84ade.mp3"
+        },
+        "ellos": {
+          "es": "Ellos escuchaban música.",
+          "clip": "clips/2632411ecd978902.mp3"
+        },
+        "ellas": {
+          "es": "Ellas escuchaban música.",
+          "clip": "clips/a06b0dfea3920e05.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Listen to the song.",
+      "en_clip": "clips/e08f301dcb7ae10a.mp3",
+      "forms": {
+        "tu": {
+          "es": "Escucha la canción.",
+          "clip": "clips/ec5d2913f289bb00.mp3"
+        },
+        "usted": {
+          "es": "Escuche la canción.",
+          "clip": "clips/d0fe3bf5517a291b.mp3"
+        },
+        "nosotros": {
+          "es": "Escuchemos la canción.",
+          "clip": "clips/437ac268f397accf.mp3"
+        },
+        "nosotras": {
+          "es": "Escuchemos la canción.",
+          "clip": "clips/437ac268f397accf.mp3"
+        },
+        "ustedes": {
+          "es": "Escuchen la canción.",
+          "clip": "clips/8134c21356360bfe.mp3"
+        }
+      }
+    }
+  ]
+}

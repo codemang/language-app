@@ -1,0 +1,250 @@
+{
+  "verb": "beber",
+  "meaning": "to drink",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I need to drink water.",
+      "en_clip": "clips/9f26856a75cc83ab.mp3",
+      "single": {
+        "es": "Necesito beber agua.",
+        "clip": "clips/97c298b0c47fd97a.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I drink water.",
+      "en_clip": "clips/83b369780642bcf0.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo bebo agua.",
+          "clip": "clips/a675e40b6964670c.mp3"
+        },
+        "tu": {
+          "es": "Tú bebes agua.",
+          "clip": "clips/17dd7622f487f136.mp3"
+        },
+        "usted": {
+          "es": "Usted bebe agua.",
+          "clip": "clips/d99605f035e451a4.mp3"
+        },
+        "el": {
+          "es": "Él bebe agua.",
+          "clip": "clips/9a1a376c26dc0951.mp3"
+        },
+        "ella": {
+          "es": "Ella bebe agua.",
+          "clip": "clips/392a75c7a04fc797.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros bebemos agua.",
+          "clip": "clips/697d6537119d5b8a.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras bebemos agua.",
+          "clip": "clips/463843027813a7db.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes beben agua.",
+          "clip": "clips/ee19b46c66328a66.mp3"
+        },
+        "ellos": {
+          "es": "Ellos beben agua.",
+          "clip": "clips/13f01314debdba80.mp3"
+        },
+        "ellas": {
+          "es": "Ellas beben agua.",
+          "clip": "clips/959d35f332e47134.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I drank water.",
+      "en_clip": "clips/a37ca67ca05fbf1f.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo bebí agua.",
+          "clip": "clips/91b776dc54719df7.mp3"
+        },
+        "tu": {
+          "es": "Tú bebiste agua.",
+          "clip": "clips/730ba7ce51a2ddb4.mp3"
+        },
+        "usted": {
+          "es": "Usted bebió agua.",
+          "clip": "clips/6302a78e0173122e.mp3"
+        },
+        "el": {
+          "es": "Él bebió agua.",
+          "clip": "clips/f5a14f75c8d3403b.mp3"
+        },
+        "ella": {
+          "es": "Ella bebió agua.",
+          "clip": "clips/ac44f95c434a33e0.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros bebimos agua.",
+          "clip": "clips/39120d54b1398d33.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras bebimos agua.",
+          "clip": "clips/17400a404df3a9c0.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes bebieron agua.",
+          "clip": "clips/e9c4471643131961.mp3"
+        },
+        "ellos": {
+          "es": "Ellos bebieron agua.",
+          "clip": "clips/2ef6169f615b5088.mp3"
+        },
+        "ellas": {
+          "es": "Ellas bebieron agua.",
+          "clip": "clips/99aad6a742d54e2f.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to drink water.",
+      "en_clip": "clips/f6570548008fd635.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo bebía agua.",
+          "clip": "clips/924c5adaf116ee33.mp3"
+        },
+        "tu": {
+          "es": "Tú bebías agua.",
+          "clip": "clips/1cfc4568f50bfb9e.mp3"
+        },
+        "usted": {
+          "es": "Usted bebía agua.",
+          "clip": "clips/ebe784fe5f8d3144.mp3"
+        },
+        "el": {
+          "es": "Él bebía agua.",
+          "clip": "clips/7c55c52468d18f37.mp3"
+        },
+        "ella": {
+          "es": "Ella bebía agua.",
+          "clip": "clips/01a397843ae938df.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros bebíamos agua.",
+          "clip": "clips/c80d562e3669682b.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras bebíamos agua.",
+          "clip": "clips/6cd9079a2b773e16.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes bebían agua.",
+          "clip": "clips/2442c3cc29120c31.mp3"
+        },
+        "ellos": {
+          "es": "Ellos bebían agua.",
+          "clip": "clips/b078bb182af2d8cf.mp3"
+        },
+        "ellas": {
+          "es": "Ellas bebían agua.",
+          "clip": "clips/6948938ae2f17cbd.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Drink water.",
+      "en_clip": "clips/d2eaa5730c263649.mp3",
+      "forms": {
+        "tu": {
+          "es": "Bebe agua.",
+          "clip": "clips/e13381f31727f016.mp3"
+        },
+        "usted": {
+          "es": "Beba agua.",
+          "clip": "clips/e7e88e4d7be6b44c.mp3"
+        },
+        "nosotros": {
+          "es": "Bebamos agua.",
+          "clip": "clips/793b9e22ff5e280c.mp3"
+        },
+        "nosotras": {
+          "es": "Bebamos agua.",
+          "clip": "clips/793b9e22ff5e280c.mp3"
+        },
+        "ustedes": {
+          "es": "Beban agua.",
+          "clip": "clips/8b99e461f510f81e.mp3"
+        }
+      }
+    }
+  ]
+}

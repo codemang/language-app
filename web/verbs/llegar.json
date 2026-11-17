@@ -1,0 +1,250 @@
+{
+  "verb": "llegar",
+  "meaning": "to arrive",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I don't want to arrive late.",
+      "en_clip": "clips/846eaea6da006610.mp3",
+      "single": {
+        "es": "No quiero llegar tarde.",
+        "clip": "clips/754c9145e851921e.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I arrive late.",
+      "en_clip": "clips/5426d0b1cd235016.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo llego tarde.",
+          "clip": "clips/f9b7dd7fed7067e8.mp3"
+        },
+        "tu": {
+          "es": "Tú llegas tarde.",
+          "clip": "clips/616e20386f870954.mp3"
+        },
+        "usted": {
+          "es": "Usted llega tarde.",
+          "clip": "clips/1196f121a50f8118.mp3"
+        },
+        "el": {
+          "es": "Él llega tarde.",
+          "clip": "clips/c0c015d8c632326e.mp3"
+        },
+        "ella": {
+          "es": "Ella llega tarde.",
+          "clip": "clips/b2adca8230106007.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros llegamos tarde.",
+          "clip": "clips/5dea7b8c09c6284a.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras llegamos tarde.",
+          "clip": "clips/7edf963dc3b2fa4d.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes llegan tarde.",
+          "clip": "clips/6120c7841909cd65.mp3"
+        },
+        "ellos": {
+          "es": "Ellos llegan tarde.",
+          "clip": "clips/293bf3454155c3d3.mp3"
+        },
+        "ellas": {
+          "es": "Ellas llegan tarde.",
+          "clip": "clips/e8edbc27be932549.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I arrived late.",
+      "en_clip": "clips/37ecfa2d5fab0270.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo llegué tarde.",
+          "clip": "clips/b417f3fa69983080.mp3"
+        },
+        "tu": {
+          "es": "Tú llegaste tarde.",
+          "clip": "clips/569dc28ca0c7dc06.mp3"
+        },
+        "usted": {
+          "es": "Usted llegó tarde.",
+          "clip": "clips/cd9504dfa395e624.mp3"
+        },
+        "el": {
+          "es": "Él llegó tarde.",
+          "clip": "clips/732b4d08d8224c4b.mp3"
+        },
+        "ella": {
+          "es": "Ella llegó tarde.",
+          "clip": "clips/15ab2f250ac1d68c.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros llegamos tarde.",
+          "clip": "clips/5dea7b8c09c6284a.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras llegamos tarde.",
+          "clip": "clips/7edf963dc3b2fa4d.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes llegaron tarde.",
+          "clip": "clips/69fbec4c48342f78.mp3"
+        },
+        "ellos": {
+          "es": "Ellos llegaron tarde.",
+          "clip": "clips/3c231b7c86287f67.mp3"
+        },
+        "ellas": {
+          "es": "Ellas llegaron tarde.",
+          "clip": "clips/98e23be802eb706e.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to arrive late.",
+      "en_clip": "clips/79786bfb219c3566.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo llegaba tarde.",
+          "clip": "clips/bd3f8e35b56a19f4.mp3"
+        },
+        "tu": {
+          "es": "Tú llegabas tarde.",
+          "clip": "clips/42a5fd87be4f4713.mp3"
+        },
+        "usted": {
+          "es": "Usted llegaba tarde.",
+          "clip": "clips/2a37ea498631c803.mp3"
+        },
+        "el": {
+          "es": "Él llegaba tarde.",
+          "clip": "clips/f1ffecfd22908bc9.mp3"
+        },
+        "ella": {
+          "es": "Ella llegaba tarde.",
+          "clip": "clips/da15f91210edf7b3.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros llegábamos tarde.",
+          "clip": "clips/6dec7ac2b13c1c8c.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras llegábamos tarde.",
+          "clip": "clips/ddc2c639df8b3fd1.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes llegaban tarde.",
+          "clip": "clips/c34ad71adb35f0a7.mp3"
+        },
+        "ellos": {
+          "es": "Ellos llegaban tarde.",
+          "clip": "clips/e01f0134ba637ad8.mp3"
+        },
+        "ellas": {
+          "es": "Ellas llegaban tarde.",
+          "clip": "clips/e5ca70622b136469.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Arrive early.",
+      "en_clip": "clips/d73ceec3269e07b1.mp3",
+      "forms": {
+        "tu": {
+          "es": "Llega temprano.",
+          "clip": "clips/2a1d47c2955c6dbc.mp3"
+        },
+        "usted": {
+          "es": "Llegue temprano.",
+          "clip": "clips/a977e66478733f6a.mp3"
+        },
+        "nosotros": {
+          "es": "Lleguemos temprano.",
+          "clip": "clips/3347c29294809cf7.mp3"
+        },
+        "nosotras": {
+          "es": "Lleguemos temprano.",
+          "clip": "clips/3347c29294809cf7.mp3"
+        },
+        "ustedes": {
+          "es": "Lleguen temprano.",
+          "clip": "clips/cb15822e0ec7de25.mp3"
+        }
+      }
+    }
+  ]
+}

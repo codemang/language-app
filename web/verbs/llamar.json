@@ -1,0 +1,250 @@
+{
+  "verb": "llamar",
+  "meaning": "to call",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I'm going to call my mother.",
+      "en_clip": "clips/1eefd40a4cde3f30.mp3",
+      "single": {
+        "es": "Voy a llamar a mi madre.",
+        "clip": "clips/b75aaa53eb6fff3b.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I call my mother.",
+      "en_clip": "clips/88eb083006455ca2.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo llamo a mi madre.",
+          "clip": "clips/d258d35cb74e3813.mp3"
+        },
+        "tu": {
+          "es": "Tú llamas a mi madre.",
+          "clip": "clips/e7c7aa2380f6ecf4.mp3"
+        },
+        "usted": {
+          "es": "Usted llama a mi madre.",
+          "clip": "clips/46be1ebc523a1a59.mp3"
+        },
+        "el": {
+          "es": "Él llama a mi madre.",
+          "clip": "clips/e3cf4fe35b4d33f0.mp3"
+        },
+        "ella": {
+          "es": "Ella llama a mi madre.",
+          "clip": "clips/9ffb4bcae3f0da33.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros llamamos a mi madre.",
+          "clip": "clips/b09fcd4a3f791752.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras llamamos a mi madre.",
+          "clip": "clips/adb78de4b74aa2ca.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes llaman a mi madre.",
+          "clip": "clips/28a91be0b3337e5d.mp3"
+        },
+        "ellos": {
+          "es": "Ellos llaman a mi madre.",
+          "clip": "clips/3a0357cfa01650a3.mp3"
+        },
+        "ellas": {
+          "es": "Ellas llaman a mi madre.",
+          "clip": "clips/8b2a8a3568ad2b0f.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I called my mother.",
+      "en_clip": "clips/e138855284de47b5.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo llamé a mi madre.",
+          "clip": "clips/7ad411b1e194ce00.mp3"
+        },
+        "tu": {
+          "es": "Tú llamaste a mi madre.",
+          "clip": "clips/edc218b69bb1c86c.mp3"
+        },
+        "usted": {
+          "es": "Usted llamó a mi madre.",
+          "clip": "clips/37a94f3ed21d976f.mp3"
+        },
+        "el": {
+          "es": "Él llamó a mi madre.",
+          "clip": "clips/a50ba692ce22e246.mp3"
+        },
+        "ella": {
+          "es": "Ella llamó a mi madre.",
+          "clip": "clips/b310a39d88d6b8a4.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros llamamos a mi madre.",
+          "clip": "clips/b09fcd4a3f791752.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras llamamos a mi madre.",
+          "clip": "clips/adb78de4b74aa2ca.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes llamaron a mi madre.",
+          "clip": "clips/c9771e14bb0441cd.mp3"
+        },
+        "ellos": {
+          "es": "Ellos llamaron a mi madre.",
+          "clip": "clips/184caab772fbce5e.mp3"
+        },
+        "ellas": {
+          "es": "Ellas llamaron a mi madre.",
+          "clip": "clips/880de5c606ab593d.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to call my mother.",
+      "en_clip": "clips/719727857db33f65.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo llamaba a mi madre.",
+          "clip": "clips/dd85b0e45e64bccb.mp3"
+        },
+        "tu": {
+          "es": "Tú llamabas a mi madre.",
+          "clip": "clips/d44984cfe7917024.mp3"
+        },
+        "usted": {
+          "es": "Usted llamaba a mi madre.",
+          "clip": "clips/19b65ce3a8f3a595.mp3"
+        },
+        "el": {
+          "es": "Él llamaba a mi madre.",
+          "clip": "clips/6612f3a49b1a8672.mp3"
+        },
+        "ella": {
+          "es": "Ella llamaba a mi madre.",
+          "clip": "clips/827aabbe283bd434.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros llamábamos a mi madre.",
+          "clip": "clips/20557305823b1722.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras llamábamos a mi madre.",
+          "clip": "clips/a0c15c2670dacb8c.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes llamaban a mi madre.",
+          "clip": "clips/a0266799532b009a.mp3"
+        },
+        "ellos": {
+          "es": "Ellos llamaban a mi madre.",
+          "clip": "clips/288534f9bdd6fdc5.mp3"
+        },
+        "ellas": {
+          "es": "Ellas llamaban a mi madre.",
+          "clip": "clips/1274c5d69a711841.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Call my mother.",
+      "en_clip": "clips/51b7aece223b6af4.mp3",
+      "forms": {
+        "tu": {
+          "es": "Llama a mi madre.",
+          "clip": "clips/bf5437c078bd2d64.mp3"
+        },
+        "usted": {
+          "es": "Llame a mi madre.",
+          "clip": "clips/d1f04f9eb733fda1.mp3"
+        },
+        "nosotros": {
+          "es": "Llamemos a mi madre.",
+          "clip": "clips/a721191b874d4863.mp3"
+        },
+        "nosotras": {
+          "es": "Llamemos a mi madre.",
+          "clip": "clips/a721191b874d4863.mp3"
+        },
+        "ustedes": {
+          "es": "Llamen a mi madre.",
+          "clip": "clips/0f3aa1753320bf24.mp3"
+        }
+      }
+    }
+  ]
+}

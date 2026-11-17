@@ -1,0 +1,250 @@
+{
+  "verb": "esperar",
+  "meaning": "to wait (for), to hope",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I have to wait for the bus.",
+      "en_clip": "clips/716a226317659a50.mp3",
+      "single": {
+        "es": "Tengo que esperar el autobús.",
+        "clip": "clips/34d9bf005ad19130.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I wait for the bus.",
+      "en_clip": "clips/6febb67929ca4505.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo espero el autobús.",
+          "clip": "clips/939b267292ef9bba.mp3"
+        },
+        "tu": {
+          "es": "Tú esperas el autobús.",
+          "clip": "clips/711eb262796cbe00.mp3"
+        },
+        "usted": {
+          "es": "Usted espera el autobús.",
+          "clip": "clips/19e57270ad7a0e44.mp3"
+        },
+        "el": {
+          "es": "Él espera el autobús.",
+          "clip": "clips/620f1567bdb7d62a.mp3"
+        },
+        "ella": {
+          "es": "Ella espera el autobús.",
+          "clip": "clips/7801b072f6d26683.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros esperamos el autobús.",
+          "clip": "clips/4790c7b4b37a3157.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras esperamos el autobús.",
+          "clip": "clips/20fdf55d3315d0c3.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes esperan el autobús.",
+          "clip": "clips/49b28c7916be48f7.mp3"
+        },
+        "ellos": {
+          "es": "Ellos esperan el autobús.",
+          "clip": "clips/ec420082954f280a.mp3"
+        },
+        "ellas": {
+          "es": "Ellas esperan el autobús.",
+          "clip": "clips/6263d9d58007d78d.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I waited for the bus.",
+      "en_clip": "clips/6d8764fde35d59da.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo esperé el autobús.",
+          "clip": "clips/69ed268730bfab35.mp3"
+        },
+        "tu": {
+          "es": "Tú esperaste el autobús.",
+          "clip": "clips/d441adc462036294.mp3"
+        },
+        "usted": {
+          "es": "Usted esperó el autobús.",
+          "clip": "clips/dc86c1d1faa806c2.mp3"
+        },
+        "el": {
+          "es": "Él esperó el autobús.",
+          "clip": "clips/cf53182cd44f8b37.mp3"
+        },
+        "ella": {
+          "es": "Ella esperó el autobús.",
+          "clip": "clips/20792485366eb099.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros esperamos el autobús.",
+          "clip": "clips/4790c7b4b37a3157.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras esperamos el autobús.",
+          "clip": "clips/20fdf55d3315d0c3.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes esperaron el autobús.",
+          "clip": "clips/33b3ffcfd4f91176.mp3"
+        },
+        "ellos": {
+          "es": "Ellos esperaron el autobús.",
+          "clip": "clips/860075841223433a.mp3"
+        },
+        "ellas": {
+          "es": "Ellas esperaron el autobús.",
+          "clip": "clips/419189a91aa66b31.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to wait for the bus.",
+      "en_clip": "clips/146e9ac33472ee0a.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo esperaba el autobús.",
+          "clip": "clips/fc6d527727fd5146.mp3"
+        },
+        "tu": {
+          "es": "Tú esperabas el autobús.",
+          "clip": "clips/a0a1ce3806429bc4.mp3"
+        },
+        "usted": {
+          "es": "Usted esperaba el autobús.",
+          "clip": "clips/f4f5cc6fe3781448.mp3"
+        },
+        "el": {
+          "es": "Él esperaba el autobús.",
+          "clip": "clips/d7c4c5f7901fdbc6.mp3"
+        },
+        "ella": {
+          "es": "Ella esperaba el autobús.",
+          "clip": "clips/82dfc0557d14717e.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros esperábamos el autobús.",
+          "clip": "clips/e039526ac943a13f.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras esperábamos el autobús.",
+          "clip": "clips/a7cec3714e1516e9.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes esperaban el autobús.",
+          "clip": "clips/dac44a36013ab160.mp3"
+        },
+        "ellos": {
+          "es": "Ellos esperaban el autobús.",
+          "clip": "clips/d24fc3b8f7bb5bb1.mp3"
+        },
+        "ellas": {
+          "es": "Ellas esperaban el autobús.",
+          "clip": "clips/3cebc6aea06ced5d.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Wait here.",
+      "en_clip": "clips/3b409bcc7fc27813.mp3",
+      "forms": {
+        "tu": {
+          "es": "Espera aquí.",
+          "clip": "clips/5ced12d6841f0a16.mp3"
+        },
+        "usted": {
+          "es": "Espere aquí.",
+          "clip": "clips/194837b83edbdc3a.mp3"
+        },
+        "nosotros": {
+          "es": "Esperemos aquí.",
+          "clip": "clips/f999bc9991d5afb7.mp3"
+        },
+        "nosotras": {
+          "es": "Esperemos aquí.",
+          "clip": "clips/f999bc9991d5afb7.mp3"
+        },
+        "ustedes": {
+          "es": "Esperen aquí.",
+          "clip": "clips/64c11eeeaf32b0e1.mp3"
+        }
+      }
+    }
+  ]
+}

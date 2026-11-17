@@ -1,0 +1,250 @@
+{
+  "verb": "contestar",
+  "meaning": "to answer",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I have to answer the phone.",
+      "en_clip": "clips/4bd1cdb6551fbfd0.mp3",
+      "single": {
+        "es": "Tengo que contestar el teléfono.",
+        "clip": "clips/7e41f77fb1ae8952.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I answer the phone.",
+      "en_clip": "clips/17428602168be3ea.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo contesto el teléfono.",
+          "clip": "clips/2b6f0cd800ec8e9f.mp3"
+        },
+        "tu": {
+          "es": "Tú contestas el teléfono.",
+          "clip": "clips/fe8c1868a686205d.mp3"
+        },
+        "usted": {
+          "es": "Usted contesta el teléfono.",
+          "clip": "clips/b4e7a49a0ed9de84.mp3"
+        },
+        "el": {
+          "es": "Él contesta el teléfono.",
+          "clip": "clips/af3b8ce586478fdd.mp3"
+        },
+        "ella": {
+          "es": "Ella contesta el teléfono.",
+          "clip": "clips/0575a0781c9e0c41.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros contestamos el teléfono.",
+          "clip": "clips/e12e7ff6c86553f9.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras contestamos el teléfono.",
+          "clip": "clips/522490a498415ed1.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes contestan el teléfono.",
+          "clip": "clips/4d6fce9b7be8599e.mp3"
+        },
+        "ellos": {
+          "es": "Ellos contestan el teléfono.",
+          "clip": "clips/84fca69e79438d21.mp3"
+        },
+        "ellas": {
+          "es": "Ellas contestan el teléfono.",
+          "clip": "clips/98d6624b1e340377.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I answered the phone.",
+      "en_clip": "clips/f4ab2cebb3920c84.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo contesté el teléfono.",
+          "clip": "clips/cbb1cada46fbd773.mp3"
+        },
+        "tu": {
+          "es": "Tú contestaste el teléfono.",
+          "clip": "clips/9e4594eef1c6e17b.mp3"
+        },
+        "usted": {
+          "es": "Usted contestó el teléfono.",
+          "clip": "clips/bda6a70233ec958b.mp3"
+        },
+        "el": {
+          "es": "Él contestó el teléfono.",
+          "clip": "clips/8e110cafebb27993.mp3"
+        },
+        "ella": {
+          "es": "Ella contestó el teléfono.",
+          "clip": "clips/2e2777e85c95402f.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros contestamos el teléfono.",
+          "clip": "clips/e12e7ff6c86553f9.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras contestamos el teléfono.",
+          "clip": "clips/522490a498415ed1.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes contestaron el teléfono.",
+          "clip": "clips/be0ae1e2e1a2e87c.mp3"
+        },
+        "ellos": {
+          "es": "Ellos contestaron el teléfono.",
+          "clip": "clips/f9688f5d03c01c43.mp3"
+        },
+        "ellas": {
+          "es": "Ellas contestaron el teléfono.",
+          "clip": "clips/8865255982a7c21b.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to answer the phone.",
+      "en_clip": "clips/76df535eee3ce2ef.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo contestaba el teléfono.",
+          "clip": "clips/056d60b7f43fcbfc.mp3"
+        },
+        "tu": {
+          "es": "Tú contestabas el teléfono.",
+          "clip": "clips/332795f93efd5cf0.mp3"
+        },
+        "usted": {
+          "es": "Usted contestaba el teléfono.",
+          "clip": "clips/918e84a82ecf9f4c.mp3"
+        },
+        "el": {
+          "es": "Él contestaba el teléfono.",
+          "clip": "clips/baacfb40afd1f845.mp3"
+        },
+        "ella": {
+          "es": "Ella contestaba el teléfono.",
+          "clip": "clips/6ca67578bdbff994.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros contestábamos el teléfono.",
+          "clip": "clips/57c5b38d36511f96.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras contestábamos el teléfono.",
+          "clip": "clips/b9fee8815578a5ca.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes contestaban el teléfono.",
+          "clip": "clips/2519753fb950a23d.mp3"
+        },
+        "ellos": {
+          "es": "Ellos contestaban el teléfono.",
+          "clip": "clips/060647a5da3ab6ff.mp3"
+        },
+        "ellas": {
+          "es": "Ellas contestaban el teléfono.",
+          "clip": "clips/1cad13387ebf7b08.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Answer the phone.",
+      "en_clip": "clips/930d875f42fedcf5.mp3",
+      "forms": {
+        "tu": {
+          "es": "Contesta el teléfono.",
+          "clip": "clips/4ed777a27a3dcc39.mp3"
+        },
+        "usted": {
+          "es": "Conteste el teléfono.",
+          "clip": "clips/771bb64baca85319.mp3"
+        },
+        "nosotros": {
+          "es": "Contestemos el teléfono.",
+          "clip": "clips/e6597ea82a1eda73.mp3"
+        },
+        "nosotras": {
+          "es": "Contestemos el teléfono.",
+          "clip": "clips/e6597ea82a1eda73.mp3"
+        },
+        "ustedes": {
+          "es": "Contesten el teléfono.",
+          "clip": "clips/9316c48758229ddf.mp3"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "verb": "entender",
+  "meaning": "to understand",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to understand the question.",
+      "en_clip": "clips/1f3d1ca0738dc71d.mp3",
+      "single": {
+        "es": "Quiero entender la pregunta.",
+        "clip": "clips/0791a21c5d9d65b3.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I understand the question.",
+      "en_clip": "clips/1a8e8b8c4d7c59c8.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo entiendo la pregunta.",
+          "clip": "clips/e7fdcbf14bc8351e.mp3"
+        },
+        "tu": {
+          "es": "Tú entiendes la pregunta.",
+          "clip": "clips/e3fb51ae4476ef2f.mp3"
+        },
+        "usted": {
+          "es": "Usted entiende la pregunta.",
+          "clip": "clips/154a4f2962a45854.mp3"
+        },
+        "el": {
+          "es": "Él entiende la pregunta.",
+          "clip": "clips/b345124bc8daed38.mp3"
+        },
+        "ella": {
+          "es": "Ella entiende la pregunta.",
+          "clip": "clips/d11072a7f0a6be38.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros entendemos la pregunta.",
+          "clip": "clips/055a19486a3526c5.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras entendemos la pregunta.",
+          "clip": "clips/27a61bdc64e27b07.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes entienden la pregunta.",
+          "clip": "clips/703381cedb624fea.mp3"
+        },
+        "ellos": {
+          "es": "Ellos entienden la pregunta.",
+          "clip": "clips/7f6ad8e2fb6d80bf.mp3"
+        },
+        "ellas": {
+          "es": "Ellas entienden la pregunta.",
+          "clip": "clips/8ef2210a2db68636.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I understood the question.",
+      "en_clip": "clips/0b42640d9cd49848.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo entendí la pregunta.",
+          "clip": "clips/93ae905d43cedf0e.mp3"
+        },
+        "tu": {
+          "es": "Tú entendiste la pregunta.",
+          "clip": "clips/8a2858645a524117.mp3"
+        },
+        "usted": {
+          "es": "Usted entendió la pregunta.",
+          "clip": "clips/51ce89cfdfbeb2d1.mp3"
+        },
+        "el": {
+          "es": "Él entendió la pregunta.",
+          "clip": "clips/0c31c651c983b877.mp3"
+        },
+        "ella": {
+          "es": "Ella entendió la pregunta.",
+          "clip": "clips/9482357fc69f2f59.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros entendimos la pregunta.",
+          "clip": "clips/78704397821b2e34.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras entendimos la pregunta.",
+          "clip": "clips/2bc12d8036bacf5f.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes entendieron la pregunta.",
+          "clip": "clips/0e5416f054dd2da7.mp3"
+        },
+        "ellos": {
+          "es": "Ellos entendieron la pregunta.",
+          "clip": "clips/93dd89931cc44edb.mp3"
+        },
+        "ellas": {
+          "es": "Ellas entendieron la pregunta.",
+          "clip": "clips/e7d959209305411b.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to understand the question.",
+      "en_clip": "clips/0322b2b32ce00f06.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo entendía la pregunta.",
+          "clip": "clips/dd9f3b8bc85bcce5.mp3"
+        },
+        "tu": {
+          "es": "Tú entendías la pregunta.",
+          "clip": "clips/c9655af31be3dc8e.mp3"
+        },
+        "usted": {
+          "es": "Usted entendía la pregunta.",
+          "clip": "clips/a9372da217a01e85.mp3"
+        },
+        "el": {
+          "es": "Él entendía la pregunta.",
+          "clip": "clips/f1086849a1ae1942.mp3"
+        },
+        "ella": {
+          "es": "Ella entendía la pregunta.",
+          "clip": "clips/7cd5dde0732fc102.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros entendíamos la pregunta.",
+          "clip": "clips/4a9c2b16f3b63f08.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras entendíamos la pregunta.",
+          "clip": "clips/9ceb1c58ea1d3ab2.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes entendían la pregunta.",
+          "clip": "clips/b8c5cf3c161359fa.mp3"
+        },
+        "ellos": {
+          "es": "Ellos entendían la pregunta.",
+          "clip": "clips/a82b6ff0cf7a3caa.mp3"
+        },
+        "ellas": {
+          "es": "Ellas entendían la pregunta.",
+          "clip": "clips/6951ebf55f7b879f.mp3"
+        }
+      }
+    }
+  ]
+}

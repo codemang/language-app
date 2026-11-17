@@ -1,0 +1,250 @@
+{
+  "verb": "leer",
+  "meaning": "to read",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to read a book.",
+      "en_clip": "clips/7f60794def7905a1.mp3",
+      "single": {
+        "es": "Quiero leer un libro.",
+        "clip": "clips/2bdfd5efb79e9cb3.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I read a book.",
+      "en_clip": "clips/b1218b79ec5e183a.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo leo un libro.",
+          "clip": "clips/225cd4de121ea90e.mp3"
+        },
+        "tu": {
+          "es": "Tú lees un libro.",
+          "clip": "clips/5b619bd3a526b53e.mp3"
+        },
+        "usted": {
+          "es": "Usted lee un libro.",
+          "clip": "clips/bfa88acfbd4cd225.mp3"
+        },
+        "el": {
+          "es": "Él lee un libro.",
+          "clip": "clips/4a61068b776f36be.mp3"
+        },
+        "ella": {
+          "es": "Ella lee un libro.",
+          "clip": "clips/2c2168dc58451c60.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros leemos un libro.",
+          "clip": "clips/e3decc7547e4efce.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras leemos un libro.",
+          "clip": "clips/ab4f6891ee9bd486.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes leen un libro.",
+          "clip": "clips/160f6867a89106f2.mp3"
+        },
+        "ellos": {
+          "es": "Ellos leen un libro.",
+          "clip": "clips/611957e466021210.mp3"
+        },
+        "ellas": {
+          "es": "Ellas leen un libro.",
+          "clip": "clips/7e09ea7d9dc46d1d.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I read a book yesterday.",
+      "en_clip": "clips/77119064cee5624e.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo leí un libro.",
+          "clip": "clips/36a16b736e78e0da.mp3"
+        },
+        "tu": {
+          "es": "Tú leíste un libro.",
+          "clip": "clips/8584960b31eec165.mp3"
+        },
+        "usted": {
+          "es": "Usted leyó un libro.",
+          "clip": "clips/432d0bd907b36d62.mp3"
+        },
+        "el": {
+          "es": "Él leyó un libro.",
+          "clip": "clips/3aad4221bc4160f7.mp3"
+        },
+        "ella": {
+          "es": "Ella leyó un libro.",
+          "clip": "clips/38501ab84c877cde.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros leímos un libro.",
+          "clip": "clips/6099a63f82a55ba9.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras leímos un libro.",
+          "clip": "clips/52a58ed39d797690.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes leyeron un libro.",
+          "clip": "clips/6a92c39d9fe956ea.mp3"
+        },
+        "ellos": {
+          "es": "Ellos leyeron un libro.",
+          "clip": "clips/26042bea681ad8a0.mp3"
+        },
+        "ellas": {
+          "es": "Ellas leyeron un libro.",
+          "clip": "clips/8152080fc9cd8281.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to read a book.",
+      "en_clip": "clips/96b1f2330d81496e.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo leía un libro.",
+          "clip": "clips/13f4d18652cae874.mp3"
+        },
+        "tu": {
+          "es": "Tú leías un libro.",
+          "clip": "clips/a28c71db6192cff4.mp3"
+        },
+        "usted": {
+          "es": "Usted leía un libro.",
+          "clip": "clips/06385b2445abd746.mp3"
+        },
+        "el": {
+          "es": "Él leía un libro.",
+          "clip": "clips/7619e8cc604dba50.mp3"
+        },
+        "ella": {
+          "es": "Ella leía un libro.",
+          "clip": "clips/cba6d7a4cf11d5d6.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros leíamos un libro.",
+          "clip": "clips/f877466c393f8a9f.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras leíamos un libro.",
+          "clip": "clips/ae4d15da8b7a9226.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes leían un libro.",
+          "clip": "clips/4ac2decdbbc59494.mp3"
+        },
+        "ellos": {
+          "es": "Ellos leían un libro.",
+          "clip": "clips/4d8585608748d0f4.mp3"
+        },
+        "ellas": {
+          "es": "Ellas leían un libro.",
+          "clip": "clips/5fed13901097f694.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Read a book.",
+      "en_clip": "clips/3faef250ffee97c3.mp3",
+      "forms": {
+        "tu": {
+          "es": "Lee un libro.",
+          "clip": "clips/e4dc2bd4f4caf27f.mp3"
+        },
+        "usted": {
+          "es": "Lea un libro.",
+          "clip": "clips/5082a702a0ca6f16.mp3"
+        },
+        "nosotros": {
+          "es": "Leamos un libro.",
+          "clip": "clips/d39027f0e1fc7554.mp3"
+        },
+        "nosotras": {
+          "es": "Leamos un libro.",
+          "clip": "clips/d39027f0e1fc7554.mp3"
+        },
+        "ustedes": {
+          "es": "Lean un libro.",
+          "clip": "clips/b55b9ccb4d7ba027.mp3"
+        }
+      }
+    }
+  ]
+}
