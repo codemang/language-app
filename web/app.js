@@ -28,8 +28,48 @@ function fmt(t) {
   return h ? `${h}:${String(m).padStart(2, "0")}:${s}` : `${m}:${s}`;
 }
 
+// ---------- connection
+// navigator.onLine only knows about having *a* connection. On a weak one (the
+// subway) requests to the Pi can hang for minutes. So: a request to the Pi that
+// takes longer than NET_TIMEOUT (or fails) switches the app to offline mode, and
+// every NET_PROBE it checks whether the Pi answers again to switch back.
+const NET_TIMEOUT = 10000, NET_PROBE = 15000;
+let netDown = false, probeTimer = null;
+const isOnline = () => navigator.onLine && !netDown;
+
+async function net(url, opts = {}) {
+  try {
+    const res = await fetch(url, { ...opts, signal: opts.signal || AbortSignal.timeout(NET_TIMEOUT) });
+    // Only API answers prove the Pi is reachable: other files may come from the
+    // service worker's cache.
+    if (String(url).includes("api/")) connectionOk();
+    return res;
+  } catch (e) {
+    if (e.name === "TimeoutError" || e.name === "TypeError") connectionLost();
+    throw e;
+  }
+}
+function connectionLost() {
+  if (netDown || !navigator.onLine) return;  // already offline, one way or the other
+  netDown = true;
+  wentOffline();
+  probeTimer = setInterval(async () => {
+    try {
+      const res = await fetch("api/storage", { cache: "no-store", signal: AbortSignal.timeout(NET_TIMEOUT) });
+      if (!res.ok) return;
+    } catch { return; }
+    connectionOk();
+  }, NET_PROBE);
+}
+function connectionOk() {
+  if (!netDown) return;
+  netDown = false;
+  clearInterval(probeTimer);
+  if (navigator.onLine) wentOnline();
+}
+
 async function getJSON(url) {
-  const res = await fetch(url, { cache: "no-cache" });
+  const res = await net(url, { cache: "no-cache" });
   if (!res.ok) throw new Error(`${url}: ${res.status}`);
   return res.json();
 }
@@ -147,9 +187,9 @@ $("download").onclick = () => {
 let auto = null;  // last GET api/auto
 
 async function loadAuto() {
-  if (!navigator.onLine) return;
+  if (!isOnline()) return;
   try {
-    const res = await fetch("api/auto", { cache: "no-store", signal: AbortSignal.timeout(5000) });
+    const res = await net("api/auto", { cache: "no-store" });
     if (!res.ok) return;
     const before = auto ? auto.converted.join() : null;
     auto = await res.json();
@@ -164,9 +204,9 @@ function renderAuto() {
   // header button: pulsing dot while something is converting
   const dot = document.querySelector("#auto-btn .dot");
   dot.hidden = !(auto && auto.enabled && auto.running);
-  $("auto-offline").hidden = navigator.onLine;
+  $("auto-offline").hidden = isOnline();
   const box = $("auto");
-  box.hidden = !auto || !navigator.onLine;
+  box.hidden = !auto || !isOnline();
   renderAutoList();
   if (box.hidden) return;
   $("auto-toggle").setAttribute("aria-checked", auto.enabled);
@@ -257,9 +297,11 @@ function renderList() {
   const words = fold($("search").value).split(/\s+/).filter(Boolean);
   const hideWatched = $("hide-watched").checked;
   // Offline, only downloaded videos can play, so nothing else is listed.
-  const offline = !navigator.onLine;
+  const offline = !isOnline();
   const onlyDownloaded = offline || $("only-downloaded").checked;
   $("offline-note").hidden = !offline;
+  $("offline-note").textContent = netDown ? "Connection too weak to reach the server · showing downloaded videos only"
+    : "You're offline · showing downloaded videos only";
   $("only-downloaded").closest("label").hidden = offline;  // the note says it all
   // "Already transcribed" = converted on the Pi (from api/auto). Offline it's moot:
   // only downloaded videos are listed, and those are transcribed by definition.
@@ -424,20 +466,20 @@ function showProgress(st) {
 // A conversion only starts when `engine` was explicitly chosen by the user.
 async function ensureLesson(v, token, engine) {
   const q = `id=${encodeURIComponent(v.id)}`;
-  let st = await (await fetch(`api/status?${q}`, { cache: "no-store" })).json();
+  let st = await (await net(`api/status?${q}`, { cache: "no-store" })).json();
   if (st.state === "none" || st.state === "error") {
     if (!engine) {
       if (token === openToken) showChoice(v, st.state === "error" ? (st.detail || st.message) : null);
       return null;
     }
-    st = await (await fetch(`api/convert?${q}&engine=${engine}`, { method: "POST" })).json();
+    st = await (await net(`api/convert?${q}&engine=${engine}`, { method: "POST" })).json();
   }
   while (st.state === "running" || st.state === "queued") {
     if (token !== openToken) return null;
     showPhase("converting");
     showProgress(st);
     await sleep(1500);
-    st = await (await fetch(`api/status?${q}`, { cache: "no-store" })).json();
+    st = await (await net(`api/status?${q}`, { cache: "no-store" })).json();
   }
   if (token !== openToken) return null;
   if (st.state !== "ready") {
@@ -471,7 +513,7 @@ async function openPlayer(id, force = false, engine = null) {
       : await ensureLesson(v, token, engine);
   } catch (e) {
     if (token !== openToken) return;
-    if (navigator.onLine) showChoice(v, "Can't reach the server.");
+    if (isOnline()) showChoice(v, "Can't reach the server.");
     else showPhase("offline");
     return;
   }
@@ -534,7 +576,7 @@ async function pushProgress(id) {
   const st = loadState(id);
   if (!st.unsynced) return;
   try {
-    const res = await fetch(`api/progress?id=${encodeURIComponent(id)}`, {
+    const res = await net(`api/progress?id=${encodeURIComponent(id)}`, {
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ t: st.t, mode: st.mode, frac: st.frac, watched: st.watched, updated: st.updated }),
     });
@@ -552,8 +594,9 @@ async function syncProgress() {
     if (Object.keys(st).length && !("updated" in st)) storeLocal(v.id, { ...st, updated: 0, unsynced: true });
   }
   let server;
-  try {  // short timeout: the phone may think it's online while the Pi is unreachable
-    const res = await fetch("api/progress", { cache: "no-store", signal: AbortSignal.timeout(4000) });
+  if (!isOnline()) return;
+  try {
+    const res = await net("api/progress", { cache: "no-store" });
     if (!res.ok) return;
     server = await res.json();
   } catch { return; }
@@ -720,19 +763,25 @@ function route() {
 }
 window.addEventListener("hashchange", route);
 initVerbs();
-window.addEventListener("online", () => {
+function wentOnline() {
   syncProgress();
   loadAuto();
   renderList();
   showStorage();
   if (video && phase === "offline") openPlayer(video.id, true);  // load what the banner was waiting for
-});
-window.addEventListener("offline", () => {
+}
+function wentOffline() {
   renderList();
   renderAuto();
   // Converting needs the Pi: swap the choice buttons for the banner.
   if (video && phase === "choice") showPhase("offline");
+}
+window.addEventListener("online", () => {
+  netDown = false;  // a new connection: try it
+  clearInterval(probeTimer);
+  wentOnline();
 });
+window.addEventListener("offline", wentOffline);
 
 async function init() {
   try { videos = await getJSON("data/videos.json"); } catch { videos = []; }

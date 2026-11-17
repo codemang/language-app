@@ -6,8 +6,9 @@
 // timings stay a matching set. Audio is fetched with Range requests (iOS insists
 // on 206 responses for media), so ranges are cut from the cached file here.
 // Lessons that aren't downloaded come straight from the network.
-const CACHE = "escucha-v26";
+const CACHE = "escucha-v27";
 const OFFLINE = "escucha-offline";
+const NET_WAIT = 3000;  // ms: longer than this, a cached copy is used instead
 const SHELL = ["./", "index.html", "style.css", "app.js", "verbs.js", "manifest.webmanifest",
                "icons/icon-192.png", "icons/icon-512.png"];
 
@@ -53,16 +54,22 @@ self.addEventListener("fetch", (e) => {
     e.respondWith(fromOffline(e.request));
     return;
   }
-  // App shell, video list, thumbnails: network first so updates show up; cache when offline.
-  e.respondWith(
-    fetch(e.request)
-      .then((res) => {
-        if (res.ok) {
-          const copy = res.clone();
-          caches.open(CACHE).then((c) => c.put(e.request, copy));
-        }
-        return res;
-      })
-      .catch(() => caches.match(e.request, { ignoreSearch: true }))
-  );
+  // App shell, video list, thumbnails, verb data: network first so updates show
+  // up, but on a weak connection don't wait more than NET_WAIT for it: use the
+  // cached copy (the network answer still refreshes the cache for next time).
+  const network = fetch(e.request).then((res) => {
+    if (res.ok) {
+      const copy = res.clone();
+      caches.open(CACHE).then((c) => c.put(e.request, copy));
+    }
+    return res;
+  });
+  e.waitUntil(network.catch(() => {}));
+  e.respondWith((async () => {
+    const slow = new Promise((r) => setTimeout(() => r("slow"), NET_WAIT));
+    const first = await Promise.race([network.catch(() => null), slow]);
+    if (first && first !== "slow") return first;
+    const hit = await caches.match(e.request, { ignoreSearch: true });
+    return hit || network;  // nothing cached: keep waiting (or fail) on the network
+  })());
 });
