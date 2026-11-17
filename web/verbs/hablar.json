@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to speak Spanish.",
+      "en_clip": "clips/8629be66d7e53ec5.mp3",
+      "single": {
+        "es": "Quiero hablar español.",
+        "clip": "clips/f451e954f8f6f590.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I speak Spanish.",

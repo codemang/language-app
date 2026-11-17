@@ -49,7 +49,32 @@ PRONOUNS = [
     ("ellos", "Ellos", "They form.", 5),
     ("ellas", "Ellas", "They, feminine form.", 5),
 ]
-TENSES = [("present", "Present"), ("preterite", "Preterite"), ("imperfect", "Imperfect"), ("imperative", "Command")]
+TENSES = [("infinitive", "Infinitive"), ("present", "Present"), ("preterite", "Preterite"), ("imperfect", "Imperfect"), ("imperative", "Command")]
+
+# verb -> example sentence with the infinitive, English. Mostly "I want to ...";
+# a few verbs read better with another helper.
+INFINITIVES = {
+    "ser": ("Quiero ser estudiante.", "I want to be a student."),
+    "estar": ("Quiero estar en casa.", "I want to be at home."),
+    "tener": ("Quiero tener un perro.", "I want to have a dog."),
+    "hacer": ("Tengo que hacer la tarea.", "I have to do the homework."),
+    "ir": ("Quiero ir a la playa.", "I want to go to the beach."),
+    "poder": ("Quiero poder nadar.", "I want to be able to swim."),
+    "decir": ("Necesito decir la verdad.", "I need to tell the truth."),
+    "querer": ("Es normal querer un café.", "It's normal to want a coffee."),
+    "haber": ("Después de haber comido, duermo.", "After having eaten, I sleep."),
+    "saber": ("Quiero saber la respuesta.", "I want to know the answer."),
+    "ver": ("Quiero ver la televisión.", "I want to watch TV."),
+    "dar": ("Quiero dar un regalo.", "I want to give a gift."),
+    "venir": ("Puedo venir a la fiesta.", "I can come to the party."),
+    "hablar": ("Quiero hablar español.", "I want to speak Spanish."),
+    "comer": ("Quiero comer pan.", "I want to eat bread."),
+    "vivir": ("Quiero vivir en la ciudad.", "I want to live in the city."),
+    "gustar": ("Te va a gustar el café.", "You're going to like the coffee."),
+    "necesitar": ("Voy a necesitar ayuda.", "I'm going to need help."),
+    "conocer": ("Quiero conocer a María.", "I want to meet María."),
+    "pensar": ("Necesito pensar en el viaje.", "I need to think about the trip."),
+}
 
 # Commands (affirmative imperative) only exist for "you" and "let's": tú, usted,
 # nosotros/nosotras ("let's ..."), ustedes. Said without the pronoun, as people do:
@@ -271,6 +296,13 @@ def build(verb, spk):
     }
     rest = v["rest"] if isinstance(v["rest"], tuple) else (v["rest"], v["rest"])
     for tid, label in TENSES:
+        if tid == "infinitive":
+            # One example sentence using the infinitive (no pronouns)
+            es, en = INFINITIVES[verb]
+            en = f"Infinitive: {en}"
+            out["tenses"].append({"id": tid, "label": label, "en": en, "en_clip": spk.clip(en, "en"),
+                                  "single": {"es": es, "clip": spk.clip(es, "es")}})
+            continue
         if tid == "imperative":
             if verb in IMPERATIVES:
                 out["tenses"].append(imperative(verb, label, spk))

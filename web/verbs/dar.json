@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to give a gift.",
+      "en_clip": "clips/6bedc5b69191bd94.mp3",
+      "single": {
+        "es": "Quiero dar un regalo.",
+        "clip": "clips/35232248bb18932b.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I give a gift.",

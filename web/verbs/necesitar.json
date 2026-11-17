@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I'm going to need help.",
+      "en_clip": "clips/467c99ba72889b8b.mp3",
+      "single": {
+        "es": "Voy a necesitar ayuda.",
+        "clip": "clips/b0d4e990e6d21a0d.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I need help.",

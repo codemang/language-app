@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to go to the beach.",
+      "en_clip": "clips/4070f6b2c448688d.mp3",
+      "single": {
+        "es": "Quiero ir a la playa.",
+        "clip": "clips/75c97ffafb4841c1.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I go to the beach.",

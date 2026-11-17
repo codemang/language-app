@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to know the answer.",
+      "en_clip": "clips/e823ba0301dd1e40.mp3",
+      "single": {
+        "es": "Quiero saber la respuesta.",
+        "clip": "clips/72d867fb8121adf9.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I know the answer.",

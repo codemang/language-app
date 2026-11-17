@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: After having eaten, I sleep.",
+      "en_clip": "clips/ec0ecc14b15bb466.mp3",
+      "single": {
+        "es": "Después de haber comido, duermo.",
+        "clip": "clips/d40bf741443f3f73.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I have eaten.",

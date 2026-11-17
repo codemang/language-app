@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to live in the city.",
+      "en_clip": "clips/32a5e3d3fb538bf7.mp3",
+      "single": {
+        "es": "Quiero vivir en la ciudad.",
+        "clip": "clips/a8c9f79c199adbbb.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I live in the city.",

@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to be at home.",
+      "en_clip": "clips/fe519c1f0cd3384d.mp3",
+      "single": {
+        "es": "Quiero estar en casa.",
+        "clip": "clips/c1c17c7ad674d66a.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I am at home.",

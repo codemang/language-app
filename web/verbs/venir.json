@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I can come to the party.",
+      "en_clip": "clips/97563e26d9b5928c.mp3",
+      "single": {
+        "es": "Puedo venir a la fiesta.",
+        "clip": "clips/5afe30a3b1da8d5e.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I come to the party.",

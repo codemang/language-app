@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: You're going to like the coffee.",
+      "en_clip": "clips/aecc09499a6ac8e3.mp3",
+      "single": {
+        "es": "Te va a gustar el café.",
+        "clip": "clips/d18ac840cea75283.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I like coffee.",

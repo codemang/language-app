@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to watch TV.",
+      "en_clip": "clips/c5c258ac14c243e7.mp3",
+      "single": {
+        "es": "Quiero ver la televisión.",
+        "clip": "clips/8aece8a6422f6eae.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I watch TV.",

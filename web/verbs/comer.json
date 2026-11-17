@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to eat bread.",
+      "en_clip": "clips/e73bc0197f32d0ab.mp3",
+      "single": {
+        "es": "Quiero comer pan.",
+        "clip": "clips/b86309698a04cc82.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I eat bread.",

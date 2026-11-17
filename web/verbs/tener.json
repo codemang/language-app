@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to have a dog.",
+      "en_clip": "clips/2d24aa946d6d4546.mp3",
+      "single": {
+        "es": "Quiero tener un perro.",
+        "clip": "clips/9680932da7f9bfd7.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I have a dog.",

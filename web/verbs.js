@@ -150,7 +150,7 @@ function renderVerbChoices() {
   renderGroups([
     // keep choices this verb doesn't show (haber has no preterite)
     group("Tenses", "tenses", V.data.tenses.map((t) => ({ id: t.id, label: t.label })),
-          ["present", "preterite", "imperfect", "imperative"]),
+          ["infinitive", "present", "preterite", "imperfect", "imperative"]),
     group("Pronouns", "pronouns", V.data.pronouns.map((p) => ({ id: p.id, label: p.es })),
           V.data.pronouns.map((p) => p.id)),
   ]);
@@ -171,6 +171,10 @@ function drillSteps() {
   for (const t of V.data.tenses.filter((t) => s.tenses.includes(t.id))) {
     if (steps.length) steps[steps.length - 1].pause += PAUSE_TENSE;
     if (s.english) steps.push({ clip: t.en_clip, pause: PAUSE_AFTER_CUE, en: t.en, es: "" });
+    if (t.single) {  // infinitive: the verb itself, no pronouns
+      steps.push({ clip: t.single.clip, pause: PAUSE_AFTER_ES, en: t.en, es: t.single.es });
+      continue;
+    }
     // Commands only have tú / usted / nosotros / nosotras / ustedes forms.
     V.data.pronouns.filter((p) => s.pronouns.includes(p.id) && t.forms[p.id]).forEach((p, i) => {
       const f = t.forms[p.id];

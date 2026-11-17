@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I need to tell the truth.",
+      "en_clip": "clips/be1a665b5d474cb8.mp3",
+      "single": {
+        "es": "Necesito decir la verdad.",
+        "clip": "clips/87e8f3664828544c.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I tell the truth.",

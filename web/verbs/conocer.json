@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to meet María.",
+      "en_clip": "clips/fdca2f9e9cd17cc6.mp3",
+      "single": {
+        "es": "Quiero conocer a María.",
+        "clip": "clips/e9d9f9c4dac73a2b.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I know María.",

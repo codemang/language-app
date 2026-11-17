@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: It's normal to want a coffee.",
+      "en_clip": "clips/0ee515ffad0e2a1b.mp3",
+      "single": {
+        "es": "Es normal querer un café.",
+        "clip": "clips/d9416ac91cbf64dd.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I want a coffee.",

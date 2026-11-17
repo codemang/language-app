@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to be able to swim.",
+      "en_clip": "clips/6d61f87a3579dec0.mp3",
+      "single": {
+        "es": "Quiero poder nadar.",
+        "clip": "clips/f217243d09653ebe.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I can swim.",

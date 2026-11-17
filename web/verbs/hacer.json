@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I have to do the homework.",
+      "en_clip": "clips/3376b59bed6b36db.mp3",
+      "single": {
+        "es": "Tengo que hacer la tarea.",
+        "clip": "clips/0d980b7f916b4bf6.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I do the homework.",

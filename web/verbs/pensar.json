@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I need to think about the trip.",
+      "en_clip": "clips/9f0f73204c9486ba.mp3",
+      "single": {
+        "es": "Necesito pensar en el viaje.",
+        "clip": "clips/e4f59a2ad7f94ccf.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I think about the trip.",

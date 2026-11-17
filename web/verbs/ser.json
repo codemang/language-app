@@ -65,6 +65,16 @@
   ],
   "tenses": [
     {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to be a student.",
+      "en_clip": "clips/f71bb2c6f5f2e18f.mp3",
+      "single": {
+        "es": "Quiero ser estudiante.",
+        "clip": "clips/5aef2629fb9151b4.mp3"
+      }
+    },
+    {
       "id": "present",
       "label": "Present",
       "en": "Present tense: I am a student.",
