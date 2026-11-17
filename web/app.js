@@ -491,7 +491,7 @@ async function ensureLesson(v, token, engine) {
 
 async function openPlayer(id, force = false, engine = null) {
   const v = videos.find((x) => x.id === id);
-  if (!v) { location.hash = "#/"; return; }
+  if (!v) { location.hash = "#/videos"; return; }
   if (!force && video && video.id === v.id && lesson) return;  // already open
   saveState(true);  // the video being left
   audio.pause();
@@ -744,7 +744,10 @@ function route() {
   const vm = location.hash.match(/^#\/verbs(?:\/(.+))?$/);
   const pronouns = location.hash === "#/pronouns";
   const playing = !!m, settings = location.hash === "#/auto", verbs = !!vm || pronouns;
-  $("list-view").hidden = playing || settings || verbs;
+  const list = location.hash === "#/videos";
+  const home = !playing && !settings && !verbs && !list;  // "", "#/" or anything unknown
+  $("home-view").hidden = !home;
+  $("list-view").hidden = !list;
   $("auto-view").hidden = !settings;
   $("verbs-view").hidden = !verbs;
   $("player-view").hidden = !playing;
@@ -758,7 +761,7 @@ function route() {
     showVerbs(vm[1] && decodeURIComponent(vm[1]));
     return;
   }
-  if (settings) renderAuto(); else renderList();
+  if (settings) renderAuto(); else if (list) renderList();
   loadAuto();
 }
 window.addEventListener("hashchange", route);

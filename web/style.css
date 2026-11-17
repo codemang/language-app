@@ -439,3 +439,36 @@ code { font-size: 14px; }
 #verb-play:disabled { opacity: .5; }
 .verb-status { text-align: center; margin: 0; }
 #verbs-sub { text-transform: none; }
+
+/* Home: three big cards, one per way to learn */
+.title-main { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.home-cards { display: flex; flex-direction: column; gap: 14px; }
+.home-card {
+  --tint: #15803d; --tint-bg: #dcfce7;
+  display: flex; align-items: center; gap: 16px;
+  padding: 18px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  color: inherit; text-decoration: none;
+  transition: transform .12s, border-color .12s;
+}
+.home-card:active { transform: scale(.98); }
+@media (hover: hover) { .home-card:hover { border-color: var(--tint); } }
+.home-card.c-verbs { --tint: #b45309; --tint-bg: #fef3c7; }
+.home-card.c-pron { --tint: #1d4ed8; --tint-bg: #dbeafe; }
+@media (prefers-color-scheme: dark) {
+  .home-card { --tint: #4ade80; --tint-bg: #14301f; }
+  .home-card.c-verbs { --tint: #fbbf24; --tint-bg: #3a2a0c; }
+  .home-card.c-pron { --tint: #93c5fd; --tint-bg: #172a4a; }
+}
+.home-icon {
+  flex: none; display: grid; place-items: center;
+  width: 56px; height: 56px; border-radius: 16px;
+  background: var(--tint-bg); color: var(--tint);
+}
+.home-icon svg { width: 30px; height: 30px; fill: currentColor; }
+.home-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.home-title { font-size: 18px; font-weight: 650; }
+.home-desc { font-size: 14px; color: var(--muted); line-height: 1.35; }
+.home-go { flex: none; width: 22px; height: 22px; fill: var(--muted); }
