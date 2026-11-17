@@ -503,7 +503,7 @@ code { font-size: 14px; }
   border-radius: 14px; border: 1px solid var(--border); background: var(--surface); color: var(--text);
 }
 .col-btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
-.col-verbs { text-align: center; margin: 4px 0 0; line-height: 1.6; }
+.col-verbs { margin-top: 8px; }
 
 /* Verb chooser popup */
 .pick {

@@ -1,0 +1,250 @@
+{
+  "verb": "comprar",
+  "meaning": "to buy",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I'm going to buy food.",
+      "en_clip": "clips/749dea3eeac8494f.mp3",
+      "single": {
+        "es": "Voy a comprar comida.",
+        "clip": "clips/da59c1b3ac45691f.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I buy food.",
+      "en_clip": "clips/d672fc38888e529a.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo compro comida.",
+          "clip": "clips/721339e3c9c1c15b.mp3"
+        },
+        "tu": {
+          "es": "Tú compras comida.",
+          "clip": "clips/ddb76cfc8cb81705.mp3"
+        },
+        "usted": {
+          "es": "Usted compra comida.",
+          "clip": "clips/9433bab60a4fcd4c.mp3"
+        },
+        "el": {
+          "es": "Él compra comida.",
+          "clip": "clips/13b6169a8e289737.mp3"
+        },
+        "ella": {
+          "es": "Ella compra comida.",
+          "clip": "clips/0b0930a1a3f21957.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros compramos comida.",
+          "clip": "clips/6ee26a73b3e47187.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras compramos comida.",
+          "clip": "clips/1ae4b5475f00f4e7.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes compran comida.",
+          "clip": "clips/f9512d8f8afaec17.mp3"
+        },
+        "ellos": {
+          "es": "Ellos compran comida.",
+          "clip": "clips/85e9cb47f0907c05.mp3"
+        },
+        "ellas": {
+          "es": "Ellas compran comida.",
+          "clip": "clips/522d2ffeb6efcf92.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I bought food.",
+      "en_clip": "clips/989eabb32896a6a0.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo compré comida.",
+          "clip": "clips/66744a9115881f08.mp3"
+        },
+        "tu": {
+          "es": "Tú compraste comida.",
+          "clip": "clips/98d7e39466187024.mp3"
+        },
+        "usted": {
+          "es": "Usted compró comida.",
+          "clip": "clips/a502b0abc0b20b33.mp3"
+        },
+        "el": {
+          "es": "Él compró comida.",
+          "clip": "clips/a43c00dd5fbe6620.mp3"
+        },
+        "ella": {
+          "es": "Ella compró comida.",
+          "clip": "clips/de7b7ee594307081.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros compramos comida.",
+          "clip": "clips/6ee26a73b3e47187.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras compramos comida.",
+          "clip": "clips/1ae4b5475f00f4e7.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes compraron comida.",
+          "clip": "clips/b0da9cf9c1a5b545.mp3"
+        },
+        "ellos": {
+          "es": "Ellos compraron comida.",
+          "clip": "clips/83c6a6edd12b3d4a.mp3"
+        },
+        "ellas": {
+          "es": "Ellas compraron comida.",
+          "clip": "clips/947e3f8a1b4c8a77.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to buy food.",
+      "en_clip": "clips/62ac96e3b3ffe874.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo compraba comida.",
+          "clip": "clips/d1289158f020e0e3.mp3"
+        },
+        "tu": {
+          "es": "Tú comprabas comida.",
+          "clip": "clips/51354243e8c81d22.mp3"
+        },
+        "usted": {
+          "es": "Usted compraba comida.",
+          "clip": "clips/56b812423f111f98.mp3"
+        },
+        "el": {
+          "es": "Él compraba comida.",
+          "clip": "clips/b37b960a9bf5ec73.mp3"
+        },
+        "ella": {
+          "es": "Ella compraba comida.",
+          "clip": "clips/666674848b4fd0cf.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros comprábamos comida.",
+          "clip": "clips/c918d27b46a67df6.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras comprábamos comida.",
+          "clip": "clips/92cd32c9b907ce0d.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes compraban comida.",
+          "clip": "clips/9da1026f1d8df145.mp3"
+        },
+        "ellos": {
+          "es": "Ellos compraban comida.",
+          "clip": "clips/a6fcd5ddb5fe1012.mp3"
+        },
+        "ellas": {
+          "es": "Ellas compraban comida.",
+          "clip": "clips/0de0be7419b70b24.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Buy food.",
+      "en_clip": "clips/b24b161b22b1d9e8.mp3",
+      "forms": {
+        "tu": {
+          "es": "Compra comida.",
+          "clip": "clips/fcb444e3ec5fe91b.mp3"
+        },
+        "usted": {
+          "es": "Compre comida.",
+          "clip": "clips/022c7c57abc73ff5.mp3"
+        },
+        "nosotros": {
+          "es": "Compremos comida.",
+          "clip": "clips/f467c5ef0735d8dc.mp3"
+        },
+        "nosotras": {
+          "es": "Compremos comida.",
+          "clip": "clips/f467c5ef0735d8dc.mp3"
+        },
+        "ustedes": {
+          "es": "Compren comida.",
+          "clip": "clips/bc05f2097bef175e.mp3"
+        }
+      }
+    }
+  ]
+}

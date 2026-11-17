@@ -142,8 +142,10 @@ function pickedVerbs(c) {
 
 async function showVerbs(arg) {
   const token = ++V.token;
-  const m = arg && arg.match(/^c\/([^/]+)(?:\/(all|pick))?$/);
+  // c/<id>/v/<verb>: one verb, opened from its collection's list
+  const m = arg && arg.match(/^c\/([^/]+)(?:\/(all|pick|v\/[^/]+))?$/);
   const colId = m && m[1], session = m && m[2];
+  const one = session && session.startsWith("v/") ? decodeURIComponent(session.slice(2)) : null;
   V.el("verbs-heading").textContent = "Verbs";
   V.el("verbs-sub").textContent = " ";
   if (!arg) {  // the collections
@@ -189,13 +191,24 @@ async function showVerbs(arg) {
       V.el("col-all").href = `#/verbs/c/${c.id}/all`;
       V.el("col-all").textContent = `All ${count(c.verbs.length)}`;
       V.el("col-pick").onclick = () => openPicker(c, idx);
-      V.el("col-verbs").textContent = c.verbs.join(" · ");
+      const ul = V.el("col-verbs");
+      ul.innerHTML = "";
+      const meaning = new Map(idx.verbs.map((v) => [v.verb, v.meaning]));
+      for (const v of c.verbs) {
+        const li = document.createElement("li");
+        li.innerHTML = `<a><span class="t"></span><span class="d"></span></a>`;
+        li.querySelector("a").href = `#/verbs/c/${c.id}/v/${encodeURIComponent(v)}`;
+        li.querySelector(".t").textContent = v;
+        li.querySelector(".d").textContent = meaning.get(v) || "";
+        ul.append(li);
+      }
       return;
     }
-    verbs = session === "all" ? c.verbs : pickedVerbs(c);
+    verbs = one ? [one] : session === "all" ? c.verbs : pickedVerbs(c);
     back = `#/verbs/c/${c.id}`;
     V.title = c.title;
     V.el("verbs-sub").textContent = verbs.length === c.verbs.length ? `All ${count(verbs.length)}` : verbs.join(", ");
+    if (one) V.el("verbs-heading").textContent = one;
   } else {
     verbs = [arg];
     back = "#/verbs";
@@ -212,8 +225,8 @@ async function showVerbs(arg) {
     } catch { if (token === V.token) verbsError("Couldn't load the verbs. Are you online?"); return; }
     if (token !== V.token) return;
   }
-  if (!m) {
-    V.title = `${arg} · ${V.data.verbs[0].meaning}`;
+  if (!m || one) {
+    V.title = `${verbs[0]} · ${V.data.verbs[0].meaning}`;
     V.el("verbs-sub").textContent = V.data.verbs[0].meaning;
   }
   showParts("drill");

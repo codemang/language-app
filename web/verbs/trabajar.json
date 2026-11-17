@@ -1,0 +1,250 @@
+{
+  "verb": "trabajar",
+  "meaning": "to work",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to work in an office.",
+      "en_clip": "clips/66b0a45a197fcfcd.mp3",
+      "single": {
+        "es": "Quiero trabajar en una oficina.",
+        "clip": "clips/0076193f56aee254.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I work in an office.",
+      "en_clip": "clips/7b37eb4bc2c7e302.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo trabajo en una oficina.",
+          "clip": "clips/81620cb21bfca18c.mp3"
+        },
+        "tu": {
+          "es": "Tú trabajas en una oficina.",
+          "clip": "clips/f461d08373d974f0.mp3"
+        },
+        "usted": {
+          "es": "Usted trabaja en una oficina.",
+          "clip": "clips/fa7cae55ba8281c3.mp3"
+        },
+        "el": {
+          "es": "Él trabaja en una oficina.",
+          "clip": "clips/bff7e22e3f42f5f3.mp3"
+        },
+        "ella": {
+          "es": "Ella trabaja en una oficina.",
+          "clip": "clips/a4173387ace522b9.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros trabajamos en una oficina.",
+          "clip": "clips/b2e1e9551f7b26a9.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras trabajamos en una oficina.",
+          "clip": "clips/4337e406cb970a98.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes trabajan en una oficina.",
+          "clip": "clips/5f0702e6dc86871e.mp3"
+        },
+        "ellos": {
+          "es": "Ellos trabajan en una oficina.",
+          "clip": "clips/ea21f0f6838fa339.mp3"
+        },
+        "ellas": {
+          "es": "Ellas trabajan en una oficina.",
+          "clip": "clips/349d1c26c2b67912.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I worked in an office.",
+      "en_clip": "clips/2a11087511c76d32.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo trabajé en una oficina.",
+          "clip": "clips/b1d1e1ed6ddcd488.mp3"
+        },
+        "tu": {
+          "es": "Tú trabajaste en una oficina.",
+          "clip": "clips/f181dce0b5b01aff.mp3"
+        },
+        "usted": {
+          "es": "Usted trabajó en una oficina.",
+          "clip": "clips/6d18c0100268326e.mp3"
+        },
+        "el": {
+          "es": "Él trabajó en una oficina.",
+          "clip": "clips/f07c3cdc8cae9884.mp3"
+        },
+        "ella": {
+          "es": "Ella trabajó en una oficina.",
+          "clip": "clips/e459930a5e1837e3.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros trabajamos en una oficina.",
+          "clip": "clips/b2e1e9551f7b26a9.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras trabajamos en una oficina.",
+          "clip": "clips/4337e406cb970a98.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes trabajaron en una oficina.",
+          "clip": "clips/a58c0962b65166cc.mp3"
+        },
+        "ellos": {
+          "es": "Ellos trabajaron en una oficina.",
+          "clip": "clips/aeb52ffe885acd59.mp3"
+        },
+        "ellas": {
+          "es": "Ellas trabajaron en una oficina.",
+          "clip": "clips/f418d50c49e582dd.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to work in an office.",
+      "en_clip": "clips/0e790644610d521a.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo trabajaba en una oficina.",
+          "clip": "clips/03f8abbf6a0c4c77.mp3"
+        },
+        "tu": {
+          "es": "Tú trabajabas en una oficina.",
+          "clip": "clips/2831b9d1b5d35e28.mp3"
+        },
+        "usted": {
+          "es": "Usted trabajaba en una oficina.",
+          "clip": "clips/66dd58ac58d083e7.mp3"
+        },
+        "el": {
+          "es": "Él trabajaba en una oficina.",
+          "clip": "clips/77f7641e34b4275e.mp3"
+        },
+        "ella": {
+          "es": "Ella trabajaba en una oficina.",
+          "clip": "clips/9c330328ade31448.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros trabajábamos en una oficina.",
+          "clip": "clips/2fc5d89e54f17f13.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras trabajábamos en una oficina.",
+          "clip": "clips/fb5b3766eeea4ec6.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes trabajaban en una oficina.",
+          "clip": "clips/9ae57e186f2c1fac.mp3"
+        },
+        "ellos": {
+          "es": "Ellos trabajaban en una oficina.",
+          "clip": "clips/6f10d3ec5b2a22bc.mp3"
+        },
+        "ellas": {
+          "es": "Ellas trabajaban en una oficina.",
+          "clip": "clips/98052861b8aee37c.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Work hard.",
+      "en_clip": "clips/93ab8629e2896968.mp3",
+      "forms": {
+        "tu": {
+          "es": "Trabaja mucho.",
+          "clip": "clips/9064a30fa65367a0.mp3"
+        },
+        "usted": {
+          "es": "Trabaje mucho.",
+          "clip": "clips/885604358faa2686.mp3"
+        },
+        "nosotros": {
+          "es": "Trabajemos mucho.",
+          "clip": "clips/c44cb054aa4a8f9c.mp3"
+        },
+        "nosotras": {
+          "es": "Trabajemos mucho.",
+          "clip": "clips/c44cb054aa4a8f9c.mp3"
+        },
+        "ustedes": {
+          "es": "Trabajen mucho.",
+          "clip": "clips/136256d4c591f558.mp3"
+        }
+      }
+    }
+  ]
+}

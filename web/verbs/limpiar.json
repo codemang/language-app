@@ -1,0 +1,250 @@
+{
+  "verb": "limpiar",
+  "meaning": "to clean",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I have to clean the house.",
+      "en_clip": "clips/5998250fe189c60d.mp3",
+      "single": {
+        "es": "Tengo que limpiar la casa.",
+        "clip": "clips/6e35ba68b9ce65ca.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I clean the house.",
+      "en_clip": "clips/c7434b149495e7a1.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo limpio la casa.",
+          "clip": "clips/20778dcd1cb4fdb8.mp3"
+        },
+        "tu": {
+          "es": "Tú limpias la casa.",
+          "clip": "clips/a329bd594547ada9.mp3"
+        },
+        "usted": {
+          "es": "Usted limpia la casa.",
+          "clip": "clips/5944ca4ed6e49658.mp3"
+        },
+        "el": {
+          "es": "Él limpia la casa.",
+          "clip": "clips/07cb9085e37c3ae8.mp3"
+        },
+        "ella": {
+          "es": "Ella limpia la casa.",
+          "clip": "clips/64868a6946b0c622.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros limpiamos la casa.",
+          "clip": "clips/bb059ec84b6e446a.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras limpiamos la casa.",
+          "clip": "clips/85753ee180b89399.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes limpian la casa.",
+          "clip": "clips/4bed08227ffc508e.mp3"
+        },
+        "ellos": {
+          "es": "Ellos limpian la casa.",
+          "clip": "clips/85eb14eb86a58101.mp3"
+        },
+        "ellas": {
+          "es": "Ellas limpian la casa.",
+          "clip": "clips/781867a66623d1e9.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I cleaned the house.",
+      "en_clip": "clips/851ad3f03466c205.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo limpié la casa.",
+          "clip": "clips/62a0108d6d9bf99d.mp3"
+        },
+        "tu": {
+          "es": "Tú limpiaste la casa.",
+          "clip": "clips/757c967d0f93df6d.mp3"
+        },
+        "usted": {
+          "es": "Usted limpió la casa.",
+          "clip": "clips/533b630329a27d97.mp3"
+        },
+        "el": {
+          "es": "Él limpió la casa.",
+          "clip": "clips/150fa95aaf3dde88.mp3"
+        },
+        "ella": {
+          "es": "Ella limpió la casa.",
+          "clip": "clips/6627a530a4967657.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros limpiamos la casa.",
+          "clip": "clips/bb059ec84b6e446a.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras limpiamos la casa.",
+          "clip": "clips/85753ee180b89399.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes limpiaron la casa.",
+          "clip": "clips/5cc82cff05d06730.mp3"
+        },
+        "ellos": {
+          "es": "Ellos limpiaron la casa.",
+          "clip": "clips/ab37794104c9c92b.mp3"
+        },
+        "ellas": {
+          "es": "Ellas limpiaron la casa.",
+          "clip": "clips/d07cf9d1a9e0bfb6.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to clean the house.",
+      "en_clip": "clips/843dc7fde04747b2.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo limpiaba la casa.",
+          "clip": "clips/4d884b44ba6cd967.mp3"
+        },
+        "tu": {
+          "es": "Tú limpiabas la casa.",
+          "clip": "clips/6f3a6675c11460ba.mp3"
+        },
+        "usted": {
+          "es": "Usted limpiaba la casa.",
+          "clip": "clips/e5429d94dacea760.mp3"
+        },
+        "el": {
+          "es": "Él limpiaba la casa.",
+          "clip": "clips/c5251f578940a449.mp3"
+        },
+        "ella": {
+          "es": "Ella limpiaba la casa.",
+          "clip": "clips/6ab524d918512800.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros limpiábamos la casa.",
+          "clip": "clips/45cc6924d9fc1d9a.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras limpiábamos la casa.",
+          "clip": "clips/e391bbdfe132e0a7.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes limpiaban la casa.",
+          "clip": "clips/f6b8fb63a431192b.mp3"
+        },
+        "ellos": {
+          "es": "Ellos limpiaban la casa.",
+          "clip": "clips/cb9362aed770c5d8.mp3"
+        },
+        "ellas": {
+          "es": "Ellas limpiaban la casa.",
+          "clip": "clips/bdc3e968457fe9cc.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Clean the house.",
+      "en_clip": "clips/815a90ab3461a9ee.mp3",
+      "forms": {
+        "tu": {
+          "es": "Limpia la casa.",
+          "clip": "clips/6bcf3e034fe64148.mp3"
+        },
+        "usted": {
+          "es": "Limpie la casa.",
+          "clip": "clips/e16e1db06db43b4f.mp3"
+        },
+        "nosotros": {
+          "es": "Limpiemos la casa.",
+          "clip": "clips/12fae351fc75eb5e.mp3"
+        },
+        "nosotras": {
+          "es": "Limpiemos la casa.",
+          "clip": "clips/12fae351fc75eb5e.mp3"
+        },
+        "ustedes": {
+          "es": "Limpien la casa.",
+          "clip": "clips/acfe54f27e7b7e98.mp3"
+        }
+      }
+    }
+  ]
+}

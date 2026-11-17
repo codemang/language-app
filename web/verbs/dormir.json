@@ -1,0 +1,250 @@
+{
+  "verb": "dormir",
+  "meaning": "to sleep",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I need to sleep eight hours.",
+      "en_clip": "clips/a7f3b6c874f8ae63.mp3",
+      "single": {
+        "es": "Necesito dormir ocho horas.",
+        "clip": "clips/e6512a82bc2dc60e.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I sleep eight hours.",
+      "en_clip": "clips/e3d0362d4b7ce084.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo duermo ocho horas.",
+          "clip": "clips/fbcebc7ca26de872.mp3"
+        },
+        "tu": {
+          "es": "Tú duermes ocho horas.",
+          "clip": "clips/6c70fc9421b6fe5d.mp3"
+        },
+        "usted": {
+          "es": "Usted duerme ocho horas.",
+          "clip": "clips/58fc41bfeb7bc6b3.mp3"
+        },
+        "el": {
+          "es": "Él duerme ocho horas.",
+          "clip": "clips/ead362491addb806.mp3"
+        },
+        "ella": {
+          "es": "Ella duerme ocho horas.",
+          "clip": "clips/9d339dba929f31a0.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros dormimos ocho horas.",
+          "clip": "clips/24dce9717a3ea5cc.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras dormimos ocho horas.",
+          "clip": "clips/11557c7c5691b71a.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes duermen ocho horas.",
+          "clip": "clips/38d647f85abe6691.mp3"
+        },
+        "ellos": {
+          "es": "Ellos duermen ocho horas.",
+          "clip": "clips/ef16794afcf2b7c7.mp3"
+        },
+        "ellas": {
+          "es": "Ellas duermen ocho horas.",
+          "clip": "clips/0ff7e8546b1ad3da.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I slept eight hours.",
+      "en_clip": "clips/19ec8281db13452f.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo dormí ocho horas.",
+          "clip": "clips/01df89bcc035c6e0.mp3"
+        },
+        "tu": {
+          "es": "Tú dormiste ocho horas.",
+          "clip": "clips/e84b27b8853d155b.mp3"
+        },
+        "usted": {
+          "es": "Usted durmió ocho horas.",
+          "clip": "clips/643b288d0412852e.mp3"
+        },
+        "el": {
+          "es": "Él durmió ocho horas.",
+          "clip": "clips/39d2f202d3bbcda9.mp3"
+        },
+        "ella": {
+          "es": "Ella durmió ocho horas.",
+          "clip": "clips/1ea86fc8014efdda.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros dormimos ocho horas.",
+          "clip": "clips/24dce9717a3ea5cc.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras dormimos ocho horas.",
+          "clip": "clips/11557c7c5691b71a.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes durmieron ocho horas.",
+          "clip": "clips/02ae58e144cacf65.mp3"
+        },
+        "ellos": {
+          "es": "Ellos durmieron ocho horas.",
+          "clip": "clips/945f86fc2e1ca16a.mp3"
+        },
+        "ellas": {
+          "es": "Ellas durmieron ocho horas.",
+          "clip": "clips/c79d9baf383bdd35.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to sleep eight hours.",
+      "en_clip": "clips/c28fce82a5d31582.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo dormía ocho horas.",
+          "clip": "clips/ea4d708ba99c1edd.mp3"
+        },
+        "tu": {
+          "es": "Tú dormías ocho horas.",
+          "clip": "clips/342147481e5bb02e.mp3"
+        },
+        "usted": {
+          "es": "Usted dormía ocho horas.",
+          "clip": "clips/aa595518f740b88a.mp3"
+        },
+        "el": {
+          "es": "Él dormía ocho horas.",
+          "clip": "clips/f03d10b0f25be03d.mp3"
+        },
+        "ella": {
+          "es": "Ella dormía ocho horas.",
+          "clip": "clips/027b6b077b1c868f.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros dormíamos ocho horas.",
+          "clip": "clips/f31f09cbfea88025.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras dormíamos ocho horas.",
+          "clip": "clips/f4afa380cd479ce8.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes dormían ocho horas.",
+          "clip": "clips/1dcddcdf4ef2312e.mp3"
+        },
+        "ellos": {
+          "es": "Ellos dormían ocho horas.",
+          "clip": "clips/c3ad01c9b1056566.mp3"
+        },
+        "ellas": {
+          "es": "Ellas dormían ocho horas.",
+          "clip": "clips/a14bc90eca61a946.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Sleep eight hours.",
+      "en_clip": "clips/fbc6dd928a1b019e.mp3",
+      "forms": {
+        "tu": {
+          "es": "Duerme ocho horas.",
+          "clip": "clips/85499a6b6da05f09.mp3"
+        },
+        "usted": {
+          "es": "Duerma ocho horas.",
+          "clip": "clips/4deebaf749fa0182.mp3"
+        },
+        "nosotros": {
+          "es": "Durmamos ocho horas.",
+          "clip": "clips/3ca5c1b0c719f497.mp3"
+        },
+        "nosotras": {
+          "es": "Durmamos ocho horas.",
+          "clip": "clips/3ca5c1b0c719f497.mp3"
+        },
+        "ustedes": {
+          "es": "Duerman ocho horas.",
+          "clip": "clips/63fad14179d7022b.mp3"
+        }
+      }
+    }
+  ]
+}

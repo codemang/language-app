@@ -1,0 +1,250 @@
+{
+  "verb": "ayudar",
+  "meaning": "to help",
+  "pronouns": [
+    {
+      "id": "yo",
+      "es": "Yo",
+      "cue": "I form.",
+      "cue_clip": "clips/1774bb496ef6368d.mp3"
+    },
+    {
+      "id": "tu",
+      "es": "Tú",
+      "cue": "You form.",
+      "cue_clip": "clips/bc0a33aca687c088.mp3"
+    },
+    {
+      "id": "usted",
+      "es": "Usted",
+      "cue": "You, formal form.",
+      "cue_clip": "clips/cfda4df944c9a2a6.mp3"
+    },
+    {
+      "id": "el",
+      "es": "Él",
+      "cue": "He form.",
+      "cue_clip": "clips/08b5e9d5dad552cc.mp3"
+    },
+    {
+      "id": "ella",
+      "es": "Ella",
+      "cue": "She form.",
+      "cue_clip": "clips/3159b2fe5b00ec1a.mp3"
+    },
+    {
+      "id": "nosotros",
+      "es": "Nosotros",
+      "cue": "We form.",
+      "cue_clip": "clips/7cc6d4beda67e9ad.mp3"
+    },
+    {
+      "id": "nosotras",
+      "es": "Nosotras",
+      "cue": "We, feminine form.",
+      "cue_clip": "clips/d9bbda4bb9c5bdcb.mp3"
+    },
+    {
+      "id": "ustedes",
+      "es": "Ustedes",
+      "cue": "You all form.",
+      "cue_clip": "clips/9800fc1c5b452e18.mp3"
+    },
+    {
+      "id": "ellos",
+      "es": "Ellos",
+      "cue": "They form.",
+      "cue_clip": "clips/67dab00c75f7ccf3.mp3"
+    },
+    {
+      "id": "ellas",
+      "es": "Ellas",
+      "cue": "They, feminine form.",
+      "cue_clip": "clips/9bfa3d01a81836d6.mp3"
+    }
+  ],
+  "tenses": [
+    {
+      "id": "infinitive",
+      "label": "Infinitive",
+      "en": "Infinitive: I want to help my friend.",
+      "en_clip": "clips/703db0ee3606893e.mp3",
+      "single": {
+        "es": "Quiero ayudar a mi amigo.",
+        "clip": "clips/d9f4998e7ba468c1.mp3"
+      }
+    },
+    {
+      "id": "present",
+      "label": "Present",
+      "en": "Present tense: I help my friend.",
+      "en_clip": "clips/b77f70559146b83c.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo ayudo a mi amigo.",
+          "clip": "clips/d802105c3bca94f6.mp3"
+        },
+        "tu": {
+          "es": "Tú ayudas a mi amigo.",
+          "clip": "clips/51cca01bfc57d644.mp3"
+        },
+        "usted": {
+          "es": "Usted ayuda a mi amigo.",
+          "clip": "clips/4a1ed4f44b52a3ad.mp3"
+        },
+        "el": {
+          "es": "Él ayuda a mi amigo.",
+          "clip": "clips/48a7816e0c1ed62d.mp3"
+        },
+        "ella": {
+          "es": "Ella ayuda a mi amigo.",
+          "clip": "clips/e106232754795e1f.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros ayudamos a mi amigo.",
+          "clip": "clips/83a42b5e59aa71a5.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras ayudamos a mi amigo.",
+          "clip": "clips/fe0287f714ed9a4d.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes ayudan a mi amigo.",
+          "clip": "clips/47c6bcb236c5e4bd.mp3"
+        },
+        "ellos": {
+          "es": "Ellos ayudan a mi amigo.",
+          "clip": "clips/35bc38b1dafde7da.mp3"
+        },
+        "ellas": {
+          "es": "Ellas ayudan a mi amigo.",
+          "clip": "clips/713384aebc5401dd.mp3"
+        }
+      }
+    },
+    {
+      "id": "preterite",
+      "label": "Preterite",
+      "en": "Preterite: I helped my friend.",
+      "en_clip": "clips/cd97fb733f28e159.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo ayudé a mi amigo.",
+          "clip": "clips/e4afb28c6d782891.mp3"
+        },
+        "tu": {
+          "es": "Tú ayudaste a mi amigo.",
+          "clip": "clips/3d064ac096230ede.mp3"
+        },
+        "usted": {
+          "es": "Usted ayudó a mi amigo.",
+          "clip": "clips/5909ad27211af72e.mp3"
+        },
+        "el": {
+          "es": "Él ayudó a mi amigo.",
+          "clip": "clips/647113da9b45f627.mp3"
+        },
+        "ella": {
+          "es": "Ella ayudó a mi amigo.",
+          "clip": "clips/1cbfa55316772365.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros ayudamos a mi amigo.",
+          "clip": "clips/83a42b5e59aa71a5.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras ayudamos a mi amigo.",
+          "clip": "clips/fe0287f714ed9a4d.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes ayudaron a mi amigo.",
+          "clip": "clips/99fd48efaf059cf3.mp3"
+        },
+        "ellos": {
+          "es": "Ellos ayudaron a mi amigo.",
+          "clip": "clips/457c187434814806.mp3"
+        },
+        "ellas": {
+          "es": "Ellas ayudaron a mi amigo.",
+          "clip": "clips/7547b4eba4bda8cc.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperfect",
+      "label": "Imperfect",
+      "en": "Imperfect: I used to help my friend.",
+      "en_clip": "clips/e588758b1ec53143.mp3",
+      "forms": {
+        "yo": {
+          "es": "Yo ayudaba a mi amigo.",
+          "clip": "clips/aac7ecc03abb2ebb.mp3"
+        },
+        "tu": {
+          "es": "Tú ayudabas a mi amigo.",
+          "clip": "clips/b5fdcf41b757e2c4.mp3"
+        },
+        "usted": {
+          "es": "Usted ayudaba a mi amigo.",
+          "clip": "clips/3205abcbdcae9be6.mp3"
+        },
+        "el": {
+          "es": "Él ayudaba a mi amigo.",
+          "clip": "clips/4bcb0683dfae30b8.mp3"
+        },
+        "ella": {
+          "es": "Ella ayudaba a mi amigo.",
+          "clip": "clips/3945a742ea6303fc.mp3"
+        },
+        "nosotros": {
+          "es": "Nosotros ayudábamos a mi amigo.",
+          "clip": "clips/87c01269024dc03e.mp3"
+        },
+        "nosotras": {
+          "es": "Nosotras ayudábamos a mi amigo.",
+          "clip": "clips/dd5f25b06600cb3c.mp3"
+        },
+        "ustedes": {
+          "es": "Ustedes ayudaban a mi amigo.",
+          "clip": "clips/6588f8b903296901.mp3"
+        },
+        "ellos": {
+          "es": "Ellos ayudaban a mi amigo.",
+          "clip": "clips/d223b84b13fb3271.mp3"
+        },
+        "ellas": {
+          "es": "Ellas ayudaban a mi amigo.",
+          "clip": "clips/fa17220ffadef5ce.mp3"
+        }
+      }
+    },
+    {
+      "id": "imperative",
+      "label": "Command",
+      "en": "Command: Help my friend.",
+      "en_clip": "clips/4d7635613828d808.mp3",
+      "forms": {
+        "tu": {
+          "es": "Ayuda a mi amigo.",
+          "clip": "clips/ffa49d1fbfa854a5.mp3"
+        },
+        "usted": {
+          "es": "Ayude a mi amigo.",
+          "clip": "clips/165e248ad44d1f3c.mp3"
+        },
+        "nosotros": {
+          "es": "Ayudemos a mi amigo.",
+          "clip": "clips/534e4a3cd4b105a4.mp3"
+        },
+        "nosotras": {
+          "es": "Ayudemos a mi amigo.",
+          "clip": "clips/534e4a3cd4b105a4.mp3"
+        },
+        "ustedes": {
+          "es": "Ayuden a mi amigo.",
+          "clip": "clips/0e2b6d2a24825ca1.mp3"
+        }
+      }
+    }
+  ]
+}

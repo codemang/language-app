@@ -207,6 +207,30 @@
     {
       "verb": "olvidar",
       "meaning": "to forget"
+    },
+    {
+      "verb": "trabajar",
+      "meaning": "to work"
+    },
+    {
+      "verb": "estudiar",
+      "meaning": "to study"
+    },
+    {
+      "verb": "dormir",
+      "meaning": "to sleep"
+    },
+    {
+      "verb": "limpiar",
+      "meaning": "to clean"
+    },
+    {
+      "verb": "comprar",
+      "meaning": "to buy"
+    },
+    {
+      "verb": "ayudar",
+      "meaning": "to help"
     }
   ],
   "collections": [
@@ -317,7 +341,13 @@
       "desc": "Everyday life at home and work",
       "verbs": [
         "vivir",
-        "ver"
+        "ver",
+        "trabajar",
+        "estudiar",
+        "dormir",
+        "limpiar",
+        "comprar",
+        "ayudar"
       ]
     }
   ]
