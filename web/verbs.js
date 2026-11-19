@@ -148,6 +148,7 @@ async function showVerbs(arg) {
   const one = session && session.startsWith("v/") ? decodeURIComponent(session.slice(2)) : null;
   V.el("verbs-heading").textContent = "Verbs";
   V.el("verbs-sub").textContent = " ";
+  if (!arg || (m && !session)) pauseVerbAudio();  // back from a player to a list: stop it
   if (!arg) {  // the collections
     showParts("top");
     renderVerbsDl();
@@ -791,8 +792,12 @@ function initVerbs() {
   };
 }
 
-function leaveVerbs() {
+function pauseVerbAudio() {
   if (V.audio) V.audio.pause();
   if (V.clipAudio) V.clipAudio.pause();
+}
+
+function leaveVerbs() {
+  pauseVerbAudio();
   V.token++;
 }
