@@ -71,7 +71,21 @@
       "en_clip": "clips/8629be66d7e53ec5.mp3",
       "single": {
         "es": "Quiero hablar español.",
-        "clip": "clips/f451e954f8f6f590.mp3"
+        "clip": "clips/f451e954f8f6f590.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "hablar",
+            "v"
+          ],
+          [
+            "español.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo hablo español.",
-          "clip": "clips/3d4d06fd4c30f7e0.mp3"
+          "clip": "clips/3d4d06fd4c30f7e0.mp3",
+          "en": "I speak Spanish.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "hablo",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú hablas español.",
-          "clip": "clips/55e558a49eb926bd.mp3"
+          "clip": "clips/55e558a49eb926bd.mp3",
+          "en": "You speak Spanish.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "hablas",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted habla español.",
-          "clip": "clips/483553b084000669.mp3"
+          "clip": "clips/483553b084000669.mp3",
+          "en": "You speak Spanish.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "habla",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él habla español.",
-          "clip": "clips/08929f1020bb9151.mp3"
+          "clip": "clips/08929f1020bb9151.mp3",
+          "en": "He speaks Spanish.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "habla",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella habla español.",
-          "clip": "clips/a9b084b66b9ef609.mp3"
+          "clip": "clips/a9b084b66b9ef609.mp3",
+          "en": "She speaks Spanish.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "habla",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros hablamos español.",
-          "clip": "clips/e6b01f206e6b86e7.mp3"
+          "clip": "clips/e6b01f206e6b86e7.mp3",
+          "en": "We speak Spanish.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "hablamos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras hablamos español.",
-          "clip": "clips/8cd6f505b8ef026b.mp3"
+          "clip": "clips/8cd6f505b8ef026b.mp3",
+          "en": "We speak Spanish.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "hablamos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes hablan español.",
-          "clip": "clips/0eb6a1b94e28a93c.mp3"
+          "clip": "clips/0eb6a1b94e28a93c.mp3",
+          "en": "You all speak Spanish.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "hablan",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos hablan español.",
-          "clip": "clips/3b3774c6996c7067.mp3"
+          "clip": "clips/3b3774c6996c7067.mp3",
+          "en": "They speak Spanish.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "hablan",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas hablan español.",
-          "clip": "clips/ae1e0646adf13cf3.mp3"
+          "clip": "clips/ae1e0646adf13cf3.mp3",
+          "en": "They speak Spanish.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "hablan",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo hablé español.",
-          "clip": "clips/7ba78311463c694e.mp3"
+          "clip": "clips/7ba78311463c694e.mp3",
+          "en": "I spoke Spanish.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "hablé",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú hablaste español.",
-          "clip": "clips/10286fa721df25d3.mp3"
+          "clip": "clips/10286fa721df25d3.mp3",
+          "en": "You spoke Spanish.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "hablaste",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted habló español.",
-          "clip": "clips/850bbe97def88608.mp3"
+          "clip": "clips/850bbe97def88608.mp3",
+          "en": "You spoke Spanish.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "habló",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él habló español.",
-          "clip": "clips/c7be640b46b7d456.mp3"
+          "clip": "clips/c7be640b46b7d456.mp3",
+          "en": "He spoke Spanish.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "habló",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella habló español.",
-          "clip": "clips/18956b1013d5595c.mp3"
+          "clip": "clips/18956b1013d5595c.mp3",
+          "en": "She spoke Spanish.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "habló",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros hablamos español.",
-          "clip": "clips/e6b01f206e6b86e7.mp3"
+          "clip": "clips/e6b01f206e6b86e7.mp3",
+          "en": "We spoke Spanish.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "hablamos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras hablamos español.",
-          "clip": "clips/8cd6f505b8ef026b.mp3"
+          "clip": "clips/8cd6f505b8ef026b.mp3",
+          "en": "We spoke Spanish.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "hablamos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes hablaron español.",
-          "clip": "clips/91ced40641f75a6b.mp3"
+          "clip": "clips/91ced40641f75a6b.mp3",
+          "en": "You all spoke Spanish.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "hablaron",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos hablaron español.",
-          "clip": "clips/a2dd29e32c898817.mp3"
+          "clip": "clips/a2dd29e32c898817.mp3",
+          "en": "They spoke Spanish.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "hablaron",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas hablaron español.",
-          "clip": "clips/912ff93ddf00ca42.mp3"
+          "clip": "clips/912ff93ddf00ca42.mp3",
+          "en": "They spoke Spanish.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "hablaron",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo hablaba español.",
-          "clip": "clips/91dde5e4cf1e8857.mp3"
+          "clip": "clips/91dde5e4cf1e8857.mp3",
+          "en": "I used to speak Spanish.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "hablaba",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú hablabas español.",
-          "clip": "clips/415e785ae9341ac0.mp3"
+          "clip": "clips/415e785ae9341ac0.mp3",
+          "en": "You used to speak Spanish.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "hablabas",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted hablaba español.",
-          "clip": "clips/aa73265df9d74e53.mp3"
+          "clip": "clips/aa73265df9d74e53.mp3",
+          "en": "You used to speak Spanish.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "hablaba",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él hablaba español.",
-          "clip": "clips/f80e9c0b27b433bf.mp3"
+          "clip": "clips/f80e9c0b27b433bf.mp3",
+          "en": "He used to speak Spanish.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "hablaba",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella hablaba español.",
-          "clip": "clips/1583d6fc57f423e3.mp3"
+          "clip": "clips/1583d6fc57f423e3.mp3",
+          "en": "She used to speak Spanish.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "hablaba",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros hablábamos español.",
-          "clip": "clips/045b61f3c58c26c6.mp3"
+          "clip": "clips/045b61f3c58c26c6.mp3",
+          "en": "We used to speak Spanish.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "hablábamos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras hablábamos español.",
-          "clip": "clips/ebfb3fe71572da92.mp3"
+          "clip": "clips/ebfb3fe71572da92.mp3",
+          "en": "We used to speak Spanish.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "hablábamos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes hablaban español.",
-          "clip": "clips/8e23fadbd5eef8bd.mp3"
+          "clip": "clips/8e23fadbd5eef8bd.mp3",
+          "en": "You all used to speak Spanish.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "hablaban",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos hablaban español.",
-          "clip": "clips/e9b927fa10d96be0.mp3"
+          "clip": "clips/e9b927fa10d96be0.mp3",
+          "en": "They used to speak Spanish.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "hablaban",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas hablaban español.",
-          "clip": "clips/913e1305e2a19b03.mp3"
+          "clip": "clips/913e1305e2a19b03.mp3",
+          "en": "They used to speak Spanish.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "hablaban",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Habla español.",
-          "clip": "clips/498589eb66c72cf1.mp3"
+          "clip": "clips/498589eb66c72cf1.mp3",
+          "en": "Speak Spanish.",
+          "parts": [
+            [
+              "Habla",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Hable español.",
-          "clip": "clips/8462d999e1e7bcca.mp3"
+          "clip": "clips/8462d999e1e7bcca.mp3",
+          "en": "Speak Spanish.",
+          "parts": [
+            [
+              "Hable",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Hablemos español.",
-          "clip": "clips/c761a221edee8a23.mp3"
+          "clip": "clips/c761a221edee8a23.mp3",
+          "en": "Let's speak Spanish.",
+          "parts": [
+            [
+              "Hablemos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Hablemos español.",
-          "clip": "clips/c761a221edee8a23.mp3"
+          "clip": "clips/c761a221edee8a23.mp3",
+          "en": "Let's speak Spanish.",
+          "parts": [
+            [
+              "Hablemos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Hablen español.",
-          "clip": "clips/bbde119a073e1cc1.mp3"
+          "clip": "clips/bbde119a073e1cc1.mp3",
+          "en": "Speak Spanish.",
+          "parts": [
+            [
+              "Hablen",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         }
       }
     }

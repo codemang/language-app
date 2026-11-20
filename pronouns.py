@@ -44,13 +44,24 @@ SETS = [
 ]
 
 
+def parts(label, es):
+    """[[text, kind]] for reading: "Juan me lo da." -> Juan, me lo (p), da (v), the rest."""
+    n = len(label.split(" · ")[0].split())
+    words = es.split(" ")
+    out = [[words[0], ""], [" ".join(words[1:1 + n]), "p"], [words[1 + n], "v"]]
+    if words[2 + n:]:
+        out.append([" ".join(words[2 + n:]), ""])
+    return out
+
+
 def main():
     spk = Speaker()
     out = {"sets": []}
     for sid, title, items in SETS:
         print(title, file=sys.stderr)
         out["sets"].append({"id": sid, "title": title, "items": [
-            {"id": iid, "label": label, "en": en, "en_clip": spk.clip(en, "en"), "es": es, "clip": spk.clip(es, "es")}
+            {"id": iid, "label": label, "en": en, "en_clip": spk.clip(en, "en"), "es": es, "clip": spk.clip(es, "es"),
+             "parts": parts(label, es)}
             for iid, label, en, es in items]})
     (OUT / "pronouns.json").write_text(json.dumps(out, ensure_ascii=False, indent=2))
     print(f"done, {spk.made} new clips", file=sys.stderr)

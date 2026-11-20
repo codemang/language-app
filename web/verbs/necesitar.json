@@ -71,7 +71,21 @@
       "en_clip": "clips/467c99ba72889b8b.mp3",
       "single": {
         "es": "Voy a necesitar ayuda.",
-        "clip": "clips/b0d4e990e6d21a0d.mp3"
+        "clip": "clips/b0d4e990e6d21a0d.mp3",
+        "parts": [
+          [
+            "Voy a",
+            ""
+          ],
+          [
+            "necesitar",
+            "v"
+          ],
+          [
+            "ayuda.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo necesito ayuda.",
-          "clip": "clips/fcca6e9f7209f3fc.mp3"
+          "clip": "clips/fcca6e9f7209f3fc.mp3",
+          "en": "I need help.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "necesito",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú necesitas ayuda.",
-          "clip": "clips/38d035a6d72b22ef.mp3"
+          "clip": "clips/38d035a6d72b22ef.mp3",
+          "en": "You need help.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "necesitas",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted necesita ayuda.",
-          "clip": "clips/c5d445f52ae75a1f.mp3"
+          "clip": "clips/c5d445f52ae75a1f.mp3",
+          "en": "You need help.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "necesita",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él necesita ayuda.",
-          "clip": "clips/5a6f58637b27e9a9.mp3"
+          "clip": "clips/5a6f58637b27e9a9.mp3",
+          "en": "He needs help.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "necesita",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella necesita ayuda.",
-          "clip": "clips/732d3e6333ffd1e1.mp3"
+          "clip": "clips/732d3e6333ffd1e1.mp3",
+          "en": "She needs help.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "necesita",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros necesitamos ayuda.",
-          "clip": "clips/ded2ac3dc8ed6a6d.mp3"
+          "clip": "clips/ded2ac3dc8ed6a6d.mp3",
+          "en": "We need help.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "necesitamos",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras necesitamos ayuda.",
-          "clip": "clips/4c1af61dd68c5553.mp3"
+          "clip": "clips/4c1af61dd68c5553.mp3",
+          "en": "We need help.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "necesitamos",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes necesitan ayuda.",
-          "clip": "clips/b0a175dc563f4da9.mp3"
+          "clip": "clips/b0a175dc563f4da9.mp3",
+          "en": "You all need help.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "necesitan",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos necesitan ayuda.",
-          "clip": "clips/0a97548716f5bddb.mp3"
+          "clip": "clips/0a97548716f5bddb.mp3",
+          "en": "They need help.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "necesitan",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas necesitan ayuda.",
-          "clip": "clips/92e4c6b3e33feeeb.mp3"
+          "clip": "clips/92e4c6b3e33feeeb.mp3",
+          "en": "They need help.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "necesitan",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo necesité ayuda.",
-          "clip": "clips/8dd3a0d4ee9a8e3d.mp3"
+          "clip": "clips/8dd3a0d4ee9a8e3d.mp3",
+          "en": "I needed help.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "necesité",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú necesitaste ayuda.",
-          "clip": "clips/898ca35182833f42.mp3"
+          "clip": "clips/898ca35182833f42.mp3",
+          "en": "You needed help.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "necesitaste",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted necesitó ayuda.",
-          "clip": "clips/8af622e3aadf6be0.mp3"
+          "clip": "clips/8af622e3aadf6be0.mp3",
+          "en": "You needed help.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "necesitó",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él necesitó ayuda.",
-          "clip": "clips/e4527589ef955c99.mp3"
+          "clip": "clips/e4527589ef955c99.mp3",
+          "en": "He needed help.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "necesitó",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella necesitó ayuda.",
-          "clip": "clips/c94d1c157019a126.mp3"
+          "clip": "clips/c94d1c157019a126.mp3",
+          "en": "She needed help.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "necesitó",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros necesitamos ayuda.",
-          "clip": "clips/ded2ac3dc8ed6a6d.mp3"
+          "clip": "clips/ded2ac3dc8ed6a6d.mp3",
+          "en": "We needed help.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "necesitamos",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras necesitamos ayuda.",
-          "clip": "clips/4c1af61dd68c5553.mp3"
+          "clip": "clips/4c1af61dd68c5553.mp3",
+          "en": "We needed help.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "necesitamos",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes necesitaron ayuda.",
-          "clip": "clips/79f8e817a93ff989.mp3"
+          "clip": "clips/79f8e817a93ff989.mp3",
+          "en": "You all needed help.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "necesitaron",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos necesitaron ayuda.",
-          "clip": "clips/407a98779b0cab9d.mp3"
+          "clip": "clips/407a98779b0cab9d.mp3",
+          "en": "They needed help.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "necesitaron",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas necesitaron ayuda.",
-          "clip": "clips/efcc50b1f64b617b.mp3"
+          "clip": "clips/efcc50b1f64b617b.mp3",
+          "en": "They needed help.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "necesitaron",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo necesitaba ayuda.",
-          "clip": "clips/1754ff400f764835.mp3"
+          "clip": "clips/1754ff400f764835.mp3",
+          "en": "I used to need help.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "necesitaba",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú necesitabas ayuda.",
-          "clip": "clips/4a3abb385e188af2.mp3"
+          "clip": "clips/4a3abb385e188af2.mp3",
+          "en": "You used to need help.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "necesitabas",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted necesitaba ayuda.",
-          "clip": "clips/cd323e9ef8b4fe45.mp3"
+          "clip": "clips/cd323e9ef8b4fe45.mp3",
+          "en": "You used to need help.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "necesitaba",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él necesitaba ayuda.",
-          "clip": "clips/513b7e7e4d64bfd8.mp3"
+          "clip": "clips/513b7e7e4d64bfd8.mp3",
+          "en": "He used to need help.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "necesitaba",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella necesitaba ayuda.",
-          "clip": "clips/4b6a86255ae0e70f.mp3"
+          "clip": "clips/4b6a86255ae0e70f.mp3",
+          "en": "She used to need help.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "necesitaba",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros necesitábamos ayuda.",
-          "clip": "clips/35921c4a30e13d4d.mp3"
+          "clip": "clips/35921c4a30e13d4d.mp3",
+          "en": "We used to need help.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "necesitábamos",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras necesitábamos ayuda.",
-          "clip": "clips/b16af0052cdf057e.mp3"
+          "clip": "clips/b16af0052cdf057e.mp3",
+          "en": "We used to need help.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "necesitábamos",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes necesitaban ayuda.",
-          "clip": "clips/818538024e173335.mp3"
+          "clip": "clips/818538024e173335.mp3",
+          "en": "You all used to need help.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "necesitaban",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos necesitaban ayuda.",
-          "clip": "clips/fb12730eeac4cf58.mp3"
+          "clip": "clips/fb12730eeac4cf58.mp3",
+          "en": "They used to need help.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "necesitaban",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas necesitaban ayuda.",
-          "clip": "clips/677b1498981ebe76.mp3"
+          "clip": "clips/677b1498981ebe76.mp3",
+          "en": "They used to need help.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "necesitaban",
+              "v"
+            ],
+            [
+              "ayuda.",
+              ""
+            ]
+          ]
         }
       }
     }

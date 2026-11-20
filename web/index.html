@@ -123,14 +123,14 @@
     <section id="col-page" class="col-page" hidden>
       <a id="col-all" class="col-btn primary" href="#/verbs">All verbs</a>
       <button id="col-pick" type="button" class="col-btn">Choose my own verbs</button>
+      <section id="verbs-dl" class="offline" hidden>
+        <button id="verbs-dl-btn" class="offline-btn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4h2v9.2l3.6-3.6L18 11l-6 6-6-6 1.4-1.4 3.6 3.6zM5 18h14v2H5z"/></svg>
+          <span id="verbs-dl-label">Download for offline</span>
+        </button>
+        <p id="verbs-dl-note" class="sub" hidden></p>
+      </section>
       <ul id="col-verbs" class="mini-list col-verbs"></ul>
-    </section>
-    <section id="verbs-dl" class="offline" hidden>
-      <button id="verbs-dl-btn" class="offline-btn">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4h2v9.2l3.6-3.6L18 11l-6 6-6-6 1.4-1.4 3.6 3.6zM5 18h14v2H5z"/></svg>
-        <span id="verbs-dl-label">Download all for offline</span>
-      </button>
-      <p id="verbs-dl-note" class="sub" hidden></p>
     </section>
     <p id="verbs-error" class="offline-note" hidden></p>
     <p id="verbs-loading" class="sub verbs-loading" hidden>Loading…</p>
@@ -140,13 +140,21 @@
         <span id="opts-lines" class="opts-lines"></span>
         <span class="opts-edit">Edit</span>
       </button>
+      <div id="learn-view" class="seg seg-sm" role="radiogroup" aria-label="Learn view" hidden>
+        <button id="view-listen" type="button" role="radio" aria-checked="true">Listen</button>
+        <button id="view-read" type="button" role="radio" aria-checked="false">Read all</button>
+      </div>
+      <div id="learn-read" class="quiz-read" hidden>
+        <p class="sub read-key"><span class="hl-p">pronoun</span> · <span class="hl-v">verb</span> · tap a sentence to hear it</p>
+        <div id="learn-read-list"></div>
+      </div>
       <section id="quiz" class="quiz" hidden>
-        <div class="sentence" aria-live="polite">
+        <div id="quiz-card" class="sentence" aria-live="polite">
           <p id="quiz-ctx" class="quiz-ctx">&nbsp;</p>
           <p id="quiz-en" class="es">&nbsp;</p>
           <p id="quiz-es" class="es quiz-es">&nbsp;</p>
         </div>
-        <div class="controls">
+        <div id="quiz-controls" class="controls">
           <button id="quiz-prev" aria-label="Previous sentence">
             <svg viewBox="0 0 24 24"><path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"/></svg>
           </button>

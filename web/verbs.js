@@ -44,7 +44,8 @@ function verbSel() {
   let s = {};
   try { s = JSON.parse(localStorage.getItem("verbSel")) || {}; } catch {}
   return { tenses: s.tenses || ["present"], pronouns: s.pronouns || ["yo", "tu", "el", "ella", "nosotros", "ellos", "ellas"],
-           english: s.english !== false, quiz: !!s.quiz };  // quiz: Practice mode
+           english: s.english !== false, quiz: !!s.quiz,  // quiz: Practice mode
+           read: !!s.read };  // Learn shows every sentence to read instead of the audio player
 }
 function saveVerbSel(s) { try { localStorage.setItem("verbSel", JSON.stringify(s)); } catch {} }
 // Pronoun picks: {direct: [...], indirect: [...], both: [...]}. "Say the English"
@@ -112,7 +113,7 @@ function readIndex(idx) {
 // "drill" (a session or the pronouns), "none" (still loading / error)
 function showParts(part) {
   V.el("verbs-list").hidden = part !== "top";
-  V.el("verbs-dl").hidden = part !== "top";
+  V.el("verbs-dl").hidden = part !== "col";
   V.el("col-page").hidden = part !== "col";
   V.el("verb-drill").hidden = part !== "drill";
   V.el("verb-mode").hidden = part !== "col" && part !== "drill";
@@ -151,7 +152,6 @@ async function showVerbs(arg) {
   if (!arg || (m && !session)) pauseVerbAudio();  // back from a player to a list: stop it
   if (!arg) {  // the collections
     showParts("top");
-    renderVerbsDl();
     V.el("verbs-back").href = "#/";
     V.el("verbs-sub").textContent = "Pick a collection";
   } else if (m && !session) {
@@ -169,16 +169,20 @@ async function showVerbs(arg) {
   if (!arg) {
     const ul = V.el("verbs-list");
     ul.innerHTML = "";
-    const item = (href, title, detail) => {
+    listDl = [];
+    const item = (c) => {
       const li = document.createElement("li");
-      li.innerHTML = `<a href="${href}"><span class="t"></span><span class="d"></span></a>`;
-      li.querySelector(".t").textContent = title;
-      li.querySelector(".d").textContent = detail;
+      li.className = "col-row";
+      li.innerHTML = `<a href="#/verbs/c/${c.id}"><span class="t"></span><span class="d"></span></a><button type="button" class="row-dl"></button>`;
+      li.querySelector(".t").textContent = c.title;
+      const btn = li.querySelector("button");
+      btn.onclick = () => downloadCollection(c);
+      listDl.push({ c, btn, detail: li.querySelector(".d") });
       ul.append(li);
     };
-    for (const c of idx.collections.filter((c) => c.verbs.length)) item(`#/verbs/c/${c.id}`, c.title, count(c.verbs.length));
-    item("#/verbs/c/all", "All verbs", count(idx.verbs.length));
-    renderVerbsDl(idx.verbs);
+    for (const c of idx.collections.filter((c) => c.verbs.length)) item(c);
+    item(collection(idx, "all"));
+    renderVerbsDl();
     return;
   }
 
@@ -192,6 +196,8 @@ async function showVerbs(arg) {
       V.el("col-all").href = `#/verbs/c/${c.id}/all`;
       V.el("col-all").textContent = `All ${count(c.verbs.length)}`;
       V.el("col-pick").onclick = () => openPicker(c, idx);
+      V.el("verbs-dl-btn").onclick = () => downloadCollection(c);
+      renderVerbsDl(c);
       const ul = V.el("col-verbs");
       ul.innerHTML = "";
       const meaning = new Map(idx.verbs.map((v) => [v.verb, v.meaning]));
@@ -280,20 +286,26 @@ function setVerbMode(quiz) {
   const s = verbSel(); s.quiz = quiz; saveVerbSel(s);
   renderVerbMode();
   setQuiz(quiz);
+  if (V.data) renderOptsSummary();
 }
 
-// ---------- download all (verb data, pronouns and every clip) for offline use
+// ---------- download a collection (its verbs, the pronouns, and their clips) for offline use
 // Kept in their own cache, which app updates never clear; sw.js serves clips from
 // it first (they're named by a hash of their content, so they never change).
 // Tapping again refetches the lists and only downloads clips not saved yet.
+// localStorage "verbsSaved" {verbs, at}: every verb downloaded so far, from any
+// collection, so a collection counts as downloaded once all its verbs are.
 
 const VERBS_CACHE = "escucha-verbs";
-let verbsDl = null;     // {done, total} while downloading
-let verbsDlError = "";
+let verbsDl = null;     // {id, done, total} while downloading
+let verbsDlError = "";  // {id, msg} of the last failed download
+let dlCol = null;       // the collection whose page is showing
+let listDl = [];        // [{c, btn, detail}]: the download buttons on the collections list
 
-function verbsSaved() {
-  try { return JSON.parse(localStorage.getItem("verbsSaved")) || null; } catch { return null; }
+function savedVerbs() {
+  try { return new Set((JSON.parse(localStorage.getItem("verbsSaved")) || {}).verbs || []); } catch { return new Set(); }
 }
+const colSaved = (c) => { const saved = savedVerbs(); return c.verbs.every((v) => saved.has(v)); };
 
 function clipPaths(obj, out = new Set()) {
   if (typeof obj === "string") { if (/^clips\/[^/]+\.mp3$/.test(obj)) out.add(obj); }
@@ -301,10 +313,10 @@ function clipPaths(obj, out = new Set()) {
   return out;
 }
 
-async function downloadAllVerbs() {
+async function downloadCollection(c) {
   if (verbsDl || !("caches" in window)) return;
-  verbsDl = { done: 0, total: 0 };
-  verbsDlError = "";
+  verbsDl = { id: c.id, done: 0, total: 0 };
+  verbsDlError = null;
   renderVerbsDl();
   try {
     if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
@@ -320,15 +332,15 @@ async function downloadAllVerbs() {
       const text = await (await get(path)).text();
       return { path, text, data: JSON.parse(text) };
     };
-    const index = await getJSON("index.json");
-    index.data = readIndex(index.data).verbs;  // just the verb list; the file itself is saved as is
-    const docs = [index, await getJSON("pronouns.json")];
-    // the bundle, and each verb's own file (taken from the bundle when it has it)
+    // The lists (index and bundle) are saved too, so pages open offline; only
+    // this collection's verbs and the pronouns bring their clips.
+    const lists = [await getJSON("index.json")];
     let bundle = null;
-    try { bundle = await getJSON("all.json"); docs.push(bundle); } catch {}
+    try { bundle = await getJSON("all.json"); lists.push(bundle); } catch {}
     const inBundle = new Map(bundle ? bundle.data.verbs.map((v) => [v.verb, v]) : []);
-    for (const v of index.data) {
-      const path = `${encodeURIComponent(v.verb)}.json`, data = inBundle.get(v.verb);
+    const docs = [await getJSON("pronouns.json")];
+    for (const v of c.verbs) {
+      const path = `${encodeURIComponent(v)}.json`, data = inBundle.get(v);
       docs.push(data ? { path, text: JSON.stringify(data), data } : await getJSON(path));
     }
     const clips = new Set();
@@ -349,31 +361,50 @@ async function downloadAllVerbs() {
     };
     await Promise.all(Array.from({ length: 6 }, worker));
     // the lists last, so they never point at clips that aren't saved
-    for (const d of docs) await cache.put(url(d.path), new Response(d.text, { headers: { "Content-Type": "application/json" } }));
-    try { localStorage.setItem("verbsSaved", JSON.stringify({ verbs: index.data.map((v) => v.verb), at: Date.now() })); } catch {}
+    for (const d of [...docs, ...lists]) await cache.put(url(d.path), new Response(d.text, { headers: { "Content-Type": "application/json" } }));
+    const saved = savedVerbs();
+    c.verbs.forEach((v) => saved.add(v));
+    try { localStorage.setItem("verbsSaved", JSON.stringify({ verbs: [...saved], at: Date.now() })); } catch {}
   } catch (e) {
-    verbsDlError = /quota/i.test(String(e)) ? "Not enough space on this device." : "Download stopped. Tap again when online to finish.";
+    verbsDlError = { id: c.id, msg: /quota/i.test(String(e)) ? "Not enough space on this device." : "Download stopped. Tap again when online to finish." };
   } finally {
     verbsDl = null;
     renderVerbsDl();
   }
 }
 
-let verbsListed = null;  // verbs shown in the list, to spot new ones
-function renderVerbsDl(list) {
-  if (list) verbsListed = list;
-  const btn = V.el("verbs-dl-btn"), label = V.el("verbs-dl-label"), note = V.el("verbs-dl-note");
-  const saved = verbsSaved();
-  btn.disabled = !!verbsDl || !("caches" in window);
-  btn.classList.toggle("done", !!saved && !verbsDl);
-  label.textContent = verbsDl ? (verbsDl.total ? `Downloading… ${verbsDl.done} of ${verbsDl.total}` : "Downloading…")
-    : saved ? "Downloaded · Check for new" : "Download all for offline";
-  let text = verbsDlError;
-  if (!text && saved && !verbsDl) {
-    const fresh = (verbsListed || []).filter((v) => !saved.verbs.includes(v.verb)).length;
-    text = fresh ? `${fresh} new verb${fresh > 1 ? "s" : ""} since your last download. Tap to get ${fresh > 1 ? "them" : "it"}.`
-      : `${saved.verbs.length} verbs and the pronouns are on this device.`;
+const DL_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4h2v9.2l3.6-3.6L18 11l-6 6-6-6 1.4-1.4 3.6 3.6zM5 18h14v2H5z"/></svg>`;
+const DONE_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>`;
+
+// The download buttons: one per row on the collections list, and the one on a collection's page
+function renderVerbsDl(c) {
+  const saved = savedVerbs();
+  for (const row of listDl) {
+    const missing = row.c.verbs.filter((v) => !saved.has(v)).length;
+    const mine = verbsDl && verbsDl.id === row.c.id;
+    const failed = verbsDlError && verbsDlError.id === row.c.id;
+    row.detail.textContent = mine ? (verbsDl.total ? `Downloading… ${Math.floor((100 * verbsDl.done) / verbsDl.total)}%` : "Downloading…")
+      : failed ? "Download stopped" : count(row.c.verbs.length) + (missing ? "" : " · offline");
+    row.btn.disabled = !!verbsDl || !("caches" in window);
+    row.btn.classList.toggle("done", !missing && !mine);
+    row.btn.classList.toggle("busy", !!mine);
+    row.btn.innerHTML = !missing && !mine ? DONE_ICON : DL_ICON;
+    row.btn.setAttribute("aria-label", !missing ? `${row.c.title}: downloaded, tap to check for updates` : `Download ${row.c.title} for offline`);
   }
+  if (c) dlCol = c;
+  c = dlCol;
+  if (!c) return;
+  const btn = V.el("verbs-dl-btn"), label = V.el("verbs-dl-label"), note = V.el("verbs-dl-note");
+  const missing = c.verbs.filter((v) => !saved.has(v)).length;
+  const mine = verbsDl && verbsDl.id === c.id;
+  btn.disabled = !!verbsDl || !("caches" in window);
+  btn.classList.toggle("done", !missing && !verbsDl);
+  label.textContent = mine ? (verbsDl.total ? `Downloading… ${verbsDl.done} of ${verbsDl.total}` : "Downloading…")
+    : verbsDl ? "Another download is running…"
+    : !missing ? "Downloaded for offline"
+    : missing < c.verbs.length ? `Download ${missing} more verb${missing > 1 ? "s" : ""} for offline`
+    : "Download for offline";
+  const text = verbsDlError && verbsDlError.id === c.id ? verbsDlError.msg : "";
   note.textContent = text;
   note.hidden = !text;
 }
@@ -516,6 +547,7 @@ function selectionChanged() {
   if (V.builtFor && V.builtFor !== selectionKey()) resetVerbAudio();
   // Quiz restarts when the picks change (not when "Say the English" does)
   if (verbSel().quiz) V.quiz.key !== quizKey() ? quizStart() : quizRender();
+  else if (verbSel().read) renderRead();
 }
 
 // ---------- Quiz mode
@@ -532,22 +564,24 @@ function quizCards() {
   if (V.kind === "pron") {
     const sel = pronSel();
     for (const set of V.data.sets) for (const it of set.items.filter((it) => sel[set.id].includes(it.id)))
-      cards.push({ ctx: set.title, en: it.en, en_clip: it.en_clip, es: it.es, clip: it.clip });
+      cards.push({ ctx: set.title, en: it.en, en_clip: it.en_clip, es: it.es, clip: it.clip, group: set.title, read_en: it.en, parts: it.parts });
     return cards;
   }
   const s = verbSel(), several = V.data.verbs.length > 1;
   for (const v of V.data.verbs) for (const t of v.tenses.filter((t) => s.tenses.includes(t.id))) {
     const tense = several ? `${v.verb} · ${t.label}` : t.label;  // which verb, in a mixed session
     if (t.single) {
-      cards.push({ ctx: tense, en: t.en.replace(/^Infinitive: /, ""), en_clip: t.en_clip, es: t.single.es, clip: t.single.clip });
+      const en = t.en.replace(/^Infinitive: /, "");
+      cards.push({ ctx: tense, en, en_clip: t.en_clip, es: t.single.es, clip: t.single.clip, group: tense, read_en: en, parts: t.single.parts });
       continue;
     }
     // The tense intro is the yo sentence; other pronouns get their cue ("She form."),
     // with the intro shown above as the model sentence.
     for (const p of v.pronouns.filter((p) => s.pronouns.includes(p.id) && t.forms[p.id])) {
-      const f = t.forms[p.id];
-      cards.push(p.id === "yo" ? { ctx: tense, en: t.en.replace(/^[^:]*: /, ""), en_clip: t.en_clip, es: f.es, clip: f.clip }
-        : { ctx: `${tense} · ${t.en.replace(/^[^:]*: /, "")}`, en: p.cue, en_clip: p.cue_clip, es: f.es, clip: f.clip });
+      const f = t.forms[p.id], model = t.en.replace(/^[^:]*: /, "");
+      const read = { group: tense, read_en: f.en || (p.id === "yo" ? model : p.cue), parts: f.parts };
+      cards.push(p.id === "yo" ? { ctx: tense, en: model, en_clip: t.en_clip, es: f.es, clip: f.clip, ...read }
+        : { ctx: `${tense} · ${model}`, en: p.cue, en_clip: p.cue_clip, es: f.es, clip: f.clip, ...read });
     }
   }
   return cards;
@@ -556,6 +590,71 @@ function quizCards() {
 function quizStart() {
   V.quiz = { cards: quizCards(), i: 0, answer: false, key: quizKey() };
   quizRender();
+}
+
+// ---------- Learn, Read all: every sentence at once, Spanish over English,
+// the pronoun and the verb in color (from each sentence's "parts"). Tap one to hear it.
+// Uses the same sentences as Practice (quizCards), but lives under Learn.
+
+function setRead(on) {
+  const s = verbSel(); s.read = on; saveVerbSel(s);
+  if (V.audio) V.audio.pause();
+  if (V.clipAudio) V.clipAudio.pause();
+  renderReadView();
+  if (on) renderRead(); else if (V.data) selectionChanged();
+}
+
+function renderReadView() {
+  const learn = !verbSel().quiz, read = learn && verbSel().read;
+  V.el("learn-view").hidden = !learn;
+  V.el("view-listen").setAttribute("aria-checked", !read);
+  V.el("view-read").setAttribute("aria-checked", read);
+  V.el("learn-read").hidden = !read;
+  if (learn) V.el("verb-sentence").hidden = V.el("verb-controls").hidden = V.el("verb-time").hidden = read;
+}
+
+function spanishParts(el, c) {
+  if (!c.parts) { el.textContent = c.es; return; }
+  c.parts.forEach(([text, kind], i) => {
+    if (i) el.append(" ");
+    if (!kind) { el.append(text); return; }
+    const [, word, punct] = text.match(/^(.*?)([.,;:!?]*)$/);  // the full stop stays uncolored
+    const span = document.createElement("span");
+    span.className = kind === "p" ? "hl-p" : "hl-v";
+    span.textContent = word;
+    el.append(span, punct);
+  });
+}
+
+function renderRead() {
+  if (!V.data) return;
+  const cards = quizCards(), list = V.el("learn-read-list");
+  list.innerHTML = "";
+  let group = null;
+  for (const c of cards) {
+    if (c.group !== group) {
+      group = c.group;
+      const h = document.createElement("h3");
+      h.className = "read-group";
+      h.textContent = group;
+      list.append(h);
+    }
+    const row = document.createElement("button");
+    row.type = "button";
+    row.className = "read-row";
+    row.innerHTML = '<span class="read-es"></span><span class="read-en"></span>';
+    spanishParts(row.firstChild, c);
+    row.lastChild.textContent = c.read_en || c.en;
+    row.onclick = () => {
+      list.querySelectorAll(".playing").forEach((r) => r.classList.remove("playing"));
+      row.classList.add("playing");
+      quizSay(c.clip);
+    };
+    list.append(row);
+  }
+  if (!cards.length) list.innerHTML = '<p class="sub">Nothing picked. Tap the options above to choose tenses and pronouns.</p>';
+  V.el("verb-hint").textContent = `${cards.length} sentence${cards.length === 1 ? "" : "s"}`;
+  renderReadView();
 }
 
 function quizRender() {
@@ -626,6 +725,7 @@ function setQuiz(on) {
   V.el("verb-time").hidden = on;
   if (on) { if (V.audio) V.audio.pause(); if (V.data) quizStart(); }
   else { if (V.clipAudio) V.clipAudio.pause(); V.quiz.key = ""; if (V.data) selectionChanged(); }
+  renderReadView();
 }
 
 function resetVerbAudio() {
@@ -750,7 +850,6 @@ function verbTick() {
 function initVerbs() {
   V.audio = V.el("verb-audio");
   V.el("verb-play").onclick = verbPlay;
-  V.el("verbs-dl-btn").onclick = downloadAllVerbs;
   V.audio.addEventListener("timeupdate", verbTick);
   V.audio.addEventListener("ended", verbPartEnded);
   V.audio.addEventListener("play", () => V.el("verb-play").classList.add("playing"));
@@ -780,6 +879,8 @@ function initVerbs() {
   V.el("quiz-next").onclick = quizNext;
   V.el("quiz-prev").onclick = quizPrev;
   V.el("quiz-replay").onclick = quizReplay;
+  V.el("view-listen").onclick = () => setRead(false);
+  V.el("view-read").onclick = () => setRead(true);
   document.addEventListener("keydown", (e) => {
     if (V.el("verb-drill").hidden || V.el("quiz").hidden || (e.target.closest && e.target.closest("input, textarea"))) return;
     if (e.key === "ArrowRight") { e.preventDefault(); quizNext(); }

@@ -71,7 +71,21 @@
       "en_clip": "clips/fba74e958f8cf8a6.mp3",
       "single": {
         "es": "Tengo que estudiar por la noche.",
-        "clip": "clips/723b05b751627819.mp3"
+        "clip": "clips/723b05b751627819.mp3",
+        "parts": [
+          [
+            "Tengo que",
+            ""
+          ],
+          [
+            "estudiar",
+            "v"
+          ],
+          [
+            "por la noche.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo estudio por la noche.",
-          "clip": "clips/a3b7750741b469bc.mp3"
+          "clip": "clips/a3b7750741b469bc.mp3",
+          "en": "I study at night.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "estudio",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú estudias por la noche.",
-          "clip": "clips/abfd11618acdefde.mp3"
+          "clip": "clips/abfd11618acdefde.mp3",
+          "en": "You study at night.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "estudias",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted estudia por la noche.",
-          "clip": "clips/d63eb0aec614f477.mp3"
+          "clip": "clips/d63eb0aec614f477.mp3",
+          "en": "You study at night.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "estudia",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él estudia por la noche.",
-          "clip": "clips/be95ca38fabcec7d.mp3"
+          "clip": "clips/be95ca38fabcec7d.mp3",
+          "en": "He studies at night.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "estudia",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella estudia por la noche.",
-          "clip": "clips/0f9410de2a253594.mp3"
+          "clip": "clips/0f9410de2a253594.mp3",
+          "en": "She studies at night.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "estudia",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros estudiamos por la noche.",
-          "clip": "clips/df1d56435d056c56.mp3"
+          "clip": "clips/df1d56435d056c56.mp3",
+          "en": "We study at night.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "estudiamos",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras estudiamos por la noche.",
-          "clip": "clips/eec679e6ab40ca23.mp3"
+          "clip": "clips/eec679e6ab40ca23.mp3",
+          "en": "We study at night.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "estudiamos",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes estudian por la noche.",
-          "clip": "clips/50a107cea67d5e24.mp3"
+          "clip": "clips/50a107cea67d5e24.mp3",
+          "en": "You all study at night.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "estudian",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos estudian por la noche.",
-          "clip": "clips/6625703243325b6b.mp3"
+          "clip": "clips/6625703243325b6b.mp3",
+          "en": "They study at night.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "estudian",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas estudian por la noche.",
-          "clip": "clips/a601e5251b564e46.mp3"
+          "clip": "clips/a601e5251b564e46.mp3",
+          "en": "They study at night.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "estudian",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo estudié por la noche.",
-          "clip": "clips/8dd38aa668dd3eed.mp3"
+          "clip": "clips/8dd38aa668dd3eed.mp3",
+          "en": "I studied at night.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "estudié",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú estudiaste por la noche.",
-          "clip": "clips/d3ee211984a1c5c1.mp3"
+          "clip": "clips/d3ee211984a1c5c1.mp3",
+          "en": "You studied at night.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "estudiaste",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted estudió por la noche.",
-          "clip": "clips/94841a6d14684e4c.mp3"
+          "clip": "clips/94841a6d14684e4c.mp3",
+          "en": "You studied at night.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "estudió",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él estudió por la noche.",
-          "clip": "clips/a6327219a2f7088f.mp3"
+          "clip": "clips/a6327219a2f7088f.mp3",
+          "en": "He studied at night.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "estudió",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella estudió por la noche.",
-          "clip": "clips/d6ff14b9afcec70c.mp3"
+          "clip": "clips/d6ff14b9afcec70c.mp3",
+          "en": "She studied at night.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "estudió",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros estudiamos por la noche.",
-          "clip": "clips/df1d56435d056c56.mp3"
+          "clip": "clips/df1d56435d056c56.mp3",
+          "en": "We studied at night.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "estudiamos",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras estudiamos por la noche.",
-          "clip": "clips/eec679e6ab40ca23.mp3"
+          "clip": "clips/eec679e6ab40ca23.mp3",
+          "en": "We studied at night.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "estudiamos",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes estudiaron por la noche.",
-          "clip": "clips/fa5134c50b0d89ed.mp3"
+          "clip": "clips/fa5134c50b0d89ed.mp3",
+          "en": "You all studied at night.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "estudiaron",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos estudiaron por la noche.",
-          "clip": "clips/d0e313df922b1a04.mp3"
+          "clip": "clips/d0e313df922b1a04.mp3",
+          "en": "They studied at night.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "estudiaron",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas estudiaron por la noche.",
-          "clip": "clips/0e3e48eea879613e.mp3"
+          "clip": "clips/0e3e48eea879613e.mp3",
+          "en": "They studied at night.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "estudiaron",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo estudiaba por la noche.",
-          "clip": "clips/afc7b16cc9d22519.mp3"
+          "clip": "clips/afc7b16cc9d22519.mp3",
+          "en": "I used to study at night.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "estudiaba",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú estudiabas por la noche.",
-          "clip": "clips/7d62ba82e3aa332b.mp3"
+          "clip": "clips/7d62ba82e3aa332b.mp3",
+          "en": "You used to study at night.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "estudiabas",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted estudiaba por la noche.",
-          "clip": "clips/3f3864b7ced9e069.mp3"
+          "clip": "clips/3f3864b7ced9e069.mp3",
+          "en": "You used to study at night.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "estudiaba",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él estudiaba por la noche.",
-          "clip": "clips/7dad7295b16b42c2.mp3"
+          "clip": "clips/7dad7295b16b42c2.mp3",
+          "en": "He used to study at night.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "estudiaba",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella estudiaba por la noche.",
-          "clip": "clips/98bbf8b8fcf5693d.mp3"
+          "clip": "clips/98bbf8b8fcf5693d.mp3",
+          "en": "She used to study at night.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "estudiaba",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros estudiábamos por la noche.",
-          "clip": "clips/f0d790c52cc09a43.mp3"
+          "clip": "clips/f0d790c52cc09a43.mp3",
+          "en": "We used to study at night.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "estudiábamos",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras estudiábamos por la noche.",
-          "clip": "clips/b961766470e3882b.mp3"
+          "clip": "clips/b961766470e3882b.mp3",
+          "en": "We used to study at night.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "estudiábamos",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes estudiaban por la noche.",
-          "clip": "clips/f2af5b4ea4654fe1.mp3"
+          "clip": "clips/f2af5b4ea4654fe1.mp3",
+          "en": "You all used to study at night.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "estudiaban",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos estudiaban por la noche.",
-          "clip": "clips/f8977eee561820a7.mp3"
+          "clip": "clips/f8977eee561820a7.mp3",
+          "en": "They used to study at night.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "estudiaban",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas estudiaban por la noche.",
-          "clip": "clips/d1d9f1bd24c6e0ed.mp3"
+          "clip": "clips/d1d9f1bd24c6e0ed.mp3",
+          "en": "They used to study at night.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "estudiaban",
+              "v"
+            ],
+            [
+              "por la noche.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Estudia para el examen.",
-          "clip": "clips/c2309e3e284eea7c.mp3"
+          "clip": "clips/c2309e3e284eea7c.mp3",
+          "en": "Study for the exam.",
+          "parts": [
+            [
+              "Estudia",
+              "v"
+            ],
+            [
+              "para el examen.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Estudie para el examen.",
-          "clip": "clips/f7a1def45fa16847.mp3"
+          "clip": "clips/f7a1def45fa16847.mp3",
+          "en": "Study for the exam.",
+          "parts": [
+            [
+              "Estudie",
+              "v"
+            ],
+            [
+              "para el examen.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Estudiemos para el examen.",
-          "clip": "clips/d7eafa7971c03ceb.mp3"
+          "clip": "clips/d7eafa7971c03ceb.mp3",
+          "en": "Let's study for the exam.",
+          "parts": [
+            [
+              "Estudiemos",
+              "v"
+            ],
+            [
+              "para el examen.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Estudiemos para el examen.",
-          "clip": "clips/d7eafa7971c03ceb.mp3"
+          "clip": "clips/d7eafa7971c03ceb.mp3",
+          "en": "Let's study for the exam.",
+          "parts": [
+            [
+              "Estudiemos",
+              "v"
+            ],
+            [
+              "para el examen.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Estudien para el examen.",
-          "clip": "clips/d96167b7d67d26ec.mp3"
+          "clip": "clips/d96167b7d67d26ec.mp3",
+          "en": "Study for the exam.",
+          "parts": [
+            [
+              "Estudien",
+              "v"
+            ],
+            [
+              "para el examen.",
+              ""
+            ]
+          ]
         }
       }
     }

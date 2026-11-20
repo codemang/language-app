@@ -71,7 +71,21 @@
       "en_clip": "clips/749dea3eeac8494f.mp3",
       "single": {
         "es": "Voy a comprar comida.",
-        "clip": "clips/da59c1b3ac45691f.mp3"
+        "clip": "clips/da59c1b3ac45691f.mp3",
+        "parts": [
+          [
+            "Voy a",
+            ""
+          ],
+          [
+            "comprar",
+            "v"
+          ],
+          [
+            "comida.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo compro comida.",
-          "clip": "clips/721339e3c9c1c15b.mp3"
+          "clip": "clips/721339e3c9c1c15b.mp3",
+          "en": "I buy food.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "compro",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú compras comida.",
-          "clip": "clips/ddb76cfc8cb81705.mp3"
+          "clip": "clips/ddb76cfc8cb81705.mp3",
+          "en": "You buy food.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "compras",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted compra comida.",
-          "clip": "clips/9433bab60a4fcd4c.mp3"
+          "clip": "clips/9433bab60a4fcd4c.mp3",
+          "en": "You buy food.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "compra",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él compra comida.",
-          "clip": "clips/13b6169a8e289737.mp3"
+          "clip": "clips/13b6169a8e289737.mp3",
+          "en": "He buys food.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "compra",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella compra comida.",
-          "clip": "clips/0b0930a1a3f21957.mp3"
+          "clip": "clips/0b0930a1a3f21957.mp3",
+          "en": "She buys food.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "compra",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros compramos comida.",
-          "clip": "clips/6ee26a73b3e47187.mp3"
+          "clip": "clips/6ee26a73b3e47187.mp3",
+          "en": "We buy food.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "compramos",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras compramos comida.",
-          "clip": "clips/1ae4b5475f00f4e7.mp3"
+          "clip": "clips/1ae4b5475f00f4e7.mp3",
+          "en": "We buy food.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "compramos",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes compran comida.",
-          "clip": "clips/f9512d8f8afaec17.mp3"
+          "clip": "clips/f9512d8f8afaec17.mp3",
+          "en": "You all buy food.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "compran",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos compran comida.",
-          "clip": "clips/85e9cb47f0907c05.mp3"
+          "clip": "clips/85e9cb47f0907c05.mp3",
+          "en": "They buy food.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "compran",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas compran comida.",
-          "clip": "clips/522d2ffeb6efcf92.mp3"
+          "clip": "clips/522d2ffeb6efcf92.mp3",
+          "en": "They buy food.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "compran",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo compré comida.",
-          "clip": "clips/66744a9115881f08.mp3"
+          "clip": "clips/66744a9115881f08.mp3",
+          "en": "I bought food.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "compré",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú compraste comida.",
-          "clip": "clips/98d7e39466187024.mp3"
+          "clip": "clips/98d7e39466187024.mp3",
+          "en": "You bought food.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "compraste",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted compró comida.",
-          "clip": "clips/a502b0abc0b20b33.mp3"
+          "clip": "clips/a502b0abc0b20b33.mp3",
+          "en": "You bought food.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "compró",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él compró comida.",
-          "clip": "clips/a43c00dd5fbe6620.mp3"
+          "clip": "clips/a43c00dd5fbe6620.mp3",
+          "en": "He bought food.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "compró",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella compró comida.",
-          "clip": "clips/de7b7ee594307081.mp3"
+          "clip": "clips/de7b7ee594307081.mp3",
+          "en": "She bought food.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "compró",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros compramos comida.",
-          "clip": "clips/6ee26a73b3e47187.mp3"
+          "clip": "clips/6ee26a73b3e47187.mp3",
+          "en": "We bought food.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "compramos",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras compramos comida.",
-          "clip": "clips/1ae4b5475f00f4e7.mp3"
+          "clip": "clips/1ae4b5475f00f4e7.mp3",
+          "en": "We bought food.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "compramos",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes compraron comida.",
-          "clip": "clips/b0da9cf9c1a5b545.mp3"
+          "clip": "clips/b0da9cf9c1a5b545.mp3",
+          "en": "You all bought food.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "compraron",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos compraron comida.",
-          "clip": "clips/83c6a6edd12b3d4a.mp3"
+          "clip": "clips/83c6a6edd12b3d4a.mp3",
+          "en": "They bought food.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "compraron",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas compraron comida.",
-          "clip": "clips/947e3f8a1b4c8a77.mp3"
+          "clip": "clips/947e3f8a1b4c8a77.mp3",
+          "en": "They bought food.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "compraron",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo compraba comida.",
-          "clip": "clips/d1289158f020e0e3.mp3"
+          "clip": "clips/d1289158f020e0e3.mp3",
+          "en": "I used to buy food.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "compraba",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú comprabas comida.",
-          "clip": "clips/51354243e8c81d22.mp3"
+          "clip": "clips/51354243e8c81d22.mp3",
+          "en": "You used to buy food.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "comprabas",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted compraba comida.",
-          "clip": "clips/56b812423f111f98.mp3"
+          "clip": "clips/56b812423f111f98.mp3",
+          "en": "You used to buy food.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "compraba",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él compraba comida.",
-          "clip": "clips/b37b960a9bf5ec73.mp3"
+          "clip": "clips/b37b960a9bf5ec73.mp3",
+          "en": "He used to buy food.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "compraba",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella compraba comida.",
-          "clip": "clips/666674848b4fd0cf.mp3"
+          "clip": "clips/666674848b4fd0cf.mp3",
+          "en": "She used to buy food.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "compraba",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros comprábamos comida.",
-          "clip": "clips/c918d27b46a67df6.mp3"
+          "clip": "clips/c918d27b46a67df6.mp3",
+          "en": "We used to buy food.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "comprábamos",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras comprábamos comida.",
-          "clip": "clips/92cd32c9b907ce0d.mp3"
+          "clip": "clips/92cd32c9b907ce0d.mp3",
+          "en": "We used to buy food.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "comprábamos",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes compraban comida.",
-          "clip": "clips/9da1026f1d8df145.mp3"
+          "clip": "clips/9da1026f1d8df145.mp3",
+          "en": "You all used to buy food.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "compraban",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos compraban comida.",
-          "clip": "clips/a6fcd5ddb5fe1012.mp3"
+          "clip": "clips/a6fcd5ddb5fe1012.mp3",
+          "en": "They used to buy food.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "compraban",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas compraban comida.",
-          "clip": "clips/0de0be7419b70b24.mp3"
+          "clip": "clips/0de0be7419b70b24.mp3",
+          "en": "They used to buy food.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "compraban",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Compra comida.",
-          "clip": "clips/fcb444e3ec5fe91b.mp3"
+          "clip": "clips/fcb444e3ec5fe91b.mp3",
+          "en": "Buy food.",
+          "parts": [
+            [
+              "Compra",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Compre comida.",
-          "clip": "clips/022c7c57abc73ff5.mp3"
+          "clip": "clips/022c7c57abc73ff5.mp3",
+          "en": "Buy food.",
+          "parts": [
+            [
+              "Compre",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Compremos comida.",
-          "clip": "clips/f467c5ef0735d8dc.mp3"
+          "clip": "clips/f467c5ef0735d8dc.mp3",
+          "en": "Let's buy food.",
+          "parts": [
+            [
+              "Compremos",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Compremos comida.",
-          "clip": "clips/f467c5ef0735d8dc.mp3"
+          "clip": "clips/f467c5ef0735d8dc.mp3",
+          "en": "Let's buy food.",
+          "parts": [
+            [
+              "Compremos",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Compren comida.",
-          "clip": "clips/bc05f2097bef175e.mp3"
+          "clip": "clips/bc05f2097bef175e.mp3",
+          "en": "Buy food.",
+          "parts": [
+            [
+              "Compren",
+              "v"
+            ],
+            [
+              "comida.",
+              ""
+            ]
+          ]
         }
       }
     }

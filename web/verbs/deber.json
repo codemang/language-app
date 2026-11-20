@@ -71,7 +71,21 @@
       "en_clip": "clips/2f03200e66ca6f36.mp3",
       "single": {
         "es": "No quiero deber dinero.",
-        "clip": "clips/54682ddb80ff4f66.mp3"
+        "clip": "clips/54682ddb80ff4f66.mp3",
+        "parts": [
+          [
+            "No quiero",
+            ""
+          ],
+          [
+            "deber",
+            "v"
+          ],
+          [
+            "dinero.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo debo estudiar más.",
-          "clip": "clips/26c684c99d81f9b1.mp3"
+          "clip": "clips/26c684c99d81f9b1.mp3",
+          "en": "I should study more.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "debo",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú debes estudiar más.",
-          "clip": "clips/d1b3c432e7bf8d0d.mp3"
+          "clip": "clips/d1b3c432e7bf8d0d.mp3",
+          "en": "You should study more.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "debes",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted debe estudiar más.",
-          "clip": "clips/9fbc38aa5e87b019.mp3"
+          "clip": "clips/9fbc38aa5e87b019.mp3",
+          "en": "You should study more.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "debe",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él debe estudiar más.",
-          "clip": "clips/5f2854984661efe7.mp3"
+          "clip": "clips/5f2854984661efe7.mp3",
+          "en": "He should study more.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "debe",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella debe estudiar más.",
-          "clip": "clips/b5b289363cbf7a5a.mp3"
+          "clip": "clips/b5b289363cbf7a5a.mp3",
+          "en": "She should study more.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "debe",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros debemos estudiar más.",
-          "clip": "clips/5818cabee6227979.mp3"
+          "clip": "clips/5818cabee6227979.mp3",
+          "en": "We should study more.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "debemos",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras debemos estudiar más.",
-          "clip": "clips/3be44d615f4af358.mp3"
+          "clip": "clips/3be44d615f4af358.mp3",
+          "en": "We should study more.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "debemos",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes deben estudiar más.",
-          "clip": "clips/1a21bd35d35d1dad.mp3"
+          "clip": "clips/1a21bd35d35d1dad.mp3",
+          "en": "You all should study more.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "deben",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos deben estudiar más.",
-          "clip": "clips/75f9e7c240b11260.mp3"
+          "clip": "clips/75f9e7c240b11260.mp3",
+          "en": "They should study more.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "deben",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas deben estudiar más.",
-          "clip": "clips/ffc7f82afdb28e71.mp3"
+          "clip": "clips/ffc7f82afdb28e71.mp3",
+          "en": "They should study more.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "deben",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo debí estudiar más.",
-          "clip": "clips/74a77645234f503a.mp3"
+          "clip": "clips/74a77645234f503a.mp3",
+          "en": "I should have studied more.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "debí",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú debiste estudiar más.",
-          "clip": "clips/823f1f7456568fdd.mp3"
+          "clip": "clips/823f1f7456568fdd.mp3",
+          "en": "You should have studied more.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "debiste",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted debió estudiar más.",
-          "clip": "clips/2a9d54f92a855dcd.mp3"
+          "clip": "clips/2a9d54f92a855dcd.mp3",
+          "en": "You should have studied more.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "debió",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él debió estudiar más.",
-          "clip": "clips/d3f70115793a9dde.mp3"
+          "clip": "clips/d3f70115793a9dde.mp3",
+          "en": "He should have studied more.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "debió",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella debió estudiar más.",
-          "clip": "clips/8a87be6e8f664624.mp3"
+          "clip": "clips/8a87be6e8f664624.mp3",
+          "en": "She should have studied more.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "debió",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros debimos estudiar más.",
-          "clip": "clips/996b2972a6631ac2.mp3"
+          "clip": "clips/996b2972a6631ac2.mp3",
+          "en": "We should have studied more.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "debimos",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras debimos estudiar más.",
-          "clip": "clips/6575d9ec81b612db.mp3"
+          "clip": "clips/6575d9ec81b612db.mp3",
+          "en": "We should have studied more.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "debimos",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes debieron estudiar más.",
-          "clip": "clips/d1bcd50c329c1cc3.mp3"
+          "clip": "clips/d1bcd50c329c1cc3.mp3",
+          "en": "You all should have studied more.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "debieron",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos debieron estudiar más.",
-          "clip": "clips/af3eda49e23799ed.mp3"
+          "clip": "clips/af3eda49e23799ed.mp3",
+          "en": "They should have studied more.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "debieron",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas debieron estudiar más.",
-          "clip": "clips/ddf28edcc1bb273c.mp3"
+          "clip": "clips/ddf28edcc1bb273c.mp3",
+          "en": "They should have studied more.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "debieron",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo debía estudiar más.",
-          "clip": "clips/6c5a8199d6717238.mp3"
+          "clip": "clips/6c5a8199d6717238.mp3",
+          "en": "I was supposed to study more.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "debía",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú debías estudiar más.",
-          "clip": "clips/0d29f5c1a0688a63.mp3"
+          "clip": "clips/0d29f5c1a0688a63.mp3",
+          "en": "You were supposed to study more.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "debías",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted debía estudiar más.",
-          "clip": "clips/bc46e175a2ccf41a.mp3"
+          "clip": "clips/bc46e175a2ccf41a.mp3",
+          "en": "You were supposed to study more.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "debía",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él debía estudiar más.",
-          "clip": "clips/61db0db60e0226da.mp3"
+          "clip": "clips/61db0db60e0226da.mp3",
+          "en": "He was supposed to study more.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "debía",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella debía estudiar más.",
-          "clip": "clips/4efaff86324bde40.mp3"
+          "clip": "clips/4efaff86324bde40.mp3",
+          "en": "She was supposed to study more.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "debía",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros debíamos estudiar más.",
-          "clip": "clips/3aef98084ad384c6.mp3"
+          "clip": "clips/3aef98084ad384c6.mp3",
+          "en": "We were supposed to study more.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "debíamos",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras debíamos estudiar más.",
-          "clip": "clips/af0d9f00f32f252c.mp3"
+          "clip": "clips/af0d9f00f32f252c.mp3",
+          "en": "We were supposed to study more.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "debíamos",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes debían estudiar más.",
-          "clip": "clips/31a8c8aeb59d6ca6.mp3"
+          "clip": "clips/31a8c8aeb59d6ca6.mp3",
+          "en": "You all were supposed to study more.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "debían",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos debían estudiar más.",
-          "clip": "clips/c847c670cf475568.mp3"
+          "clip": "clips/c847c670cf475568.mp3",
+          "en": "They were supposed to study more.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "debían",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas debían estudiar más.",
-          "clip": "clips/bdea242ce1b6e4c1.mp3"
+          "clip": "clips/bdea242ce1b6e4c1.mp3",
+          "en": "They were supposed to study more.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "debían",
+              "v"
+            ],
+            [
+              "estudiar más.",
+              ""
+            ]
+          ]
         }
       }
     }

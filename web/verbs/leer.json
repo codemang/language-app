@@ -71,7 +71,21 @@
       "en_clip": "clips/7f60794def7905a1.mp3",
       "single": {
         "es": "Quiero leer un libro.",
-        "clip": "clips/2bdfd5efb79e9cb3.mp3"
+        "clip": "clips/2bdfd5efb79e9cb3.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "leer",
+            "v"
+          ],
+          [
+            "un libro.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo leo un libro.",
-          "clip": "clips/225cd4de121ea90e.mp3"
+          "clip": "clips/225cd4de121ea90e.mp3",
+          "en": "I read a book.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "leo",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú lees un libro.",
-          "clip": "clips/5b619bd3a526b53e.mp3"
+          "clip": "clips/5b619bd3a526b53e.mp3",
+          "en": "You read a book.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "lees",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted lee un libro.",
-          "clip": "clips/bfa88acfbd4cd225.mp3"
+          "clip": "clips/bfa88acfbd4cd225.mp3",
+          "en": "You read a book.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "lee",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él lee un libro.",
-          "clip": "clips/4a61068b776f36be.mp3"
+          "clip": "clips/4a61068b776f36be.mp3",
+          "en": "He reads a book.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "lee",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella lee un libro.",
-          "clip": "clips/2c2168dc58451c60.mp3"
+          "clip": "clips/2c2168dc58451c60.mp3",
+          "en": "She reads a book.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "lee",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros leemos un libro.",
-          "clip": "clips/e3decc7547e4efce.mp3"
+          "clip": "clips/e3decc7547e4efce.mp3",
+          "en": "We read a book.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "leemos",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras leemos un libro.",
-          "clip": "clips/ab4f6891ee9bd486.mp3"
+          "clip": "clips/ab4f6891ee9bd486.mp3",
+          "en": "We read a book.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "leemos",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes leen un libro.",
-          "clip": "clips/160f6867a89106f2.mp3"
+          "clip": "clips/160f6867a89106f2.mp3",
+          "en": "You all read a book.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "leen",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos leen un libro.",
-          "clip": "clips/611957e466021210.mp3"
+          "clip": "clips/611957e466021210.mp3",
+          "en": "They read a book.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "leen",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas leen un libro.",
-          "clip": "clips/7e09ea7d9dc46d1d.mp3"
+          "clip": "clips/7e09ea7d9dc46d1d.mp3",
+          "en": "They read a book.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "leen",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo leí un libro.",
-          "clip": "clips/36a16b736e78e0da.mp3"
+          "clip": "clips/36a16b736e78e0da.mp3",
+          "en": "I read a book yesterday.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "leí",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú leíste un libro.",
-          "clip": "clips/8584960b31eec165.mp3"
+          "clip": "clips/8584960b31eec165.mp3",
+          "en": "You read a book yesterday.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "leíste",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted leyó un libro.",
-          "clip": "clips/432d0bd907b36d62.mp3"
+          "clip": "clips/432d0bd907b36d62.mp3",
+          "en": "You read a book yesterday.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "leyó",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él leyó un libro.",
-          "clip": "clips/3aad4221bc4160f7.mp3"
+          "clip": "clips/3aad4221bc4160f7.mp3",
+          "en": "He read a book yesterday.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "leyó",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella leyó un libro.",
-          "clip": "clips/38501ab84c877cde.mp3"
+          "clip": "clips/38501ab84c877cde.mp3",
+          "en": "She read a book yesterday.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "leyó",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros leímos un libro.",
-          "clip": "clips/6099a63f82a55ba9.mp3"
+          "clip": "clips/6099a63f82a55ba9.mp3",
+          "en": "We read a book yesterday.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "leímos",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras leímos un libro.",
-          "clip": "clips/52a58ed39d797690.mp3"
+          "clip": "clips/52a58ed39d797690.mp3",
+          "en": "We read a book yesterday.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "leímos",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes leyeron un libro.",
-          "clip": "clips/6a92c39d9fe956ea.mp3"
+          "clip": "clips/6a92c39d9fe956ea.mp3",
+          "en": "You all read a book yesterday.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "leyeron",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos leyeron un libro.",
-          "clip": "clips/26042bea681ad8a0.mp3"
+          "clip": "clips/26042bea681ad8a0.mp3",
+          "en": "They read a book yesterday.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "leyeron",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas leyeron un libro.",
-          "clip": "clips/8152080fc9cd8281.mp3"
+          "clip": "clips/8152080fc9cd8281.mp3",
+          "en": "They read a book yesterday.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "leyeron",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo leía un libro.",
-          "clip": "clips/13f4d18652cae874.mp3"
+          "clip": "clips/13f4d18652cae874.mp3",
+          "en": "I used to read a book.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "leía",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú leías un libro.",
-          "clip": "clips/a28c71db6192cff4.mp3"
+          "clip": "clips/a28c71db6192cff4.mp3",
+          "en": "You used to read a book.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "leías",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted leía un libro.",
-          "clip": "clips/06385b2445abd746.mp3"
+          "clip": "clips/06385b2445abd746.mp3",
+          "en": "You used to read a book.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "leía",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él leía un libro.",
-          "clip": "clips/7619e8cc604dba50.mp3"
+          "clip": "clips/7619e8cc604dba50.mp3",
+          "en": "He used to read a book.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "leía",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella leía un libro.",
-          "clip": "clips/cba6d7a4cf11d5d6.mp3"
+          "clip": "clips/cba6d7a4cf11d5d6.mp3",
+          "en": "She used to read a book.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "leía",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros leíamos un libro.",
-          "clip": "clips/f877466c393f8a9f.mp3"
+          "clip": "clips/f877466c393f8a9f.mp3",
+          "en": "We used to read a book.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "leíamos",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras leíamos un libro.",
-          "clip": "clips/ae4d15da8b7a9226.mp3"
+          "clip": "clips/ae4d15da8b7a9226.mp3",
+          "en": "We used to read a book.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "leíamos",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes leían un libro.",
-          "clip": "clips/4ac2decdbbc59494.mp3"
+          "clip": "clips/4ac2decdbbc59494.mp3",
+          "en": "You all used to read a book.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "leían",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos leían un libro.",
-          "clip": "clips/4d8585608748d0f4.mp3"
+          "clip": "clips/4d8585608748d0f4.mp3",
+          "en": "They used to read a book.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "leían",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas leían un libro.",
-          "clip": "clips/5fed13901097f694.mp3"
+          "clip": "clips/5fed13901097f694.mp3",
+          "en": "They used to read a book.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "leían",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Lee un libro.",
-          "clip": "clips/e4dc2bd4f4caf27f.mp3"
+          "clip": "clips/e4dc2bd4f4caf27f.mp3",
+          "en": "Read a book.",
+          "parts": [
+            [
+              "Lee",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Lea un libro.",
-          "clip": "clips/5082a702a0ca6f16.mp3"
+          "clip": "clips/5082a702a0ca6f16.mp3",
+          "en": "Read a book.",
+          "parts": [
+            [
+              "Lea",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Leamos un libro.",
-          "clip": "clips/d39027f0e1fc7554.mp3"
+          "clip": "clips/d39027f0e1fc7554.mp3",
+          "en": "Let's read a book.",
+          "parts": [
+            [
+              "Leamos",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Leamos un libro.",
-          "clip": "clips/d39027f0e1fc7554.mp3"
+          "clip": "clips/d39027f0e1fc7554.mp3",
+          "en": "Let's read a book.",
+          "parts": [
+            [
+              "Leamos",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Lean un libro.",
-          "clip": "clips/b55b9ccb4d7ba027.mp3"
+          "clip": "clips/b55b9ccb4d7ba027.mp3",
+          "en": "Read a book.",
+          "parts": [
+            [
+              "Lean",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         }
       }
     }

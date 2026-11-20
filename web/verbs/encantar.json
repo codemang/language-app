@@ -71,7 +71,21 @@
       "en_clip": "clips/ca92be5c7561bedc.mp3",
       "single": {
         "es": "Te va a encantar la música.",
-        "clip": "clips/17f78fa7c3ed529b.mp3"
+        "clip": "clips/17f78fa7c3ed529b.mp3",
+        "parts": [
+          [
+            "Te va a",
+            ""
+          ],
+          [
+            "encantar",
+            "v"
+          ],
+          [
+            "la música.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,233 @@
       "forms": {
         "yo": {
           "es": "A mí me encanta la música.",
-          "clip": "clips/4688a541ed3fa849.mp3"
+          "clip": "clips/4688a541ed3fa849.mp3",
+          "en": "I love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "mí me",
+              "p"
+            ],
+            [
+              "encanta",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "A ti te encanta la música.",
-          "clip": "clips/cea8007e2293f820.mp3"
+          "clip": "clips/cea8007e2293f820.mp3",
+          "en": "You love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ti te",
+              "p"
+            ],
+            [
+              "encanta",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "A usted le encanta la música.",
-          "clip": "clips/3c8db584b31fc76e.mp3"
+          "clip": "clips/3c8db584b31fc76e.mp3",
+          "en": "You love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "usted le",
+              "p"
+            ],
+            [
+              "encanta",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "A él le encanta la música.",
-          "clip": "clips/333e9422ceadacd2.mp3"
+          "clip": "clips/333e9422ceadacd2.mp3",
+          "en": "He loves music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "él le",
+              "p"
+            ],
+            [
+              "encanta",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "A ella le encanta la música.",
-          "clip": "clips/9326f14086ee033c.mp3"
+          "clip": "clips/9326f14086ee033c.mp3",
+          "en": "She loves music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ella le",
+              "p"
+            ],
+            [
+              "encanta",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "A nosotros nos encanta la música.",
-          "clip": "clips/be8ab92091d6e3d4.mp3"
+          "clip": "clips/be8ab92091d6e3d4.mp3",
+          "en": "We love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotros nos",
+              "p"
+            ],
+            [
+              "encanta",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "A nosotras nos encanta la música.",
-          "clip": "clips/63c34e8d46fccb94.mp3"
+          "clip": "clips/63c34e8d46fccb94.mp3",
+          "en": "We love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotras nos",
+              "p"
+            ],
+            [
+              "encanta",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "A ustedes les encanta la música.",
-          "clip": "clips/59017ffae6d0e01f.mp3"
+          "clip": "clips/59017ffae6d0e01f.mp3",
+          "en": "You all love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ustedes les",
+              "p"
+            ],
+            [
+              "encanta",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "A ellos les encanta la música.",
-          "clip": "clips/15e8874bab2bdf30.mp3"
+          "clip": "clips/15e8874bab2bdf30.mp3",
+          "en": "They love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellos les",
+              "p"
+            ],
+            [
+              "encanta",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "A ellas les encanta la música.",
-          "clip": "clips/f16d3d05008c815e.mp3"
+          "clip": "clips/f16d3d05008c815e.mp3",
+          "en": "They love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellas les",
+              "p"
+            ],
+            [
+              "encanta",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +334,233 @@
       "forms": {
         "yo": {
           "es": "A mí me encantó la música.",
-          "clip": "clips/1f5f41fb171b1a6a.mp3"
+          "clip": "clips/1f5f41fb171b1a6a.mp3",
+          "en": "I loved the music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "mí me",
+              "p"
+            ],
+            [
+              "encantó",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "A ti te encantó la música.",
-          "clip": "clips/936f5b3ee3b6888b.mp3"
+          "clip": "clips/936f5b3ee3b6888b.mp3",
+          "en": "You loved the music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ti te",
+              "p"
+            ],
+            [
+              "encantó",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "A usted le encantó la música.",
-          "clip": "clips/efafc590f66121b9.mp3"
+          "clip": "clips/efafc590f66121b9.mp3",
+          "en": "You loved the music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "usted le",
+              "p"
+            ],
+            [
+              "encantó",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "A él le encantó la música.",
-          "clip": "clips/78c69014175b6817.mp3"
+          "clip": "clips/78c69014175b6817.mp3",
+          "en": "He loved the music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "él le",
+              "p"
+            ],
+            [
+              "encantó",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "A ella le encantó la música.",
-          "clip": "clips/199feb396f457144.mp3"
+          "clip": "clips/199feb396f457144.mp3",
+          "en": "She loved the music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ella le",
+              "p"
+            ],
+            [
+              "encantó",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "A nosotros nos encantó la música.",
-          "clip": "clips/717206112e54f55a.mp3"
+          "clip": "clips/717206112e54f55a.mp3",
+          "en": "We loved the music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotros nos",
+              "p"
+            ],
+            [
+              "encantó",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "A nosotras nos encantó la música.",
-          "clip": "clips/b009fe168aaa65a5.mp3"
+          "clip": "clips/b009fe168aaa65a5.mp3",
+          "en": "We loved the music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotras nos",
+              "p"
+            ],
+            [
+              "encantó",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "A ustedes les encantó la música.",
-          "clip": "clips/910a3bcf4d692c4a.mp3"
+          "clip": "clips/910a3bcf4d692c4a.mp3",
+          "en": "You all loved the music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ustedes les",
+              "p"
+            ],
+            [
+              "encantó",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "A ellos les encantó la música.",
-          "clip": "clips/9045d797af01c87f.mp3"
+          "clip": "clips/9045d797af01c87f.mp3",
+          "en": "They loved the music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellos les",
+              "p"
+            ],
+            [
+              "encantó",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "A ellas les encantó la música.",
-          "clip": "clips/78860f4bddbc5e0e.mp3"
+          "clip": "clips/78860f4bddbc5e0e.mp3",
+          "en": "They loved the music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellas les",
+              "p"
+            ],
+            [
+              "encantó",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +572,233 @@
       "forms": {
         "yo": {
           "es": "A mí me encantaba la música.",
-          "clip": "clips/c86a7e617366f770.mp3"
+          "clip": "clips/c86a7e617366f770.mp3",
+          "en": "I used to love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "mí me",
+              "p"
+            ],
+            [
+              "encantaba",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "A ti te encantaba la música.",
-          "clip": "clips/b33f50fa06aa1b96.mp3"
+          "clip": "clips/b33f50fa06aa1b96.mp3",
+          "en": "You used to love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ti te",
+              "p"
+            ],
+            [
+              "encantaba",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "A usted le encantaba la música.",
-          "clip": "clips/b410d487d3d1f275.mp3"
+          "clip": "clips/b410d487d3d1f275.mp3",
+          "en": "You used to love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "usted le",
+              "p"
+            ],
+            [
+              "encantaba",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "A él le encantaba la música.",
-          "clip": "clips/5504c7ff23e6d539.mp3"
+          "clip": "clips/5504c7ff23e6d539.mp3",
+          "en": "He used to love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "él le",
+              "p"
+            ],
+            [
+              "encantaba",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "A ella le encantaba la música.",
-          "clip": "clips/2672cfe31cbf800c.mp3"
+          "clip": "clips/2672cfe31cbf800c.mp3",
+          "en": "She used to love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ella le",
+              "p"
+            ],
+            [
+              "encantaba",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "A nosotros nos encantaba la música.",
-          "clip": "clips/78152ab55460ebdb.mp3"
+          "clip": "clips/78152ab55460ebdb.mp3",
+          "en": "We used to love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotros nos",
+              "p"
+            ],
+            [
+              "encantaba",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "A nosotras nos encantaba la música.",
-          "clip": "clips/287e0f9b073bf303.mp3"
+          "clip": "clips/287e0f9b073bf303.mp3",
+          "en": "We used to love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotras nos",
+              "p"
+            ],
+            [
+              "encantaba",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "A ustedes les encantaba la música.",
-          "clip": "clips/9d463e2d13c0a872.mp3"
+          "clip": "clips/9d463e2d13c0a872.mp3",
+          "en": "You all used to love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ustedes les",
+              "p"
+            ],
+            [
+              "encantaba",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "A ellos les encantaba la música.",
-          "clip": "clips/6fcdaabe2d8b25e2.mp3"
+          "clip": "clips/6fcdaabe2d8b25e2.mp3",
+          "en": "They used to love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellos les",
+              "p"
+            ],
+            [
+              "encantaba",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "A ellas les encantaba la música.",
-          "clip": "clips/13aff2f938e1a1e7.mp3"
+          "clip": "clips/13aff2f938e1a1e7.mp3",
+          "en": "They used to love music.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellas les",
+              "p"
+            ],
+            [
+              "encantaba",
+              "v"
+            ],
+            [
+              "la música.",
+              ""
+            ]
+          ]
         }
       }
     }

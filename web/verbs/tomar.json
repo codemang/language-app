@@ -71,7 +71,21 @@
       "en_clip": "clips/e79811fab503daa0.mp3",
       "single": {
         "es": "Quiero tomar un té.",
-        "clip": "clips/5139a86f1eb247cc.mp3"
+        "clip": "clips/5139a86f1eb247cc.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "tomar",
+            "v"
+          ],
+          [
+            "un té.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo tomo un té.",
-          "clip": "clips/d55569b281150e46.mp3"
+          "clip": "clips/d55569b281150e46.mp3",
+          "en": "I have a tea.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "tomo",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú tomas un té.",
-          "clip": "clips/8c57f46b97df27dc.mp3"
+          "clip": "clips/8c57f46b97df27dc.mp3",
+          "en": "You have a tea.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "tomas",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted toma un té.",
-          "clip": "clips/4882c5c0b767ccdc.mp3"
+          "clip": "clips/4882c5c0b767ccdc.mp3",
+          "en": "You have a tea.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "toma",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él toma un té.",
-          "clip": "clips/8b741e5de80e83d7.mp3"
+          "clip": "clips/8b741e5de80e83d7.mp3",
+          "en": "He has a tea.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "toma",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella toma un té.",
-          "clip": "clips/3def343c3a4144fa.mp3"
+          "clip": "clips/3def343c3a4144fa.mp3",
+          "en": "She has a tea.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "toma",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros tomamos un té.",
-          "clip": "clips/00ff4d8928f76041.mp3"
+          "clip": "clips/00ff4d8928f76041.mp3",
+          "en": "We have a tea.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "tomamos",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras tomamos un té.",
-          "clip": "clips/b3f2def4fe263af6.mp3"
+          "clip": "clips/b3f2def4fe263af6.mp3",
+          "en": "We have a tea.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "tomamos",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes toman un té.",
-          "clip": "clips/8f1a5382a151bc6b.mp3"
+          "clip": "clips/8f1a5382a151bc6b.mp3",
+          "en": "You all have a tea.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "toman",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos toman un té.",
-          "clip": "clips/07d429a56269be60.mp3"
+          "clip": "clips/07d429a56269be60.mp3",
+          "en": "They have a tea.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "toman",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas toman un té.",
-          "clip": "clips/d55e5d75dd195d5d.mp3"
+          "clip": "clips/d55e5d75dd195d5d.mp3",
+          "en": "They have a tea.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "toman",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo tomé un té.",
-          "clip": "clips/a1b7f2bab45984f8.mp3"
+          "clip": "clips/a1b7f2bab45984f8.mp3",
+          "en": "I had a tea.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "tomé",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú tomaste un té.",
-          "clip": "clips/9bedb6e74fdc5fc6.mp3"
+          "clip": "clips/9bedb6e74fdc5fc6.mp3",
+          "en": "You had a tea.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "tomaste",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted tomó un té.",
-          "clip": "clips/9d46d4374472201f.mp3"
+          "clip": "clips/9d46d4374472201f.mp3",
+          "en": "You had a tea.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "tomó",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él tomó un té.",
-          "clip": "clips/6e98ba12c4aa9528.mp3"
+          "clip": "clips/6e98ba12c4aa9528.mp3",
+          "en": "He had a tea.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "tomó",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella tomó un té.",
-          "clip": "clips/615354faedbe0076.mp3"
+          "clip": "clips/615354faedbe0076.mp3",
+          "en": "She had a tea.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "tomó",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros tomamos un té.",
-          "clip": "clips/00ff4d8928f76041.mp3"
+          "clip": "clips/00ff4d8928f76041.mp3",
+          "en": "We had a tea.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "tomamos",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras tomamos un té.",
-          "clip": "clips/b3f2def4fe263af6.mp3"
+          "clip": "clips/b3f2def4fe263af6.mp3",
+          "en": "We had a tea.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "tomamos",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes tomaron un té.",
-          "clip": "clips/7f937ac67c932a63.mp3"
+          "clip": "clips/7f937ac67c932a63.mp3",
+          "en": "You all had a tea.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "tomaron",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos tomaron un té.",
-          "clip": "clips/16abf069eb9011b8.mp3"
+          "clip": "clips/16abf069eb9011b8.mp3",
+          "en": "They had a tea.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "tomaron",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas tomaron un té.",
-          "clip": "clips/2f1b0439e11e80de.mp3"
+          "clip": "clips/2f1b0439e11e80de.mp3",
+          "en": "They had a tea.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "tomaron",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo tomaba un té.",
-          "clip": "clips/38f9e9535f3a75fa.mp3"
+          "clip": "clips/38f9e9535f3a75fa.mp3",
+          "en": "I used to have a tea.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "tomaba",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú tomabas un té.",
-          "clip": "clips/626508aba1d1fdaa.mp3"
+          "clip": "clips/626508aba1d1fdaa.mp3",
+          "en": "You used to have a tea.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "tomabas",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted tomaba un té.",
-          "clip": "clips/27f73d8c6982a2f6.mp3"
+          "clip": "clips/27f73d8c6982a2f6.mp3",
+          "en": "You used to have a tea.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "tomaba",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él tomaba un té.",
-          "clip": "clips/66310c029e4f610e.mp3"
+          "clip": "clips/66310c029e4f610e.mp3",
+          "en": "He used to have a tea.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "tomaba",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella tomaba un té.",
-          "clip": "clips/294947f760e0b5d5.mp3"
+          "clip": "clips/294947f760e0b5d5.mp3",
+          "en": "She used to have a tea.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "tomaba",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros tomábamos un té.",
-          "clip": "clips/ee531dd17334e42d.mp3"
+          "clip": "clips/ee531dd17334e42d.mp3",
+          "en": "We used to have a tea.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "tomábamos",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras tomábamos un té.",
-          "clip": "clips/a728d9eb8a9aab74.mp3"
+          "clip": "clips/a728d9eb8a9aab74.mp3",
+          "en": "We used to have a tea.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "tomábamos",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes tomaban un té.",
-          "clip": "clips/e2c9a1ea0ae78eed.mp3"
+          "clip": "clips/e2c9a1ea0ae78eed.mp3",
+          "en": "You all used to have a tea.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "tomaban",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos tomaban un té.",
-          "clip": "clips/e5e71b59fba2cca6.mp3"
+          "clip": "clips/e5e71b59fba2cca6.mp3",
+          "en": "They used to have a tea.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "tomaban",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas tomaban un té.",
-          "clip": "clips/6ca61c7f21e9d989.mp3"
+          "clip": "clips/6ca61c7f21e9d989.mp3",
+          "en": "They used to have a tea.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "tomaban",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Toma un té.",
-          "clip": "clips/df4fa1da7713fa4f.mp3"
+          "clip": "clips/df4fa1da7713fa4f.mp3",
+          "en": "Have a tea.",
+          "parts": [
+            [
+              "Toma",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Tome un té.",
-          "clip": "clips/6db19a4840a7c6d7.mp3"
+          "clip": "clips/6db19a4840a7c6d7.mp3",
+          "en": "Have a tea.",
+          "parts": [
+            [
+              "Tome",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Tomemos un té.",
-          "clip": "clips/ffcb19235909f8c7.mp3"
+          "clip": "clips/ffcb19235909f8c7.mp3",
+          "en": "Let's have a tea.",
+          "parts": [
+            [
+              "Tomemos",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Tomemos un té.",
-          "clip": "clips/ffcb19235909f8c7.mp3"
+          "clip": "clips/ffcb19235909f8c7.mp3",
+          "en": "Let's have a tea.",
+          "parts": [
+            [
+              "Tomemos",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Tomen un té.",
-          "clip": "clips/f5821bd391c1758b.mp3"
+          "clip": "clips/f5821bd391c1758b.mp3",
+          "en": "Have a tea.",
+          "parts": [
+            [
+              "Tomen",
+              "v"
+            ],
+            [
+              "un té.",
+              ""
+            ]
+          ]
         }
       }
     }

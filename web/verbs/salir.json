@@ -71,7 +71,21 @@
       "en_clip": "clips/c8b40552afa998de.mp3",
       "single": {
         "es": "Tengo que salir de casa.",
-        "clip": "clips/df8a07a2d51201f6.mp3"
+        "clip": "clips/df8a07a2d51201f6.mp3",
+        "parts": [
+          [
+            "Tengo que",
+            ""
+          ],
+          [
+            "salir",
+            "v"
+          ],
+          [
+            "de casa.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo salgo de casa.",
-          "clip": "clips/a7422ad3be0e68ff.mp3"
+          "clip": "clips/a7422ad3be0e68ff.mp3",
+          "en": "I leave the house.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "salgo",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú sales de casa.",
-          "clip": "clips/9f2404417f4c85c8.mp3"
+          "clip": "clips/9f2404417f4c85c8.mp3",
+          "en": "You leave the house.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "sales",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted sale de casa.",
-          "clip": "clips/392dd3cf6d87ffdd.mp3"
+          "clip": "clips/392dd3cf6d87ffdd.mp3",
+          "en": "You leave the house.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "sale",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él sale de casa.",
-          "clip": "clips/d36e36d729babb04.mp3"
+          "clip": "clips/d36e36d729babb04.mp3",
+          "en": "He leaves the house.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "sale",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella sale de casa.",
-          "clip": "clips/0c1936a69772e927.mp3"
+          "clip": "clips/0c1936a69772e927.mp3",
+          "en": "She leaves the house.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "sale",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros salimos de casa.",
-          "clip": "clips/ca7a1a8c0f099d7f.mp3"
+          "clip": "clips/ca7a1a8c0f099d7f.mp3",
+          "en": "We leave the house.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "salimos",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras salimos de casa.",
-          "clip": "clips/a5f21ad6b5d54e0f.mp3"
+          "clip": "clips/a5f21ad6b5d54e0f.mp3",
+          "en": "We leave the house.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "salimos",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes salen de casa.",
-          "clip": "clips/df520063c9205390.mp3"
+          "clip": "clips/df520063c9205390.mp3",
+          "en": "You all leave the house.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "salen",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos salen de casa.",
-          "clip": "clips/f7ce1e8f03f0245b.mp3"
+          "clip": "clips/f7ce1e8f03f0245b.mp3",
+          "en": "They leave the house.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "salen",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas salen de casa.",
-          "clip": "clips/cb12dad08c23ea39.mp3"
+          "clip": "clips/cb12dad08c23ea39.mp3",
+          "en": "They leave the house.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "salen",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo salí de casa.",
-          "clip": "clips/c4dc39f2696a7191.mp3"
+          "clip": "clips/c4dc39f2696a7191.mp3",
+          "en": "I left the house.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "salí",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú saliste de casa.",
-          "clip": "clips/b7a406dea50b07e3.mp3"
+          "clip": "clips/b7a406dea50b07e3.mp3",
+          "en": "You left the house.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "saliste",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted salió de casa.",
-          "clip": "clips/cf62492d9b66ccd1.mp3"
+          "clip": "clips/cf62492d9b66ccd1.mp3",
+          "en": "You left the house.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "salió",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él salió de casa.",
-          "clip": "clips/04f3e3bcb5fe0528.mp3"
+          "clip": "clips/04f3e3bcb5fe0528.mp3",
+          "en": "He left the house.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "salió",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella salió de casa.",
-          "clip": "clips/1f5136e608e978ff.mp3"
+          "clip": "clips/1f5136e608e978ff.mp3",
+          "en": "She left the house.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "salió",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros salimos de casa.",
-          "clip": "clips/ca7a1a8c0f099d7f.mp3"
+          "clip": "clips/ca7a1a8c0f099d7f.mp3",
+          "en": "We left the house.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "salimos",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras salimos de casa.",
-          "clip": "clips/a5f21ad6b5d54e0f.mp3"
+          "clip": "clips/a5f21ad6b5d54e0f.mp3",
+          "en": "We left the house.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "salimos",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes salieron de casa.",
-          "clip": "clips/d06a57ca2a3aca8c.mp3"
+          "clip": "clips/d06a57ca2a3aca8c.mp3",
+          "en": "You all left the house.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "salieron",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos salieron de casa.",
-          "clip": "clips/792b4972cd217727.mp3"
+          "clip": "clips/792b4972cd217727.mp3",
+          "en": "They left the house.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "salieron",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas salieron de casa.",
-          "clip": "clips/a81eeb3b5b70eeac.mp3"
+          "clip": "clips/a81eeb3b5b70eeac.mp3",
+          "en": "They left the house.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "salieron",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo salía de casa.",
-          "clip": "clips/fa96dfc814a1245f.mp3"
+          "clip": "clips/fa96dfc814a1245f.mp3",
+          "en": "I used to leave the house.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "salía",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú salías de casa.",
-          "clip": "clips/f73d21984b01505e.mp3"
+          "clip": "clips/f73d21984b01505e.mp3",
+          "en": "You used to leave the house.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "salías",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted salía de casa.",
-          "clip": "clips/5667961b56a54d20.mp3"
+          "clip": "clips/5667961b56a54d20.mp3",
+          "en": "You used to leave the house.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "salía",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él salía de casa.",
-          "clip": "clips/ec9bd6efbfb1ded8.mp3"
+          "clip": "clips/ec9bd6efbfb1ded8.mp3",
+          "en": "He used to leave the house.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "salía",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella salía de casa.",
-          "clip": "clips/a1054594a36eb31b.mp3"
+          "clip": "clips/a1054594a36eb31b.mp3",
+          "en": "She used to leave the house.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "salía",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros salíamos de casa.",
-          "clip": "clips/650494ccc43274e9.mp3"
+          "clip": "clips/650494ccc43274e9.mp3",
+          "en": "We used to leave the house.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "salíamos",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras salíamos de casa.",
-          "clip": "clips/02981f84e193f443.mp3"
+          "clip": "clips/02981f84e193f443.mp3",
+          "en": "We used to leave the house.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "salíamos",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes salían de casa.",
-          "clip": "clips/ff92a60fd5d96e7b.mp3"
+          "clip": "clips/ff92a60fd5d96e7b.mp3",
+          "en": "You all used to leave the house.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "salían",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos salían de casa.",
-          "clip": "clips/fd720cb2725d4896.mp3"
+          "clip": "clips/fd720cb2725d4896.mp3",
+          "en": "They used to leave the house.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "salían",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas salían de casa.",
-          "clip": "clips/005b7eeb88c7c6cd.mp3"
+          "clip": "clips/005b7eeb88c7c6cd.mp3",
+          "en": "They used to leave the house.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "salían",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Sal de casa.",
-          "clip": "clips/7c207893edd0064b.mp3"
+          "clip": "clips/7c207893edd0064b.mp3",
+          "en": "Leave the house.",
+          "parts": [
+            [
+              "Sal",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Salga de casa.",
-          "clip": "clips/9fae9aae47672b97.mp3"
+          "clip": "clips/9fae9aae47672b97.mp3",
+          "en": "Leave the house.",
+          "parts": [
+            [
+              "Salga",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Salgamos de casa.",
-          "clip": "clips/4d5136541c56a6a4.mp3"
+          "clip": "clips/4d5136541c56a6a4.mp3",
+          "en": "Let's leave the house.",
+          "parts": [
+            [
+              "Salgamos",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Salgamos de casa.",
-          "clip": "clips/4d5136541c56a6a4.mp3"
+          "clip": "clips/4d5136541c56a6a4.mp3",
+          "en": "Let's leave the house.",
+          "parts": [
+            [
+              "Salgamos",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Salgan de casa.",
-          "clip": "clips/71748944d71ea3c8.mp3"
+          "clip": "clips/71748944d71ea3c8.mp3",
+          "en": "Leave the house.",
+          "parts": [
+            [
+              "Salgan",
+              "v"
+            ],
+            [
+              "de casa.",
+              ""
+            ]
+          ]
         }
       }
     }

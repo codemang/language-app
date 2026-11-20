@@ -71,7 +71,21 @@
       "en_clip": "clips/be1a665b5d474cb8.mp3",
       "single": {
         "es": "Necesito decir la verdad.",
-        "clip": "clips/87e8f3664828544c.mp3"
+        "clip": "clips/87e8f3664828544c.mp3",
+        "parts": [
+          [
+            "Necesito",
+            ""
+          ],
+          [
+            "decir",
+            "v"
+          ],
+          [
+            "la verdad.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo digo la verdad.",
-          "clip": "clips/df84380441b8a6bb.mp3"
+          "clip": "clips/df84380441b8a6bb.mp3",
+          "en": "I tell the truth.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "digo",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú dices la verdad.",
-          "clip": "clips/877506e53d43763a.mp3"
+          "clip": "clips/877506e53d43763a.mp3",
+          "en": "You tell the truth.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "dices",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted dice la verdad.",
-          "clip": "clips/b1e7a4ab6cf81d6d.mp3"
+          "clip": "clips/b1e7a4ab6cf81d6d.mp3",
+          "en": "You tell the truth.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "dice",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él dice la verdad.",
-          "clip": "clips/448c142a6802566d.mp3"
+          "clip": "clips/448c142a6802566d.mp3",
+          "en": "He tells the truth.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "dice",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella dice la verdad.",
-          "clip": "clips/9fd1b13ee9357805.mp3"
+          "clip": "clips/9fd1b13ee9357805.mp3",
+          "en": "She tells the truth.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "dice",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros decimos la verdad.",
-          "clip": "clips/b9ebf6f01ae1fbd5.mp3"
+          "clip": "clips/b9ebf6f01ae1fbd5.mp3",
+          "en": "We tell the truth.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "decimos",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras decimos la verdad.",
-          "clip": "clips/75e99fd4170819d3.mp3"
+          "clip": "clips/75e99fd4170819d3.mp3",
+          "en": "We tell the truth.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "decimos",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes dicen la verdad.",
-          "clip": "clips/32c16da48197f153.mp3"
+          "clip": "clips/32c16da48197f153.mp3",
+          "en": "You all tell the truth.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "dicen",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos dicen la verdad.",
-          "clip": "clips/95186b06347aa376.mp3"
+          "clip": "clips/95186b06347aa376.mp3",
+          "en": "They tell the truth.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "dicen",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas dicen la verdad.",
-          "clip": "clips/4b0ce4d61ef1aff2.mp3"
+          "clip": "clips/4b0ce4d61ef1aff2.mp3",
+          "en": "They tell the truth.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "dicen",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo dije la verdad.",
-          "clip": "clips/9c2f3cf4b0721075.mp3"
+          "clip": "clips/9c2f3cf4b0721075.mp3",
+          "en": "I told the truth.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "dije",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú dijiste la verdad.",
-          "clip": "clips/5b50a2ddbb24b1b7.mp3"
+          "clip": "clips/5b50a2ddbb24b1b7.mp3",
+          "en": "You told the truth.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "dijiste",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted dijo la verdad.",
-          "clip": "clips/cfbe48cffbda3e67.mp3"
+          "clip": "clips/cfbe48cffbda3e67.mp3",
+          "en": "You told the truth.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "dijo",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él dijo la verdad.",
-          "clip": "clips/864e1c2dec2e570d.mp3"
+          "clip": "clips/864e1c2dec2e570d.mp3",
+          "en": "He told the truth.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "dijo",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella dijo la verdad.",
-          "clip": "clips/3f5add0c12f3291e.mp3"
+          "clip": "clips/3f5add0c12f3291e.mp3",
+          "en": "She told the truth.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "dijo",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros dijimos la verdad.",
-          "clip": "clips/0b0fb0dd9e0a9f9e.mp3"
+          "clip": "clips/0b0fb0dd9e0a9f9e.mp3",
+          "en": "We told the truth.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "dijimos",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras dijimos la verdad.",
-          "clip": "clips/f51fa105600fdcc9.mp3"
+          "clip": "clips/f51fa105600fdcc9.mp3",
+          "en": "We told the truth.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "dijimos",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes dijeron la verdad.",
-          "clip": "clips/895bafaa0a2158f1.mp3"
+          "clip": "clips/895bafaa0a2158f1.mp3",
+          "en": "You all told the truth.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "dijeron",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos dijeron la verdad.",
-          "clip": "clips/a1520a3f22183915.mp3"
+          "clip": "clips/a1520a3f22183915.mp3",
+          "en": "They told the truth.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "dijeron",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas dijeron la verdad.",
-          "clip": "clips/5ec9cd9a7f322084.mp3"
+          "clip": "clips/5ec9cd9a7f322084.mp3",
+          "en": "They told the truth.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "dijeron",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo decía la verdad.",
-          "clip": "clips/fc3ccbad0657d588.mp3"
+          "clip": "clips/fc3ccbad0657d588.mp3",
+          "en": "I used to tell the truth.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "decía",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú decías la verdad.",
-          "clip": "clips/81a56679b7594eb5.mp3"
+          "clip": "clips/81a56679b7594eb5.mp3",
+          "en": "You used to tell the truth.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "decías",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted decía la verdad.",
-          "clip": "clips/b6d99fcdaff3e3de.mp3"
+          "clip": "clips/b6d99fcdaff3e3de.mp3",
+          "en": "You used to tell the truth.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "decía",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él decía la verdad.",
-          "clip": "clips/4abeb05bae99f7d4.mp3"
+          "clip": "clips/4abeb05bae99f7d4.mp3",
+          "en": "He used to tell the truth.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "decía",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella decía la verdad.",
-          "clip": "clips/8d83cc254c980f53.mp3"
+          "clip": "clips/8d83cc254c980f53.mp3",
+          "en": "She used to tell the truth.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "decía",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros decíamos la verdad.",
-          "clip": "clips/9cca167d48a4b997.mp3"
+          "clip": "clips/9cca167d48a4b997.mp3",
+          "en": "We used to tell the truth.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "decíamos",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras decíamos la verdad.",
-          "clip": "clips/417d4370b0c58252.mp3"
+          "clip": "clips/417d4370b0c58252.mp3",
+          "en": "We used to tell the truth.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "decíamos",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes decían la verdad.",
-          "clip": "clips/5abd8306b21eadd5.mp3"
+          "clip": "clips/5abd8306b21eadd5.mp3",
+          "en": "You all used to tell the truth.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "decían",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos decían la verdad.",
-          "clip": "clips/461035d558e7a035.mp3"
+          "clip": "clips/461035d558e7a035.mp3",
+          "en": "They used to tell the truth.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "decían",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas decían la verdad.",
-          "clip": "clips/176fe06a23a191a8.mp3"
+          "clip": "clips/176fe06a23a191a8.mp3",
+          "en": "They used to tell the truth.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "decían",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Di la verdad.",
-          "clip": "clips/5f655e401c4f0685.mp3"
+          "clip": "clips/5f655e401c4f0685.mp3",
+          "en": "Tell the truth.",
+          "parts": [
+            [
+              "Di",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Diga la verdad.",
-          "clip": "clips/eb379b35fe353bcf.mp3"
+          "clip": "clips/eb379b35fe353bcf.mp3",
+          "en": "Tell the truth.",
+          "parts": [
+            [
+              "Diga",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Digamos la verdad.",
-          "clip": "clips/307d2634fa69a629.mp3"
+          "clip": "clips/307d2634fa69a629.mp3",
+          "en": "Let's tell the truth.",
+          "parts": [
+            [
+              "Digamos",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Digamos la verdad.",
-          "clip": "clips/307d2634fa69a629.mp3"
+          "clip": "clips/307d2634fa69a629.mp3",
+          "en": "Let's tell the truth.",
+          "parts": [
+            [
+              "Digamos",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Digan la verdad.",
-          "clip": "clips/0c415a6832f1209b.mp3"
+          "clip": "clips/0c415a6832f1209b.mp3",
+          "en": "Tell the truth.",
+          "parts": [
+            [
+              "Digan",
+              "v"
+            ],
+            [
+              "la verdad.",
+              ""
+            ]
+          ]
         }
       }
     }

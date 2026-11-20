@@ -568,6 +568,73 @@ COLLECTIONS = [
 ]
 
 
+# ---------- for reading: each sentence's English, and which words are the
+# pronoun and the verb (the app colors them). Written from the yo English:
+# "I get up at seven." -> "She gets up at seven."
+EN_SUBJECT = {"yo": "I", "tu": "You", "usted": "You", "el": "He", "ella": "She", "nosotros": "We",
+              "nosotras": "We", "ustedes": "You all", "ellos": "They", "ellas": "They"}
+EN_PLURAL = {"ser": ("a student", "students")}  # Spanish rest that goes plural: its English too
+CLITICS = {"me", "te", "se", "nos", "os", "le", "les", "lo", "la", "los", "las"}
+
+
+def _third_person(word):
+    if word in ("can", "should", "must", "will", "could", "would"):
+        return word
+    irregular = {"am": "is", "have": "has", "do": "does", "go": "goes"}
+    if word in irregular:
+        return irregular[word]
+    if word.endswith(("ch", "sh", "s", "x", "z", "o")):
+        return word + "es"
+    if word.endswith("y") and word[-2] not in "aeiou":
+        return word[:-1] + "ies"
+    return word + "s"
+
+
+def english_for(verb, tense, en_yo, pid, slot):
+    """The yo sentence's English said by another pronoun."""
+    words = en_yo.split(" ")
+    assert words[0] == "I", (verb, en_yo)
+    if pid == "yo":
+        return en_yo
+    first = words[1]
+    if tense == "present":
+        first = _third_person(first) if pid in ("el", "ella") else ("are" if first == "am" else first)
+    elif first == "was" and pid not in ("el", "ella"):
+        first = "were"
+    text = " ".join([EN_SUBJECT[pid], first] + words[2:])
+    if verb in EN_PLURAL and slot >= 3:
+        text = text.replace(*EN_PLURAL[verb])
+    return text
+
+
+def parts_for(subject, form, rest):
+    """[[text, kind]]: kind "p" pronoun, "v" verb, "" the rest. "me levanto" -> me (p) levanto (v)."""
+    words = form.split(" ")
+    lead = []
+    while len(words) > 1 and words[0] in CLITICS:
+        lead.append(words.pop(0))
+    subject_words = subject.split(" ")
+    out = []
+    if subject_words[0] == "A":  # gustar: "A ella le" -> A, then the pronouns
+        out.append(["A", ""])
+        subject_words = subject_words[1:]
+    out.append([" ".join(subject_words + lead), "p"])
+    out.append([" ".join(words), "v"])
+    out.append([rest, ""])
+    return out
+
+
+def infinitive_parts(verb, es):
+    """The infinitive (with any pronoun on the end, "levantarme") is the verb."""
+    stem = verb[:-2] if verb.endswith("se") else verb
+    words = es.split(" ")
+    i = next((k for k, w in enumerate(words) if w.lower().startswith(stem)), None)
+    if i is None:
+        return [[es, ""]]
+    return [x for x in ([" ".join(words[:i]), ""], [words[i], "v"], [" ".join(words[i + 1:]), ""]) if x[0]]
+
+
+
 class Speaker:
     def __init__(self):
         self.kokoro = None
@@ -615,7 +682,7 @@ def build(verb, spk):
             es, en = INFINITIVES[verb]
             en = f"Infinitive: {en}"
             out["tenses"].append({"id": tid, "label": label, "en": en, "en_clip": spk.clip(en, "en"),
-                                  "single": {"es": es, "clip": spk.clip(es, "es")}})
+                                  "single": {"es": es, "clip": spk.clip(es, "es"), "parts": infinitive_parts(verb, es)}})
             continue
         if tid == "imperative":
             if verb in IMPERATIVES:
@@ -630,7 +697,9 @@ def build(verb, spk):
         for pid, es, _, slot in PRONOUNS:
             subject = v.get("subject", {}).get(pid, es)
             text = f"{subject} {forms[slot]} {rest[slot >= 3]}"
-            t["forms"][pid] = {"es": text, "clip": spk.clip(text, "es")}
+            t["forms"][pid] = {"es": text, "clip": spk.clip(text, "es"),
+                               "en": english_for(verb, tid, en.split(": ", 1)[1], pid, slot),
+                               "parts": parts_for(subject, forms[slot], rest[slot >= 3])}
         out["tenses"].append(t)
     (OUT / f"{verb}.json").write_text(json.dumps(out, ensure_ascii=False, indent=2))
 
@@ -643,7 +712,10 @@ def imperative(verb, label, spk):
     t = {"id": "imperative", "label": label, "en": en, "en_clip": spk.clip(en, "en"), "forms": {}}
     for pid, slot in IMPERATIVE_PRONOUNS.items():
         text = f"{forms[slot][0].upper()}{forms[slot][1:]} {rest[slot >= 2]}"
-        t["forms"][pid] = {"es": text, "clip": spk.clip(text, "es")}
+        en_cmd = en.split(": ", 1)[1]
+        t["forms"][pid] = {"es": text, "clip": spk.clip(text, "es"),
+                           "en": f"Let's {en_cmd[0].lower()}{en_cmd[1:]}" if slot == 2 else en_cmd,
+                           "parts": [[text.split(" ", 1)[0], "v"], [text.split(" ", 1)[1], ""]]}
     return t
 
 

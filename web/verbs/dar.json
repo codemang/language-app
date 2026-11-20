@@ -71,7 +71,21 @@
       "en_clip": "clips/6bedc5b69191bd94.mp3",
       "single": {
         "es": "Quiero dar un regalo.",
-        "clip": "clips/35232248bb18932b.mp3"
+        "clip": "clips/35232248bb18932b.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "dar",
+            "v"
+          ],
+          [
+            "un regalo.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo doy un regalo.",
-          "clip": "clips/9cad9b9a72730324.mp3"
+          "clip": "clips/9cad9b9a72730324.mp3",
+          "en": "I give a gift.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "doy",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú das un regalo.",
-          "clip": "clips/05dc4049d793b62d.mp3"
+          "clip": "clips/05dc4049d793b62d.mp3",
+          "en": "You give a gift.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "das",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted da un regalo.",
-          "clip": "clips/8983cc12d73f160c.mp3"
+          "clip": "clips/8983cc12d73f160c.mp3",
+          "en": "You give a gift.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "da",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él da un regalo.",
-          "clip": "clips/0594106a6daeccbc.mp3"
+          "clip": "clips/0594106a6daeccbc.mp3",
+          "en": "He gives a gift.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "da",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella da un regalo.",
-          "clip": "clips/f8048d0fe3cf795a.mp3"
+          "clip": "clips/f8048d0fe3cf795a.mp3",
+          "en": "She gives a gift.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "da",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros damos un regalo.",
-          "clip": "clips/3b167e8b64e9d8e2.mp3"
+          "clip": "clips/3b167e8b64e9d8e2.mp3",
+          "en": "We give a gift.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "damos",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras damos un regalo.",
-          "clip": "clips/3d64476b5bc161eb.mp3"
+          "clip": "clips/3d64476b5bc161eb.mp3",
+          "en": "We give a gift.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "damos",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes dan un regalo.",
-          "clip": "clips/d145d9a5260aa82a.mp3"
+          "clip": "clips/d145d9a5260aa82a.mp3",
+          "en": "You all give a gift.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "dan",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos dan un regalo.",
-          "clip": "clips/d90b0d2ea9d81c13.mp3"
+          "clip": "clips/d90b0d2ea9d81c13.mp3",
+          "en": "They give a gift.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "dan",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas dan un regalo.",
-          "clip": "clips/1257aa3126a4794c.mp3"
+          "clip": "clips/1257aa3126a4794c.mp3",
+          "en": "They give a gift.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "dan",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo di un regalo.",
-          "clip": "clips/97f425e2b0d11fb7.mp3"
+          "clip": "clips/97f425e2b0d11fb7.mp3",
+          "en": "I gave a gift.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "di",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú diste un regalo.",
-          "clip": "clips/626052a48a614bef.mp3"
+          "clip": "clips/626052a48a614bef.mp3",
+          "en": "You gave a gift.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "diste",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted dio un regalo.",
-          "clip": "clips/510492a56e3d39a4.mp3"
+          "clip": "clips/510492a56e3d39a4.mp3",
+          "en": "You gave a gift.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "dio",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él dio un regalo.",
-          "clip": "clips/b16e3ceb31677546.mp3"
+          "clip": "clips/b16e3ceb31677546.mp3",
+          "en": "He gave a gift.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "dio",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella dio un regalo.",
-          "clip": "clips/13fed2d1147fb5db.mp3"
+          "clip": "clips/13fed2d1147fb5db.mp3",
+          "en": "She gave a gift.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "dio",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros dimos un regalo.",
-          "clip": "clips/4b3aed7b736957ed.mp3"
+          "clip": "clips/4b3aed7b736957ed.mp3",
+          "en": "We gave a gift.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "dimos",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras dimos un regalo.",
-          "clip": "clips/65d1cd6a1e9acca7.mp3"
+          "clip": "clips/65d1cd6a1e9acca7.mp3",
+          "en": "We gave a gift.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "dimos",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes dieron un regalo.",
-          "clip": "clips/34c38b246fa35bfe.mp3"
+          "clip": "clips/34c38b246fa35bfe.mp3",
+          "en": "You all gave a gift.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "dieron",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos dieron un regalo.",
-          "clip": "clips/126a0f792c0eda4c.mp3"
+          "clip": "clips/126a0f792c0eda4c.mp3",
+          "en": "They gave a gift.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "dieron",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas dieron un regalo.",
-          "clip": "clips/c181b8724117c856.mp3"
+          "clip": "clips/c181b8724117c856.mp3",
+          "en": "They gave a gift.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "dieron",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo daba un regalo.",
-          "clip": "clips/858450f9713e7aab.mp3"
+          "clip": "clips/858450f9713e7aab.mp3",
+          "en": "I used to give a gift.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "daba",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú dabas un regalo.",
-          "clip": "clips/4e9ca8eb47fd0628.mp3"
+          "clip": "clips/4e9ca8eb47fd0628.mp3",
+          "en": "You used to give a gift.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "dabas",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted daba un regalo.",
-          "clip": "clips/acef2df816f45bf0.mp3"
+          "clip": "clips/acef2df816f45bf0.mp3",
+          "en": "You used to give a gift.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "daba",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él daba un regalo.",
-          "clip": "clips/b44cd3cb0a0d7c42.mp3"
+          "clip": "clips/b44cd3cb0a0d7c42.mp3",
+          "en": "He used to give a gift.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "daba",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella daba un regalo.",
-          "clip": "clips/50023c6aa52816f7.mp3"
+          "clip": "clips/50023c6aa52816f7.mp3",
+          "en": "She used to give a gift.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "daba",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros dábamos un regalo.",
-          "clip": "clips/61a7c9e74f5edbef.mp3"
+          "clip": "clips/61a7c9e74f5edbef.mp3",
+          "en": "We used to give a gift.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "dábamos",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras dábamos un regalo.",
-          "clip": "clips/1096d6155202297d.mp3"
+          "clip": "clips/1096d6155202297d.mp3",
+          "en": "We used to give a gift.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "dábamos",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes daban un regalo.",
-          "clip": "clips/c4408710c82af580.mp3"
+          "clip": "clips/c4408710c82af580.mp3",
+          "en": "You all used to give a gift.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "daban",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos daban un regalo.",
-          "clip": "clips/53247d0c7836ad68.mp3"
+          "clip": "clips/53247d0c7836ad68.mp3",
+          "en": "They used to give a gift.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "daban",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas daban un regalo.",
-          "clip": "clips/adff5d4128338a0a.mp3"
+          "clip": "clips/adff5d4128338a0a.mp3",
+          "en": "They used to give a gift.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "daban",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Da un regalo.",
-          "clip": "clips/f6a9743c76b22d95.mp3"
+          "clip": "clips/f6a9743c76b22d95.mp3",
+          "en": "Give a gift.",
+          "parts": [
+            [
+              "Da",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Dé un regalo.",
-          "clip": "clips/dd6a187366560339.mp3"
+          "clip": "clips/dd6a187366560339.mp3",
+          "en": "Give a gift.",
+          "parts": [
+            [
+              "Dé",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Demos un regalo.",
-          "clip": "clips/a3bde1fbd00831fe.mp3"
+          "clip": "clips/a3bde1fbd00831fe.mp3",
+          "en": "Let's give a gift.",
+          "parts": [
+            [
+              "Demos",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Demos un regalo.",
-          "clip": "clips/a3bde1fbd00831fe.mp3"
+          "clip": "clips/a3bde1fbd00831fe.mp3",
+          "en": "Let's give a gift.",
+          "parts": [
+            [
+              "Demos",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Den un regalo.",
-          "clip": "clips/be9d6c550e2fd142.mp3"
+          "clip": "clips/be9d6c550e2fd142.mp3",
+          "en": "Give a gift.",
+          "parts": [
+            [
+              "Den",
+              "v"
+            ],
+            [
+              "un regalo.",
+              ""
+            ]
+          ]
         }
       }
     }

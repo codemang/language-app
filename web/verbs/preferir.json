@@ -71,7 +71,21 @@
       "en_clip": "clips/71169cb33bb94305.mp3",
       "single": {
         "es": "Es normal preferir el té.",
-        "clip": "clips/c33bf2b38fd9a873.mp3"
+        "clip": "clips/c33bf2b38fd9a873.mp3",
+        "parts": [
+          [
+            "Es normal",
+            ""
+          ],
+          [
+            "preferir",
+            "v"
+          ],
+          [
+            "el té.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo prefiero el té.",
-          "clip": "clips/e1fd27835302317c.mp3"
+          "clip": "clips/e1fd27835302317c.mp3",
+          "en": "I prefer tea.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "prefiero",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú prefieres el té.",
-          "clip": "clips/a763191203982ba7.mp3"
+          "clip": "clips/a763191203982ba7.mp3",
+          "en": "You prefer tea.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "prefieres",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted prefiere el té.",
-          "clip": "clips/3d38ea27e87b967c.mp3"
+          "clip": "clips/3d38ea27e87b967c.mp3",
+          "en": "You prefer tea.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "prefiere",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él prefiere el té.",
-          "clip": "clips/739c69142f9de0ce.mp3"
+          "clip": "clips/739c69142f9de0ce.mp3",
+          "en": "He prefers tea.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "prefiere",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella prefiere el té.",
-          "clip": "clips/8e2433288d0e5572.mp3"
+          "clip": "clips/8e2433288d0e5572.mp3",
+          "en": "She prefers tea.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "prefiere",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros preferimos el té.",
-          "clip": "clips/5cf248edfac599e0.mp3"
+          "clip": "clips/5cf248edfac599e0.mp3",
+          "en": "We prefer tea.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "preferimos",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras preferimos el té.",
-          "clip": "clips/413625b5399d09aa.mp3"
+          "clip": "clips/413625b5399d09aa.mp3",
+          "en": "We prefer tea.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "preferimos",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes prefieren el té.",
-          "clip": "clips/48473b5d6c4d3154.mp3"
+          "clip": "clips/48473b5d6c4d3154.mp3",
+          "en": "You all prefer tea.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "prefieren",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos prefieren el té.",
-          "clip": "clips/c66242fac8b1f48c.mp3"
+          "clip": "clips/c66242fac8b1f48c.mp3",
+          "en": "They prefer tea.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "prefieren",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas prefieren el té.",
-          "clip": "clips/2df5a34e0169f65f.mp3"
+          "clip": "clips/2df5a34e0169f65f.mp3",
+          "en": "They prefer tea.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "prefieren",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo preferí el té.",
-          "clip": "clips/59695ad2c0e5f50b.mp3"
+          "clip": "clips/59695ad2c0e5f50b.mp3",
+          "en": "I preferred tea.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "preferí",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú preferiste el té.",
-          "clip": "clips/79a9ff03f5d20f48.mp3"
+          "clip": "clips/79a9ff03f5d20f48.mp3",
+          "en": "You preferred tea.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "preferiste",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted prefirió el té.",
-          "clip": "clips/081f2451fd1d9a40.mp3"
+          "clip": "clips/081f2451fd1d9a40.mp3",
+          "en": "You preferred tea.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "prefirió",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él prefirió el té.",
-          "clip": "clips/464adca918e6c000.mp3"
+          "clip": "clips/464adca918e6c000.mp3",
+          "en": "He preferred tea.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "prefirió",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella prefirió el té.",
-          "clip": "clips/67c128eab2f33589.mp3"
+          "clip": "clips/67c128eab2f33589.mp3",
+          "en": "She preferred tea.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "prefirió",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros preferimos el té.",
-          "clip": "clips/5cf248edfac599e0.mp3"
+          "clip": "clips/5cf248edfac599e0.mp3",
+          "en": "We preferred tea.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "preferimos",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras preferimos el té.",
-          "clip": "clips/413625b5399d09aa.mp3"
+          "clip": "clips/413625b5399d09aa.mp3",
+          "en": "We preferred tea.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "preferimos",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes prefirieron el té.",
-          "clip": "clips/23419bf076774680.mp3"
+          "clip": "clips/23419bf076774680.mp3",
+          "en": "You all preferred tea.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "prefirieron",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos prefirieron el té.",
-          "clip": "clips/007788f24bbecea6.mp3"
+          "clip": "clips/007788f24bbecea6.mp3",
+          "en": "They preferred tea.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "prefirieron",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas prefirieron el té.",
-          "clip": "clips/fedcf9edb46adbe6.mp3"
+          "clip": "clips/fedcf9edb46adbe6.mp3",
+          "en": "They preferred tea.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "prefirieron",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo prefería el té.",
-          "clip": "clips/a833d4d32e12122b.mp3"
+          "clip": "clips/a833d4d32e12122b.mp3",
+          "en": "I used to prefer tea.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "prefería",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú preferías el té.",
-          "clip": "clips/0618f611ba8abd97.mp3"
+          "clip": "clips/0618f611ba8abd97.mp3",
+          "en": "You used to prefer tea.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "preferías",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted prefería el té.",
-          "clip": "clips/18952d94c1ac5673.mp3"
+          "clip": "clips/18952d94c1ac5673.mp3",
+          "en": "You used to prefer tea.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "prefería",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él prefería el té.",
-          "clip": "clips/75a568b1cf5a32ee.mp3"
+          "clip": "clips/75a568b1cf5a32ee.mp3",
+          "en": "He used to prefer tea.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "prefería",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella prefería el té.",
-          "clip": "clips/949acec9467eb7fb.mp3"
+          "clip": "clips/949acec9467eb7fb.mp3",
+          "en": "She used to prefer tea.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "prefería",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros preferíamos el té.",
-          "clip": "clips/4f3c1203d54cb9ee.mp3"
+          "clip": "clips/4f3c1203d54cb9ee.mp3",
+          "en": "We used to prefer tea.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "preferíamos",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras preferíamos el té.",
-          "clip": "clips/6bc579888fd2f39f.mp3"
+          "clip": "clips/6bc579888fd2f39f.mp3",
+          "en": "We used to prefer tea.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "preferíamos",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes preferían el té.",
-          "clip": "clips/94595f2bb5b701bd.mp3"
+          "clip": "clips/94595f2bb5b701bd.mp3",
+          "en": "You all used to prefer tea.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "preferían",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos preferían el té.",
-          "clip": "clips/36d7102fead34474.mp3"
+          "clip": "clips/36d7102fead34474.mp3",
+          "en": "They used to prefer tea.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "preferían",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas preferían el té.",
-          "clip": "clips/9d34870d76e0b4f6.mp3"
+          "clip": "clips/9d34870d76e0b4f6.mp3",
+          "en": "They used to prefer tea.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "preferían",
+              "v"
+            ],
+            [
+              "el té.",
+              ""
+            ]
+          ]
         }
       }
     }

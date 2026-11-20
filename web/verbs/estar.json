@@ -71,7 +71,21 @@
       "en_clip": "clips/fe519c1f0cd3384d.mp3",
       "single": {
         "es": "Quiero estar en casa.",
-        "clip": "clips/c1c17c7ad674d66a.mp3"
+        "clip": "clips/c1c17c7ad674d66a.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "estar",
+            "v"
+          ],
+          [
+            "en casa.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo estoy en casa.",
-          "clip": "clips/742bde3d7ed4d76a.mp3"
+          "clip": "clips/742bde3d7ed4d76a.mp3",
+          "en": "I am at home.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "estoy",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú estás en casa.",
-          "clip": "clips/c189598ef619aa52.mp3"
+          "clip": "clips/c189598ef619aa52.mp3",
+          "en": "You are at home.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "estás",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted está en casa.",
-          "clip": "clips/5cd571e8922d963f.mp3"
+          "clip": "clips/5cd571e8922d963f.mp3",
+          "en": "You are at home.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "está",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él está en casa.",
-          "clip": "clips/be4b17e2da8fe95f.mp3"
+          "clip": "clips/be4b17e2da8fe95f.mp3",
+          "en": "He is at home.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "está",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella está en casa.",
-          "clip": "clips/773095de70a0b2a0.mp3"
+          "clip": "clips/773095de70a0b2a0.mp3",
+          "en": "She is at home.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "está",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros estamos en casa.",
-          "clip": "clips/258a19fd7f688dcb.mp3"
+          "clip": "clips/258a19fd7f688dcb.mp3",
+          "en": "We are at home.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "estamos",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras estamos en casa.",
-          "clip": "clips/cf2ffe6877e4c960.mp3"
+          "clip": "clips/cf2ffe6877e4c960.mp3",
+          "en": "We are at home.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "estamos",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes están en casa.",
-          "clip": "clips/86a8939914580cd2.mp3"
+          "clip": "clips/86a8939914580cd2.mp3",
+          "en": "You all are at home.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "están",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos están en casa.",
-          "clip": "clips/87fb0b9cd9c0dc30.mp3"
+          "clip": "clips/87fb0b9cd9c0dc30.mp3",
+          "en": "They are at home.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "están",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas están en casa.",
-          "clip": "clips/b3c8694b5384af8d.mp3"
+          "clip": "clips/b3c8694b5384af8d.mp3",
+          "en": "They are at home.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "están",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo estuve en casa.",
-          "clip": "clips/ce24ee749c01434a.mp3"
+          "clip": "clips/ce24ee749c01434a.mp3",
+          "en": "I was at home.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "estuve",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú estuviste en casa.",
-          "clip": "clips/75fe51692489652e.mp3"
+          "clip": "clips/75fe51692489652e.mp3",
+          "en": "You were at home.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "estuviste",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted estuvo en casa.",
-          "clip": "clips/7e6877f5e6d69f3e.mp3"
+          "clip": "clips/7e6877f5e6d69f3e.mp3",
+          "en": "You were at home.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "estuvo",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él estuvo en casa.",
-          "clip": "clips/6f8a9fad90db3360.mp3"
+          "clip": "clips/6f8a9fad90db3360.mp3",
+          "en": "He was at home.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "estuvo",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella estuvo en casa.",
-          "clip": "clips/2753378ad8f9e28b.mp3"
+          "clip": "clips/2753378ad8f9e28b.mp3",
+          "en": "She was at home.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "estuvo",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros estuvimos en casa.",
-          "clip": "clips/525f30c7715f99dd.mp3"
+          "clip": "clips/525f30c7715f99dd.mp3",
+          "en": "We were at home.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "estuvimos",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras estuvimos en casa.",
-          "clip": "clips/faab10df0a72f825.mp3"
+          "clip": "clips/faab10df0a72f825.mp3",
+          "en": "We were at home.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "estuvimos",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes estuvieron en casa.",
-          "clip": "clips/3c29170e12ccc2ed.mp3"
+          "clip": "clips/3c29170e12ccc2ed.mp3",
+          "en": "You all were at home.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "estuvieron",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos estuvieron en casa.",
-          "clip": "clips/5b2670ed1f9923eb.mp3"
+          "clip": "clips/5b2670ed1f9923eb.mp3",
+          "en": "They were at home.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "estuvieron",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas estuvieron en casa.",
-          "clip": "clips/4951921abecc6a83.mp3"
+          "clip": "clips/4951921abecc6a83.mp3",
+          "en": "They were at home.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "estuvieron",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo estaba en casa.",
-          "clip": "clips/e4a5c84b62d883ad.mp3"
+          "clip": "clips/e4a5c84b62d883ad.mp3",
+          "en": "I used to be at home.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "estaba",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú estabas en casa.",
-          "clip": "clips/be513bbc6b86cd43.mp3"
+          "clip": "clips/be513bbc6b86cd43.mp3",
+          "en": "You used to be at home.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "estabas",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted estaba en casa.",
-          "clip": "clips/bdd7570d06eb8e5e.mp3"
+          "clip": "clips/bdd7570d06eb8e5e.mp3",
+          "en": "You used to be at home.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "estaba",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él estaba en casa.",
-          "clip": "clips/2ab3f3dbef54e000.mp3"
+          "clip": "clips/2ab3f3dbef54e000.mp3",
+          "en": "He used to be at home.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "estaba",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella estaba en casa.",
-          "clip": "clips/f6abd3727700cbc4.mp3"
+          "clip": "clips/f6abd3727700cbc4.mp3",
+          "en": "She used to be at home.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "estaba",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros estábamos en casa.",
-          "clip": "clips/3e82d37b7a65afdd.mp3"
+          "clip": "clips/3e82d37b7a65afdd.mp3",
+          "en": "We used to be at home.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "estábamos",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras estábamos en casa.",
-          "clip": "clips/81a47a282a556c39.mp3"
+          "clip": "clips/81a47a282a556c39.mp3",
+          "en": "We used to be at home.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "estábamos",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes estaban en casa.",
-          "clip": "clips/9b6f80db6101e5e2.mp3"
+          "clip": "clips/9b6f80db6101e5e2.mp3",
+          "en": "You all used to be at home.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "estaban",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos estaban en casa.",
-          "clip": "clips/16fc1d705f36a82e.mp3"
+          "clip": "clips/16fc1d705f36a82e.mp3",
+          "en": "They used to be at home.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "estaban",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas estaban en casa.",
-          "clip": "clips/55c20d52162175f1.mp3"
+          "clip": "clips/55c20d52162175f1.mp3",
+          "en": "They used to be at home.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "estaban",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Está en casa a las ocho.",
-          "clip": "clips/2ac0725436634be6.mp3"
+          "clip": "clips/2ac0725436634be6.mp3",
+          "en": "Be at home at eight.",
+          "parts": [
+            [
+              "Está",
+              "v"
+            ],
+            [
+              "en casa a las ocho.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Esté en casa a las ocho.",
-          "clip": "clips/126ba2c53fcafb71.mp3"
+          "clip": "clips/126ba2c53fcafb71.mp3",
+          "en": "Be at home at eight.",
+          "parts": [
+            [
+              "Esté",
+              "v"
+            ],
+            [
+              "en casa a las ocho.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Estemos en casa a las ocho.",
-          "clip": "clips/8703b15d254ceba9.mp3"
+          "clip": "clips/8703b15d254ceba9.mp3",
+          "en": "Let's be at home at eight.",
+          "parts": [
+            [
+              "Estemos",
+              "v"
+            ],
+            [
+              "en casa a las ocho.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Estemos en casa a las ocho.",
-          "clip": "clips/8703b15d254ceba9.mp3"
+          "clip": "clips/8703b15d254ceba9.mp3",
+          "en": "Let's be at home at eight.",
+          "parts": [
+            [
+              "Estemos",
+              "v"
+            ],
+            [
+              "en casa a las ocho.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Estén en casa a las ocho.",
-          "clip": "clips/7cbb5e052c8e50fa.mp3"
+          "clip": "clips/7cbb5e052c8e50fa.mp3",
+          "en": "Be at home at eight.",
+          "parts": [
+            [
+              "Estén",
+              "v"
+            ],
+            [
+              "en casa a las ocho.",
+              ""
+            ]
+          ]
         }
       }
     }

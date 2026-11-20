@@ -71,7 +71,21 @@
       "en_clip": "clips/5c547ebbb41446a5.mp3",
       "single": {
         "es": "No quiero olvidar las llaves.",
-        "clip": "clips/9b976c8cd9fcd943.mp3"
+        "clip": "clips/9b976c8cd9fcd943.mp3",
+        "parts": [
+          [
+            "No quiero",
+            ""
+          ],
+          [
+            "olvidar",
+            "v"
+          ],
+          [
+            "las llaves.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo olvido las llaves.",
-          "clip": "clips/5e39d0ca09b3bdaf.mp3"
+          "clip": "clips/5e39d0ca09b3bdaf.mp3",
+          "en": "I forget the keys.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "olvido",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú olvidas las llaves.",
-          "clip": "clips/64c702d5e88ba12d.mp3"
+          "clip": "clips/64c702d5e88ba12d.mp3",
+          "en": "You forget the keys.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "olvidas",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted olvida las llaves.",
-          "clip": "clips/169ca7b965e6923e.mp3"
+          "clip": "clips/169ca7b965e6923e.mp3",
+          "en": "You forget the keys.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "olvida",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él olvida las llaves.",
-          "clip": "clips/0451d6b029db1307.mp3"
+          "clip": "clips/0451d6b029db1307.mp3",
+          "en": "He forgets the keys.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "olvida",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella olvida las llaves.",
-          "clip": "clips/3e00ffb7e33cd7e5.mp3"
+          "clip": "clips/3e00ffb7e33cd7e5.mp3",
+          "en": "She forgets the keys.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "olvida",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros olvidamos las llaves.",
-          "clip": "clips/b9f4a06c42ee1407.mp3"
+          "clip": "clips/b9f4a06c42ee1407.mp3",
+          "en": "We forget the keys.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "olvidamos",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras olvidamos las llaves.",
-          "clip": "clips/e28c923c97be3f2b.mp3"
+          "clip": "clips/e28c923c97be3f2b.mp3",
+          "en": "We forget the keys.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "olvidamos",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes olvidan las llaves.",
-          "clip": "clips/ef33ebaf3f9537dd.mp3"
+          "clip": "clips/ef33ebaf3f9537dd.mp3",
+          "en": "You all forget the keys.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "olvidan",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos olvidan las llaves.",
-          "clip": "clips/9937243b21968a79.mp3"
+          "clip": "clips/9937243b21968a79.mp3",
+          "en": "They forget the keys.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "olvidan",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas olvidan las llaves.",
-          "clip": "clips/33756289e3a7e913.mp3"
+          "clip": "clips/33756289e3a7e913.mp3",
+          "en": "They forget the keys.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "olvidan",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo olvidé las llaves.",
-          "clip": "clips/aa7eee1813ec8ebe.mp3"
+          "clip": "clips/aa7eee1813ec8ebe.mp3",
+          "en": "I forgot the keys.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "olvidé",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú olvidaste las llaves.",
-          "clip": "clips/0a912969d6364c96.mp3"
+          "clip": "clips/0a912969d6364c96.mp3",
+          "en": "You forgot the keys.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "olvidaste",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted olvidó las llaves.",
-          "clip": "clips/82c3b8a301b6cfc2.mp3"
+          "clip": "clips/82c3b8a301b6cfc2.mp3",
+          "en": "You forgot the keys.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "olvidó",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él olvidó las llaves.",
-          "clip": "clips/6eb45b5a860e49a6.mp3"
+          "clip": "clips/6eb45b5a860e49a6.mp3",
+          "en": "He forgot the keys.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "olvidó",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella olvidó las llaves.",
-          "clip": "clips/9b2c4ef9bca60f62.mp3"
+          "clip": "clips/9b2c4ef9bca60f62.mp3",
+          "en": "She forgot the keys.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "olvidó",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros olvidamos las llaves.",
-          "clip": "clips/b9f4a06c42ee1407.mp3"
+          "clip": "clips/b9f4a06c42ee1407.mp3",
+          "en": "We forgot the keys.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "olvidamos",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras olvidamos las llaves.",
-          "clip": "clips/e28c923c97be3f2b.mp3"
+          "clip": "clips/e28c923c97be3f2b.mp3",
+          "en": "We forgot the keys.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "olvidamos",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes olvidaron las llaves.",
-          "clip": "clips/8d8b75d36cf4bbf2.mp3"
+          "clip": "clips/8d8b75d36cf4bbf2.mp3",
+          "en": "You all forgot the keys.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "olvidaron",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos olvidaron las llaves.",
-          "clip": "clips/eff8dabe1ec4566a.mp3"
+          "clip": "clips/eff8dabe1ec4566a.mp3",
+          "en": "They forgot the keys.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "olvidaron",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas olvidaron las llaves.",
-          "clip": "clips/31fe409eb96b7c26.mp3"
+          "clip": "clips/31fe409eb96b7c26.mp3",
+          "en": "They forgot the keys.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "olvidaron",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo olvidaba las llaves.",
-          "clip": "clips/2f7b97c28cc05b63.mp3"
+          "clip": "clips/2f7b97c28cc05b63.mp3",
+          "en": "I used to forget the keys.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "olvidaba",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú olvidabas las llaves.",
-          "clip": "clips/7b1d4b09206a21fa.mp3"
+          "clip": "clips/7b1d4b09206a21fa.mp3",
+          "en": "You used to forget the keys.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "olvidabas",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted olvidaba las llaves.",
-          "clip": "clips/4aa3e56415817820.mp3"
+          "clip": "clips/4aa3e56415817820.mp3",
+          "en": "You used to forget the keys.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "olvidaba",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él olvidaba las llaves.",
-          "clip": "clips/db72ebad5740b617.mp3"
+          "clip": "clips/db72ebad5740b617.mp3",
+          "en": "He used to forget the keys.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "olvidaba",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella olvidaba las llaves.",
-          "clip": "clips/49352889ff65bd2d.mp3"
+          "clip": "clips/49352889ff65bd2d.mp3",
+          "en": "She used to forget the keys.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "olvidaba",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros olvidábamos las llaves.",
-          "clip": "clips/fcb868692929e234.mp3"
+          "clip": "clips/fcb868692929e234.mp3",
+          "en": "We used to forget the keys.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "olvidábamos",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras olvidábamos las llaves.",
-          "clip": "clips/0d9f59e75205a60f.mp3"
+          "clip": "clips/0d9f59e75205a60f.mp3",
+          "en": "We used to forget the keys.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "olvidábamos",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes olvidaban las llaves.",
-          "clip": "clips/1b24862c6e447f5f.mp3"
+          "clip": "clips/1b24862c6e447f5f.mp3",
+          "en": "You all used to forget the keys.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "olvidaban",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos olvidaban las llaves.",
-          "clip": "clips/6eb1efa0218786e6.mp3"
+          "clip": "clips/6eb1efa0218786e6.mp3",
+          "en": "They used to forget the keys.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "olvidaban",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas olvidaban las llaves.",
-          "clip": "clips/16eae9cb0fcc3f2d.mp3"
+          "clip": "clips/16eae9cb0fcc3f2d.mp3",
+          "en": "They used to forget the keys.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "olvidaban",
+              "v"
+            ],
+            [
+              "las llaves.",
+              ""
+            ]
+          ]
         }
       }
     }

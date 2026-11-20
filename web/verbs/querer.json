@@ -71,7 +71,21 @@
       "en_clip": "clips/0ee515ffad0e2a1b.mp3",
       "single": {
         "es": "Es normal querer un café.",
-        "clip": "clips/d9416ac91cbf64dd.mp3"
+        "clip": "clips/d9416ac91cbf64dd.mp3",
+        "parts": [
+          [
+            "Es normal",
+            ""
+          ],
+          [
+            "querer",
+            "v"
+          ],
+          [
+            "un café.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo quiero un café.",
-          "clip": "clips/40b814db6cce0d18.mp3"
+          "clip": "clips/40b814db6cce0d18.mp3",
+          "en": "I want a coffee.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "quiero",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú quieres un café.",
-          "clip": "clips/2fec65ead7078533.mp3"
+          "clip": "clips/2fec65ead7078533.mp3",
+          "en": "You want a coffee.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "quieres",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted quiere un café.",
-          "clip": "clips/5e79a8e33434dc99.mp3"
+          "clip": "clips/5e79a8e33434dc99.mp3",
+          "en": "You want a coffee.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "quiere",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él quiere un café.",
-          "clip": "clips/f2b1167b54b45fa2.mp3"
+          "clip": "clips/f2b1167b54b45fa2.mp3",
+          "en": "He wants a coffee.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "quiere",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella quiere un café.",
-          "clip": "clips/8d57b24e85f4d6b3.mp3"
+          "clip": "clips/8d57b24e85f4d6b3.mp3",
+          "en": "She wants a coffee.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "quiere",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros queremos un café.",
-          "clip": "clips/eb92cd336517fd24.mp3"
+          "clip": "clips/eb92cd336517fd24.mp3",
+          "en": "We want a coffee.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "queremos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras queremos un café.",
-          "clip": "clips/d969ff736bdcd5cb.mp3"
+          "clip": "clips/d969ff736bdcd5cb.mp3",
+          "en": "We want a coffee.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "queremos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes quieren un café.",
-          "clip": "clips/da4e0beb0ef39111.mp3"
+          "clip": "clips/da4e0beb0ef39111.mp3",
+          "en": "You all want a coffee.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "quieren",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos quieren un café.",
-          "clip": "clips/766d7f0a244c569d.mp3"
+          "clip": "clips/766d7f0a244c569d.mp3",
+          "en": "They want a coffee.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "quieren",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas quieren un café.",
-          "clip": "clips/648520bb2976eab0.mp3"
+          "clip": "clips/648520bb2976eab0.mp3",
+          "en": "They want a coffee.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "quieren",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo quise un café.",
-          "clip": "clips/fe98f206773437a5.mp3"
+          "clip": "clips/fe98f206773437a5.mp3",
+          "en": "I wanted a coffee.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "quise",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú quisiste un café.",
-          "clip": "clips/2167552aee9b23c4.mp3"
+          "clip": "clips/2167552aee9b23c4.mp3",
+          "en": "You wanted a coffee.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "quisiste",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted quiso un café.",
-          "clip": "clips/b69e0e4135449627.mp3"
+          "clip": "clips/b69e0e4135449627.mp3",
+          "en": "You wanted a coffee.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "quiso",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él quiso un café.",
-          "clip": "clips/81cba839a105b62a.mp3"
+          "clip": "clips/81cba839a105b62a.mp3",
+          "en": "He wanted a coffee.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "quiso",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella quiso un café.",
-          "clip": "clips/524c68f049cc884a.mp3"
+          "clip": "clips/524c68f049cc884a.mp3",
+          "en": "She wanted a coffee.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "quiso",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros quisimos un café.",
-          "clip": "clips/2811846ce78808d3.mp3"
+          "clip": "clips/2811846ce78808d3.mp3",
+          "en": "We wanted a coffee.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "quisimos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras quisimos un café.",
-          "clip": "clips/e815a592227bef79.mp3"
+          "clip": "clips/e815a592227bef79.mp3",
+          "en": "We wanted a coffee.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "quisimos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes quisieron un café.",
-          "clip": "clips/5ad0d992b3900ab4.mp3"
+          "clip": "clips/5ad0d992b3900ab4.mp3",
+          "en": "You all wanted a coffee.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "quisieron",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos quisieron un café.",
-          "clip": "clips/2632ad1d7295c4c9.mp3"
+          "clip": "clips/2632ad1d7295c4c9.mp3",
+          "en": "They wanted a coffee.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "quisieron",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas quisieron un café.",
-          "clip": "clips/72ed316541583e19.mp3"
+          "clip": "clips/72ed316541583e19.mp3",
+          "en": "They wanted a coffee.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "quisieron",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo quería un café.",
-          "clip": "clips/5e9ee42eb49c3414.mp3"
+          "clip": "clips/5e9ee42eb49c3414.mp3",
+          "en": "I used to want a coffee.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "quería",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú querías un café.",
-          "clip": "clips/34c1f6067362e717.mp3"
+          "clip": "clips/34c1f6067362e717.mp3",
+          "en": "You used to want a coffee.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "querías",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted quería un café.",
-          "clip": "clips/7cc0a80703986793.mp3"
+          "clip": "clips/7cc0a80703986793.mp3",
+          "en": "You used to want a coffee.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "quería",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él quería un café.",
-          "clip": "clips/b37635537b43fc0b.mp3"
+          "clip": "clips/b37635537b43fc0b.mp3",
+          "en": "He used to want a coffee.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "quería",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella quería un café.",
-          "clip": "clips/8a511ccb157d6dca.mp3"
+          "clip": "clips/8a511ccb157d6dca.mp3",
+          "en": "She used to want a coffee.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "quería",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros queríamos un café.",
-          "clip": "clips/ea1c83ed0cbefac2.mp3"
+          "clip": "clips/ea1c83ed0cbefac2.mp3",
+          "en": "We used to want a coffee.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "queríamos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras queríamos un café.",
-          "clip": "clips/67106dd389be6997.mp3"
+          "clip": "clips/67106dd389be6997.mp3",
+          "en": "We used to want a coffee.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "queríamos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes querían un café.",
-          "clip": "clips/44dd07c507b64946.mp3"
+          "clip": "clips/44dd07c507b64946.mp3",
+          "en": "You all used to want a coffee.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "querían",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos querían un café.",
-          "clip": "clips/08fb1f1ca0860f04.mp3"
+          "clip": "clips/08fb1f1ca0860f04.mp3",
+          "en": "They used to want a coffee.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "querían",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas querían un café.",
-          "clip": "clips/36884e7839b94465.mp3"
+          "clip": "clips/36884e7839b94465.mp3",
+          "en": "They used to want a coffee.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "querían",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         }
       }
     }

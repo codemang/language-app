@@ -71,7 +71,21 @@
       "en_clip": "clips/c5382555f06272da.mp3",
       "single": {
         "es": "Tengo que levantarme a las siete.",
-        "clip": "clips/a937d599c7a56329.mp3"
+        "clip": "clips/a937d599c7a56329.mp3",
+        "parts": [
+          [
+            "Tengo que",
+            ""
+          ],
+          [
+            "levantarme",
+            "v"
+          ],
+          [
+            "a las siete.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo me levanto a las siete.",
-          "clip": "clips/7471466c715d6c6d.mp3"
+          "clip": "clips/7471466c715d6c6d.mp3",
+          "en": "I get up at seven.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "levanto",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te levantas a las siete.",
-          "clip": "clips/a5864a69696013eb.mp3"
+          "clip": "clips/a5864a69696013eb.mp3",
+          "en": "You get up at seven.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "levantas",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se levanta a las siete.",
-          "clip": "clips/a883146c893ff916.mp3"
+          "clip": "clips/a883146c893ff916.mp3",
+          "en": "You get up at seven.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "levanta",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se levanta a las siete.",
-          "clip": "clips/0f71ab18592d9b3b.mp3"
+          "clip": "clips/0f71ab18592d9b3b.mp3",
+          "en": "He gets up at seven.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "levanta",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se levanta a las siete.",
-          "clip": "clips/1e694ccbaa1120b0.mp3"
+          "clip": "clips/1e694ccbaa1120b0.mp3",
+          "en": "She gets up at seven.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "levanta",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos levantamos a las siete.",
-          "clip": "clips/d9efd5fdcf9100af.mp3"
+          "clip": "clips/d9efd5fdcf9100af.mp3",
+          "en": "We get up at seven.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "levantamos",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos levantamos a las siete.",
-          "clip": "clips/55d8f78a88f65a7d.mp3"
+          "clip": "clips/55d8f78a88f65a7d.mp3",
+          "en": "We get up at seven.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "levantamos",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se levantan a las siete.",
-          "clip": "clips/705c21a87dc65e4d.mp3"
+          "clip": "clips/705c21a87dc65e4d.mp3",
+          "en": "You all get up at seven.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "levantan",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se levantan a las siete.",
-          "clip": "clips/1e497871360341dc.mp3"
+          "clip": "clips/1e497871360341dc.mp3",
+          "en": "They get up at seven.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "levantan",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se levantan a las siete.",
-          "clip": "clips/b22ec2ed1ed0af57.mp3"
+          "clip": "clips/b22ec2ed1ed0af57.mp3",
+          "en": "They get up at seven.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "levantan",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo me levanté a las siete.",
-          "clip": "clips/adbbf405d6c71f7f.mp3"
+          "clip": "clips/adbbf405d6c71f7f.mp3",
+          "en": "I got up at seven.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "levanté",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te levantaste a las siete.",
-          "clip": "clips/849fbe1066a21ecf.mp3"
+          "clip": "clips/849fbe1066a21ecf.mp3",
+          "en": "You got up at seven.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "levantaste",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se levantó a las siete.",
-          "clip": "clips/a3faa09f202ae041.mp3"
+          "clip": "clips/a3faa09f202ae041.mp3",
+          "en": "You got up at seven.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "levantó",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se levantó a las siete.",
-          "clip": "clips/0c16cf81cd93a3b1.mp3"
+          "clip": "clips/0c16cf81cd93a3b1.mp3",
+          "en": "He got up at seven.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "levantó",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se levantó a las siete.",
-          "clip": "clips/605e989d5923ba62.mp3"
+          "clip": "clips/605e989d5923ba62.mp3",
+          "en": "She got up at seven.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "levantó",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos levantamos a las siete.",
-          "clip": "clips/d9efd5fdcf9100af.mp3"
+          "clip": "clips/d9efd5fdcf9100af.mp3",
+          "en": "We got up at seven.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "levantamos",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos levantamos a las siete.",
-          "clip": "clips/55d8f78a88f65a7d.mp3"
+          "clip": "clips/55d8f78a88f65a7d.mp3",
+          "en": "We got up at seven.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "levantamos",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se levantaron a las siete.",
-          "clip": "clips/71b173bf88165403.mp3"
+          "clip": "clips/71b173bf88165403.mp3",
+          "en": "You all got up at seven.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "levantaron",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se levantaron a las siete.",
-          "clip": "clips/8226b4c707462448.mp3"
+          "clip": "clips/8226b4c707462448.mp3",
+          "en": "They got up at seven.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "levantaron",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se levantaron a las siete.",
-          "clip": "clips/fd6d491221d4ae91.mp3"
+          "clip": "clips/fd6d491221d4ae91.mp3",
+          "en": "They got up at seven.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "levantaron",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo me levantaba a las siete.",
-          "clip": "clips/a5c8a2d593946c63.mp3"
+          "clip": "clips/a5c8a2d593946c63.mp3",
+          "en": "I used to get up at seven.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "levantaba",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te levantabas a las siete.",
-          "clip": "clips/202710ad962142fd.mp3"
+          "clip": "clips/202710ad962142fd.mp3",
+          "en": "You used to get up at seven.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "levantabas",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se levantaba a las siete.",
-          "clip": "clips/b848efc06a88fbf2.mp3"
+          "clip": "clips/b848efc06a88fbf2.mp3",
+          "en": "You used to get up at seven.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "levantaba",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se levantaba a las siete.",
-          "clip": "clips/fbe68b2b4633a865.mp3"
+          "clip": "clips/fbe68b2b4633a865.mp3",
+          "en": "He used to get up at seven.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "levantaba",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se levantaba a las siete.",
-          "clip": "clips/3d39b9f027be594d.mp3"
+          "clip": "clips/3d39b9f027be594d.mp3",
+          "en": "She used to get up at seven.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "levantaba",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos levantábamos a las siete.",
-          "clip": "clips/0c9acb8442e713f8.mp3"
+          "clip": "clips/0c9acb8442e713f8.mp3",
+          "en": "We used to get up at seven.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "levantábamos",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos levantábamos a las siete.",
-          "clip": "clips/052263fe5763b286.mp3"
+          "clip": "clips/052263fe5763b286.mp3",
+          "en": "We used to get up at seven.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "levantábamos",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se levantaban a las siete.",
-          "clip": "clips/9386a8a9c55ffcb3.mp3"
+          "clip": "clips/9386a8a9c55ffcb3.mp3",
+          "en": "You all used to get up at seven.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "levantaban",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se levantaban a las siete.",
-          "clip": "clips/c543db791582e7a4.mp3"
+          "clip": "clips/c543db791582e7a4.mp3",
+          "en": "They used to get up at seven.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "levantaban",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se levantaban a las siete.",
-          "clip": "clips/e05720bb1134edac.mp3"
+          "clip": "clips/e05720bb1134edac.mp3",
+          "en": "They used to get up at seven.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "levantaban",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Levántate a las siete.",
-          "clip": "clips/86796a2cdf194889.mp3"
+          "clip": "clips/86796a2cdf194889.mp3",
+          "en": "Get up at seven.",
+          "parts": [
+            [
+              "Levántate",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Levántese a las siete.",
-          "clip": "clips/184e182b00c4d3e5.mp3"
+          "clip": "clips/184e182b00c4d3e5.mp3",
+          "en": "Get up at seven.",
+          "parts": [
+            [
+              "Levántese",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Levantémonos a las siete.",
-          "clip": "clips/243b4ad31b6423b4.mp3"
+          "clip": "clips/243b4ad31b6423b4.mp3",
+          "en": "Let's get up at seven.",
+          "parts": [
+            [
+              "Levantémonos",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Levantémonos a las siete.",
-          "clip": "clips/243b4ad31b6423b4.mp3"
+          "clip": "clips/243b4ad31b6423b4.mp3",
+          "en": "Let's get up at seven.",
+          "parts": [
+            [
+              "Levantémonos",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Levántense a las siete.",
-          "clip": "clips/ee4d13aebc88f624.mp3"
+          "clip": "clips/ee4d13aebc88f624.mp3",
+          "en": "Get up at seven.",
+          "parts": [
+            [
+              "Levántense",
+              "v"
+            ],
+            [
+              "a las siete.",
+              ""
+            ]
+          ]
         }
       }
     }

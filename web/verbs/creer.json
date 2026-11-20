@@ -71,7 +71,21 @@
       "en_clip": "clips/20754e7b99ac9b71.mp3",
       "single": {
         "es": "Es difícil creer la historia.",
-        "clip": "clips/9144a0f746710986.mp3"
+        "clip": "clips/9144a0f746710986.mp3",
+        "parts": [
+          [
+            "Es difícil",
+            ""
+          ],
+          [
+            "creer",
+            "v"
+          ],
+          [
+            "la historia.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo creo la historia.",
-          "clip": "clips/04c67663dbd7ae82.mp3"
+          "clip": "clips/04c67663dbd7ae82.mp3",
+          "en": "I believe the story.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "creo",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú crees la historia.",
-          "clip": "clips/e8e994872eef0945.mp3"
+          "clip": "clips/e8e994872eef0945.mp3",
+          "en": "You believe the story.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "crees",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted cree la historia.",
-          "clip": "clips/216468959762c35b.mp3"
+          "clip": "clips/216468959762c35b.mp3",
+          "en": "You believe the story.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "cree",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él cree la historia.",
-          "clip": "clips/495bcaa8678de4e3.mp3"
+          "clip": "clips/495bcaa8678de4e3.mp3",
+          "en": "He believes the story.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "cree",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella cree la historia.",
-          "clip": "clips/ce70c88dd16aa70b.mp3"
+          "clip": "clips/ce70c88dd16aa70b.mp3",
+          "en": "She believes the story.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "cree",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros creemos la historia.",
-          "clip": "clips/b48015c57ce31cf0.mp3"
+          "clip": "clips/b48015c57ce31cf0.mp3",
+          "en": "We believe the story.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "creemos",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras creemos la historia.",
-          "clip": "clips/1d5474434f063ab5.mp3"
+          "clip": "clips/1d5474434f063ab5.mp3",
+          "en": "We believe the story.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "creemos",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes creen la historia.",
-          "clip": "clips/2739c12769e6e247.mp3"
+          "clip": "clips/2739c12769e6e247.mp3",
+          "en": "You all believe the story.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "creen",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos creen la historia.",
-          "clip": "clips/46ef027dc077d7b7.mp3"
+          "clip": "clips/46ef027dc077d7b7.mp3",
+          "en": "They believe the story.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "creen",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas creen la historia.",
-          "clip": "clips/660dbc5e475c78d2.mp3"
+          "clip": "clips/660dbc5e475c78d2.mp3",
+          "en": "They believe the story.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "creen",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo creí la historia.",
-          "clip": "clips/de0d8602b7e31575.mp3"
+          "clip": "clips/de0d8602b7e31575.mp3",
+          "en": "I believed the story.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "creí",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú creíste la historia.",
-          "clip": "clips/4e0f3168a293e662.mp3"
+          "clip": "clips/4e0f3168a293e662.mp3",
+          "en": "You believed the story.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "creíste",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted creyó la historia.",
-          "clip": "clips/c69f91ea017590fe.mp3"
+          "clip": "clips/c69f91ea017590fe.mp3",
+          "en": "You believed the story.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "creyó",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él creyó la historia.",
-          "clip": "clips/8852dc2cf10ae9c2.mp3"
+          "clip": "clips/8852dc2cf10ae9c2.mp3",
+          "en": "He believed the story.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "creyó",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella creyó la historia.",
-          "clip": "clips/dc2ca2302f37e655.mp3"
+          "clip": "clips/dc2ca2302f37e655.mp3",
+          "en": "She believed the story.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "creyó",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros creímos la historia.",
-          "clip": "clips/c0277c1378c98368.mp3"
+          "clip": "clips/c0277c1378c98368.mp3",
+          "en": "We believed the story.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "creímos",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras creímos la historia.",
-          "clip": "clips/d733fbe1362b9f62.mp3"
+          "clip": "clips/d733fbe1362b9f62.mp3",
+          "en": "We believed the story.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "creímos",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes creyeron la historia.",
-          "clip": "clips/5a6cabcd7f0b6e52.mp3"
+          "clip": "clips/5a6cabcd7f0b6e52.mp3",
+          "en": "You all believed the story.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "creyeron",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos creyeron la historia.",
-          "clip": "clips/51caa708f0baa892.mp3"
+          "clip": "clips/51caa708f0baa892.mp3",
+          "en": "They believed the story.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "creyeron",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas creyeron la historia.",
-          "clip": "clips/017cf89a09260b44.mp3"
+          "clip": "clips/017cf89a09260b44.mp3",
+          "en": "They believed the story.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "creyeron",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo creía la historia.",
-          "clip": "clips/60de6e19d778fb72.mp3"
+          "clip": "clips/60de6e19d778fb72.mp3",
+          "en": "I used to believe the story.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "creía",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú creías la historia.",
-          "clip": "clips/d86cfb8d166a6dfc.mp3"
+          "clip": "clips/d86cfb8d166a6dfc.mp3",
+          "en": "You used to believe the story.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "creías",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted creía la historia.",
-          "clip": "clips/e22b81058e2cba34.mp3"
+          "clip": "clips/e22b81058e2cba34.mp3",
+          "en": "You used to believe the story.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "creía",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él creía la historia.",
-          "clip": "clips/1c1979f2ea48f9a6.mp3"
+          "clip": "clips/1c1979f2ea48f9a6.mp3",
+          "en": "He used to believe the story.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "creía",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella creía la historia.",
-          "clip": "clips/5f14749e86bda270.mp3"
+          "clip": "clips/5f14749e86bda270.mp3",
+          "en": "She used to believe the story.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "creía",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros creíamos la historia.",
-          "clip": "clips/44645623ad4381cc.mp3"
+          "clip": "clips/44645623ad4381cc.mp3",
+          "en": "We used to believe the story.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "creíamos",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras creíamos la historia.",
-          "clip": "clips/cd3a6fa79a360f6a.mp3"
+          "clip": "clips/cd3a6fa79a360f6a.mp3",
+          "en": "We used to believe the story.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "creíamos",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes creían la historia.",
-          "clip": "clips/90d41248335751de.mp3"
+          "clip": "clips/90d41248335751de.mp3",
+          "en": "You all used to believe the story.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "creían",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos creían la historia.",
-          "clip": "clips/ca98d8809c469205.mp3"
+          "clip": "clips/ca98d8809c469205.mp3",
+          "en": "They used to believe the story.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "creían",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas creían la historia.",
-          "clip": "clips/d3f1f6ffe68225f6.mp3"
+          "clip": "clips/d3f1f6ffe68225f6.mp3",
+          "en": "They used to believe the story.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "creían",
+              "v"
+            ],
+            [
+              "la historia.",
+              ""
+            ]
+          ]
         }
       }
     }

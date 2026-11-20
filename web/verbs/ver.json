@@ -71,7 +71,21 @@
       "en_clip": "clips/c5c258ac14c243e7.mp3",
       "single": {
         "es": "Quiero ver la televisión.",
-        "clip": "clips/8aece8a6422f6eae.mp3"
+        "clip": "clips/8aece8a6422f6eae.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "ver",
+            "v"
+          ],
+          [
+            "la televisión.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo veo la televisión.",
-          "clip": "clips/9983bcb10a9e19fa.mp3"
+          "clip": "clips/9983bcb10a9e19fa.mp3",
+          "en": "I watch TV.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "veo",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú ves la televisión.",
-          "clip": "clips/bd7e2528c92a567e.mp3"
+          "clip": "clips/bd7e2528c92a567e.mp3",
+          "en": "You watch TV.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "ves",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted ve la televisión.",
-          "clip": "clips/edc2ee55307ae836.mp3"
+          "clip": "clips/edc2ee55307ae836.mp3",
+          "en": "You watch TV.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "ve",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él ve la televisión.",
-          "clip": "clips/91eeefeed523dc66.mp3"
+          "clip": "clips/91eeefeed523dc66.mp3",
+          "en": "He watches TV.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "ve",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella ve la televisión.",
-          "clip": "clips/77fc48eb046ec7b8.mp3"
+          "clip": "clips/77fc48eb046ec7b8.mp3",
+          "en": "She watches TV.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "ve",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros vemos la televisión.",
-          "clip": "clips/b6f06f8d252d4b61.mp3"
+          "clip": "clips/b6f06f8d252d4b61.mp3",
+          "en": "We watch TV.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "vemos",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras vemos la televisión.",
-          "clip": "clips/4fa9fafbab145e5c.mp3"
+          "clip": "clips/4fa9fafbab145e5c.mp3",
+          "en": "We watch TV.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "vemos",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes ven la televisión.",
-          "clip": "clips/a71f7c7a091259ab.mp3"
+          "clip": "clips/a71f7c7a091259ab.mp3",
+          "en": "You all watch TV.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "ven",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos ven la televisión.",
-          "clip": "clips/f9be8f22fe8c9023.mp3"
+          "clip": "clips/f9be8f22fe8c9023.mp3",
+          "en": "They watch TV.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "ven",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas ven la televisión.",
-          "clip": "clips/912d9998181a5ecb.mp3"
+          "clip": "clips/912d9998181a5ecb.mp3",
+          "en": "They watch TV.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "ven",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo vi la televisión.",
-          "clip": "clips/562914bf4304f8bf.mp3"
+          "clip": "clips/562914bf4304f8bf.mp3",
+          "en": "I watched TV.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "vi",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú viste la televisión.",
-          "clip": "clips/a0fcd3b1209cf238.mp3"
+          "clip": "clips/a0fcd3b1209cf238.mp3",
+          "en": "You watched TV.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "viste",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted vio la televisión.",
-          "clip": "clips/d832d5bbb9228dee.mp3"
+          "clip": "clips/d832d5bbb9228dee.mp3",
+          "en": "You watched TV.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "vio",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él vio la televisión.",
-          "clip": "clips/086f21243c94149b.mp3"
+          "clip": "clips/086f21243c94149b.mp3",
+          "en": "He watched TV.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "vio",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella vio la televisión.",
-          "clip": "clips/028e6cae8905fa00.mp3"
+          "clip": "clips/028e6cae8905fa00.mp3",
+          "en": "She watched TV.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "vio",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros vimos la televisión.",
-          "clip": "clips/80b1732239033ab0.mp3"
+          "clip": "clips/80b1732239033ab0.mp3",
+          "en": "We watched TV.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "vimos",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras vimos la televisión.",
-          "clip": "clips/b2e08c40c078ec01.mp3"
+          "clip": "clips/b2e08c40c078ec01.mp3",
+          "en": "We watched TV.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "vimos",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes vieron la televisión.",
-          "clip": "clips/2261a17ebbe2c1e4.mp3"
+          "clip": "clips/2261a17ebbe2c1e4.mp3",
+          "en": "You all watched TV.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "vieron",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos vieron la televisión.",
-          "clip": "clips/f801c4d53d979cb2.mp3"
+          "clip": "clips/f801c4d53d979cb2.mp3",
+          "en": "They watched TV.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "vieron",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas vieron la televisión.",
-          "clip": "clips/a7a88468abcb0006.mp3"
+          "clip": "clips/a7a88468abcb0006.mp3",
+          "en": "They watched TV.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "vieron",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo veía la televisión.",
-          "clip": "clips/2576fcea38129071.mp3"
+          "clip": "clips/2576fcea38129071.mp3",
+          "en": "I used to watch TV.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "veía",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú veías la televisión.",
-          "clip": "clips/8b0fbcea298116f1.mp3"
+          "clip": "clips/8b0fbcea298116f1.mp3",
+          "en": "You used to watch TV.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "veías",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted veía la televisión.",
-          "clip": "clips/1089fb5a5af39f9e.mp3"
+          "clip": "clips/1089fb5a5af39f9e.mp3",
+          "en": "You used to watch TV.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "veía",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él veía la televisión.",
-          "clip": "clips/a6d53a47573ba1f1.mp3"
+          "clip": "clips/a6d53a47573ba1f1.mp3",
+          "en": "He used to watch TV.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "veía",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella veía la televisión.",
-          "clip": "clips/2c919730683b9db0.mp3"
+          "clip": "clips/2c919730683b9db0.mp3",
+          "en": "She used to watch TV.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "veía",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros veíamos la televisión.",
-          "clip": "clips/5b23dcc8fd9c6db0.mp3"
+          "clip": "clips/5b23dcc8fd9c6db0.mp3",
+          "en": "We used to watch TV.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "veíamos",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras veíamos la televisión.",
-          "clip": "clips/66ab360537a7eb51.mp3"
+          "clip": "clips/66ab360537a7eb51.mp3",
+          "en": "We used to watch TV.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "veíamos",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes veían la televisión.",
-          "clip": "clips/8f4a0e72efb6a7dc.mp3"
+          "clip": "clips/8f4a0e72efb6a7dc.mp3",
+          "en": "You all used to watch TV.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "veían",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos veían la televisión.",
-          "clip": "clips/103a4dc247d7a980.mp3"
+          "clip": "clips/103a4dc247d7a980.mp3",
+          "en": "They used to watch TV.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "veían",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas veían la televisión.",
-          "clip": "clips/15324ecc6edd7236.mp3"
+          "clip": "clips/15324ecc6edd7236.mp3",
+          "en": "They used to watch TV.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "veían",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Ve la televisión.",
-          "clip": "clips/d1d15130bf933f93.mp3"
+          "clip": "clips/d1d15130bf933f93.mp3",
+          "en": "Watch TV.",
+          "parts": [
+            [
+              "Ve",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Vea la televisión.",
-          "clip": "clips/4fce08a526cce9da.mp3"
+          "clip": "clips/4fce08a526cce9da.mp3",
+          "en": "Watch TV.",
+          "parts": [
+            [
+              "Vea",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Veamos la televisión.",
-          "clip": "clips/7c52abd9a3fbcf09.mp3"
+          "clip": "clips/7c52abd9a3fbcf09.mp3",
+          "en": "Let's watch TV.",
+          "parts": [
+            [
+              "Veamos",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Veamos la televisión.",
-          "clip": "clips/7c52abd9a3fbcf09.mp3"
+          "clip": "clips/7c52abd9a3fbcf09.mp3",
+          "en": "Let's watch TV.",
+          "parts": [
+            [
+              "Veamos",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Vean la televisión.",
-          "clip": "clips/46b0ddb05e528996.mp3"
+          "clip": "clips/46b0ddb05e528996.mp3",
+          "en": "Watch TV.",
+          "parts": [
+            [
+              "Vean",
+              "v"
+            ],
+            [
+              "la televisión.",
+              ""
+            ]
+          ]
         }
       }
     }

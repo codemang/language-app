@@ -71,7 +71,21 @@
       "en_clip": "clips/a7f3b6c874f8ae63.mp3",
       "single": {
         "es": "Necesito dormir ocho horas.",
-        "clip": "clips/e6512a82bc2dc60e.mp3"
+        "clip": "clips/e6512a82bc2dc60e.mp3",
+        "parts": [
+          [
+            "Necesito",
+            ""
+          ],
+          [
+            "dormir",
+            "v"
+          ],
+          [
+            "ocho horas.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo duermo ocho horas.",
-          "clip": "clips/fbcebc7ca26de872.mp3"
+          "clip": "clips/fbcebc7ca26de872.mp3",
+          "en": "I sleep eight hours.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "duermo",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú duermes ocho horas.",
-          "clip": "clips/6c70fc9421b6fe5d.mp3"
+          "clip": "clips/6c70fc9421b6fe5d.mp3",
+          "en": "You sleep eight hours.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "duermes",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted duerme ocho horas.",
-          "clip": "clips/58fc41bfeb7bc6b3.mp3"
+          "clip": "clips/58fc41bfeb7bc6b3.mp3",
+          "en": "You sleep eight hours.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "duerme",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él duerme ocho horas.",
-          "clip": "clips/ead362491addb806.mp3"
+          "clip": "clips/ead362491addb806.mp3",
+          "en": "He sleeps eight hours.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "duerme",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella duerme ocho horas.",
-          "clip": "clips/9d339dba929f31a0.mp3"
+          "clip": "clips/9d339dba929f31a0.mp3",
+          "en": "She sleeps eight hours.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "duerme",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros dormimos ocho horas.",
-          "clip": "clips/24dce9717a3ea5cc.mp3"
+          "clip": "clips/24dce9717a3ea5cc.mp3",
+          "en": "We sleep eight hours.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "dormimos",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras dormimos ocho horas.",
-          "clip": "clips/11557c7c5691b71a.mp3"
+          "clip": "clips/11557c7c5691b71a.mp3",
+          "en": "We sleep eight hours.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "dormimos",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes duermen ocho horas.",
-          "clip": "clips/38d647f85abe6691.mp3"
+          "clip": "clips/38d647f85abe6691.mp3",
+          "en": "You all sleep eight hours.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "duermen",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos duermen ocho horas.",
-          "clip": "clips/ef16794afcf2b7c7.mp3"
+          "clip": "clips/ef16794afcf2b7c7.mp3",
+          "en": "They sleep eight hours.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "duermen",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas duermen ocho horas.",
-          "clip": "clips/0ff7e8546b1ad3da.mp3"
+          "clip": "clips/0ff7e8546b1ad3da.mp3",
+          "en": "They sleep eight hours.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "duermen",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo dormí ocho horas.",
-          "clip": "clips/01df89bcc035c6e0.mp3"
+          "clip": "clips/01df89bcc035c6e0.mp3",
+          "en": "I slept eight hours.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "dormí",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú dormiste ocho horas.",
-          "clip": "clips/e84b27b8853d155b.mp3"
+          "clip": "clips/e84b27b8853d155b.mp3",
+          "en": "You slept eight hours.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "dormiste",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted durmió ocho horas.",
-          "clip": "clips/643b288d0412852e.mp3"
+          "clip": "clips/643b288d0412852e.mp3",
+          "en": "You slept eight hours.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "durmió",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él durmió ocho horas.",
-          "clip": "clips/39d2f202d3bbcda9.mp3"
+          "clip": "clips/39d2f202d3bbcda9.mp3",
+          "en": "He slept eight hours.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "durmió",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella durmió ocho horas.",
-          "clip": "clips/1ea86fc8014efdda.mp3"
+          "clip": "clips/1ea86fc8014efdda.mp3",
+          "en": "She slept eight hours.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "durmió",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros dormimos ocho horas.",
-          "clip": "clips/24dce9717a3ea5cc.mp3"
+          "clip": "clips/24dce9717a3ea5cc.mp3",
+          "en": "We slept eight hours.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "dormimos",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras dormimos ocho horas.",
-          "clip": "clips/11557c7c5691b71a.mp3"
+          "clip": "clips/11557c7c5691b71a.mp3",
+          "en": "We slept eight hours.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "dormimos",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes durmieron ocho horas.",
-          "clip": "clips/02ae58e144cacf65.mp3"
+          "clip": "clips/02ae58e144cacf65.mp3",
+          "en": "You all slept eight hours.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "durmieron",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos durmieron ocho horas.",
-          "clip": "clips/945f86fc2e1ca16a.mp3"
+          "clip": "clips/945f86fc2e1ca16a.mp3",
+          "en": "They slept eight hours.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "durmieron",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas durmieron ocho horas.",
-          "clip": "clips/c79d9baf383bdd35.mp3"
+          "clip": "clips/c79d9baf383bdd35.mp3",
+          "en": "They slept eight hours.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "durmieron",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo dormía ocho horas.",
-          "clip": "clips/ea4d708ba99c1edd.mp3"
+          "clip": "clips/ea4d708ba99c1edd.mp3",
+          "en": "I used to sleep eight hours.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "dormía",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú dormías ocho horas.",
-          "clip": "clips/342147481e5bb02e.mp3"
+          "clip": "clips/342147481e5bb02e.mp3",
+          "en": "You used to sleep eight hours.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "dormías",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted dormía ocho horas.",
-          "clip": "clips/aa595518f740b88a.mp3"
+          "clip": "clips/aa595518f740b88a.mp3",
+          "en": "You used to sleep eight hours.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "dormía",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él dormía ocho horas.",
-          "clip": "clips/f03d10b0f25be03d.mp3"
+          "clip": "clips/f03d10b0f25be03d.mp3",
+          "en": "He used to sleep eight hours.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "dormía",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella dormía ocho horas.",
-          "clip": "clips/027b6b077b1c868f.mp3"
+          "clip": "clips/027b6b077b1c868f.mp3",
+          "en": "She used to sleep eight hours.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "dormía",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros dormíamos ocho horas.",
-          "clip": "clips/f31f09cbfea88025.mp3"
+          "clip": "clips/f31f09cbfea88025.mp3",
+          "en": "We used to sleep eight hours.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "dormíamos",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras dormíamos ocho horas.",
-          "clip": "clips/f4afa380cd479ce8.mp3"
+          "clip": "clips/f4afa380cd479ce8.mp3",
+          "en": "We used to sleep eight hours.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "dormíamos",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes dormían ocho horas.",
-          "clip": "clips/1dcddcdf4ef2312e.mp3"
+          "clip": "clips/1dcddcdf4ef2312e.mp3",
+          "en": "You all used to sleep eight hours.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "dormían",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos dormían ocho horas.",
-          "clip": "clips/c3ad01c9b1056566.mp3"
+          "clip": "clips/c3ad01c9b1056566.mp3",
+          "en": "They used to sleep eight hours.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "dormían",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas dormían ocho horas.",
-          "clip": "clips/a14bc90eca61a946.mp3"
+          "clip": "clips/a14bc90eca61a946.mp3",
+          "en": "They used to sleep eight hours.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "dormían",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Duerme ocho horas.",
-          "clip": "clips/85499a6b6da05f09.mp3"
+          "clip": "clips/85499a6b6da05f09.mp3",
+          "en": "Sleep eight hours.",
+          "parts": [
+            [
+              "Duerme",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Duerma ocho horas.",
-          "clip": "clips/4deebaf749fa0182.mp3"
+          "clip": "clips/4deebaf749fa0182.mp3",
+          "en": "Sleep eight hours.",
+          "parts": [
+            [
+              "Duerma",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Durmamos ocho horas.",
-          "clip": "clips/3ca5c1b0c719f497.mp3"
+          "clip": "clips/3ca5c1b0c719f497.mp3",
+          "en": "Let's sleep eight hours.",
+          "parts": [
+            [
+              "Durmamos",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Durmamos ocho horas.",
-          "clip": "clips/3ca5c1b0c719f497.mp3"
+          "clip": "clips/3ca5c1b0c719f497.mp3",
+          "en": "Let's sleep eight hours.",
+          "parts": [
+            [
+              "Durmamos",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Duerman ocho horas.",
-          "clip": "clips/63fad14179d7022b.mp3"
+          "clip": "clips/63fad14179d7022b.mp3",
+          "en": "Sleep eight hours.",
+          "parts": [
+            [
+              "Duerman",
+              "v"
+            ],
+            [
+              "ocho horas.",
+              ""
+            ]
+          ]
         }
       }
     }

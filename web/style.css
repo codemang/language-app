@@ -4,6 +4,7 @@
   --text: #1c1b18;
   --muted: #6b6860;
   --accent: #15803d;
+  --hl-p: #c2410c;
   --accent-text: #ffffff;
   --border: #e2e0d8;
   --track: #dcd9cf;
@@ -15,6 +16,7 @@
     --text: #ecebe6;
     --muted: #9c9a92;
     --accent: #4ade80;
+    --hl-p: #fb923c;
     --accent-text: #0b1a10;
     --border: #2e302b;
     --track: #3a3c36;
@@ -538,3 +540,29 @@ code { font-size: 14px; }
 .opts-body { overflow-y: auto; flex: 1; padding: 14px 18px 16px; display: flex; flex-direction: column; gap: 18px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .opts .toggle { font-size: 15px; color: inherit; }
 .verbs-loading { text-align: center; margin: 32px 0; }
+
+/* collections list: a download button at the end of each row */
+.col-row { display: flex; align-items: stretch; }
+.col-row a { flex: 1; min-width: 0; }
+.row-dl { flex: none; width: 52px; display: grid; place-items: center; border: 0; border-left: 1px solid var(--border); background: none; color: var(--muted); cursor: pointer; padding: 0; }
+.row-dl svg { width: 20px; height: 20px; fill: currentColor; }
+.row-dl.done { color: var(--accent); }
+.row-dl.busy svg { animation: dl-pulse 1s ease-in-out infinite alternate; color: var(--accent); }
+.row-dl:disabled { cursor: default; }
+.row-dl:disabled:not(.busy):not(.done) { opacity: .4; }
+@keyframes dl-pulse { from { opacity: .3; } to { opacity: 1; } }
+
+
+/* Learn, Read all: every sentence, the pronoun and verb in color */
+.seg-sm button { padding: 8px 10px; font-size: 14px; }
+.quiz-read[hidden], .seg[hidden], .verb-drill .sentence[hidden], .verb-drill .controls[hidden] { display: none; }
+.read-key { margin: 0 0 4px; font-size: 13px; }
+.read-group { margin: 18px 0 6px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.read-group:first-child { margin-top: 4px; }
+.read-row { display: block; width: 100%; text-align: left; font: inherit; color: inherit; background: none; border: 0; border-top: 1px solid var(--border); padding: 10px 2px; cursor: pointer; }
+.read-row:active { background: var(--track); }
+.read-row.playing .read-es { text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 5px; }
+.read-es { display: block; font-size: 18px; line-height: 1.35; }
+.read-en { display: block; font-size: 14px; color: var(--muted); margin-top: 2px; }
+.hl-p { color: var(--hl-p); font-weight: 600; }
+.hl-v { color: var(--accent); font-weight: 700; }

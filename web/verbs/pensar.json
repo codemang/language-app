@@ -71,7 +71,21 @@
       "en_clip": "clips/9f0f73204c9486ba.mp3",
       "single": {
         "es": "Necesito pensar en el viaje.",
-        "clip": "clips/e4f59a2ad7f94ccf.mp3"
+        "clip": "clips/e4f59a2ad7f94ccf.mp3",
+        "parts": [
+          [
+            "Necesito",
+            ""
+          ],
+          [
+            "pensar",
+            "v"
+          ],
+          [
+            "en el viaje.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo pienso en el viaje.",
-          "clip": "clips/d267bac6eb891661.mp3"
+          "clip": "clips/d267bac6eb891661.mp3",
+          "en": "I think about the trip.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pienso",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú piensas en el viaje.",
-          "clip": "clips/3d3cd7a36664cf1f.mp3"
+          "clip": "clips/3d3cd7a36664cf1f.mp3",
+          "en": "You think about the trip.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "piensas",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted piensa en el viaje.",
-          "clip": "clips/189a00557ef16229.mp3"
+          "clip": "clips/189a00557ef16229.mp3",
+          "en": "You think about the trip.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "piensa",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él piensa en el viaje.",
-          "clip": "clips/8449ac40d023ae1c.mp3"
+          "clip": "clips/8449ac40d023ae1c.mp3",
+          "en": "He thinks about the trip.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "piensa",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella piensa en el viaje.",
-          "clip": "clips/bfa0a292b5096e31.mp3"
+          "clip": "clips/bfa0a292b5096e31.mp3",
+          "en": "She thinks about the trip.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "piensa",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros pensamos en el viaje.",
-          "clip": "clips/19b35a13141876a9.mp3"
+          "clip": "clips/19b35a13141876a9.mp3",
+          "en": "We think about the trip.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "pensamos",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras pensamos en el viaje.",
-          "clip": "clips/8f984b5d59438307.mp3"
+          "clip": "clips/8f984b5d59438307.mp3",
+          "en": "We think about the trip.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "pensamos",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes piensan en el viaje.",
-          "clip": "clips/ac0ccfee43873226.mp3"
+          "clip": "clips/ac0ccfee43873226.mp3",
+          "en": "You all think about the trip.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "piensan",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos piensan en el viaje.",
-          "clip": "clips/18496cd30bfaec63.mp3"
+          "clip": "clips/18496cd30bfaec63.mp3",
+          "en": "They think about the trip.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "piensan",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas piensan en el viaje.",
-          "clip": "clips/0783ca3ac286231f.mp3"
+          "clip": "clips/0783ca3ac286231f.mp3",
+          "en": "They think about the trip.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "piensan",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo pensé en el viaje.",
-          "clip": "clips/13fd740950e86a15.mp3"
+          "clip": "clips/13fd740950e86a15.mp3",
+          "en": "I thought about the trip.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pensé",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú pensaste en el viaje.",
-          "clip": "clips/6b7d3607cc5996f3.mp3"
+          "clip": "clips/6b7d3607cc5996f3.mp3",
+          "en": "You thought about the trip.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "pensaste",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted pensó en el viaje.",
-          "clip": "clips/cdbd29240543e6bf.mp3"
+          "clip": "clips/cdbd29240543e6bf.mp3",
+          "en": "You thought about the trip.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "pensó",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él pensó en el viaje.",
-          "clip": "clips/f9056f5176d426b1.mp3"
+          "clip": "clips/f9056f5176d426b1.mp3",
+          "en": "He thought about the trip.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "pensó",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella pensó en el viaje.",
-          "clip": "clips/fd2fbeaaa8fafc8a.mp3"
+          "clip": "clips/fd2fbeaaa8fafc8a.mp3",
+          "en": "She thought about the trip.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "pensó",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros pensamos en el viaje.",
-          "clip": "clips/19b35a13141876a9.mp3"
+          "clip": "clips/19b35a13141876a9.mp3",
+          "en": "We thought about the trip.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "pensamos",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras pensamos en el viaje.",
-          "clip": "clips/8f984b5d59438307.mp3"
+          "clip": "clips/8f984b5d59438307.mp3",
+          "en": "We thought about the trip.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "pensamos",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes pensaron en el viaje.",
-          "clip": "clips/c052b80b9ecd8767.mp3"
+          "clip": "clips/c052b80b9ecd8767.mp3",
+          "en": "You all thought about the trip.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "pensaron",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos pensaron en el viaje.",
-          "clip": "clips/9dda7f0a55a303a4.mp3"
+          "clip": "clips/9dda7f0a55a303a4.mp3",
+          "en": "They thought about the trip.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "pensaron",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas pensaron en el viaje.",
-          "clip": "clips/60dcde2045da7600.mp3"
+          "clip": "clips/60dcde2045da7600.mp3",
+          "en": "They thought about the trip.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "pensaron",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo pensaba en el viaje.",
-          "clip": "clips/ae4f5bc1c2276cf0.mp3"
+          "clip": "clips/ae4f5bc1c2276cf0.mp3",
+          "en": "I used to think about the trip.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pensaba",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú pensabas en el viaje.",
-          "clip": "clips/dc6241e2ee682406.mp3"
+          "clip": "clips/dc6241e2ee682406.mp3",
+          "en": "You used to think about the trip.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "pensabas",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted pensaba en el viaje.",
-          "clip": "clips/40ab530effb32def.mp3"
+          "clip": "clips/40ab530effb32def.mp3",
+          "en": "You used to think about the trip.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "pensaba",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él pensaba en el viaje.",
-          "clip": "clips/3fba9241e94aa99a.mp3"
+          "clip": "clips/3fba9241e94aa99a.mp3",
+          "en": "He used to think about the trip.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "pensaba",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella pensaba en el viaje.",
-          "clip": "clips/44a5c413190d4d73.mp3"
+          "clip": "clips/44a5c413190d4d73.mp3",
+          "en": "She used to think about the trip.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "pensaba",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros pensábamos en el viaje.",
-          "clip": "clips/8da52d4d23901c1b.mp3"
+          "clip": "clips/8da52d4d23901c1b.mp3",
+          "en": "We used to think about the trip.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "pensábamos",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras pensábamos en el viaje.",
-          "clip": "clips/0b8078dc2e3aef4b.mp3"
+          "clip": "clips/0b8078dc2e3aef4b.mp3",
+          "en": "We used to think about the trip.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "pensábamos",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes pensaban en el viaje.",
-          "clip": "clips/21fd92906b856293.mp3"
+          "clip": "clips/21fd92906b856293.mp3",
+          "en": "You all used to think about the trip.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "pensaban",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos pensaban en el viaje.",
-          "clip": "clips/928199aaa78319c2.mp3"
+          "clip": "clips/928199aaa78319c2.mp3",
+          "en": "They used to think about the trip.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "pensaban",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas pensaban en el viaje.",
-          "clip": "clips/bcf3cf6f08ebcb78.mp3"
+          "clip": "clips/bcf3cf6f08ebcb78.mp3",
+          "en": "They used to think about the trip.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "pensaban",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Piensa en el viaje.",
-          "clip": "clips/8b3a6b1302b672a8.mp3"
+          "clip": "clips/8b3a6b1302b672a8.mp3",
+          "en": "Think about the trip.",
+          "parts": [
+            [
+              "Piensa",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Piense en el viaje.",
-          "clip": "clips/4b19eda787a8f858.mp3"
+          "clip": "clips/4b19eda787a8f858.mp3",
+          "en": "Think about the trip.",
+          "parts": [
+            [
+              "Piense",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Pensemos en el viaje.",
-          "clip": "clips/1f706b55352ebf9e.mp3"
+          "clip": "clips/1f706b55352ebf9e.mp3",
+          "en": "Let's think about the trip.",
+          "parts": [
+            [
+              "Pensemos",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Pensemos en el viaje.",
-          "clip": "clips/1f706b55352ebf9e.mp3"
+          "clip": "clips/1f706b55352ebf9e.mp3",
+          "en": "Let's think about the trip.",
+          "parts": [
+            [
+              "Pensemos",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Piensen en el viaje.",
-          "clip": "clips/85365f0f9692918b.mp3"
+          "clip": "clips/85365f0f9692918b.mp3",
+          "en": "Think about the trip.",
+          "parts": [
+            [
+              "Piensen",
+              "v"
+            ],
+            [
+              "en el viaje.",
+              ""
+            ]
+          ]
         }
       }
     }

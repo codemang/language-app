@@ -10,7 +10,21 @@
           "en": "Juan sees me.",
           "en_clip": "clips/b4b04bc0c22e7fb7.mp3",
           "es": "Juan me ve.",
-          "clip": "clips/cddd0645fbe6e00b.mp3"
+          "clip": "clips/cddd0645fbe6e00b.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "me",
+              "p"
+            ],
+            [
+              "ve.",
+              "v"
+            ]
+          ]
         },
         {
           "id": "te",
@@ -18,7 +32,21 @@
           "en": "Juan sees you.",
           "en_clip": "clips/da78fc4cfbf9be1a.mp3",
           "es": "Juan te ve.",
-          "clip": "clips/087dfc403782b042.mp3"
+          "clip": "clips/087dfc403782b042.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "te",
+              "p"
+            ],
+            [
+              "ve.",
+              "v"
+            ]
+          ]
         },
         {
           "id": "lo",
@@ -26,7 +54,21 @@
           "en": "Juan sees him.",
           "en_clip": "clips/c9686869cbd8e900.mp3",
           "es": "Juan lo ve.",
-          "clip": "clips/016d3ac85b7d5471.mp3"
+          "clip": "clips/016d3ac85b7d5471.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "lo",
+              "p"
+            ],
+            [
+              "ve.",
+              "v"
+            ]
+          ]
         },
         {
           "id": "la",
@@ -34,7 +76,21 @@
           "en": "Juan sees her.",
           "en_clip": "clips/189f48b364b5e98e.mp3",
           "es": "Juan la ve.",
-          "clip": "clips/14400e1651f9facc.mp3"
+          "clip": "clips/14400e1651f9facc.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "la",
+              "p"
+            ],
+            [
+              "ve.",
+              "v"
+            ]
+          ]
         },
         {
           "id": "nos",
@@ -42,7 +98,21 @@
           "en": "Juan sees us.",
           "en_clip": "clips/fbedbc9b97e5fbc0.mp3",
           "es": "Juan nos ve.",
-          "clip": "clips/00a2469f73c4d29d.mp3"
+          "clip": "clips/00a2469f73c4d29d.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "nos",
+              "p"
+            ],
+            [
+              "ve.",
+              "v"
+            ]
+          ]
         },
         {
           "id": "los",
@@ -50,7 +120,21 @@
           "en": "Juan sees them.",
           "en_clip": "clips/2f777543c5ea9f87.mp3",
           "es": "Juan los ve.",
-          "clip": "clips/1bbcc359a0e48c4f.mp3"
+          "clip": "clips/1bbcc359a0e48c4f.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "los",
+              "p"
+            ],
+            [
+              "ve.",
+              "v"
+            ]
+          ]
         },
         {
           "id": "las",
@@ -58,7 +142,21 @@
           "en": "Juan sees them, feminine.",
           "en_clip": "clips/9b3cc3270ec9c15a.mp3",
           "es": "Juan las ve.",
-          "clip": "clips/dda923ec534c03d4.mp3"
+          "clip": "clips/dda923ec534c03d4.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "las",
+              "p"
+            ],
+            [
+              "ve.",
+              "v"
+            ]
+          ]
         }
       ]
     },
@@ -72,7 +170,25 @@
           "en": "Juan gives me a book.",
           "en_clip": "clips/e2220cdcec8bb155.mp3",
           "es": "Juan me da un libro.",
-          "clip": "clips/c5b9c4b3e25a6693.mp3"
+          "clip": "clips/c5b9c4b3e25a6693.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "me",
+              "p"
+            ],
+            [
+              "da",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         {
           "id": "te",
@@ -80,7 +196,25 @@
           "en": "Juan gives you a book.",
           "en_clip": "clips/c41f771248c314b5.mp3",
           "es": "Juan te da un libro.",
-          "clip": "clips/10bf9059b0204b04.mp3"
+          "clip": "clips/10bf9059b0204b04.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "te",
+              "p"
+            ],
+            [
+              "da",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         {
           "id": "le",
@@ -88,7 +222,25 @@
           "en": "Juan gives him a book.",
           "en_clip": "clips/4b37c3334ca95f37.mp3",
           "es": "Juan le da un libro.",
-          "clip": "clips/1e89b9f670d841e1.mp3"
+          "clip": "clips/1e89b9f670d841e1.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "le",
+              "p"
+            ],
+            [
+              "da",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         {
           "id": "nos",
@@ -96,7 +248,25 @@
           "en": "Juan gives us a book.",
           "en_clip": "clips/38b5a261138d11a0.mp3",
           "es": "Juan nos da un libro.",
-          "clip": "clips/45ae2c22c63636f9.mp3"
+          "clip": "clips/45ae2c22c63636f9.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "nos",
+              "p"
+            ],
+            [
+              "da",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         },
         {
           "id": "les",
@@ -104,7 +274,25 @@
           "en": "Juan gives them a book.",
           "en_clip": "clips/b6ae934722c221cd.mp3",
           "es": "Juan les da un libro.",
-          "clip": "clips/e186390ba1ffc74b.mp3"
+          "clip": "clips/e186390ba1ffc74b.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "les",
+              "p"
+            ],
+            [
+              "da",
+              "v"
+            ],
+            [
+              "un libro.",
+              ""
+            ]
+          ]
         }
       ]
     },
@@ -118,7 +306,21 @@
           "en": "Juan gives it to me.",
           "en_clip": "clips/2e9314a65d7386f1.mp3",
           "es": "Juan me lo da.",
-          "clip": "clips/076b13f4f77d2c17.mp3"
+          "clip": "clips/076b13f4f77d2c17.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "me lo",
+              "p"
+            ],
+            [
+              "da.",
+              "v"
+            ]
+          ]
         },
         {
           "id": "telo",
@@ -126,7 +328,21 @@
           "en": "Juan gives it to you.",
           "en_clip": "clips/d218176894cd9eda.mp3",
           "es": "Juan te lo da.",
-          "clip": "clips/d43d67ad8bdf228c.mp3"
+          "clip": "clips/d43d67ad8bdf228c.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "te lo",
+              "p"
+            ],
+            [
+              "da.",
+              "v"
+            ]
+          ]
         },
         {
           "id": "selo",
@@ -134,7 +350,21 @@
           "en": "Juan gives it to him.",
           "en_clip": "clips/6bfeef6ba358d59d.mp3",
           "es": "Juan se lo da.",
-          "clip": "clips/1a8363d9237ea9ec.mp3"
+          "clip": "clips/1a8363d9237ea9ec.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "se lo",
+              "p"
+            ],
+            [
+              "da.",
+              "v"
+            ]
+          ]
         },
         {
           "id": "noslo",
@@ -142,7 +372,21 @@
           "en": "Juan gives it to us.",
           "en_clip": "clips/58c4b1fbb35bc1af.mp3",
           "es": "Juan nos lo da.",
-          "clip": "clips/417c3a6a5c867601.mp3"
+          "clip": "clips/417c3a6a5c867601.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "nos lo",
+              "p"
+            ],
+            [
+              "da.",
+              "v"
+            ]
+          ]
         },
         {
           "id": "selos",
@@ -150,7 +394,21 @@
           "en": "Juan gives it to them.",
           "en_clip": "clips/2e326e0851defcd7.mp3",
           "es": "Juan se lo da.",
-          "clip": "clips/1a8363d9237ea9ec.mp3"
+          "clip": "clips/1a8363d9237ea9ec.mp3",
+          "parts": [
+            [
+              "Juan",
+              ""
+            ],
+            [
+              "se lo",
+              "p"
+            ],
+            [
+              "da.",
+              "v"
+            ]
+          ]
         }
       ]
     }

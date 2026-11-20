@@ -71,7 +71,21 @@
       "en_clip": "clips/0c498e4d3d9245e8.mp3",
       "single": {
         "es": "Quiero pagar la cuenta.",
-        "clip": "clips/c90dc43e5bae1541.mp3"
+        "clip": "clips/c90dc43e5bae1541.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "pagar",
+            "v"
+          ],
+          [
+            "la cuenta.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo pago la cuenta.",
-          "clip": "clips/b7dbea64a9e11c57.mp3"
+          "clip": "clips/b7dbea64a9e11c57.mp3",
+          "en": "I pay the bill.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pago",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú pagas la cuenta.",
-          "clip": "clips/40e767f1b43559b0.mp3"
+          "clip": "clips/40e767f1b43559b0.mp3",
+          "en": "You pay the bill.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "pagas",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted paga la cuenta.",
-          "clip": "clips/c04ff110315bff37.mp3"
+          "clip": "clips/c04ff110315bff37.mp3",
+          "en": "You pay the bill.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "paga",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él paga la cuenta.",
-          "clip": "clips/ded1983310f18d6e.mp3"
+          "clip": "clips/ded1983310f18d6e.mp3",
+          "en": "He pays the bill.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "paga",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella paga la cuenta.",
-          "clip": "clips/6582fa0d6cf32bb6.mp3"
+          "clip": "clips/6582fa0d6cf32bb6.mp3",
+          "en": "She pays the bill.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "paga",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros pagamos la cuenta.",
-          "clip": "clips/addbff918fff84c5.mp3"
+          "clip": "clips/addbff918fff84c5.mp3",
+          "en": "We pay the bill.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "pagamos",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras pagamos la cuenta.",
-          "clip": "clips/a873433e988ef6d9.mp3"
+          "clip": "clips/a873433e988ef6d9.mp3",
+          "en": "We pay the bill.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "pagamos",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes pagan la cuenta.",
-          "clip": "clips/e688c7da551193b2.mp3"
+          "clip": "clips/e688c7da551193b2.mp3",
+          "en": "You all pay the bill.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "pagan",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos pagan la cuenta.",
-          "clip": "clips/499266c5f6bf1e60.mp3"
+          "clip": "clips/499266c5f6bf1e60.mp3",
+          "en": "They pay the bill.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "pagan",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas pagan la cuenta.",
-          "clip": "clips/e830d5fab994f818.mp3"
+          "clip": "clips/e830d5fab994f818.mp3",
+          "en": "They pay the bill.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "pagan",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo pagué la cuenta.",
-          "clip": "clips/a1b525cba10e1115.mp3"
+          "clip": "clips/a1b525cba10e1115.mp3",
+          "en": "I paid the bill.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pagué",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú pagaste la cuenta.",
-          "clip": "clips/9fa2221fd20f6675.mp3"
+          "clip": "clips/9fa2221fd20f6675.mp3",
+          "en": "You paid the bill.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "pagaste",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted pagó la cuenta.",
-          "clip": "clips/2e5feae3030500ed.mp3"
+          "clip": "clips/2e5feae3030500ed.mp3",
+          "en": "You paid the bill.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "pagó",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él pagó la cuenta.",
-          "clip": "clips/0c88cd30dace42a2.mp3"
+          "clip": "clips/0c88cd30dace42a2.mp3",
+          "en": "He paid the bill.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "pagó",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella pagó la cuenta.",
-          "clip": "clips/0d481613efcac18e.mp3"
+          "clip": "clips/0d481613efcac18e.mp3",
+          "en": "She paid the bill.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "pagó",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros pagamos la cuenta.",
-          "clip": "clips/addbff918fff84c5.mp3"
+          "clip": "clips/addbff918fff84c5.mp3",
+          "en": "We paid the bill.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "pagamos",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras pagamos la cuenta.",
-          "clip": "clips/a873433e988ef6d9.mp3"
+          "clip": "clips/a873433e988ef6d9.mp3",
+          "en": "We paid the bill.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "pagamos",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes pagaron la cuenta.",
-          "clip": "clips/11b2cd9fc7f1252f.mp3"
+          "clip": "clips/11b2cd9fc7f1252f.mp3",
+          "en": "You all paid the bill.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "pagaron",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos pagaron la cuenta.",
-          "clip": "clips/e3587b31d9fdd353.mp3"
+          "clip": "clips/e3587b31d9fdd353.mp3",
+          "en": "They paid the bill.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "pagaron",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas pagaron la cuenta.",
-          "clip": "clips/3afecbc946acf62b.mp3"
+          "clip": "clips/3afecbc946acf62b.mp3",
+          "en": "They paid the bill.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "pagaron",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo pagaba la cuenta.",
-          "clip": "clips/266eb6328818240c.mp3"
+          "clip": "clips/266eb6328818240c.mp3",
+          "en": "I used to pay the bill.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pagaba",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú pagabas la cuenta.",
-          "clip": "clips/a0fa90e83333e68b.mp3"
+          "clip": "clips/a0fa90e83333e68b.mp3",
+          "en": "You used to pay the bill.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "pagabas",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted pagaba la cuenta.",
-          "clip": "clips/62cd46f6c9f7fd75.mp3"
+          "clip": "clips/62cd46f6c9f7fd75.mp3",
+          "en": "You used to pay the bill.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "pagaba",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él pagaba la cuenta.",
-          "clip": "clips/6389b01683fd204c.mp3"
+          "clip": "clips/6389b01683fd204c.mp3",
+          "en": "He used to pay the bill.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "pagaba",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella pagaba la cuenta.",
-          "clip": "clips/222fe5f6cbbbc4be.mp3"
+          "clip": "clips/222fe5f6cbbbc4be.mp3",
+          "en": "She used to pay the bill.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "pagaba",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros pagábamos la cuenta.",
-          "clip": "clips/b73ae76ab739ad83.mp3"
+          "clip": "clips/b73ae76ab739ad83.mp3",
+          "en": "We used to pay the bill.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "pagábamos",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras pagábamos la cuenta.",
-          "clip": "clips/60cd5d4db729f469.mp3"
+          "clip": "clips/60cd5d4db729f469.mp3",
+          "en": "We used to pay the bill.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "pagábamos",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes pagaban la cuenta.",
-          "clip": "clips/0b4863fd858e708b.mp3"
+          "clip": "clips/0b4863fd858e708b.mp3",
+          "en": "You all used to pay the bill.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "pagaban",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos pagaban la cuenta.",
-          "clip": "clips/8d7746d6461cf633.mp3"
+          "clip": "clips/8d7746d6461cf633.mp3",
+          "en": "They used to pay the bill.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "pagaban",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas pagaban la cuenta.",
-          "clip": "clips/710e218403a9d865.mp3"
+          "clip": "clips/710e218403a9d865.mp3",
+          "en": "They used to pay the bill.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "pagaban",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Paga la cuenta.",
-          "clip": "clips/8beaf95ad47235cf.mp3"
+          "clip": "clips/8beaf95ad47235cf.mp3",
+          "en": "Pay the bill.",
+          "parts": [
+            [
+              "Paga",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Pague la cuenta.",
-          "clip": "clips/23cd6501f17860f1.mp3"
+          "clip": "clips/23cd6501f17860f1.mp3",
+          "en": "Pay the bill.",
+          "parts": [
+            [
+              "Pague",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Paguemos la cuenta.",
-          "clip": "clips/b268abc35d4df9d9.mp3"
+          "clip": "clips/b268abc35d4df9d9.mp3",
+          "en": "Let's pay the bill.",
+          "parts": [
+            [
+              "Paguemos",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Paguemos la cuenta.",
-          "clip": "clips/b268abc35d4df9d9.mp3"
+          "clip": "clips/b268abc35d4df9d9.mp3",
+          "en": "Let's pay the bill.",
+          "parts": [
+            [
+              "Paguemos",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Paguen la cuenta.",
-          "clip": "clips/c7aadacf1e63a12e.mp3"
+          "clip": "clips/c7aadacf1e63a12e.mp3",
+          "en": "Pay the bill.",
+          "parts": [
+            [
+              "Paguen",
+              "v"
+            ],
+            [
+              "la cuenta.",
+              ""
+            ]
+          ]
         }
       }
     }

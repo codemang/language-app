@@ -71,7 +71,21 @@
       "en_clip": "clips/fdca2f9e9cd17cc6.mp3",
       "single": {
         "es": "Quiero conocer a María.",
-        "clip": "clips/e9d9f9c4dac73a2b.mp3"
+        "clip": "clips/e9d9f9c4dac73a2b.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "conocer",
+            "v"
+          ],
+          [
+            "a María.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo conozco a María.",
-          "clip": "clips/bb54121ab0b86382.mp3"
+          "clip": "clips/bb54121ab0b86382.mp3",
+          "en": "I know María.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "conozco",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú conoces a María.",
-          "clip": "clips/a5548ddc7aa48672.mp3"
+          "clip": "clips/a5548ddc7aa48672.mp3",
+          "en": "You know María.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "conoces",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted conoce a María.",
-          "clip": "clips/4f4e753c4d207cb8.mp3"
+          "clip": "clips/4f4e753c4d207cb8.mp3",
+          "en": "You know María.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "conoce",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él conoce a María.",
-          "clip": "clips/7a76f4e2f6eb7449.mp3"
+          "clip": "clips/7a76f4e2f6eb7449.mp3",
+          "en": "He knows María.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "conoce",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella conoce a María.",
-          "clip": "clips/9f4be85e30d1c678.mp3"
+          "clip": "clips/9f4be85e30d1c678.mp3",
+          "en": "She knows María.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "conoce",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros conocemos a María.",
-          "clip": "clips/c8aab2c043c96374.mp3"
+          "clip": "clips/c8aab2c043c96374.mp3",
+          "en": "We know María.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "conocemos",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras conocemos a María.",
-          "clip": "clips/1b568af495bd3eb9.mp3"
+          "clip": "clips/1b568af495bd3eb9.mp3",
+          "en": "We know María.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "conocemos",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes conocen a María.",
-          "clip": "clips/18c9feaa557accad.mp3"
+          "clip": "clips/18c9feaa557accad.mp3",
+          "en": "You all know María.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "conocen",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos conocen a María.",
-          "clip": "clips/c609a38dd1b11a38.mp3"
+          "clip": "clips/c609a38dd1b11a38.mp3",
+          "en": "They know María.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "conocen",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas conocen a María.",
-          "clip": "clips/cdbc44fe4a599afd.mp3"
+          "clip": "clips/cdbc44fe4a599afd.mp3",
+          "en": "They know María.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "conocen",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo conocí a María.",
-          "clip": "clips/5fc7fbd74fe8a882.mp3"
+          "clip": "clips/5fc7fbd74fe8a882.mp3",
+          "en": "I met María.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "conocí",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú conociste a María.",
-          "clip": "clips/0b7bd4041b99d863.mp3"
+          "clip": "clips/0b7bd4041b99d863.mp3",
+          "en": "You met María.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "conociste",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted conoció a María.",
-          "clip": "clips/52b0bcf2b38c6b35.mp3"
+          "clip": "clips/52b0bcf2b38c6b35.mp3",
+          "en": "You met María.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "conoció",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él conoció a María.",
-          "clip": "clips/fd4508312483a622.mp3"
+          "clip": "clips/fd4508312483a622.mp3",
+          "en": "He met María.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "conoció",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella conoció a María.",
-          "clip": "clips/edda552131de425c.mp3"
+          "clip": "clips/edda552131de425c.mp3",
+          "en": "She met María.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "conoció",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros conocimos a María.",
-          "clip": "clips/34ba867bf14625c8.mp3"
+          "clip": "clips/34ba867bf14625c8.mp3",
+          "en": "We met María.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "conocimos",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras conocimos a María.",
-          "clip": "clips/302d0be7d5e5ffb8.mp3"
+          "clip": "clips/302d0be7d5e5ffb8.mp3",
+          "en": "We met María.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "conocimos",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes conocieron a María.",
-          "clip": "clips/c73dc485dbb0589d.mp3"
+          "clip": "clips/c73dc485dbb0589d.mp3",
+          "en": "You all met María.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "conocieron",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos conocieron a María.",
-          "clip": "clips/a7dc7940a2b1dc89.mp3"
+          "clip": "clips/a7dc7940a2b1dc89.mp3",
+          "en": "They met María.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "conocieron",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas conocieron a María.",
-          "clip": "clips/1e822843fd560f80.mp3"
+          "clip": "clips/1e822843fd560f80.mp3",
+          "en": "They met María.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "conocieron",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo conocía a María.",
-          "clip": "clips/0fb96750cd51d343.mp3"
+          "clip": "clips/0fb96750cd51d343.mp3",
+          "en": "I knew María.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "conocía",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú conocías a María.",
-          "clip": "clips/44e13f7a83c16fdd.mp3"
+          "clip": "clips/44e13f7a83c16fdd.mp3",
+          "en": "You knew María.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "conocías",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted conocía a María.",
-          "clip": "clips/864571ccf4d6ba68.mp3"
+          "clip": "clips/864571ccf4d6ba68.mp3",
+          "en": "You knew María.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "conocía",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él conocía a María.",
-          "clip": "clips/d4c2cf9c9226f29e.mp3"
+          "clip": "clips/d4c2cf9c9226f29e.mp3",
+          "en": "He knew María.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "conocía",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella conocía a María.",
-          "clip": "clips/db794a25c51513a4.mp3"
+          "clip": "clips/db794a25c51513a4.mp3",
+          "en": "She knew María.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "conocía",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros conocíamos a María.",
-          "clip": "clips/b700cd9b77c09732.mp3"
+          "clip": "clips/b700cd9b77c09732.mp3",
+          "en": "We knew María.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "conocíamos",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras conocíamos a María.",
-          "clip": "clips/d034d5ef7787033b.mp3"
+          "clip": "clips/d034d5ef7787033b.mp3",
+          "en": "We knew María.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "conocíamos",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes conocían a María.",
-          "clip": "clips/8c22dd87c3485218.mp3"
+          "clip": "clips/8c22dd87c3485218.mp3",
+          "en": "You all knew María.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "conocían",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos conocían a María.",
-          "clip": "clips/4b62c727e18c8686.mp3"
+          "clip": "clips/4b62c727e18c8686.mp3",
+          "en": "They knew María.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "conocían",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas conocían a María.",
-          "clip": "clips/7c5a9509510e586f.mp3"
+          "clip": "clips/7c5a9509510e586f.mp3",
+          "en": "They knew María.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "conocían",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Conoce a María.",
-          "clip": "clips/a511aa84220625f0.mp3"
+          "clip": "clips/a511aa84220625f0.mp3",
+          "en": "Meet María.",
+          "parts": [
+            [
+              "Conoce",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Conozca a María.",
-          "clip": "clips/01b7f2ffaa461fea.mp3"
+          "clip": "clips/01b7f2ffaa461fea.mp3",
+          "en": "Meet María.",
+          "parts": [
+            [
+              "Conozca",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Conozcamos a María.",
-          "clip": "clips/3c25477ebf57f5d5.mp3"
+          "clip": "clips/3c25477ebf57f5d5.mp3",
+          "en": "Let's meet María.",
+          "parts": [
+            [
+              "Conozcamos",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Conozcamos a María.",
-          "clip": "clips/3c25477ebf57f5d5.mp3"
+          "clip": "clips/3c25477ebf57f5d5.mp3",
+          "en": "Let's meet María.",
+          "parts": [
+            [
+              "Conozcamos",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Conozcan a María.",
-          "clip": "clips/ddb9491a015af280.mp3"
+          "clip": "clips/ddb9491a015af280.mp3",
+          "en": "Meet María.",
+          "parts": [
+            [
+              "Conozcan",
+              "v"
+            ],
+            [
+              "a María.",
+              ""
+            ]
+          ]
         }
       }
     }

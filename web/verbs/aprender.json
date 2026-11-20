@@ -71,7 +71,21 @@
       "en_clip": "clips/a4151b5d6aeca52b.mp3",
       "single": {
         "es": "Quiero aprender español.",
-        "clip": "clips/92d44da2b5295e6b.mp3"
+        "clip": "clips/92d44da2b5295e6b.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "aprender",
+            "v"
+          ],
+          [
+            "español.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo aprendo español.",
-          "clip": "clips/96602a29558d2355.mp3"
+          "clip": "clips/96602a29558d2355.mp3",
+          "en": "I learn Spanish.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "aprendo",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú aprendes español.",
-          "clip": "clips/d7697ac3117191cd.mp3"
+          "clip": "clips/d7697ac3117191cd.mp3",
+          "en": "You learn Spanish.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "aprendes",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted aprende español.",
-          "clip": "clips/ecbc13d4cc0e700a.mp3"
+          "clip": "clips/ecbc13d4cc0e700a.mp3",
+          "en": "You learn Spanish.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "aprende",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él aprende español.",
-          "clip": "clips/3622b2c207083087.mp3"
+          "clip": "clips/3622b2c207083087.mp3",
+          "en": "He learns Spanish.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "aprende",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella aprende español.",
-          "clip": "clips/34b8f4ea1221708f.mp3"
+          "clip": "clips/34b8f4ea1221708f.mp3",
+          "en": "She learns Spanish.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "aprende",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros aprendemos español.",
-          "clip": "clips/69e9db8991968e8c.mp3"
+          "clip": "clips/69e9db8991968e8c.mp3",
+          "en": "We learn Spanish.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "aprendemos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras aprendemos español.",
-          "clip": "clips/14bf609ecf97de09.mp3"
+          "clip": "clips/14bf609ecf97de09.mp3",
+          "en": "We learn Spanish.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "aprendemos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes aprenden español.",
-          "clip": "clips/d7d94f90dcff6751.mp3"
+          "clip": "clips/d7d94f90dcff6751.mp3",
+          "en": "You all learn Spanish.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "aprenden",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos aprenden español.",
-          "clip": "clips/80b43ebb771179b3.mp3"
+          "clip": "clips/80b43ebb771179b3.mp3",
+          "en": "They learn Spanish.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "aprenden",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas aprenden español.",
-          "clip": "clips/08c0816fc3c6f4e4.mp3"
+          "clip": "clips/08c0816fc3c6f4e4.mp3",
+          "en": "They learn Spanish.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "aprenden",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo aprendí español.",
-          "clip": "clips/e6676c4cf8fbd14e.mp3"
+          "clip": "clips/e6676c4cf8fbd14e.mp3",
+          "en": "I learned Spanish.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "aprendí",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú aprendiste español.",
-          "clip": "clips/98f0d6e6ab62921e.mp3"
+          "clip": "clips/98f0d6e6ab62921e.mp3",
+          "en": "You learned Spanish.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "aprendiste",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted aprendió español.",
-          "clip": "clips/a51f2f042b48888f.mp3"
+          "clip": "clips/a51f2f042b48888f.mp3",
+          "en": "You learned Spanish.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "aprendió",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él aprendió español.",
-          "clip": "clips/63ef163e1f2ad24d.mp3"
+          "clip": "clips/63ef163e1f2ad24d.mp3",
+          "en": "He learned Spanish.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "aprendió",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella aprendió español.",
-          "clip": "clips/0cac545b5318ac1c.mp3"
+          "clip": "clips/0cac545b5318ac1c.mp3",
+          "en": "She learned Spanish.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "aprendió",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros aprendimos español.",
-          "clip": "clips/2855dad5c15cc276.mp3"
+          "clip": "clips/2855dad5c15cc276.mp3",
+          "en": "We learned Spanish.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "aprendimos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras aprendimos español.",
-          "clip": "clips/3ff9cc2ce790bfd9.mp3"
+          "clip": "clips/3ff9cc2ce790bfd9.mp3",
+          "en": "We learned Spanish.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "aprendimos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes aprendieron español.",
-          "clip": "clips/275dc09cde246768.mp3"
+          "clip": "clips/275dc09cde246768.mp3",
+          "en": "You all learned Spanish.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "aprendieron",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos aprendieron español.",
-          "clip": "clips/c80666033fe01333.mp3"
+          "clip": "clips/c80666033fe01333.mp3",
+          "en": "They learned Spanish.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "aprendieron",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas aprendieron español.",
-          "clip": "clips/95adf8a2b2caffb9.mp3"
+          "clip": "clips/95adf8a2b2caffb9.mp3",
+          "en": "They learned Spanish.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "aprendieron",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo aprendía español.",
-          "clip": "clips/1b14783f353bee67.mp3"
+          "clip": "clips/1b14783f353bee67.mp3",
+          "en": "I used to learn Spanish.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "aprendía",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú aprendías español.",
-          "clip": "clips/f084503948bbfebd.mp3"
+          "clip": "clips/f084503948bbfebd.mp3",
+          "en": "You used to learn Spanish.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "aprendías",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted aprendía español.",
-          "clip": "clips/d89e074d009c5edd.mp3"
+          "clip": "clips/d89e074d009c5edd.mp3",
+          "en": "You used to learn Spanish.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "aprendía",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él aprendía español.",
-          "clip": "clips/cfb124b9a404e14d.mp3"
+          "clip": "clips/cfb124b9a404e14d.mp3",
+          "en": "He used to learn Spanish.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "aprendía",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella aprendía español.",
-          "clip": "clips/2e4312196e9c7806.mp3"
+          "clip": "clips/2e4312196e9c7806.mp3",
+          "en": "She used to learn Spanish.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "aprendía",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros aprendíamos español.",
-          "clip": "clips/a589c407d1c1416d.mp3"
+          "clip": "clips/a589c407d1c1416d.mp3",
+          "en": "We used to learn Spanish.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "aprendíamos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras aprendíamos español.",
-          "clip": "clips/29b2b89280d54b7b.mp3"
+          "clip": "clips/29b2b89280d54b7b.mp3",
+          "en": "We used to learn Spanish.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "aprendíamos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes aprendían español.",
-          "clip": "clips/523b0550abbacce8.mp3"
+          "clip": "clips/523b0550abbacce8.mp3",
+          "en": "You all used to learn Spanish.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "aprendían",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos aprendían español.",
-          "clip": "clips/3b56e5e30e9a3953.mp3"
+          "clip": "clips/3b56e5e30e9a3953.mp3",
+          "en": "They used to learn Spanish.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "aprendían",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas aprendían español.",
-          "clip": "clips/b51421ffac0e4732.mp3"
+          "clip": "clips/b51421ffac0e4732.mp3",
+          "en": "They used to learn Spanish.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "aprendían",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Aprende español.",
-          "clip": "clips/b2c9c2fc4f717cea.mp3"
+          "clip": "clips/b2c9c2fc4f717cea.mp3",
+          "en": "Learn Spanish.",
+          "parts": [
+            [
+              "Aprende",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Aprenda español.",
-          "clip": "clips/ce320afc6d236f9b.mp3"
+          "clip": "clips/ce320afc6d236f9b.mp3",
+          "en": "Learn Spanish.",
+          "parts": [
+            [
+              "Aprenda",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Aprendamos español.",
-          "clip": "clips/d5e7a572af095217.mp3"
+          "clip": "clips/d5e7a572af095217.mp3",
+          "en": "Let's learn Spanish.",
+          "parts": [
+            [
+              "Aprendamos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Aprendamos español.",
-          "clip": "clips/d5e7a572af095217.mp3"
+          "clip": "clips/d5e7a572af095217.mp3",
+          "en": "Let's learn Spanish.",
+          "parts": [
+            [
+              "Aprendamos",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Aprendan español.",
-          "clip": "clips/dbe5bc5033019ec9.mp3"
+          "clip": "clips/dbe5bc5033019ec9.mp3",
+          "en": "Learn Spanish.",
+          "parts": [
+            [
+              "Aprendan",
+              "v"
+            ],
+            [
+              "español.",
+              ""
+            ]
+          ]
         }
       }
     }

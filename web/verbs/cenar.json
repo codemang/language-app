@@ -71,7 +71,21 @@
       "en_clip": "clips/e060e51bc131c88e.mp3",
       "single": {
         "es": "Quiero cenar en un restaurante.",
-        "clip": "clips/3031ff03adf91f59.mp3"
+        "clip": "clips/3031ff03adf91f59.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "cenar",
+            "v"
+          ],
+          [
+            "en un restaurante.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo ceno en un restaurante.",
-          "clip": "clips/3d43fad8d964fc7f.mp3"
+          "clip": "clips/3d43fad8d964fc7f.mp3",
+          "en": "I have dinner at a restaurant.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "ceno",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú cenas en un restaurante.",
-          "clip": "clips/f5ea2cbdda0679f1.mp3"
+          "clip": "clips/f5ea2cbdda0679f1.mp3",
+          "en": "You have dinner at a restaurant.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "cenas",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted cena en un restaurante.",
-          "clip": "clips/9693df55a92559f1.mp3"
+          "clip": "clips/9693df55a92559f1.mp3",
+          "en": "You have dinner at a restaurant.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "cena",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él cena en un restaurante.",
-          "clip": "clips/6e70d5f8f093cd48.mp3"
+          "clip": "clips/6e70d5f8f093cd48.mp3",
+          "en": "He has dinner at a restaurant.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "cena",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella cena en un restaurante.",
-          "clip": "clips/041bb41b41eebd79.mp3"
+          "clip": "clips/041bb41b41eebd79.mp3",
+          "en": "She has dinner at a restaurant.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "cena",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros cenamos en un restaurante.",
-          "clip": "clips/3c4e76bb6f249fcb.mp3"
+          "clip": "clips/3c4e76bb6f249fcb.mp3",
+          "en": "We have dinner at a restaurant.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "cenamos",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras cenamos en un restaurante.",
-          "clip": "clips/44eaa5c2ee7f790b.mp3"
+          "clip": "clips/44eaa5c2ee7f790b.mp3",
+          "en": "We have dinner at a restaurant.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "cenamos",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes cenan en un restaurante.",
-          "clip": "clips/c5d5c4dd6e23c21c.mp3"
+          "clip": "clips/c5d5c4dd6e23c21c.mp3",
+          "en": "You all have dinner at a restaurant.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "cenan",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos cenan en un restaurante.",
-          "clip": "clips/52874374c69a14f4.mp3"
+          "clip": "clips/52874374c69a14f4.mp3",
+          "en": "They have dinner at a restaurant.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "cenan",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas cenan en un restaurante.",
-          "clip": "clips/a22f1d73b177bd30.mp3"
+          "clip": "clips/a22f1d73b177bd30.mp3",
+          "en": "They have dinner at a restaurant.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "cenan",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo cené en un restaurante.",
-          "clip": "clips/7a6314cab1a68bdd.mp3"
+          "clip": "clips/7a6314cab1a68bdd.mp3",
+          "en": "I had dinner at a restaurant.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "cené",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú cenaste en un restaurante.",
-          "clip": "clips/2728b3021284d8c5.mp3"
+          "clip": "clips/2728b3021284d8c5.mp3",
+          "en": "You had dinner at a restaurant.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "cenaste",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted cenó en un restaurante.",
-          "clip": "clips/64cc244e2ecf2986.mp3"
+          "clip": "clips/64cc244e2ecf2986.mp3",
+          "en": "You had dinner at a restaurant.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "cenó",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él cenó en un restaurante.",
-          "clip": "clips/6927f85ad0acab0d.mp3"
+          "clip": "clips/6927f85ad0acab0d.mp3",
+          "en": "He had dinner at a restaurant.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "cenó",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella cenó en un restaurante.",
-          "clip": "clips/075359c1ba482846.mp3"
+          "clip": "clips/075359c1ba482846.mp3",
+          "en": "She had dinner at a restaurant.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "cenó",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros cenamos en un restaurante.",
-          "clip": "clips/3c4e76bb6f249fcb.mp3"
+          "clip": "clips/3c4e76bb6f249fcb.mp3",
+          "en": "We had dinner at a restaurant.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "cenamos",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras cenamos en un restaurante.",
-          "clip": "clips/44eaa5c2ee7f790b.mp3"
+          "clip": "clips/44eaa5c2ee7f790b.mp3",
+          "en": "We had dinner at a restaurant.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "cenamos",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes cenaron en un restaurante.",
-          "clip": "clips/97fc82ba5f5979a2.mp3"
+          "clip": "clips/97fc82ba5f5979a2.mp3",
+          "en": "You all had dinner at a restaurant.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "cenaron",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos cenaron en un restaurante.",
-          "clip": "clips/11d9b5cf4219c879.mp3"
+          "clip": "clips/11d9b5cf4219c879.mp3",
+          "en": "They had dinner at a restaurant.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "cenaron",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas cenaron en un restaurante.",
-          "clip": "clips/4d49cb7708549604.mp3"
+          "clip": "clips/4d49cb7708549604.mp3",
+          "en": "They had dinner at a restaurant.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "cenaron",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo cenaba en un restaurante.",
-          "clip": "clips/c513c5c16d9e4130.mp3"
+          "clip": "clips/c513c5c16d9e4130.mp3",
+          "en": "I used to have dinner at a restaurant.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "cenaba",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú cenabas en un restaurante.",
-          "clip": "clips/a6545ded1bb7b0af.mp3"
+          "clip": "clips/a6545ded1bb7b0af.mp3",
+          "en": "You used to have dinner at a restaurant.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "cenabas",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted cenaba en un restaurante.",
-          "clip": "clips/fb45feea6506a536.mp3"
+          "clip": "clips/fb45feea6506a536.mp3",
+          "en": "You used to have dinner at a restaurant.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "cenaba",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él cenaba en un restaurante.",
-          "clip": "clips/e58dc24e638e38c9.mp3"
+          "clip": "clips/e58dc24e638e38c9.mp3",
+          "en": "He used to have dinner at a restaurant.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "cenaba",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella cenaba en un restaurante.",
-          "clip": "clips/1970f8eb1abd8910.mp3"
+          "clip": "clips/1970f8eb1abd8910.mp3",
+          "en": "She used to have dinner at a restaurant.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "cenaba",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros cenábamos en un restaurante.",
-          "clip": "clips/d64e404a28561983.mp3"
+          "clip": "clips/d64e404a28561983.mp3",
+          "en": "We used to have dinner at a restaurant.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "cenábamos",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras cenábamos en un restaurante.",
-          "clip": "clips/29491b027c5c5a27.mp3"
+          "clip": "clips/29491b027c5c5a27.mp3",
+          "en": "We used to have dinner at a restaurant.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "cenábamos",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes cenaban en un restaurante.",
-          "clip": "clips/280e5480b50e81dd.mp3"
+          "clip": "clips/280e5480b50e81dd.mp3",
+          "en": "You all used to have dinner at a restaurant.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "cenaban",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos cenaban en un restaurante.",
-          "clip": "clips/12cf1eb43a2f80e3.mp3"
+          "clip": "clips/12cf1eb43a2f80e3.mp3",
+          "en": "They used to have dinner at a restaurant.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "cenaban",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas cenaban en un restaurante.",
-          "clip": "clips/c12b9d1de0f3b483.mp3"
+          "clip": "clips/c12b9d1de0f3b483.mp3",
+          "en": "They used to have dinner at a restaurant.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "cenaban",
+              "v"
+            ],
+            [
+              "en un restaurante.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Cena en casa.",
-          "clip": "clips/28670609080b69e6.mp3"
+          "clip": "clips/28670609080b69e6.mp3",
+          "en": "Have dinner at home.",
+          "parts": [
+            [
+              "Cena",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Cene en casa.",
-          "clip": "clips/dffe5806147b49ef.mp3"
+          "clip": "clips/dffe5806147b49ef.mp3",
+          "en": "Have dinner at home.",
+          "parts": [
+            [
+              "Cene",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Cenemos en casa.",
-          "clip": "clips/3fb9c7353cccc5ac.mp3"
+          "clip": "clips/3fb9c7353cccc5ac.mp3",
+          "en": "Let's have dinner at home.",
+          "parts": [
+            [
+              "Cenemos",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Cenemos en casa.",
-          "clip": "clips/3fb9c7353cccc5ac.mp3"
+          "clip": "clips/3fb9c7353cccc5ac.mp3",
+          "en": "Let's have dinner at home.",
+          "parts": [
+            [
+              "Cenemos",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Cenen en casa.",
-          "clip": "clips/006cfd96bdded800.mp3"
+          "clip": "clips/006cfd96bdded800.mp3",
+          "en": "Have dinner at home.",
+          "parts": [
+            [
+              "Cenen",
+              "v"
+            ],
+            [
+              "en casa.",
+              ""
+            ]
+          ]
         }
       }
     }

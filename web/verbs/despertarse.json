@@ -71,7 +71,21 @@
       "en_clip": "clips/4a5c3a0489c6bf24.mp3",
       "single": {
         "es": "Quiero despertarme temprano.",
-        "clip": "clips/848ca1421bf09539.mp3"
+        "clip": "clips/848ca1421bf09539.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "despertarme",
+            "v"
+          ],
+          [
+            "temprano.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo me despierto temprano.",
-          "clip": "clips/ffb42364a5db37b4.mp3"
+          "clip": "clips/ffb42364a5db37b4.mp3",
+          "en": "I wake up early.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "despierto",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te despiertas temprano.",
-          "clip": "clips/c8bfa6247b88dd40.mp3"
+          "clip": "clips/c8bfa6247b88dd40.mp3",
+          "en": "You wake up early.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "despiertas",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se despierta temprano.",
-          "clip": "clips/672d7bb54f27f67e.mp3"
+          "clip": "clips/672d7bb54f27f67e.mp3",
+          "en": "You wake up early.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "despierta",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se despierta temprano.",
-          "clip": "clips/f00dbee7cb49e464.mp3"
+          "clip": "clips/f00dbee7cb49e464.mp3",
+          "en": "He wakes up early.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "despierta",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se despierta temprano.",
-          "clip": "clips/e817b645e7441c61.mp3"
+          "clip": "clips/e817b645e7441c61.mp3",
+          "en": "She wakes up early.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "despierta",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos despertamos temprano.",
-          "clip": "clips/5c410a88dfff32ce.mp3"
+          "clip": "clips/5c410a88dfff32ce.mp3",
+          "en": "We wake up early.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "despertamos",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos despertamos temprano.",
-          "clip": "clips/727ea9d085c2fd83.mp3"
+          "clip": "clips/727ea9d085c2fd83.mp3",
+          "en": "We wake up early.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "despertamos",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se despiertan temprano.",
-          "clip": "clips/2a6add7d1c3dd075.mp3"
+          "clip": "clips/2a6add7d1c3dd075.mp3",
+          "en": "You all wake up early.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "despiertan",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se despiertan temprano.",
-          "clip": "clips/f153b1e5cf1cf50c.mp3"
+          "clip": "clips/f153b1e5cf1cf50c.mp3",
+          "en": "They wake up early.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "despiertan",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se despiertan temprano.",
-          "clip": "clips/3dd54a6ae5cfc515.mp3"
+          "clip": "clips/3dd54a6ae5cfc515.mp3",
+          "en": "They wake up early.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "despiertan",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo me desperté temprano.",
-          "clip": "clips/8c6435754cf2c2d2.mp3"
+          "clip": "clips/8c6435754cf2c2d2.mp3",
+          "en": "I woke up early.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "desperté",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te despertaste temprano.",
-          "clip": "clips/4c74821bed39c9a1.mp3"
+          "clip": "clips/4c74821bed39c9a1.mp3",
+          "en": "You woke up early.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "despertaste",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se despertó temprano.",
-          "clip": "clips/71d64d1528cb4391.mp3"
+          "clip": "clips/71d64d1528cb4391.mp3",
+          "en": "You woke up early.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "despertó",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se despertó temprano.",
-          "clip": "clips/a3193184977c9ff9.mp3"
+          "clip": "clips/a3193184977c9ff9.mp3",
+          "en": "He woke up early.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "despertó",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se despertó temprano.",
-          "clip": "clips/3952fd4d1d27eee6.mp3"
+          "clip": "clips/3952fd4d1d27eee6.mp3",
+          "en": "She woke up early.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "despertó",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos despertamos temprano.",
-          "clip": "clips/5c410a88dfff32ce.mp3"
+          "clip": "clips/5c410a88dfff32ce.mp3",
+          "en": "We woke up early.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "despertamos",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos despertamos temprano.",
-          "clip": "clips/727ea9d085c2fd83.mp3"
+          "clip": "clips/727ea9d085c2fd83.mp3",
+          "en": "We woke up early.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "despertamos",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se despertaron temprano.",
-          "clip": "clips/d421842bbaacc792.mp3"
+          "clip": "clips/d421842bbaacc792.mp3",
+          "en": "You all woke up early.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "despertaron",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se despertaron temprano.",
-          "clip": "clips/e6d5820f998fdaea.mp3"
+          "clip": "clips/e6d5820f998fdaea.mp3",
+          "en": "They woke up early.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "despertaron",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se despertaron temprano.",
-          "clip": "clips/33dab54e583ed496.mp3"
+          "clip": "clips/33dab54e583ed496.mp3",
+          "en": "They woke up early.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "despertaron",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo me despertaba temprano.",
-          "clip": "clips/f8c47482f2e9db2a.mp3"
+          "clip": "clips/f8c47482f2e9db2a.mp3",
+          "en": "I used to wake up early.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "despertaba",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te despertabas temprano.",
-          "clip": "clips/7b264e55dc74e6ff.mp3"
+          "clip": "clips/7b264e55dc74e6ff.mp3",
+          "en": "You used to wake up early.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "despertabas",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se despertaba temprano.",
-          "clip": "clips/b4edfd155361918a.mp3"
+          "clip": "clips/b4edfd155361918a.mp3",
+          "en": "You used to wake up early.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "despertaba",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se despertaba temprano.",
-          "clip": "clips/c85423948ba54e67.mp3"
+          "clip": "clips/c85423948ba54e67.mp3",
+          "en": "He used to wake up early.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "despertaba",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se despertaba temprano.",
-          "clip": "clips/17b79a439636b679.mp3"
+          "clip": "clips/17b79a439636b679.mp3",
+          "en": "She used to wake up early.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "despertaba",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos despertábamos temprano.",
-          "clip": "clips/313ece353535becc.mp3"
+          "clip": "clips/313ece353535becc.mp3",
+          "en": "We used to wake up early.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "despertábamos",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos despertábamos temprano.",
-          "clip": "clips/f3c54fc6be416f2c.mp3"
+          "clip": "clips/f3c54fc6be416f2c.mp3",
+          "en": "We used to wake up early.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "despertábamos",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se despertaban temprano.",
-          "clip": "clips/bdd60dbcb5fc5595.mp3"
+          "clip": "clips/bdd60dbcb5fc5595.mp3",
+          "en": "You all used to wake up early.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "despertaban",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se despertaban temprano.",
-          "clip": "clips/e0b320fe4d952274.mp3"
+          "clip": "clips/e0b320fe4d952274.mp3",
+          "en": "They used to wake up early.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "despertaban",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se despertaban temprano.",
-          "clip": "clips/3be9681a5f811e03.mp3"
+          "clip": "clips/3be9681a5f811e03.mp3",
+          "en": "They used to wake up early.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "despertaban",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Despiértate temprano.",
-          "clip": "clips/d0570e5a8acb0372.mp3"
+          "clip": "clips/d0570e5a8acb0372.mp3",
+          "en": "Wake up early.",
+          "parts": [
+            [
+              "Despiértate",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Despiértese temprano.",
-          "clip": "clips/46e9d09b04950f21.mp3"
+          "clip": "clips/46e9d09b04950f21.mp3",
+          "en": "Wake up early.",
+          "parts": [
+            [
+              "Despiértese",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Despertémonos temprano.",
-          "clip": "clips/b7bee7b68c597497.mp3"
+          "clip": "clips/b7bee7b68c597497.mp3",
+          "en": "Let's wake up early.",
+          "parts": [
+            [
+              "Despertémonos",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Despertémonos temprano.",
-          "clip": "clips/b7bee7b68c597497.mp3"
+          "clip": "clips/b7bee7b68c597497.mp3",
+          "en": "Let's wake up early.",
+          "parts": [
+            [
+              "Despertémonos",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Despiértense temprano.",
-          "clip": "clips/3d749bf4fbfb2418.mp3"
+          "clip": "clips/3d749bf4fbfb2418.mp3",
+          "en": "Wake up early.",
+          "parts": [
+            [
+              "Despiértense",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         }
       }
     }

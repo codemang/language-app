@@ -71,7 +71,21 @@
       "en_clip": "clips/20ebfff3af9351f0.mp3",
       "single": {
         "es": "Quiero caminar al parque.",
-        "clip": "clips/3180056f1191e644.mp3"
+        "clip": "clips/3180056f1191e644.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "caminar",
+            "v"
+          ],
+          [
+            "al parque.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo camino al parque.",
-          "clip": "clips/013b0372b94cc77a.mp3"
+          "clip": "clips/013b0372b94cc77a.mp3",
+          "en": "I walk to the park.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "camino",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú caminas al parque.",
-          "clip": "clips/1d18d655418ec4c0.mp3"
+          "clip": "clips/1d18d655418ec4c0.mp3",
+          "en": "You walk to the park.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "caminas",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted camina al parque.",
-          "clip": "clips/64adedc3da0bb09a.mp3"
+          "clip": "clips/64adedc3da0bb09a.mp3",
+          "en": "You walk to the park.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "camina",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él camina al parque.",
-          "clip": "clips/5e04ba35b14bfffc.mp3"
+          "clip": "clips/5e04ba35b14bfffc.mp3",
+          "en": "He walks to the park.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "camina",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella camina al parque.",
-          "clip": "clips/65f23069774d90d9.mp3"
+          "clip": "clips/65f23069774d90d9.mp3",
+          "en": "She walks to the park.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "camina",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros caminamos al parque.",
-          "clip": "clips/c86a767f64251fce.mp3"
+          "clip": "clips/c86a767f64251fce.mp3",
+          "en": "We walk to the park.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "caminamos",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras caminamos al parque.",
-          "clip": "clips/df9a32e0f8991951.mp3"
+          "clip": "clips/df9a32e0f8991951.mp3",
+          "en": "We walk to the park.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "caminamos",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes caminan al parque.",
-          "clip": "clips/454a1a87980eec02.mp3"
+          "clip": "clips/454a1a87980eec02.mp3",
+          "en": "You all walk to the park.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "caminan",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos caminan al parque.",
-          "clip": "clips/dd44b9626b846e71.mp3"
+          "clip": "clips/dd44b9626b846e71.mp3",
+          "en": "They walk to the park.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "caminan",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas caminan al parque.",
-          "clip": "clips/249dbd0fe1ea3b81.mp3"
+          "clip": "clips/249dbd0fe1ea3b81.mp3",
+          "en": "They walk to the park.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "caminan",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo caminé al parque.",
-          "clip": "clips/f76c29c43b01a876.mp3"
+          "clip": "clips/f76c29c43b01a876.mp3",
+          "en": "I walked to the park.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "caminé",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú caminaste al parque.",
-          "clip": "clips/97cec3ccfc2caaec.mp3"
+          "clip": "clips/97cec3ccfc2caaec.mp3",
+          "en": "You walked to the park.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "caminaste",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted caminó al parque.",
-          "clip": "clips/be5a6a094992b66d.mp3"
+          "clip": "clips/be5a6a094992b66d.mp3",
+          "en": "You walked to the park.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "caminó",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él caminó al parque.",
-          "clip": "clips/2fd12a6ea18ab54e.mp3"
+          "clip": "clips/2fd12a6ea18ab54e.mp3",
+          "en": "He walked to the park.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "caminó",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella caminó al parque.",
-          "clip": "clips/a5806dcfc7714df0.mp3"
+          "clip": "clips/a5806dcfc7714df0.mp3",
+          "en": "She walked to the park.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "caminó",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros caminamos al parque.",
-          "clip": "clips/c86a767f64251fce.mp3"
+          "clip": "clips/c86a767f64251fce.mp3",
+          "en": "We walked to the park.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "caminamos",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras caminamos al parque.",
-          "clip": "clips/df9a32e0f8991951.mp3"
+          "clip": "clips/df9a32e0f8991951.mp3",
+          "en": "We walked to the park.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "caminamos",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes caminaron al parque.",
-          "clip": "clips/7ad55325bf1b7549.mp3"
+          "clip": "clips/7ad55325bf1b7549.mp3",
+          "en": "You all walked to the park.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "caminaron",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos caminaron al parque.",
-          "clip": "clips/54f9451173cdaa25.mp3"
+          "clip": "clips/54f9451173cdaa25.mp3",
+          "en": "They walked to the park.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "caminaron",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas caminaron al parque.",
-          "clip": "clips/52c8cf891f17205d.mp3"
+          "clip": "clips/52c8cf891f17205d.mp3",
+          "en": "They walked to the park.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "caminaron",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo caminaba al parque.",
-          "clip": "clips/0b448524ce268289.mp3"
+          "clip": "clips/0b448524ce268289.mp3",
+          "en": "I used to walk to the park.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "caminaba",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú caminabas al parque.",
-          "clip": "clips/cdb435799435e326.mp3"
+          "clip": "clips/cdb435799435e326.mp3",
+          "en": "You used to walk to the park.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "caminabas",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted caminaba al parque.",
-          "clip": "clips/916a95960ba6ebc3.mp3"
+          "clip": "clips/916a95960ba6ebc3.mp3",
+          "en": "You used to walk to the park.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "caminaba",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él caminaba al parque.",
-          "clip": "clips/ba747455f47e1736.mp3"
+          "clip": "clips/ba747455f47e1736.mp3",
+          "en": "He used to walk to the park.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "caminaba",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella caminaba al parque.",
-          "clip": "clips/1702ea84602cdfb7.mp3"
+          "clip": "clips/1702ea84602cdfb7.mp3",
+          "en": "She used to walk to the park.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "caminaba",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros caminábamos al parque.",
-          "clip": "clips/cf4d5489bea1863b.mp3"
+          "clip": "clips/cf4d5489bea1863b.mp3",
+          "en": "We used to walk to the park.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "caminábamos",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras caminábamos al parque.",
-          "clip": "clips/3e77da49d85c7a0a.mp3"
+          "clip": "clips/3e77da49d85c7a0a.mp3",
+          "en": "We used to walk to the park.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "caminábamos",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes caminaban al parque.",
-          "clip": "clips/e40a6948dc61ca84.mp3"
+          "clip": "clips/e40a6948dc61ca84.mp3",
+          "en": "You all used to walk to the park.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "caminaban",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos caminaban al parque.",
-          "clip": "clips/ed0211624a952100.mp3"
+          "clip": "clips/ed0211624a952100.mp3",
+          "en": "They used to walk to the park.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "caminaban",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas caminaban al parque.",
-          "clip": "clips/7c80cad379bfed87.mp3"
+          "clip": "clips/7c80cad379bfed87.mp3",
+          "en": "They used to walk to the park.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "caminaban",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Camina al parque.",
-          "clip": "clips/eb215acc7b64b7a7.mp3"
+          "clip": "clips/eb215acc7b64b7a7.mp3",
+          "en": "Walk to the park.",
+          "parts": [
+            [
+              "Camina",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Camine al parque.",
-          "clip": "clips/b96c24255e2e249c.mp3"
+          "clip": "clips/b96c24255e2e249c.mp3",
+          "en": "Walk to the park.",
+          "parts": [
+            [
+              "Camine",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Caminemos al parque.",
-          "clip": "clips/8a57f08ef7779542.mp3"
+          "clip": "clips/8a57f08ef7779542.mp3",
+          "en": "Let's walk to the park.",
+          "parts": [
+            [
+              "Caminemos",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Caminemos al parque.",
-          "clip": "clips/8a57f08ef7779542.mp3"
+          "clip": "clips/8a57f08ef7779542.mp3",
+          "en": "Let's walk to the park.",
+          "parts": [
+            [
+              "Caminemos",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Caminen al parque.",
-          "clip": "clips/24a277395a143b16.mp3"
+          "clip": "clips/24a277395a143b16.mp3",
+          "en": "Walk to the park.",
+          "parts": [
+            [
+              "Caminen",
+              "v"
+            ],
+            [
+              "al parque.",
+              ""
+            ]
+          ]
         }
       }
     }

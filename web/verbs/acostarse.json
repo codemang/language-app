@@ -71,7 +71,21 @@
       "en_clip": "clips/454239a1a381be70.mp3",
       "single": {
         "es": "No quiero acostarme tarde.",
-        "clip": "clips/22d0bb9d42a053ea.mp3"
+        "clip": "clips/22d0bb9d42a053ea.mp3",
+        "parts": [
+          [
+            "No quiero",
+            ""
+          ],
+          [
+            "acostarme",
+            "v"
+          ],
+          [
+            "tarde.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo me acuesto tarde.",
-          "clip": "clips/37a57dd9f8cb4abb.mp3"
+          "clip": "clips/37a57dd9f8cb4abb.mp3",
+          "en": "I go to bed late.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "acuesto",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te acuestas tarde.",
-          "clip": "clips/fe3565e79ac08716.mp3"
+          "clip": "clips/fe3565e79ac08716.mp3",
+          "en": "You go to bed late.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "acuestas",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se acuesta tarde.",
-          "clip": "clips/03705a98a5bcd026.mp3"
+          "clip": "clips/03705a98a5bcd026.mp3",
+          "en": "You go to bed late.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "acuesta",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se acuesta tarde.",
-          "clip": "clips/09e1cd2cb7cbe870.mp3"
+          "clip": "clips/09e1cd2cb7cbe870.mp3",
+          "en": "He goes to bed late.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "acuesta",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se acuesta tarde.",
-          "clip": "clips/8a46f90b7acc0853.mp3"
+          "clip": "clips/8a46f90b7acc0853.mp3",
+          "en": "She goes to bed late.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "acuesta",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos acostamos tarde.",
-          "clip": "clips/d04e52a5f4d8bf91.mp3"
+          "clip": "clips/d04e52a5f4d8bf91.mp3",
+          "en": "We go to bed late.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "acostamos",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos acostamos tarde.",
-          "clip": "clips/2cc4c37df9214880.mp3"
+          "clip": "clips/2cc4c37df9214880.mp3",
+          "en": "We go to bed late.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "acostamos",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se acuestan tarde.",
-          "clip": "clips/e8d9a587d0a2ea11.mp3"
+          "clip": "clips/e8d9a587d0a2ea11.mp3",
+          "en": "You all go to bed late.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "acuestan",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se acuestan tarde.",
-          "clip": "clips/0e2fe834725e225b.mp3"
+          "clip": "clips/0e2fe834725e225b.mp3",
+          "en": "They go to bed late.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "acuestan",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se acuestan tarde.",
-          "clip": "clips/de22121807d9f2ba.mp3"
+          "clip": "clips/de22121807d9f2ba.mp3",
+          "en": "They go to bed late.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "acuestan",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo me acosté tarde.",
-          "clip": "clips/72b6ab380eb56cb6.mp3"
+          "clip": "clips/72b6ab380eb56cb6.mp3",
+          "en": "I went to bed late.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "acosté",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te acostaste tarde.",
-          "clip": "clips/866a38a551829cef.mp3"
+          "clip": "clips/866a38a551829cef.mp3",
+          "en": "You went to bed late.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "acostaste",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se acostó tarde.",
-          "clip": "clips/fa169fb34f4e0152.mp3"
+          "clip": "clips/fa169fb34f4e0152.mp3",
+          "en": "You went to bed late.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "acostó",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se acostó tarde.",
-          "clip": "clips/ca0b1a5333ecc9e4.mp3"
+          "clip": "clips/ca0b1a5333ecc9e4.mp3",
+          "en": "He went to bed late.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "acostó",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se acostó tarde.",
-          "clip": "clips/0ed7f0e0bc4e4826.mp3"
+          "clip": "clips/0ed7f0e0bc4e4826.mp3",
+          "en": "She went to bed late.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "acostó",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos acostamos tarde.",
-          "clip": "clips/d04e52a5f4d8bf91.mp3"
+          "clip": "clips/d04e52a5f4d8bf91.mp3",
+          "en": "We went to bed late.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "acostamos",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos acostamos tarde.",
-          "clip": "clips/2cc4c37df9214880.mp3"
+          "clip": "clips/2cc4c37df9214880.mp3",
+          "en": "We went to bed late.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "acostamos",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se acostaron tarde.",
-          "clip": "clips/e837fa1ee63dc86e.mp3"
+          "clip": "clips/e837fa1ee63dc86e.mp3",
+          "en": "You all went to bed late.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "acostaron",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se acostaron tarde.",
-          "clip": "clips/153dc0e99e756246.mp3"
+          "clip": "clips/153dc0e99e756246.mp3",
+          "en": "They went to bed late.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "acostaron",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se acostaron tarde.",
-          "clip": "clips/d0ae5cb8c1c225a3.mp3"
+          "clip": "clips/d0ae5cb8c1c225a3.mp3",
+          "en": "They went to bed late.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "acostaron",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo me acostaba tarde.",
-          "clip": "clips/1f2eca2b78981dce.mp3"
+          "clip": "clips/1f2eca2b78981dce.mp3",
+          "en": "I used to go to bed late.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "acostaba",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te acostabas tarde.",
-          "clip": "clips/3f3d7bf7f521f11d.mp3"
+          "clip": "clips/3f3d7bf7f521f11d.mp3",
+          "en": "You used to go to bed late.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "acostabas",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se acostaba tarde.",
-          "clip": "clips/5fb896ba423974b5.mp3"
+          "clip": "clips/5fb896ba423974b5.mp3",
+          "en": "You used to go to bed late.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "acostaba",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se acostaba tarde.",
-          "clip": "clips/e5dbfbe7221f8964.mp3"
+          "clip": "clips/e5dbfbe7221f8964.mp3",
+          "en": "He used to go to bed late.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "acostaba",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se acostaba tarde.",
-          "clip": "clips/5581bbc93f7e5706.mp3"
+          "clip": "clips/5581bbc93f7e5706.mp3",
+          "en": "She used to go to bed late.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "acostaba",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos acostábamos tarde.",
-          "clip": "clips/f23ba01f7130e917.mp3"
+          "clip": "clips/f23ba01f7130e917.mp3",
+          "en": "We used to go to bed late.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "acostábamos",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos acostábamos tarde.",
-          "clip": "clips/2e9e0c57007a4ca0.mp3"
+          "clip": "clips/2e9e0c57007a4ca0.mp3",
+          "en": "We used to go to bed late.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "acostábamos",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se acostaban tarde.",
-          "clip": "clips/81d064e6e7bebea8.mp3"
+          "clip": "clips/81d064e6e7bebea8.mp3",
+          "en": "You all used to go to bed late.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "acostaban",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se acostaban tarde.",
-          "clip": "clips/9609ce8fdcdab242.mp3"
+          "clip": "clips/9609ce8fdcdab242.mp3",
+          "en": "They used to go to bed late.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "acostaban",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se acostaban tarde.",
-          "clip": "clips/d807748f2532aee4.mp3"
+          "clip": "clips/d807748f2532aee4.mp3",
+          "en": "They used to go to bed late.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "acostaban",
+              "v"
+            ],
+            [
+              "tarde.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Acuéstate temprano.",
-          "clip": "clips/4b358b9284f7b8ba.mp3"
+          "clip": "clips/4b358b9284f7b8ba.mp3",
+          "en": "Go to bed early.",
+          "parts": [
+            [
+              "Acuéstate",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Acuéstese temprano.",
-          "clip": "clips/beca481a17705e21.mp3"
+          "clip": "clips/beca481a17705e21.mp3",
+          "en": "Go to bed early.",
+          "parts": [
+            [
+              "Acuéstese",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Acostémonos temprano.",
-          "clip": "clips/fab7aac71f241697.mp3"
+          "clip": "clips/fab7aac71f241697.mp3",
+          "en": "Let's go to bed early.",
+          "parts": [
+            [
+              "Acostémonos",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Acostémonos temprano.",
-          "clip": "clips/fab7aac71f241697.mp3"
+          "clip": "clips/fab7aac71f241697.mp3",
+          "en": "Let's go to bed early.",
+          "parts": [
+            [
+              "Acostémonos",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Acuéstense temprano.",
-          "clip": "clips/972df2e2acc7a6b6.mp3"
+          "clip": "clips/972df2e2acc7a6b6.mp3",
+          "en": "Go to bed early.",
+          "parts": [
+            [
+              "Acuéstense",
+              "v"
+            ],
+            [
+              "temprano.",
+              ""
+            ]
+          ]
         }
       }
     }

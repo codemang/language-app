@@ -71,7 +71,21 @@
       "en_clip": "clips/66b0a45a197fcfcd.mp3",
       "single": {
         "es": "Quiero trabajar en una oficina.",
-        "clip": "clips/0076193f56aee254.mp3"
+        "clip": "clips/0076193f56aee254.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "trabajar",
+            "v"
+          ],
+          [
+            "en una oficina.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo trabajo en una oficina.",
-          "clip": "clips/81620cb21bfca18c.mp3"
+          "clip": "clips/81620cb21bfca18c.mp3",
+          "en": "I work in an office.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "trabajo",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú trabajas en una oficina.",
-          "clip": "clips/f461d08373d974f0.mp3"
+          "clip": "clips/f461d08373d974f0.mp3",
+          "en": "You work in an office.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "trabajas",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted trabaja en una oficina.",
-          "clip": "clips/fa7cae55ba8281c3.mp3"
+          "clip": "clips/fa7cae55ba8281c3.mp3",
+          "en": "You work in an office.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "trabaja",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él trabaja en una oficina.",
-          "clip": "clips/bff7e22e3f42f5f3.mp3"
+          "clip": "clips/bff7e22e3f42f5f3.mp3",
+          "en": "He works in an office.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "trabaja",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella trabaja en una oficina.",
-          "clip": "clips/a4173387ace522b9.mp3"
+          "clip": "clips/a4173387ace522b9.mp3",
+          "en": "She works in an office.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "trabaja",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros trabajamos en una oficina.",
-          "clip": "clips/b2e1e9551f7b26a9.mp3"
+          "clip": "clips/b2e1e9551f7b26a9.mp3",
+          "en": "We work in an office.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "trabajamos",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras trabajamos en una oficina.",
-          "clip": "clips/4337e406cb970a98.mp3"
+          "clip": "clips/4337e406cb970a98.mp3",
+          "en": "We work in an office.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "trabajamos",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes trabajan en una oficina.",
-          "clip": "clips/5f0702e6dc86871e.mp3"
+          "clip": "clips/5f0702e6dc86871e.mp3",
+          "en": "You all work in an office.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "trabajan",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos trabajan en una oficina.",
-          "clip": "clips/ea21f0f6838fa339.mp3"
+          "clip": "clips/ea21f0f6838fa339.mp3",
+          "en": "They work in an office.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "trabajan",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas trabajan en una oficina.",
-          "clip": "clips/349d1c26c2b67912.mp3"
+          "clip": "clips/349d1c26c2b67912.mp3",
+          "en": "They work in an office.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "trabajan",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo trabajé en una oficina.",
-          "clip": "clips/b1d1e1ed6ddcd488.mp3"
+          "clip": "clips/b1d1e1ed6ddcd488.mp3",
+          "en": "I worked in an office.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "trabajé",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú trabajaste en una oficina.",
-          "clip": "clips/f181dce0b5b01aff.mp3"
+          "clip": "clips/f181dce0b5b01aff.mp3",
+          "en": "You worked in an office.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "trabajaste",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted trabajó en una oficina.",
-          "clip": "clips/6d18c0100268326e.mp3"
+          "clip": "clips/6d18c0100268326e.mp3",
+          "en": "You worked in an office.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "trabajó",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él trabajó en una oficina.",
-          "clip": "clips/f07c3cdc8cae9884.mp3"
+          "clip": "clips/f07c3cdc8cae9884.mp3",
+          "en": "He worked in an office.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "trabajó",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella trabajó en una oficina.",
-          "clip": "clips/e459930a5e1837e3.mp3"
+          "clip": "clips/e459930a5e1837e3.mp3",
+          "en": "She worked in an office.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "trabajó",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros trabajamos en una oficina.",
-          "clip": "clips/b2e1e9551f7b26a9.mp3"
+          "clip": "clips/b2e1e9551f7b26a9.mp3",
+          "en": "We worked in an office.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "trabajamos",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras trabajamos en una oficina.",
-          "clip": "clips/4337e406cb970a98.mp3"
+          "clip": "clips/4337e406cb970a98.mp3",
+          "en": "We worked in an office.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "trabajamos",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes trabajaron en una oficina.",
-          "clip": "clips/a58c0962b65166cc.mp3"
+          "clip": "clips/a58c0962b65166cc.mp3",
+          "en": "You all worked in an office.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "trabajaron",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos trabajaron en una oficina.",
-          "clip": "clips/aeb52ffe885acd59.mp3"
+          "clip": "clips/aeb52ffe885acd59.mp3",
+          "en": "They worked in an office.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "trabajaron",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas trabajaron en una oficina.",
-          "clip": "clips/f418d50c49e582dd.mp3"
+          "clip": "clips/f418d50c49e582dd.mp3",
+          "en": "They worked in an office.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "trabajaron",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo trabajaba en una oficina.",
-          "clip": "clips/03f8abbf6a0c4c77.mp3"
+          "clip": "clips/03f8abbf6a0c4c77.mp3",
+          "en": "I used to work in an office.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "trabajaba",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú trabajabas en una oficina.",
-          "clip": "clips/2831b9d1b5d35e28.mp3"
+          "clip": "clips/2831b9d1b5d35e28.mp3",
+          "en": "You used to work in an office.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "trabajabas",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted trabajaba en una oficina.",
-          "clip": "clips/66dd58ac58d083e7.mp3"
+          "clip": "clips/66dd58ac58d083e7.mp3",
+          "en": "You used to work in an office.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "trabajaba",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él trabajaba en una oficina.",
-          "clip": "clips/77f7641e34b4275e.mp3"
+          "clip": "clips/77f7641e34b4275e.mp3",
+          "en": "He used to work in an office.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "trabajaba",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella trabajaba en una oficina.",
-          "clip": "clips/9c330328ade31448.mp3"
+          "clip": "clips/9c330328ade31448.mp3",
+          "en": "She used to work in an office.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "trabajaba",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros trabajábamos en una oficina.",
-          "clip": "clips/2fc5d89e54f17f13.mp3"
+          "clip": "clips/2fc5d89e54f17f13.mp3",
+          "en": "We used to work in an office.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "trabajábamos",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras trabajábamos en una oficina.",
-          "clip": "clips/fb5b3766eeea4ec6.mp3"
+          "clip": "clips/fb5b3766eeea4ec6.mp3",
+          "en": "We used to work in an office.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "trabajábamos",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes trabajaban en una oficina.",
-          "clip": "clips/9ae57e186f2c1fac.mp3"
+          "clip": "clips/9ae57e186f2c1fac.mp3",
+          "en": "You all used to work in an office.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "trabajaban",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos trabajaban en una oficina.",
-          "clip": "clips/6f10d3ec5b2a22bc.mp3"
+          "clip": "clips/6f10d3ec5b2a22bc.mp3",
+          "en": "They used to work in an office.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "trabajaban",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas trabajaban en una oficina.",
-          "clip": "clips/98052861b8aee37c.mp3"
+          "clip": "clips/98052861b8aee37c.mp3",
+          "en": "They used to work in an office.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "trabajaban",
+              "v"
+            ],
+            [
+              "en una oficina.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Trabaja mucho.",
-          "clip": "clips/9064a30fa65367a0.mp3"
+          "clip": "clips/9064a30fa65367a0.mp3",
+          "en": "Work hard.",
+          "parts": [
+            [
+              "Trabaja",
+              "v"
+            ],
+            [
+              "mucho.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Trabaje mucho.",
-          "clip": "clips/885604358faa2686.mp3"
+          "clip": "clips/885604358faa2686.mp3",
+          "en": "Work hard.",
+          "parts": [
+            [
+              "Trabaje",
+              "v"
+            ],
+            [
+              "mucho.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Trabajemos mucho.",
-          "clip": "clips/c44cb054aa4a8f9c.mp3"
+          "clip": "clips/c44cb054aa4a8f9c.mp3",
+          "en": "Let's work hard.",
+          "parts": [
+            [
+              "Trabajemos",
+              "v"
+            ],
+            [
+              "mucho.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Trabajemos mucho.",
-          "clip": "clips/c44cb054aa4a8f9c.mp3"
+          "clip": "clips/c44cb054aa4a8f9c.mp3",
+          "en": "Let's work hard.",
+          "parts": [
+            [
+              "Trabajemos",
+              "v"
+            ],
+            [
+              "mucho.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Trabajen mucho.",
-          "clip": "clips/136256d4c591f558.mp3"
+          "clip": "clips/136256d4c591f558.mp3",
+          "en": "Work hard.",
+          "parts": [
+            [
+              "Trabajen",
+              "v"
+            ],
+            [
+              "mucho.",
+              ""
+            ]
+          ]
         }
       }
     }

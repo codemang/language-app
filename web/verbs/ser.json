@@ -71,7 +71,21 @@
       "en_clip": "clips/f71bb2c6f5f2e18f.mp3",
       "single": {
         "es": "Quiero ser estudiante.",
-        "clip": "clips/5aef2629fb9151b4.mp3"
+        "clip": "clips/5aef2629fb9151b4.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "ser",
+            "v"
+          ],
+          [
+            "estudiante.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo soy estudiante.",
-          "clip": "clips/b6f566b7f80855f7.mp3"
+          "clip": "clips/b6f566b7f80855f7.mp3",
+          "en": "I am a student.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "soy",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú eres estudiante.",
-          "clip": "clips/052c6cb9222179d6.mp3"
+          "clip": "clips/052c6cb9222179d6.mp3",
+          "en": "You are a student.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "eres",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted es estudiante.",
-          "clip": "clips/3cb83ee0f5abe1ec.mp3"
+          "clip": "clips/3cb83ee0f5abe1ec.mp3",
+          "en": "You are a student.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "es",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él es estudiante.",
-          "clip": "clips/7d2c97518f83500d.mp3"
+          "clip": "clips/7d2c97518f83500d.mp3",
+          "en": "He is a student.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "es",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella es estudiante.",
-          "clip": "clips/317b0df019c3efcc.mp3"
+          "clip": "clips/317b0df019c3efcc.mp3",
+          "en": "She is a student.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "es",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros somos estudiantes.",
-          "clip": "clips/ba161fc6c5119620.mp3"
+          "clip": "clips/ba161fc6c5119620.mp3",
+          "en": "We are students.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "somos",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras somos estudiantes.",
-          "clip": "clips/e135c03e94222932.mp3"
+          "clip": "clips/e135c03e94222932.mp3",
+          "en": "We are students.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "somos",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes son estudiantes.",
-          "clip": "clips/7a6a663990f73ab5.mp3"
+          "clip": "clips/7a6a663990f73ab5.mp3",
+          "en": "You all are students.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "son",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos son estudiantes.",
-          "clip": "clips/f70a595db5d27d32.mp3"
+          "clip": "clips/f70a595db5d27d32.mp3",
+          "en": "They are students.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "son",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas son estudiantes.",
-          "clip": "clips/9826e3a20f6c1cf1.mp3"
+          "clip": "clips/9826e3a20f6c1cf1.mp3",
+          "en": "They are students.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "son",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo fui estudiante.",
-          "clip": "clips/939bdd0b3fa81f87.mp3"
+          "clip": "clips/939bdd0b3fa81f87.mp3",
+          "en": "I was a student.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "fui",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú fuiste estudiante.",
-          "clip": "clips/f6740b22a0e7a24a.mp3"
+          "clip": "clips/f6740b22a0e7a24a.mp3",
+          "en": "You were a student.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "fuiste",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted fue estudiante.",
-          "clip": "clips/70782ad2369fba6d.mp3"
+          "clip": "clips/70782ad2369fba6d.mp3",
+          "en": "You were a student.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "fue",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él fue estudiante.",
-          "clip": "clips/35331d9a7b9bc514.mp3"
+          "clip": "clips/35331d9a7b9bc514.mp3",
+          "en": "He was a student.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "fue",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella fue estudiante.",
-          "clip": "clips/de4dcbd1add26947.mp3"
+          "clip": "clips/de4dcbd1add26947.mp3",
+          "en": "She was a student.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "fue",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros fuimos estudiantes.",
-          "clip": "clips/d9aa6c8cfba942f1.mp3"
+          "clip": "clips/d9aa6c8cfba942f1.mp3",
+          "en": "We were students.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "fuimos",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras fuimos estudiantes.",
-          "clip": "clips/4fe1c4788b79525f.mp3"
+          "clip": "clips/4fe1c4788b79525f.mp3",
+          "en": "We were students.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "fuimos",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes fueron estudiantes.",
-          "clip": "clips/1c34b3d8d9127ec8.mp3"
+          "clip": "clips/1c34b3d8d9127ec8.mp3",
+          "en": "You all were students.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "fueron",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos fueron estudiantes.",
-          "clip": "clips/a512642231578a5b.mp3"
+          "clip": "clips/a512642231578a5b.mp3",
+          "en": "They were students.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "fueron",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas fueron estudiantes.",
-          "clip": "clips/929c8a8044ba80b6.mp3"
+          "clip": "clips/929c8a8044ba80b6.mp3",
+          "en": "They were students.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "fueron",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo era estudiante.",
-          "clip": "clips/db46f6326fcf629e.mp3"
+          "clip": "clips/db46f6326fcf629e.mp3",
+          "en": "I used to be a student.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "era",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú eras estudiante.",
-          "clip": "clips/6103a9091084712d.mp3"
+          "clip": "clips/6103a9091084712d.mp3",
+          "en": "You used to be a student.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "eras",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted era estudiante.",
-          "clip": "clips/1baaac5fd521e036.mp3"
+          "clip": "clips/1baaac5fd521e036.mp3",
+          "en": "You used to be a student.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "era",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él era estudiante.",
-          "clip": "clips/62f2fe1bb41af7a5.mp3"
+          "clip": "clips/62f2fe1bb41af7a5.mp3",
+          "en": "He used to be a student.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "era",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella era estudiante.",
-          "clip": "clips/fad39a9927df68dc.mp3"
+          "clip": "clips/fad39a9927df68dc.mp3",
+          "en": "She used to be a student.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "era",
+              "v"
+            ],
+            [
+              "estudiante.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros éramos estudiantes.",
-          "clip": "clips/37c9d2a007bca400.mp3"
+          "clip": "clips/37c9d2a007bca400.mp3",
+          "en": "We used to be students.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "éramos",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras éramos estudiantes.",
-          "clip": "clips/dffa9a552b48407f.mp3"
+          "clip": "clips/dffa9a552b48407f.mp3",
+          "en": "We used to be students.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "éramos",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes eran estudiantes.",
-          "clip": "clips/4a166ca0bf3edeb4.mp3"
+          "clip": "clips/4a166ca0bf3edeb4.mp3",
+          "en": "You all used to be students.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "eran",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos eran estudiantes.",
-          "clip": "clips/2fbda07d0a22f572.mp3"
+          "clip": "clips/2fbda07d0a22f572.mp3",
+          "en": "They used to be students.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "eran",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas eran estudiantes.",
-          "clip": "clips/319dd65e6c9a89cc.mp3"
+          "clip": "clips/319dd65e6c9a89cc.mp3",
+          "en": "They used to be students.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "eran",
+              "v"
+            ],
+            [
+              "estudiantes.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Sé paciente.",
-          "clip": "clips/12bcd1973815b872.mp3"
+          "clip": "clips/12bcd1973815b872.mp3",
+          "en": "Be patient.",
+          "parts": [
+            [
+              "Sé",
+              "v"
+            ],
+            [
+              "paciente.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Sea paciente.",
-          "clip": "clips/b6c9e3d1f6bb00d3.mp3"
+          "clip": "clips/b6c9e3d1f6bb00d3.mp3",
+          "en": "Be patient.",
+          "parts": [
+            [
+              "Sea",
+              "v"
+            ],
+            [
+              "paciente.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Seamos pacientes.",
-          "clip": "clips/a0b0589c029c9426.mp3"
+          "clip": "clips/a0b0589c029c9426.mp3",
+          "en": "Let's be patient.",
+          "parts": [
+            [
+              "Seamos",
+              "v"
+            ],
+            [
+              "pacientes.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Seamos pacientes.",
-          "clip": "clips/a0b0589c029c9426.mp3"
+          "clip": "clips/a0b0589c029c9426.mp3",
+          "en": "Let's be patient.",
+          "parts": [
+            [
+              "Seamos",
+              "v"
+            ],
+            [
+              "pacientes.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Sean pacientes.",
-          "clip": "clips/e90b729b9ea3defe.mp3"
+          "clip": "clips/e90b729b9ea3defe.mp3",
+          "en": "Be patient.",
+          "parts": [
+            [
+              "Sean",
+              "v"
+            ],
+            [
+              "pacientes.",
+              ""
+            ]
+          ]
         }
       }
     }

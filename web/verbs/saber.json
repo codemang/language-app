@@ -71,7 +71,21 @@
       "en_clip": "clips/e823ba0301dd1e40.mp3",
       "single": {
         "es": "Quiero saber la respuesta.",
-        "clip": "clips/72d867fb8121adf9.mp3"
+        "clip": "clips/72d867fb8121adf9.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "saber",
+            "v"
+          ],
+          [
+            "la respuesta.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo sé la respuesta.",
-          "clip": "clips/aa65b7a9e34a866a.mp3"
+          "clip": "clips/aa65b7a9e34a866a.mp3",
+          "en": "I know the answer.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "sé",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú sabes la respuesta.",
-          "clip": "clips/ae5d2d40dddf062b.mp3"
+          "clip": "clips/ae5d2d40dddf062b.mp3",
+          "en": "You know the answer.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "sabes",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted sabe la respuesta.",
-          "clip": "clips/b537014edf73fa13.mp3"
+          "clip": "clips/b537014edf73fa13.mp3",
+          "en": "You know the answer.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "sabe",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él sabe la respuesta.",
-          "clip": "clips/189cdb25c0f350ed.mp3"
+          "clip": "clips/189cdb25c0f350ed.mp3",
+          "en": "He knows the answer.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "sabe",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella sabe la respuesta.",
-          "clip": "clips/4029d7705ca6e3d4.mp3"
+          "clip": "clips/4029d7705ca6e3d4.mp3",
+          "en": "She knows the answer.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "sabe",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros sabemos la respuesta.",
-          "clip": "clips/b564b4cf83302456.mp3"
+          "clip": "clips/b564b4cf83302456.mp3",
+          "en": "We know the answer.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "sabemos",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras sabemos la respuesta.",
-          "clip": "clips/e47737f278303e01.mp3"
+          "clip": "clips/e47737f278303e01.mp3",
+          "en": "We know the answer.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "sabemos",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes saben la respuesta.",
-          "clip": "clips/d0340a48eebffb75.mp3"
+          "clip": "clips/d0340a48eebffb75.mp3",
+          "en": "You all know the answer.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "saben",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos saben la respuesta.",
-          "clip": "clips/42fa540674bd51f9.mp3"
+          "clip": "clips/42fa540674bd51f9.mp3",
+          "en": "They know the answer.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "saben",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas saben la respuesta.",
-          "clip": "clips/0b4318227ba9d134.mp3"
+          "clip": "clips/0b4318227ba9d134.mp3",
+          "en": "They know the answer.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "saben",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo supe la respuesta.",
-          "clip": "clips/2688fda226ae3f83.mp3"
+          "clip": "clips/2688fda226ae3f83.mp3",
+          "en": "I found out the answer.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "supe",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú supiste la respuesta.",
-          "clip": "clips/94b589dbf0ca3654.mp3"
+          "clip": "clips/94b589dbf0ca3654.mp3",
+          "en": "You found out the answer.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "supiste",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted supo la respuesta.",
-          "clip": "clips/65c88c838bee2f5c.mp3"
+          "clip": "clips/65c88c838bee2f5c.mp3",
+          "en": "You found out the answer.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "supo",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él supo la respuesta.",
-          "clip": "clips/a5368a0ef0912bce.mp3"
+          "clip": "clips/a5368a0ef0912bce.mp3",
+          "en": "He found out the answer.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "supo",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella supo la respuesta.",
-          "clip": "clips/90487dc1ab6e6a32.mp3"
+          "clip": "clips/90487dc1ab6e6a32.mp3",
+          "en": "She found out the answer.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "supo",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros supimos la respuesta.",
-          "clip": "clips/1eb74bd84c08572b.mp3"
+          "clip": "clips/1eb74bd84c08572b.mp3",
+          "en": "We found out the answer.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "supimos",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras supimos la respuesta.",
-          "clip": "clips/0191f48cc9dfebcb.mp3"
+          "clip": "clips/0191f48cc9dfebcb.mp3",
+          "en": "We found out the answer.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "supimos",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes supieron la respuesta.",
-          "clip": "clips/a48089c9cfdd6cd6.mp3"
+          "clip": "clips/a48089c9cfdd6cd6.mp3",
+          "en": "You all found out the answer.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "supieron",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos supieron la respuesta.",
-          "clip": "clips/a72f489f55eae025.mp3"
+          "clip": "clips/a72f489f55eae025.mp3",
+          "en": "They found out the answer.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "supieron",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas supieron la respuesta.",
-          "clip": "clips/a97154fc74c80215.mp3"
+          "clip": "clips/a97154fc74c80215.mp3",
+          "en": "They found out the answer.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "supieron",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo sabía la respuesta.",
-          "clip": "clips/2c34f5210946093e.mp3"
+          "clip": "clips/2c34f5210946093e.mp3",
+          "en": "I knew the answer.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "sabía",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú sabías la respuesta.",
-          "clip": "clips/951fe596f76e06e2.mp3"
+          "clip": "clips/951fe596f76e06e2.mp3",
+          "en": "You knew the answer.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "sabías",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted sabía la respuesta.",
-          "clip": "clips/e55b221d5d777f1d.mp3"
+          "clip": "clips/e55b221d5d777f1d.mp3",
+          "en": "You knew the answer.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "sabía",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él sabía la respuesta.",
-          "clip": "clips/2aea35355eaa859e.mp3"
+          "clip": "clips/2aea35355eaa859e.mp3",
+          "en": "He knew the answer.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "sabía",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella sabía la respuesta.",
-          "clip": "clips/1185889680888b3a.mp3"
+          "clip": "clips/1185889680888b3a.mp3",
+          "en": "She knew the answer.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "sabía",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros sabíamos la respuesta.",
-          "clip": "clips/3388aab41afa9a00.mp3"
+          "clip": "clips/3388aab41afa9a00.mp3",
+          "en": "We knew the answer.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "sabíamos",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras sabíamos la respuesta.",
-          "clip": "clips/165f39dd174507fb.mp3"
+          "clip": "clips/165f39dd174507fb.mp3",
+          "en": "We knew the answer.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "sabíamos",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes sabían la respuesta.",
-          "clip": "clips/645beac1e2037c9e.mp3"
+          "clip": "clips/645beac1e2037c9e.mp3",
+          "en": "You all knew the answer.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "sabían",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos sabían la respuesta.",
-          "clip": "clips/e9d18e9c8593adad.mp3"
+          "clip": "clips/e9d18e9c8593adad.mp3",
+          "en": "They knew the answer.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "sabían",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas sabían la respuesta.",
-          "clip": "clips/72c96875e8e102f8.mp3"
+          "clip": "clips/72c96875e8e102f8.mp3",
+          "en": "They knew the answer.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "sabían",
+              "v"
+            ],
+            [
+              "la respuesta.",
+              ""
+            ]
+          ]
         }
       }
     }

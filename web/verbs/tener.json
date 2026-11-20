@@ -71,7 +71,21 @@
       "en_clip": "clips/2d24aa946d6d4546.mp3",
       "single": {
         "es": "Quiero tener un perro.",
-        "clip": "clips/9680932da7f9bfd7.mp3"
+        "clip": "clips/9680932da7f9bfd7.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "tener",
+            "v"
+          ],
+          [
+            "un perro.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo tengo un perro.",
-          "clip": "clips/1a03422166c7e806.mp3"
+          "clip": "clips/1a03422166c7e806.mp3",
+          "en": "I have a dog.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "tengo",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú tienes un perro.",
-          "clip": "clips/4ff5e209bc428c31.mp3"
+          "clip": "clips/4ff5e209bc428c31.mp3",
+          "en": "You have a dog.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "tienes",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted tiene un perro.",
-          "clip": "clips/935f0539f253c6d8.mp3"
+          "clip": "clips/935f0539f253c6d8.mp3",
+          "en": "You have a dog.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "tiene",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él tiene un perro.",
-          "clip": "clips/e6ca59cb53f6b074.mp3"
+          "clip": "clips/e6ca59cb53f6b074.mp3",
+          "en": "He has a dog.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "tiene",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella tiene un perro.",
-          "clip": "clips/4953c9aa55e31dd6.mp3"
+          "clip": "clips/4953c9aa55e31dd6.mp3",
+          "en": "She has a dog.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "tiene",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros tenemos un perro.",
-          "clip": "clips/a2ed428690bed6d0.mp3"
+          "clip": "clips/a2ed428690bed6d0.mp3",
+          "en": "We have a dog.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "tenemos",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras tenemos un perro.",
-          "clip": "clips/7b863cf837f07480.mp3"
+          "clip": "clips/7b863cf837f07480.mp3",
+          "en": "We have a dog.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "tenemos",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes tienen un perro.",
-          "clip": "clips/78106a9bd7f556ac.mp3"
+          "clip": "clips/78106a9bd7f556ac.mp3",
+          "en": "You all have a dog.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "tienen",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos tienen un perro.",
-          "clip": "clips/04a3901c4456523f.mp3"
+          "clip": "clips/04a3901c4456523f.mp3",
+          "en": "They have a dog.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "tienen",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas tienen un perro.",
-          "clip": "clips/b3ddacfb28416614.mp3"
+          "clip": "clips/b3ddacfb28416614.mp3",
+          "en": "They have a dog.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "tienen",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo tuve un perro.",
-          "clip": "clips/6d8ebd704475ba39.mp3"
+          "clip": "clips/6d8ebd704475ba39.mp3",
+          "en": "I had a dog.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "tuve",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú tuviste un perro.",
-          "clip": "clips/c3e56d7e886f1947.mp3"
+          "clip": "clips/c3e56d7e886f1947.mp3",
+          "en": "You had a dog.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "tuviste",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted tuvo un perro.",
-          "clip": "clips/362d19182664d6b1.mp3"
+          "clip": "clips/362d19182664d6b1.mp3",
+          "en": "You had a dog.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "tuvo",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él tuvo un perro.",
-          "clip": "clips/9b39f4fef46fca05.mp3"
+          "clip": "clips/9b39f4fef46fca05.mp3",
+          "en": "He had a dog.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "tuvo",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella tuvo un perro.",
-          "clip": "clips/7fabc1a37220634e.mp3"
+          "clip": "clips/7fabc1a37220634e.mp3",
+          "en": "She had a dog.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "tuvo",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros tuvimos un perro.",
-          "clip": "clips/586debe61a8c8caf.mp3"
+          "clip": "clips/586debe61a8c8caf.mp3",
+          "en": "We had a dog.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "tuvimos",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras tuvimos un perro.",
-          "clip": "clips/ab504586407a94b1.mp3"
+          "clip": "clips/ab504586407a94b1.mp3",
+          "en": "We had a dog.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "tuvimos",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes tuvieron un perro.",
-          "clip": "clips/c8c9bdbdeaefee98.mp3"
+          "clip": "clips/c8c9bdbdeaefee98.mp3",
+          "en": "You all had a dog.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "tuvieron",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos tuvieron un perro.",
-          "clip": "clips/97244a3e12e85b03.mp3"
+          "clip": "clips/97244a3e12e85b03.mp3",
+          "en": "They had a dog.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "tuvieron",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas tuvieron un perro.",
-          "clip": "clips/6ad1aae2071f1703.mp3"
+          "clip": "clips/6ad1aae2071f1703.mp3",
+          "en": "They had a dog.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "tuvieron",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo tenía un perro.",
-          "clip": "clips/75cf559255346e45.mp3"
+          "clip": "clips/75cf559255346e45.mp3",
+          "en": "I used to have a dog.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "tenía",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú tenías un perro.",
-          "clip": "clips/6db9b37e641c82a9.mp3"
+          "clip": "clips/6db9b37e641c82a9.mp3",
+          "en": "You used to have a dog.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "tenías",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted tenía un perro.",
-          "clip": "clips/ca9895e3fd8c01da.mp3"
+          "clip": "clips/ca9895e3fd8c01da.mp3",
+          "en": "You used to have a dog.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "tenía",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él tenía un perro.",
-          "clip": "clips/a72a2fe74d8197ff.mp3"
+          "clip": "clips/a72a2fe74d8197ff.mp3",
+          "en": "He used to have a dog.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "tenía",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella tenía un perro.",
-          "clip": "clips/81898af683d91a7d.mp3"
+          "clip": "clips/81898af683d91a7d.mp3",
+          "en": "She used to have a dog.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "tenía",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros teníamos un perro.",
-          "clip": "clips/f72b2ed3ceb85217.mp3"
+          "clip": "clips/f72b2ed3ceb85217.mp3",
+          "en": "We used to have a dog.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "teníamos",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras teníamos un perro.",
-          "clip": "clips/a2a7dee4e789a0f3.mp3"
+          "clip": "clips/a2a7dee4e789a0f3.mp3",
+          "en": "We used to have a dog.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "teníamos",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes tenían un perro.",
-          "clip": "clips/587ed08829915efd.mp3"
+          "clip": "clips/587ed08829915efd.mp3",
+          "en": "You all used to have a dog.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "tenían",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos tenían un perro.",
-          "clip": "clips/34398d285d783250.mp3"
+          "clip": "clips/34398d285d783250.mp3",
+          "en": "They used to have a dog.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "tenían",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas tenían un perro.",
-          "clip": "clips/a54a2fa7cd7dc519.mp3"
+          "clip": "clips/a54a2fa7cd7dc519.mp3",
+          "en": "They used to have a dog.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "tenían",
+              "v"
+            ],
+            [
+              "un perro.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Ten paciencia.",
-          "clip": "clips/d1c4369701e22753.mp3"
+          "clip": "clips/d1c4369701e22753.mp3",
+          "en": "Have patience.",
+          "parts": [
+            [
+              "Ten",
+              "v"
+            ],
+            [
+              "paciencia.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Tenga paciencia.",
-          "clip": "clips/82d6a580175f94df.mp3"
+          "clip": "clips/82d6a580175f94df.mp3",
+          "en": "Have patience.",
+          "parts": [
+            [
+              "Tenga",
+              "v"
+            ],
+            [
+              "paciencia.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Tengamos paciencia.",
-          "clip": "clips/b413c4ae3fe11908.mp3"
+          "clip": "clips/b413c4ae3fe11908.mp3",
+          "en": "Let's have patience.",
+          "parts": [
+            [
+              "Tengamos",
+              "v"
+            ],
+            [
+              "paciencia.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Tengamos paciencia.",
-          "clip": "clips/b413c4ae3fe11908.mp3"
+          "clip": "clips/b413c4ae3fe11908.mp3",
+          "en": "Let's have patience.",
+          "parts": [
+            [
+              "Tengamos",
+              "v"
+            ],
+            [
+              "paciencia.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Tengan paciencia.",
-          "clip": "clips/1edc6ed8a667e371.mp3"
+          "clip": "clips/1edc6ed8a667e371.mp3",
+          "en": "Have patience.",
+          "parts": [
+            [
+              "Tengan",
+              "v"
+            ],
+            [
+              "paciencia.",
+              ""
+            ]
+          ]
         }
       }
     }

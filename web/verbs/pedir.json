@@ -71,7 +71,21 @@
       "en_clip": "clips/50c0c86b857e9674.mp3",
       "single": {
         "es": "Voy a pedir un café.",
-        "clip": "clips/a00d57b08f3cd594.mp3"
+        "clip": "clips/a00d57b08f3cd594.mp3",
+        "parts": [
+          [
+            "Voy a",
+            ""
+          ],
+          [
+            "pedir",
+            "v"
+          ],
+          [
+            "un café.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo pido un café.",
-          "clip": "clips/584b5e5321bfd4f7.mp3"
+          "clip": "clips/584b5e5321bfd4f7.mp3",
+          "en": "I order a coffee.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pido",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú pides un café.",
-          "clip": "clips/8c71f023e3dc722b.mp3"
+          "clip": "clips/8c71f023e3dc722b.mp3",
+          "en": "You order a coffee.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "pides",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted pide un café.",
-          "clip": "clips/222bba45905e1731.mp3"
+          "clip": "clips/222bba45905e1731.mp3",
+          "en": "You order a coffee.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "pide",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él pide un café.",
-          "clip": "clips/a7124b95df275e90.mp3"
+          "clip": "clips/a7124b95df275e90.mp3",
+          "en": "He orders a coffee.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "pide",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella pide un café.",
-          "clip": "clips/ea80488f4f919d8f.mp3"
+          "clip": "clips/ea80488f4f919d8f.mp3",
+          "en": "She orders a coffee.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "pide",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros pedimos un café.",
-          "clip": "clips/aebf153c8748b000.mp3"
+          "clip": "clips/aebf153c8748b000.mp3",
+          "en": "We order a coffee.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "pedimos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras pedimos un café.",
-          "clip": "clips/dc515695cae1ae86.mp3"
+          "clip": "clips/dc515695cae1ae86.mp3",
+          "en": "We order a coffee.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "pedimos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes piden un café.",
-          "clip": "clips/36c493c438444a27.mp3"
+          "clip": "clips/36c493c438444a27.mp3",
+          "en": "You all order a coffee.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "piden",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos piden un café.",
-          "clip": "clips/a4b3f3b188e66c92.mp3"
+          "clip": "clips/a4b3f3b188e66c92.mp3",
+          "en": "They order a coffee.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "piden",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas piden un café.",
-          "clip": "clips/d0b525a9418231c6.mp3"
+          "clip": "clips/d0b525a9418231c6.mp3",
+          "en": "They order a coffee.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "piden",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo pedí un café.",
-          "clip": "clips/9a940b7dd6d1ba90.mp3"
+          "clip": "clips/9a940b7dd6d1ba90.mp3",
+          "en": "I ordered a coffee.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pedí",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú pediste un café.",
-          "clip": "clips/648a105ff1b4bd91.mp3"
+          "clip": "clips/648a105ff1b4bd91.mp3",
+          "en": "You ordered a coffee.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "pediste",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted pidió un café.",
-          "clip": "clips/aebff13501e4585c.mp3"
+          "clip": "clips/aebff13501e4585c.mp3",
+          "en": "You ordered a coffee.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "pidió",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él pidió un café.",
-          "clip": "clips/0886fa8e660148ff.mp3"
+          "clip": "clips/0886fa8e660148ff.mp3",
+          "en": "He ordered a coffee.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "pidió",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella pidió un café.",
-          "clip": "clips/0c3815ae61b39387.mp3"
+          "clip": "clips/0c3815ae61b39387.mp3",
+          "en": "She ordered a coffee.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "pidió",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros pedimos un café.",
-          "clip": "clips/aebf153c8748b000.mp3"
+          "clip": "clips/aebf153c8748b000.mp3",
+          "en": "We ordered a coffee.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "pedimos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras pedimos un café.",
-          "clip": "clips/dc515695cae1ae86.mp3"
+          "clip": "clips/dc515695cae1ae86.mp3",
+          "en": "We ordered a coffee.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "pedimos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes pidieron un café.",
-          "clip": "clips/fcbd6fa307142b53.mp3"
+          "clip": "clips/fcbd6fa307142b53.mp3",
+          "en": "You all ordered a coffee.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "pidieron",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos pidieron un café.",
-          "clip": "clips/50f027fe38fc60aa.mp3"
+          "clip": "clips/50f027fe38fc60aa.mp3",
+          "en": "They ordered a coffee.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "pidieron",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas pidieron un café.",
-          "clip": "clips/896a529295e64309.mp3"
+          "clip": "clips/896a529295e64309.mp3",
+          "en": "They ordered a coffee.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "pidieron",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo pedía un café.",
-          "clip": "clips/e61b7fdc28b0e1f8.mp3"
+          "clip": "clips/e61b7fdc28b0e1f8.mp3",
+          "en": "I used to order a coffee.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pedía",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú pedías un café.",
-          "clip": "clips/cbb77338fdc9784a.mp3"
+          "clip": "clips/cbb77338fdc9784a.mp3",
+          "en": "You used to order a coffee.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "pedías",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted pedía un café.",
-          "clip": "clips/ee1b2b7c8ce66e31.mp3"
+          "clip": "clips/ee1b2b7c8ce66e31.mp3",
+          "en": "You used to order a coffee.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "pedía",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él pedía un café.",
-          "clip": "clips/fe01264274bb3da1.mp3"
+          "clip": "clips/fe01264274bb3da1.mp3",
+          "en": "He used to order a coffee.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "pedía",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella pedía un café.",
-          "clip": "clips/9d199c8d8d659eb7.mp3"
+          "clip": "clips/9d199c8d8d659eb7.mp3",
+          "en": "She used to order a coffee.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "pedía",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros pedíamos un café.",
-          "clip": "clips/69462668a141eea6.mp3"
+          "clip": "clips/69462668a141eea6.mp3",
+          "en": "We used to order a coffee.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "pedíamos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras pedíamos un café.",
-          "clip": "clips/e7720ddbf70b8673.mp3"
+          "clip": "clips/e7720ddbf70b8673.mp3",
+          "en": "We used to order a coffee.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "pedíamos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes pedían un café.",
-          "clip": "clips/d653817d67c5a07a.mp3"
+          "clip": "clips/d653817d67c5a07a.mp3",
+          "en": "You all used to order a coffee.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "pedían",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos pedían un café.",
-          "clip": "clips/028038d8fb1e3b1f.mp3"
+          "clip": "clips/028038d8fb1e3b1f.mp3",
+          "en": "They used to order a coffee.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "pedían",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas pedían un café.",
-          "clip": "clips/6e77dc0617bde042.mp3"
+          "clip": "clips/6e77dc0617bde042.mp3",
+          "en": "They used to order a coffee.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "pedían",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Pide un café.",
-          "clip": "clips/8a63bb8662227568.mp3"
+          "clip": "clips/8a63bb8662227568.mp3",
+          "en": "Order a coffee.",
+          "parts": [
+            [
+              "Pide",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Pida un café.",
-          "clip": "clips/e06f5fd3cf439ab9.mp3"
+          "clip": "clips/e06f5fd3cf439ab9.mp3",
+          "en": "Order a coffee.",
+          "parts": [
+            [
+              "Pida",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Pidamos un café.",
-          "clip": "clips/d403ebbddbaafd18.mp3"
+          "clip": "clips/d403ebbddbaafd18.mp3",
+          "en": "Let's order a coffee.",
+          "parts": [
+            [
+              "Pidamos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Pidamos un café.",
-          "clip": "clips/d403ebbddbaafd18.mp3"
+          "clip": "clips/d403ebbddbaafd18.mp3",
+          "en": "Let's order a coffee.",
+          "parts": [
+            [
+              "Pidamos",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Pidan un café.",
-          "clip": "clips/b62dfef4c3ff85f5.mp3"
+          "clip": "clips/b62dfef4c3ff85f5.mp3",
+          "en": "Order a coffee.",
+          "parts": [
+            [
+              "Pidan",
+              "v"
+            ],
+            [
+              "un café.",
+              ""
+            ]
+          ]
         }
       }
     }

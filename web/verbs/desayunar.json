@@ -71,7 +71,21 @@
       "en_clip": "clips/8f5234203a129d44.mp3",
       "single": {
         "es": "Quiero desayunar huevos.",
-        "clip": "clips/7ec2aed19a90edd2.mp3"
+        "clip": "clips/7ec2aed19a90edd2.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "desayunar",
+            "v"
+          ],
+          [
+            "huevos.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo desayuno huevos.",
-          "clip": "clips/0fc6e910bc22c6a2.mp3"
+          "clip": "clips/0fc6e910bc22c6a2.mp3",
+          "en": "I have eggs for breakfast.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "desayuno",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú desayunas huevos.",
-          "clip": "clips/1602160a7e4215c9.mp3"
+          "clip": "clips/1602160a7e4215c9.mp3",
+          "en": "You have eggs for breakfast.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "desayunas",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted desayuna huevos.",
-          "clip": "clips/3f8d753b383c692c.mp3"
+          "clip": "clips/3f8d753b383c692c.mp3",
+          "en": "You have eggs for breakfast.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "desayuna",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él desayuna huevos.",
-          "clip": "clips/cf5567ed479d30f4.mp3"
+          "clip": "clips/cf5567ed479d30f4.mp3",
+          "en": "He has eggs for breakfast.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "desayuna",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella desayuna huevos.",
-          "clip": "clips/c06ce1ceff46a492.mp3"
+          "clip": "clips/c06ce1ceff46a492.mp3",
+          "en": "She has eggs for breakfast.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "desayuna",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros desayunamos huevos.",
-          "clip": "clips/6540d3a7c1cc7a52.mp3"
+          "clip": "clips/6540d3a7c1cc7a52.mp3",
+          "en": "We have eggs for breakfast.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "desayunamos",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras desayunamos huevos.",
-          "clip": "clips/d79604498361a918.mp3"
+          "clip": "clips/d79604498361a918.mp3",
+          "en": "We have eggs for breakfast.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "desayunamos",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes desayunan huevos.",
-          "clip": "clips/952f8b627210310b.mp3"
+          "clip": "clips/952f8b627210310b.mp3",
+          "en": "You all have eggs for breakfast.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "desayunan",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos desayunan huevos.",
-          "clip": "clips/b5fe4e1652e42bdd.mp3"
+          "clip": "clips/b5fe4e1652e42bdd.mp3",
+          "en": "They have eggs for breakfast.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "desayunan",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas desayunan huevos.",
-          "clip": "clips/f28c13d566a18e61.mp3"
+          "clip": "clips/f28c13d566a18e61.mp3",
+          "en": "They have eggs for breakfast.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "desayunan",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo desayuné huevos.",
-          "clip": "clips/b76e39d2d98dd163.mp3"
+          "clip": "clips/b76e39d2d98dd163.mp3",
+          "en": "I had eggs for breakfast.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "desayuné",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú desayunaste huevos.",
-          "clip": "clips/e192716805bbaa43.mp3"
+          "clip": "clips/e192716805bbaa43.mp3",
+          "en": "You had eggs for breakfast.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "desayunaste",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted desayunó huevos.",
-          "clip": "clips/dd6818bf4d0eb51a.mp3"
+          "clip": "clips/dd6818bf4d0eb51a.mp3",
+          "en": "You had eggs for breakfast.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "desayunó",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él desayunó huevos.",
-          "clip": "clips/e4c8882ca0903804.mp3"
+          "clip": "clips/e4c8882ca0903804.mp3",
+          "en": "He had eggs for breakfast.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "desayunó",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella desayunó huevos.",
-          "clip": "clips/68ee07e594750839.mp3"
+          "clip": "clips/68ee07e594750839.mp3",
+          "en": "She had eggs for breakfast.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "desayunó",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros desayunamos huevos.",
-          "clip": "clips/6540d3a7c1cc7a52.mp3"
+          "clip": "clips/6540d3a7c1cc7a52.mp3",
+          "en": "We had eggs for breakfast.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "desayunamos",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras desayunamos huevos.",
-          "clip": "clips/d79604498361a918.mp3"
+          "clip": "clips/d79604498361a918.mp3",
+          "en": "We had eggs for breakfast.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "desayunamos",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes desayunaron huevos.",
-          "clip": "clips/ae6037d11c0b2def.mp3"
+          "clip": "clips/ae6037d11c0b2def.mp3",
+          "en": "You all had eggs for breakfast.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "desayunaron",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos desayunaron huevos.",
-          "clip": "clips/9327091ac9a6d826.mp3"
+          "clip": "clips/9327091ac9a6d826.mp3",
+          "en": "They had eggs for breakfast.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "desayunaron",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas desayunaron huevos.",
-          "clip": "clips/1e1c6334c87050ce.mp3"
+          "clip": "clips/1e1c6334c87050ce.mp3",
+          "en": "They had eggs for breakfast.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "desayunaron",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo desayunaba huevos.",
-          "clip": "clips/6cfb70b8fb39cb14.mp3"
+          "clip": "clips/6cfb70b8fb39cb14.mp3",
+          "en": "I used to have eggs for breakfast.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "desayunaba",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú desayunabas huevos.",
-          "clip": "clips/2c3b9ad24605e30b.mp3"
+          "clip": "clips/2c3b9ad24605e30b.mp3",
+          "en": "You used to have eggs for breakfast.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "desayunabas",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted desayunaba huevos.",
-          "clip": "clips/2dc0dac7955d9adc.mp3"
+          "clip": "clips/2dc0dac7955d9adc.mp3",
+          "en": "You used to have eggs for breakfast.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "desayunaba",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él desayunaba huevos.",
-          "clip": "clips/546bc4570ea139a4.mp3"
+          "clip": "clips/546bc4570ea139a4.mp3",
+          "en": "He used to have eggs for breakfast.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "desayunaba",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella desayunaba huevos.",
-          "clip": "clips/e1ea0fdfa87ca074.mp3"
+          "clip": "clips/e1ea0fdfa87ca074.mp3",
+          "en": "She used to have eggs for breakfast.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "desayunaba",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros desayunábamos huevos.",
-          "clip": "clips/a64f8f07d7d44a55.mp3"
+          "clip": "clips/a64f8f07d7d44a55.mp3",
+          "en": "We used to have eggs for breakfast.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "desayunábamos",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras desayunábamos huevos.",
-          "clip": "clips/890f1202dd68853d.mp3"
+          "clip": "clips/890f1202dd68853d.mp3",
+          "en": "We used to have eggs for breakfast.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "desayunábamos",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes desayunaban huevos.",
-          "clip": "clips/ddd6445c9eea01af.mp3"
+          "clip": "clips/ddd6445c9eea01af.mp3",
+          "en": "You all used to have eggs for breakfast.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "desayunaban",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos desayunaban huevos.",
-          "clip": "clips/c90c70819c450246.mp3"
+          "clip": "clips/c90c70819c450246.mp3",
+          "en": "They used to have eggs for breakfast.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "desayunaban",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas desayunaban huevos.",
-          "clip": "clips/a9fd6abe8aa42292.mp3"
+          "clip": "clips/a9fd6abe8aa42292.mp3",
+          "en": "They used to have eggs for breakfast.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "desayunaban",
+              "v"
+            ],
+            [
+              "huevos.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Desayuna algo.",
-          "clip": "clips/90ec141132a1304f.mp3"
+          "clip": "clips/90ec141132a1304f.mp3",
+          "en": "Have some breakfast.",
+          "parts": [
+            [
+              "Desayuna",
+              "v"
+            ],
+            [
+              "algo.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Desayune algo.",
-          "clip": "clips/031b6d4e83468928.mp3"
+          "clip": "clips/031b6d4e83468928.mp3",
+          "en": "Have some breakfast.",
+          "parts": [
+            [
+              "Desayune",
+              "v"
+            ],
+            [
+              "algo.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Desayunemos algo.",
-          "clip": "clips/aca8947aaec5f2b8.mp3"
+          "clip": "clips/aca8947aaec5f2b8.mp3",
+          "en": "Let's have some breakfast.",
+          "parts": [
+            [
+              "Desayunemos",
+              "v"
+            ],
+            [
+              "algo.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Desayunemos algo.",
-          "clip": "clips/aca8947aaec5f2b8.mp3"
+          "clip": "clips/aca8947aaec5f2b8.mp3",
+          "en": "Let's have some breakfast.",
+          "parts": [
+            [
+              "Desayunemos",
+              "v"
+            ],
+            [
+              "algo.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Desayunen algo.",
-          "clip": "clips/4a8ab1c19b7b6bb1.mp3"
+          "clip": "clips/4a8ab1c19b7b6bb1.mp3",
+          "en": "Have some breakfast.",
+          "parts": [
+            [
+              "Desayunen",
+              "v"
+            ],
+            [
+              "algo.",
+              ""
+            ]
+          ]
         }
       }
     }

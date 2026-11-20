@@ -71,7 +71,21 @@
       "en_clip": "clips/d73795d271227726.mp3",
       "single": {
         "es": "Quiero viajar a México.",
-        "clip": "clips/3861e5859af7eade.mp3"
+        "clip": "clips/3861e5859af7eade.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "viajar",
+            "v"
+          ],
+          [
+            "a México.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo viajo a México.",
-          "clip": "clips/ac0f9eea155b82c4.mp3"
+          "clip": "clips/ac0f9eea155b82c4.mp3",
+          "en": "I travel to Mexico.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "viajo",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú viajas a México.",
-          "clip": "clips/f7ac5633e965bc07.mp3"
+          "clip": "clips/f7ac5633e965bc07.mp3",
+          "en": "You travel to Mexico.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "viajas",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted viaja a México.",
-          "clip": "clips/92eab6d5a69fda50.mp3"
+          "clip": "clips/92eab6d5a69fda50.mp3",
+          "en": "You travel to Mexico.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "viaja",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él viaja a México.",
-          "clip": "clips/d04af25542a4cc8e.mp3"
+          "clip": "clips/d04af25542a4cc8e.mp3",
+          "en": "He travels to Mexico.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "viaja",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella viaja a México.",
-          "clip": "clips/cebbe53cfe8d2c1d.mp3"
+          "clip": "clips/cebbe53cfe8d2c1d.mp3",
+          "en": "She travels to Mexico.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "viaja",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros viajamos a México.",
-          "clip": "clips/543976fb924ab627.mp3"
+          "clip": "clips/543976fb924ab627.mp3",
+          "en": "We travel to Mexico.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "viajamos",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras viajamos a México.",
-          "clip": "clips/45741b4acc7d8d0e.mp3"
+          "clip": "clips/45741b4acc7d8d0e.mp3",
+          "en": "We travel to Mexico.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "viajamos",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes viajan a México.",
-          "clip": "clips/d14c4b1f64a1467b.mp3"
+          "clip": "clips/d14c4b1f64a1467b.mp3",
+          "en": "You all travel to Mexico.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "viajan",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos viajan a México.",
-          "clip": "clips/16ef4826a11599a6.mp3"
+          "clip": "clips/16ef4826a11599a6.mp3",
+          "en": "They travel to Mexico.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "viajan",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas viajan a México.",
-          "clip": "clips/6ce5de81694ef05b.mp3"
+          "clip": "clips/6ce5de81694ef05b.mp3",
+          "en": "They travel to Mexico.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "viajan",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo viajé a México.",
-          "clip": "clips/21ba44b6f42c9d71.mp3"
+          "clip": "clips/21ba44b6f42c9d71.mp3",
+          "en": "I traveled to Mexico.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "viajé",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú viajaste a México.",
-          "clip": "clips/7afdf1ea470ba3da.mp3"
+          "clip": "clips/7afdf1ea470ba3da.mp3",
+          "en": "You traveled to Mexico.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "viajaste",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted viajó a México.",
-          "clip": "clips/caa63f98fd24e070.mp3"
+          "clip": "clips/caa63f98fd24e070.mp3",
+          "en": "You traveled to Mexico.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "viajó",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él viajó a México.",
-          "clip": "clips/77ca8d9e05725946.mp3"
+          "clip": "clips/77ca8d9e05725946.mp3",
+          "en": "He traveled to Mexico.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "viajó",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella viajó a México.",
-          "clip": "clips/ee81d73edaac13e0.mp3"
+          "clip": "clips/ee81d73edaac13e0.mp3",
+          "en": "She traveled to Mexico.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "viajó",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros viajamos a México.",
-          "clip": "clips/543976fb924ab627.mp3"
+          "clip": "clips/543976fb924ab627.mp3",
+          "en": "We traveled to Mexico.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "viajamos",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras viajamos a México.",
-          "clip": "clips/45741b4acc7d8d0e.mp3"
+          "clip": "clips/45741b4acc7d8d0e.mp3",
+          "en": "We traveled to Mexico.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "viajamos",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes viajaron a México.",
-          "clip": "clips/72301b3fe523f39d.mp3"
+          "clip": "clips/72301b3fe523f39d.mp3",
+          "en": "You all traveled to Mexico.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "viajaron",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos viajaron a México.",
-          "clip": "clips/f84cb2eb512c7072.mp3"
+          "clip": "clips/f84cb2eb512c7072.mp3",
+          "en": "They traveled to Mexico.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "viajaron",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas viajaron a México.",
-          "clip": "clips/4da5e48d69228a71.mp3"
+          "clip": "clips/4da5e48d69228a71.mp3",
+          "en": "They traveled to Mexico.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "viajaron",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo viajaba a México.",
-          "clip": "clips/ba5f217c7e87795b.mp3"
+          "clip": "clips/ba5f217c7e87795b.mp3",
+          "en": "I used to travel to Mexico.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "viajaba",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú viajabas a México.",
-          "clip": "clips/5209d541e76be009.mp3"
+          "clip": "clips/5209d541e76be009.mp3",
+          "en": "You used to travel to Mexico.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "viajabas",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted viajaba a México.",
-          "clip": "clips/ee6dba281159dbbe.mp3"
+          "clip": "clips/ee6dba281159dbbe.mp3",
+          "en": "You used to travel to Mexico.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "viajaba",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él viajaba a México.",
-          "clip": "clips/65a6a0c9735eaa00.mp3"
+          "clip": "clips/65a6a0c9735eaa00.mp3",
+          "en": "He used to travel to Mexico.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "viajaba",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella viajaba a México.",
-          "clip": "clips/a58a9253fa6eed65.mp3"
+          "clip": "clips/a58a9253fa6eed65.mp3",
+          "en": "She used to travel to Mexico.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "viajaba",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros viajábamos a México.",
-          "clip": "clips/db5dbb83e579a14a.mp3"
+          "clip": "clips/db5dbb83e579a14a.mp3",
+          "en": "We used to travel to Mexico.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "viajábamos",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras viajábamos a México.",
-          "clip": "clips/f458eec5eec6af66.mp3"
+          "clip": "clips/f458eec5eec6af66.mp3",
+          "en": "We used to travel to Mexico.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "viajábamos",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes viajaban a México.",
-          "clip": "clips/cc94bb2f88349461.mp3"
+          "clip": "clips/cc94bb2f88349461.mp3",
+          "en": "You all used to travel to Mexico.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "viajaban",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos viajaban a México.",
-          "clip": "clips/94b9cb4955b10af6.mp3"
+          "clip": "clips/94b9cb4955b10af6.mp3",
+          "en": "They used to travel to Mexico.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "viajaban",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas viajaban a México.",
-          "clip": "clips/a71ff147873a7589.mp3"
+          "clip": "clips/a71ff147873a7589.mp3",
+          "en": "They used to travel to Mexico.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "viajaban",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Viaja a México.",
-          "clip": "clips/b693c478d423546f.mp3"
+          "clip": "clips/b693c478d423546f.mp3",
+          "en": "Travel to Mexico.",
+          "parts": [
+            [
+              "Viaja",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Viaje a México.",
-          "clip": "clips/3960ffdf34417d9e.mp3"
+          "clip": "clips/3960ffdf34417d9e.mp3",
+          "en": "Travel to Mexico.",
+          "parts": [
+            [
+              "Viaje",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Viajemos a México.",
-          "clip": "clips/0afcc382dcde8d00.mp3"
+          "clip": "clips/0afcc382dcde8d00.mp3",
+          "en": "Let's travel to Mexico.",
+          "parts": [
+            [
+              "Viajemos",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Viajemos a México.",
-          "clip": "clips/0afcc382dcde8d00.mp3"
+          "clip": "clips/0afcc382dcde8d00.mp3",
+          "en": "Let's travel to Mexico.",
+          "parts": [
+            [
+              "Viajemos",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Viajen a México.",
-          "clip": "clips/cab02e282aadc764.mp3"
+          "clip": "clips/cab02e282aadc764.mp3",
+          "en": "Travel to Mexico.",
+          "parts": [
+            [
+              "Viajen",
+              "v"
+            ],
+            [
+              "a México.",
+              ""
+            ]
+          ]
         }
       }
     }

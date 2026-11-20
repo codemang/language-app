@@ -71,7 +71,21 @@
       "en_clip": "clips/9f26856a75cc83ab.mp3",
       "single": {
         "es": "Necesito beber agua.",
-        "clip": "clips/97c298b0c47fd97a.mp3"
+        "clip": "clips/97c298b0c47fd97a.mp3",
+        "parts": [
+          [
+            "Necesito",
+            ""
+          ],
+          [
+            "beber",
+            "v"
+          ],
+          [
+            "agua.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo bebo agua.",
-          "clip": "clips/a675e40b6964670c.mp3"
+          "clip": "clips/a675e40b6964670c.mp3",
+          "en": "I drink water.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "bebo",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú bebes agua.",
-          "clip": "clips/17dd7622f487f136.mp3"
+          "clip": "clips/17dd7622f487f136.mp3",
+          "en": "You drink water.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "bebes",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted bebe agua.",
-          "clip": "clips/d99605f035e451a4.mp3"
+          "clip": "clips/d99605f035e451a4.mp3",
+          "en": "You drink water.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "bebe",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él bebe agua.",
-          "clip": "clips/9a1a376c26dc0951.mp3"
+          "clip": "clips/9a1a376c26dc0951.mp3",
+          "en": "He drinks water.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "bebe",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella bebe agua.",
-          "clip": "clips/392a75c7a04fc797.mp3"
+          "clip": "clips/392a75c7a04fc797.mp3",
+          "en": "She drinks water.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "bebe",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros bebemos agua.",
-          "clip": "clips/697d6537119d5b8a.mp3"
+          "clip": "clips/697d6537119d5b8a.mp3",
+          "en": "We drink water.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "bebemos",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras bebemos agua.",
-          "clip": "clips/463843027813a7db.mp3"
+          "clip": "clips/463843027813a7db.mp3",
+          "en": "We drink water.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "bebemos",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes beben agua.",
-          "clip": "clips/ee19b46c66328a66.mp3"
+          "clip": "clips/ee19b46c66328a66.mp3",
+          "en": "You all drink water.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "beben",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos beben agua.",
-          "clip": "clips/13f01314debdba80.mp3"
+          "clip": "clips/13f01314debdba80.mp3",
+          "en": "They drink water.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "beben",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas beben agua.",
-          "clip": "clips/959d35f332e47134.mp3"
+          "clip": "clips/959d35f332e47134.mp3",
+          "en": "They drink water.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "beben",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo bebí agua.",
-          "clip": "clips/91b776dc54719df7.mp3"
+          "clip": "clips/91b776dc54719df7.mp3",
+          "en": "I drank water.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "bebí",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú bebiste agua.",
-          "clip": "clips/730ba7ce51a2ddb4.mp3"
+          "clip": "clips/730ba7ce51a2ddb4.mp3",
+          "en": "You drank water.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "bebiste",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted bebió agua.",
-          "clip": "clips/6302a78e0173122e.mp3"
+          "clip": "clips/6302a78e0173122e.mp3",
+          "en": "You drank water.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "bebió",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él bebió agua.",
-          "clip": "clips/f5a14f75c8d3403b.mp3"
+          "clip": "clips/f5a14f75c8d3403b.mp3",
+          "en": "He drank water.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "bebió",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella bebió agua.",
-          "clip": "clips/ac44f95c434a33e0.mp3"
+          "clip": "clips/ac44f95c434a33e0.mp3",
+          "en": "She drank water.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "bebió",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros bebimos agua.",
-          "clip": "clips/39120d54b1398d33.mp3"
+          "clip": "clips/39120d54b1398d33.mp3",
+          "en": "We drank water.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "bebimos",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras bebimos agua.",
-          "clip": "clips/17400a404df3a9c0.mp3"
+          "clip": "clips/17400a404df3a9c0.mp3",
+          "en": "We drank water.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "bebimos",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes bebieron agua.",
-          "clip": "clips/e9c4471643131961.mp3"
+          "clip": "clips/e9c4471643131961.mp3",
+          "en": "You all drank water.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "bebieron",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos bebieron agua.",
-          "clip": "clips/2ef6169f615b5088.mp3"
+          "clip": "clips/2ef6169f615b5088.mp3",
+          "en": "They drank water.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "bebieron",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas bebieron agua.",
-          "clip": "clips/99aad6a742d54e2f.mp3"
+          "clip": "clips/99aad6a742d54e2f.mp3",
+          "en": "They drank water.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "bebieron",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo bebía agua.",
-          "clip": "clips/924c5adaf116ee33.mp3"
+          "clip": "clips/924c5adaf116ee33.mp3",
+          "en": "I used to drink water.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "bebía",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú bebías agua.",
-          "clip": "clips/1cfc4568f50bfb9e.mp3"
+          "clip": "clips/1cfc4568f50bfb9e.mp3",
+          "en": "You used to drink water.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "bebías",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted bebía agua.",
-          "clip": "clips/ebe784fe5f8d3144.mp3"
+          "clip": "clips/ebe784fe5f8d3144.mp3",
+          "en": "You used to drink water.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "bebía",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él bebía agua.",
-          "clip": "clips/7c55c52468d18f37.mp3"
+          "clip": "clips/7c55c52468d18f37.mp3",
+          "en": "He used to drink water.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "bebía",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella bebía agua.",
-          "clip": "clips/01a397843ae938df.mp3"
+          "clip": "clips/01a397843ae938df.mp3",
+          "en": "She used to drink water.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "bebía",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros bebíamos agua.",
-          "clip": "clips/c80d562e3669682b.mp3"
+          "clip": "clips/c80d562e3669682b.mp3",
+          "en": "We used to drink water.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "bebíamos",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras bebíamos agua.",
-          "clip": "clips/6cd9079a2b773e16.mp3"
+          "clip": "clips/6cd9079a2b773e16.mp3",
+          "en": "We used to drink water.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "bebíamos",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes bebían agua.",
-          "clip": "clips/2442c3cc29120c31.mp3"
+          "clip": "clips/2442c3cc29120c31.mp3",
+          "en": "You all used to drink water.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "bebían",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos bebían agua.",
-          "clip": "clips/b078bb182af2d8cf.mp3"
+          "clip": "clips/b078bb182af2d8cf.mp3",
+          "en": "They used to drink water.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "bebían",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas bebían agua.",
-          "clip": "clips/6948938ae2f17cbd.mp3"
+          "clip": "clips/6948938ae2f17cbd.mp3",
+          "en": "They used to drink water.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "bebían",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Bebe agua.",
-          "clip": "clips/e13381f31727f016.mp3"
+          "clip": "clips/e13381f31727f016.mp3",
+          "en": "Drink water.",
+          "parts": [
+            [
+              "Bebe",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Beba agua.",
-          "clip": "clips/e7e88e4d7be6b44c.mp3"
+          "clip": "clips/e7e88e4d7be6b44c.mp3",
+          "en": "Drink water.",
+          "parts": [
+            [
+              "Beba",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Bebamos agua.",
-          "clip": "clips/793b9e22ff5e280c.mp3"
+          "clip": "clips/793b9e22ff5e280c.mp3",
+          "en": "Let's drink water.",
+          "parts": [
+            [
+              "Bebamos",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Bebamos agua.",
-          "clip": "clips/793b9e22ff5e280c.mp3"
+          "clip": "clips/793b9e22ff5e280c.mp3",
+          "en": "Let's drink water.",
+          "parts": [
+            [
+              "Bebamos",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Beban agua.",
-          "clip": "clips/8b99e461f510f81e.mp3"
+          "clip": "clips/8b99e461f510f81e.mp3",
+          "en": "Drink water.",
+          "parts": [
+            [
+              "Beban",
+              "v"
+            ],
+            [
+              "agua.",
+              ""
+            ]
+          ]
         }
       }
     }

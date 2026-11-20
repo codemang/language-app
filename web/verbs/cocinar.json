@@ -71,7 +71,21 @@
       "en_clip": "clips/6d356d3e62e092eb.mp3",
       "single": {
         "es": "Quiero cocinar la cena.",
-        "clip": "clips/4d61025dc467cb6d.mp3"
+        "clip": "clips/4d61025dc467cb6d.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "cocinar",
+            "v"
+          ],
+          [
+            "la cena.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo cocino la cena.",
-          "clip": "clips/3ded98414eab2e15.mp3"
+          "clip": "clips/3ded98414eab2e15.mp3",
+          "en": "I cook dinner.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "cocino",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú cocinas la cena.",
-          "clip": "clips/7201b6728293b6fd.mp3"
+          "clip": "clips/7201b6728293b6fd.mp3",
+          "en": "You cook dinner.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "cocinas",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted cocina la cena.",
-          "clip": "clips/3fa985846323f423.mp3"
+          "clip": "clips/3fa985846323f423.mp3",
+          "en": "You cook dinner.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "cocina",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él cocina la cena.",
-          "clip": "clips/088a85abc637cafa.mp3"
+          "clip": "clips/088a85abc637cafa.mp3",
+          "en": "He cooks dinner.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "cocina",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella cocina la cena.",
-          "clip": "clips/28d974c828a87d8d.mp3"
+          "clip": "clips/28d974c828a87d8d.mp3",
+          "en": "She cooks dinner.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "cocina",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros cocinamos la cena.",
-          "clip": "clips/660111882c7a6840.mp3"
+          "clip": "clips/660111882c7a6840.mp3",
+          "en": "We cook dinner.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "cocinamos",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras cocinamos la cena.",
-          "clip": "clips/8b49233046200419.mp3"
+          "clip": "clips/8b49233046200419.mp3",
+          "en": "We cook dinner.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "cocinamos",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes cocinan la cena.",
-          "clip": "clips/39d54d69e3d1e009.mp3"
+          "clip": "clips/39d54d69e3d1e009.mp3",
+          "en": "You all cook dinner.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "cocinan",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos cocinan la cena.",
-          "clip": "clips/2c339349401af821.mp3"
+          "clip": "clips/2c339349401af821.mp3",
+          "en": "They cook dinner.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "cocinan",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas cocinan la cena.",
-          "clip": "clips/ee0ae890329f7712.mp3"
+          "clip": "clips/ee0ae890329f7712.mp3",
+          "en": "They cook dinner.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "cocinan",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo cociné la cena.",
-          "clip": "clips/14f6efb2dc02bd0c.mp3"
+          "clip": "clips/14f6efb2dc02bd0c.mp3",
+          "en": "I cooked dinner.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "cociné",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú cocinaste la cena.",
-          "clip": "clips/1b523d9a465b853e.mp3"
+          "clip": "clips/1b523d9a465b853e.mp3",
+          "en": "You cooked dinner.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "cocinaste",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted cocinó la cena.",
-          "clip": "clips/5558b3bffff9119f.mp3"
+          "clip": "clips/5558b3bffff9119f.mp3",
+          "en": "You cooked dinner.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "cocinó",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él cocinó la cena.",
-          "clip": "clips/3840b19c7c3ea035.mp3"
+          "clip": "clips/3840b19c7c3ea035.mp3",
+          "en": "He cooked dinner.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "cocinó",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella cocinó la cena.",
-          "clip": "clips/1062ce3c65adf745.mp3"
+          "clip": "clips/1062ce3c65adf745.mp3",
+          "en": "She cooked dinner.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "cocinó",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros cocinamos la cena.",
-          "clip": "clips/660111882c7a6840.mp3"
+          "clip": "clips/660111882c7a6840.mp3",
+          "en": "We cooked dinner.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "cocinamos",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras cocinamos la cena.",
-          "clip": "clips/8b49233046200419.mp3"
+          "clip": "clips/8b49233046200419.mp3",
+          "en": "We cooked dinner.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "cocinamos",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes cocinaron la cena.",
-          "clip": "clips/0af56fd40e20bea4.mp3"
+          "clip": "clips/0af56fd40e20bea4.mp3",
+          "en": "You all cooked dinner.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "cocinaron",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos cocinaron la cena.",
-          "clip": "clips/5488b15dab12ec69.mp3"
+          "clip": "clips/5488b15dab12ec69.mp3",
+          "en": "They cooked dinner.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "cocinaron",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas cocinaron la cena.",
-          "clip": "clips/830c8e3030788ed2.mp3"
+          "clip": "clips/830c8e3030788ed2.mp3",
+          "en": "They cooked dinner.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "cocinaron",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo cocinaba la cena.",
-          "clip": "clips/0fd37ce0f2369790.mp3"
+          "clip": "clips/0fd37ce0f2369790.mp3",
+          "en": "I used to cook dinner.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "cocinaba",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú cocinabas la cena.",
-          "clip": "clips/75535b5359f92f89.mp3"
+          "clip": "clips/75535b5359f92f89.mp3",
+          "en": "You used to cook dinner.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "cocinabas",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted cocinaba la cena.",
-          "clip": "clips/d71d79e59fa59e9e.mp3"
+          "clip": "clips/d71d79e59fa59e9e.mp3",
+          "en": "You used to cook dinner.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "cocinaba",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él cocinaba la cena.",
-          "clip": "clips/0778d6a58ff7c277.mp3"
+          "clip": "clips/0778d6a58ff7c277.mp3",
+          "en": "He used to cook dinner.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "cocinaba",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella cocinaba la cena.",
-          "clip": "clips/03a09d54b327cc8c.mp3"
+          "clip": "clips/03a09d54b327cc8c.mp3",
+          "en": "She used to cook dinner.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "cocinaba",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros cocinábamos la cena.",
-          "clip": "clips/37f8e836d057254b.mp3"
+          "clip": "clips/37f8e836d057254b.mp3",
+          "en": "We used to cook dinner.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "cocinábamos",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras cocinábamos la cena.",
-          "clip": "clips/0f1cd2c931d5cf76.mp3"
+          "clip": "clips/0f1cd2c931d5cf76.mp3",
+          "en": "We used to cook dinner.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "cocinábamos",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes cocinaban la cena.",
-          "clip": "clips/73dbc88c718393ad.mp3"
+          "clip": "clips/73dbc88c718393ad.mp3",
+          "en": "You all used to cook dinner.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "cocinaban",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos cocinaban la cena.",
-          "clip": "clips/7a393bf05f08e400.mp3"
+          "clip": "clips/7a393bf05f08e400.mp3",
+          "en": "They used to cook dinner.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "cocinaban",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas cocinaban la cena.",
-          "clip": "clips/7c89fcdcf4702918.mp3"
+          "clip": "clips/7c89fcdcf4702918.mp3",
+          "en": "They used to cook dinner.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "cocinaban",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Cocina la cena.",
-          "clip": "clips/e756a0f80a0fb50e.mp3"
+          "clip": "clips/e756a0f80a0fb50e.mp3",
+          "en": "Cook dinner.",
+          "parts": [
+            [
+              "Cocina",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Cocine la cena.",
-          "clip": "clips/2aedd27aad16c3a7.mp3"
+          "clip": "clips/2aedd27aad16c3a7.mp3",
+          "en": "Cook dinner.",
+          "parts": [
+            [
+              "Cocine",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Cocinemos la cena.",
-          "clip": "clips/02ab4bb1e49b3034.mp3"
+          "clip": "clips/02ab4bb1e49b3034.mp3",
+          "en": "Let's cook dinner.",
+          "parts": [
+            [
+              "Cocinemos",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Cocinemos la cena.",
-          "clip": "clips/02ab4bb1e49b3034.mp3"
+          "clip": "clips/02ab4bb1e49b3034.mp3",
+          "en": "Let's cook dinner.",
+          "parts": [
+            [
+              "Cocinemos",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Cocinen la cena.",
-          "clip": "clips/1e6297939c9e2f70.mp3"
+          "clip": "clips/1e6297939c9e2f70.mp3",
+          "en": "Cook dinner.",
+          "parts": [
+            [
+              "Cocinen",
+              "v"
+            ],
+            [
+              "la cena.",
+              ""
+            ]
+          ]
         }
       }
     }

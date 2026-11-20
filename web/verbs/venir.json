@@ -71,7 +71,21 @@
       "en_clip": "clips/97563e26d9b5928c.mp3",
       "single": {
         "es": "Puedo venir a la fiesta.",
-        "clip": "clips/5afe30a3b1da8d5e.mp3"
+        "clip": "clips/5afe30a3b1da8d5e.mp3",
+        "parts": [
+          [
+            "Puedo",
+            ""
+          ],
+          [
+            "venir",
+            "v"
+          ],
+          [
+            "a la fiesta.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo vengo a la fiesta.",
-          "clip": "clips/a815882e8c9e7bae.mp3"
+          "clip": "clips/a815882e8c9e7bae.mp3",
+          "en": "I come to the party.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "vengo",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú vienes a la fiesta.",
-          "clip": "clips/799b7355abc5ab2f.mp3"
+          "clip": "clips/799b7355abc5ab2f.mp3",
+          "en": "You come to the party.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "vienes",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted viene a la fiesta.",
-          "clip": "clips/e2576aa69cc803f5.mp3"
+          "clip": "clips/e2576aa69cc803f5.mp3",
+          "en": "You come to the party.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "viene",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él viene a la fiesta.",
-          "clip": "clips/96db60beac7431f6.mp3"
+          "clip": "clips/96db60beac7431f6.mp3",
+          "en": "He comes to the party.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "viene",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella viene a la fiesta.",
-          "clip": "clips/6ba4894bacc93914.mp3"
+          "clip": "clips/6ba4894bacc93914.mp3",
+          "en": "She comes to the party.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "viene",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros venimos a la fiesta.",
-          "clip": "clips/9d60271369e7eb43.mp3"
+          "clip": "clips/9d60271369e7eb43.mp3",
+          "en": "We come to the party.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "venimos",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras venimos a la fiesta.",
-          "clip": "clips/57f49b9352c88e7c.mp3"
+          "clip": "clips/57f49b9352c88e7c.mp3",
+          "en": "We come to the party.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "venimos",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes vienen a la fiesta.",
-          "clip": "clips/507adb2a301cfa5a.mp3"
+          "clip": "clips/507adb2a301cfa5a.mp3",
+          "en": "You all come to the party.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "vienen",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos vienen a la fiesta.",
-          "clip": "clips/31bc9f4009d7ceeb.mp3"
+          "clip": "clips/31bc9f4009d7ceeb.mp3",
+          "en": "They come to the party.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "vienen",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas vienen a la fiesta.",
-          "clip": "clips/7ad8d6b3f1099dbe.mp3"
+          "clip": "clips/7ad8d6b3f1099dbe.mp3",
+          "en": "They come to the party.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "vienen",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo vine a la fiesta.",
-          "clip": "clips/1d40079647ff4d43.mp3"
+          "clip": "clips/1d40079647ff4d43.mp3",
+          "en": "I came to the party.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "vine",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú viniste a la fiesta.",
-          "clip": "clips/977e488fe540849c.mp3"
+          "clip": "clips/977e488fe540849c.mp3",
+          "en": "You came to the party.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "viniste",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted vino a la fiesta.",
-          "clip": "clips/46524f86c9aae320.mp3"
+          "clip": "clips/46524f86c9aae320.mp3",
+          "en": "You came to the party.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "vino",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él vino a la fiesta.",
-          "clip": "clips/c88fe35269c8cd40.mp3"
+          "clip": "clips/c88fe35269c8cd40.mp3",
+          "en": "He came to the party.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "vino",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella vino a la fiesta.",
-          "clip": "clips/ae6b1a0033d3a6c8.mp3"
+          "clip": "clips/ae6b1a0033d3a6c8.mp3",
+          "en": "She came to the party.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "vino",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros vinimos a la fiesta.",
-          "clip": "clips/2ee84ff5f990d631.mp3"
+          "clip": "clips/2ee84ff5f990d631.mp3",
+          "en": "We came to the party.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "vinimos",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras vinimos a la fiesta.",
-          "clip": "clips/878f68512ef7863c.mp3"
+          "clip": "clips/878f68512ef7863c.mp3",
+          "en": "We came to the party.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "vinimos",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes vinieron a la fiesta.",
-          "clip": "clips/b435b92f6e668d1e.mp3"
+          "clip": "clips/b435b92f6e668d1e.mp3",
+          "en": "You all came to the party.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "vinieron",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos vinieron a la fiesta.",
-          "clip": "clips/d7e37eb2b321fb08.mp3"
+          "clip": "clips/d7e37eb2b321fb08.mp3",
+          "en": "They came to the party.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "vinieron",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas vinieron a la fiesta.",
-          "clip": "clips/d3f309db7c4c6956.mp3"
+          "clip": "clips/d3f309db7c4c6956.mp3",
+          "en": "They came to the party.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "vinieron",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo venía a la fiesta.",
-          "clip": "clips/16d21060c818e644.mp3"
+          "clip": "clips/16d21060c818e644.mp3",
+          "en": "I used to come to the party.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "venía",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú venías a la fiesta.",
-          "clip": "clips/db9655509c946154.mp3"
+          "clip": "clips/db9655509c946154.mp3",
+          "en": "You used to come to the party.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "venías",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted venía a la fiesta.",
-          "clip": "clips/3941b08eaf01d394.mp3"
+          "clip": "clips/3941b08eaf01d394.mp3",
+          "en": "You used to come to the party.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "venía",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él venía a la fiesta.",
-          "clip": "clips/66f74593d799bfff.mp3"
+          "clip": "clips/66f74593d799bfff.mp3",
+          "en": "He used to come to the party.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "venía",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella venía a la fiesta.",
-          "clip": "clips/22380805e5538a41.mp3"
+          "clip": "clips/22380805e5538a41.mp3",
+          "en": "She used to come to the party.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "venía",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros veníamos a la fiesta.",
-          "clip": "clips/ec0b06799687cea1.mp3"
+          "clip": "clips/ec0b06799687cea1.mp3",
+          "en": "We used to come to the party.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "veníamos",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras veníamos a la fiesta.",
-          "clip": "clips/b76470669e5c177f.mp3"
+          "clip": "clips/b76470669e5c177f.mp3",
+          "en": "We used to come to the party.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "veníamos",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes venían a la fiesta.",
-          "clip": "clips/63a35c1fb03d19a4.mp3"
+          "clip": "clips/63a35c1fb03d19a4.mp3",
+          "en": "You all used to come to the party.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "venían",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos venían a la fiesta.",
-          "clip": "clips/06480f13366b1c4a.mp3"
+          "clip": "clips/06480f13366b1c4a.mp3",
+          "en": "They used to come to the party.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "venían",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas venían a la fiesta.",
-          "clip": "clips/523a1203e564cfc7.mp3"
+          "clip": "clips/523a1203e564cfc7.mp3",
+          "en": "They used to come to the party.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "venían",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Ven a la fiesta.",
-          "clip": "clips/e406a6f5ec869972.mp3"
+          "clip": "clips/e406a6f5ec869972.mp3",
+          "en": "Come to the party.",
+          "parts": [
+            [
+              "Ven",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Venga a la fiesta.",
-          "clip": "clips/e88c87459c7c1f08.mp3"
+          "clip": "clips/e88c87459c7c1f08.mp3",
+          "en": "Come to the party.",
+          "parts": [
+            [
+              "Venga",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Vengamos a la fiesta.",
-          "clip": "clips/299429dbff11c56c.mp3"
+          "clip": "clips/299429dbff11c56c.mp3",
+          "en": "Let's come to the party.",
+          "parts": [
+            [
+              "Vengamos",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Vengamos a la fiesta.",
-          "clip": "clips/299429dbff11c56c.mp3"
+          "clip": "clips/299429dbff11c56c.mp3",
+          "en": "Let's come to the party.",
+          "parts": [
+            [
+              "Vengamos",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Vengan a la fiesta.",
-          "clip": "clips/0d0d9ca96a7f3834.mp3"
+          "clip": "clips/0d0d9ca96a7f3834.mp3",
+          "en": "Come to the party.",
+          "parts": [
+            [
+              "Vengan",
+              "v"
+            ],
+            [
+              "a la fiesta.",
+              ""
+            ]
+          ]
         }
       }
     }

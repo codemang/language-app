@@ -71,7 +71,21 @@
       "en_clip": "clips/32a5e3d3fb538bf7.mp3",
       "single": {
         "es": "Quiero vivir en la ciudad.",
-        "clip": "clips/a8c9f79c199adbbb.mp3"
+        "clip": "clips/a8c9f79c199adbbb.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "vivir",
+            "v"
+          ],
+          [
+            "en la ciudad.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo vivo en la ciudad.",
-          "clip": "clips/f89c4c2477e1db07.mp3"
+          "clip": "clips/f89c4c2477e1db07.mp3",
+          "en": "I live in the city.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "vivo",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú vives en la ciudad.",
-          "clip": "clips/46606d3d7ae54a47.mp3"
+          "clip": "clips/46606d3d7ae54a47.mp3",
+          "en": "You live in the city.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "vives",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted vive en la ciudad.",
-          "clip": "clips/61a026c9c1e956d4.mp3"
+          "clip": "clips/61a026c9c1e956d4.mp3",
+          "en": "You live in the city.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "vive",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él vive en la ciudad.",
-          "clip": "clips/0d3d949187389ac3.mp3"
+          "clip": "clips/0d3d949187389ac3.mp3",
+          "en": "He lives in the city.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "vive",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella vive en la ciudad.",
-          "clip": "clips/808121311b0b70e7.mp3"
+          "clip": "clips/808121311b0b70e7.mp3",
+          "en": "She lives in the city.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "vive",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros vivimos en la ciudad.",
-          "clip": "clips/7c54e91437c0436d.mp3"
+          "clip": "clips/7c54e91437c0436d.mp3",
+          "en": "We live in the city.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "vivimos",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras vivimos en la ciudad.",
-          "clip": "clips/fae2eddfe0f8ce89.mp3"
+          "clip": "clips/fae2eddfe0f8ce89.mp3",
+          "en": "We live in the city.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "vivimos",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes viven en la ciudad.",
-          "clip": "clips/2ae9e25b6f525bb3.mp3"
+          "clip": "clips/2ae9e25b6f525bb3.mp3",
+          "en": "You all live in the city.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "viven",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos viven en la ciudad.",
-          "clip": "clips/e090cf576608506c.mp3"
+          "clip": "clips/e090cf576608506c.mp3",
+          "en": "They live in the city.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "viven",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas viven en la ciudad.",
-          "clip": "clips/4bac6b3950722463.mp3"
+          "clip": "clips/4bac6b3950722463.mp3",
+          "en": "They live in the city.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "viven",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo viví en la ciudad.",
-          "clip": "clips/1125e4ca792dfbea.mp3"
+          "clip": "clips/1125e4ca792dfbea.mp3",
+          "en": "I lived in the city.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "viví",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú viviste en la ciudad.",
-          "clip": "clips/c1d9f9a256b9a2f0.mp3"
+          "clip": "clips/c1d9f9a256b9a2f0.mp3",
+          "en": "You lived in the city.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "viviste",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted vivió en la ciudad.",
-          "clip": "clips/d00613d10d4ca222.mp3"
+          "clip": "clips/d00613d10d4ca222.mp3",
+          "en": "You lived in the city.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "vivió",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él vivió en la ciudad.",
-          "clip": "clips/cbdcf22984dcf302.mp3"
+          "clip": "clips/cbdcf22984dcf302.mp3",
+          "en": "He lived in the city.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "vivió",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella vivió en la ciudad.",
-          "clip": "clips/0320e4b9b60948e2.mp3"
+          "clip": "clips/0320e4b9b60948e2.mp3",
+          "en": "She lived in the city.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "vivió",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros vivimos en la ciudad.",
-          "clip": "clips/7c54e91437c0436d.mp3"
+          "clip": "clips/7c54e91437c0436d.mp3",
+          "en": "We lived in the city.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "vivimos",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras vivimos en la ciudad.",
-          "clip": "clips/fae2eddfe0f8ce89.mp3"
+          "clip": "clips/fae2eddfe0f8ce89.mp3",
+          "en": "We lived in the city.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "vivimos",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes vivieron en la ciudad.",
-          "clip": "clips/aceace2622ae99f3.mp3"
+          "clip": "clips/aceace2622ae99f3.mp3",
+          "en": "You all lived in the city.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "vivieron",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos vivieron en la ciudad.",
-          "clip": "clips/44ade43e073994d9.mp3"
+          "clip": "clips/44ade43e073994d9.mp3",
+          "en": "They lived in the city.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "vivieron",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas vivieron en la ciudad.",
-          "clip": "clips/0cbddf61b3f2a887.mp3"
+          "clip": "clips/0cbddf61b3f2a887.mp3",
+          "en": "They lived in the city.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "vivieron",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo vivía en la ciudad.",
-          "clip": "clips/628ede2c43056661.mp3"
+          "clip": "clips/628ede2c43056661.mp3",
+          "en": "I used to live in the city.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "vivía",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú vivías en la ciudad.",
-          "clip": "clips/9461304f287f2134.mp3"
+          "clip": "clips/9461304f287f2134.mp3",
+          "en": "You used to live in the city.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "vivías",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted vivía en la ciudad.",
-          "clip": "clips/a02294b41e0430ce.mp3"
+          "clip": "clips/a02294b41e0430ce.mp3",
+          "en": "You used to live in the city.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "vivía",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él vivía en la ciudad.",
-          "clip": "clips/22479d373eea4be9.mp3"
+          "clip": "clips/22479d373eea4be9.mp3",
+          "en": "He used to live in the city.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "vivía",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella vivía en la ciudad.",
-          "clip": "clips/cf339c67e3b3f252.mp3"
+          "clip": "clips/cf339c67e3b3f252.mp3",
+          "en": "She used to live in the city.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "vivía",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros vivíamos en la ciudad.",
-          "clip": "clips/d6814886c92fb3b4.mp3"
+          "clip": "clips/d6814886c92fb3b4.mp3",
+          "en": "We used to live in the city.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "vivíamos",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras vivíamos en la ciudad.",
-          "clip": "clips/77b1dfda3eabeee2.mp3"
+          "clip": "clips/77b1dfda3eabeee2.mp3",
+          "en": "We used to live in the city.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "vivíamos",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes vivían en la ciudad.",
-          "clip": "clips/23f19627aa1794af.mp3"
+          "clip": "clips/23f19627aa1794af.mp3",
+          "en": "You all used to live in the city.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "vivían",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos vivían en la ciudad.",
-          "clip": "clips/1ede7dd77c38e070.mp3"
+          "clip": "clips/1ede7dd77c38e070.mp3",
+          "en": "They used to live in the city.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "vivían",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas vivían en la ciudad.",
-          "clip": "clips/83082fce2ebac996.mp3"
+          "clip": "clips/83082fce2ebac996.mp3",
+          "en": "They used to live in the city.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "vivían",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Vive en la ciudad.",
-          "clip": "clips/5b08fe3150c76d59.mp3"
+          "clip": "clips/5b08fe3150c76d59.mp3",
+          "en": "Live in the city.",
+          "parts": [
+            [
+              "Vive",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Viva en la ciudad.",
-          "clip": "clips/9199168c5b67a63e.mp3"
+          "clip": "clips/9199168c5b67a63e.mp3",
+          "en": "Live in the city.",
+          "parts": [
+            [
+              "Viva",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Vivamos en la ciudad.",
-          "clip": "clips/5f2429b63d11e35a.mp3"
+          "clip": "clips/5f2429b63d11e35a.mp3",
+          "en": "Let's live in the city.",
+          "parts": [
+            [
+              "Vivamos",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Vivamos en la ciudad.",
-          "clip": "clips/5f2429b63d11e35a.mp3"
+          "clip": "clips/5f2429b63d11e35a.mp3",
+          "en": "Let's live in the city.",
+          "parts": [
+            [
+              "Vivamos",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Vivan en la ciudad.",
-          "clip": "clips/8b0dbb753539af30.mp3"
+          "clip": "clips/8b0dbb753539af30.mp3",
+          "en": "Live in the city.",
+          "parts": [
+            [
+              "Vivan",
+              "v"
+            ],
+            [
+              "en la ciudad.",
+              ""
+            ]
+          ]
         }
       }
     }

@@ -71,7 +71,21 @@
       "en_clip": "clips/390f3e03d65cd18d.mp3",
       "single": {
         "es": "Voy a preguntar la hora.",
-        "clip": "clips/cc96701991b709b3.mp3"
+        "clip": "clips/cc96701991b709b3.mp3",
+        "parts": [
+          [
+            "Voy a",
+            ""
+          ],
+          [
+            "preguntar",
+            "v"
+          ],
+          [
+            "la hora.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo pregunto la hora.",
-          "clip": "clips/def84dc05c695722.mp3"
+          "clip": "clips/def84dc05c695722.mp3",
+          "en": "I ask the time.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pregunto",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú preguntas la hora.",
-          "clip": "clips/03852fe79f88a976.mp3"
+          "clip": "clips/03852fe79f88a976.mp3",
+          "en": "You ask the time.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "preguntas",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted pregunta la hora.",
-          "clip": "clips/85538a9354b4018a.mp3"
+          "clip": "clips/85538a9354b4018a.mp3",
+          "en": "You ask the time.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "pregunta",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él pregunta la hora.",
-          "clip": "clips/ce78e76aadbb6ca0.mp3"
+          "clip": "clips/ce78e76aadbb6ca0.mp3",
+          "en": "He asks the time.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "pregunta",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella pregunta la hora.",
-          "clip": "clips/d6fb88fa79c2bafa.mp3"
+          "clip": "clips/d6fb88fa79c2bafa.mp3",
+          "en": "She asks the time.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "pregunta",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros preguntamos la hora.",
-          "clip": "clips/d9c5ba5f99522dfa.mp3"
+          "clip": "clips/d9c5ba5f99522dfa.mp3",
+          "en": "We ask the time.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "preguntamos",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras preguntamos la hora.",
-          "clip": "clips/8190a4c0785f806b.mp3"
+          "clip": "clips/8190a4c0785f806b.mp3",
+          "en": "We ask the time.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "preguntamos",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes preguntan la hora.",
-          "clip": "clips/d180e7157ad0acee.mp3"
+          "clip": "clips/d180e7157ad0acee.mp3",
+          "en": "You all ask the time.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "preguntan",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos preguntan la hora.",
-          "clip": "clips/6fe13c96108df7d4.mp3"
+          "clip": "clips/6fe13c96108df7d4.mp3",
+          "en": "They ask the time.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "preguntan",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas preguntan la hora.",
-          "clip": "clips/2a8e1324e6c2f086.mp3"
+          "clip": "clips/2a8e1324e6c2f086.mp3",
+          "en": "They ask the time.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "preguntan",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo pregunté la hora.",
-          "clip": "clips/64d34cce58451e25.mp3"
+          "clip": "clips/64d34cce58451e25.mp3",
+          "en": "I asked the time.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pregunté",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú preguntaste la hora.",
-          "clip": "clips/200d94e91cf63841.mp3"
+          "clip": "clips/200d94e91cf63841.mp3",
+          "en": "You asked the time.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "preguntaste",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted preguntó la hora.",
-          "clip": "clips/1186824c7ced3f5e.mp3"
+          "clip": "clips/1186824c7ced3f5e.mp3",
+          "en": "You asked the time.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "preguntó",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él preguntó la hora.",
-          "clip": "clips/d1b63a28138478f4.mp3"
+          "clip": "clips/d1b63a28138478f4.mp3",
+          "en": "He asked the time.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "preguntó",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella preguntó la hora.",
-          "clip": "clips/bc36ae43ee58b485.mp3"
+          "clip": "clips/bc36ae43ee58b485.mp3",
+          "en": "She asked the time.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "preguntó",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros preguntamos la hora.",
-          "clip": "clips/d9c5ba5f99522dfa.mp3"
+          "clip": "clips/d9c5ba5f99522dfa.mp3",
+          "en": "We asked the time.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "preguntamos",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras preguntamos la hora.",
-          "clip": "clips/8190a4c0785f806b.mp3"
+          "clip": "clips/8190a4c0785f806b.mp3",
+          "en": "We asked the time.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "preguntamos",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes preguntaron la hora.",
-          "clip": "clips/39e6f42e6669a787.mp3"
+          "clip": "clips/39e6f42e6669a787.mp3",
+          "en": "You all asked the time.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "preguntaron",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos preguntaron la hora.",
-          "clip": "clips/4a07efff47cc8e64.mp3"
+          "clip": "clips/4a07efff47cc8e64.mp3",
+          "en": "They asked the time.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "preguntaron",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas preguntaron la hora.",
-          "clip": "clips/0c6434f3520056cb.mp3"
+          "clip": "clips/0c6434f3520056cb.mp3",
+          "en": "They asked the time.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "preguntaron",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo preguntaba la hora.",
-          "clip": "clips/b14926a574bfddf6.mp3"
+          "clip": "clips/b14926a574bfddf6.mp3",
+          "en": "I used to ask the time.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "preguntaba",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú preguntabas la hora.",
-          "clip": "clips/f19873235b48bd4d.mp3"
+          "clip": "clips/f19873235b48bd4d.mp3",
+          "en": "You used to ask the time.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "preguntabas",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted preguntaba la hora.",
-          "clip": "clips/87b9e00e3d15a9f8.mp3"
+          "clip": "clips/87b9e00e3d15a9f8.mp3",
+          "en": "You used to ask the time.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "preguntaba",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él preguntaba la hora.",
-          "clip": "clips/16879395ac459468.mp3"
+          "clip": "clips/16879395ac459468.mp3",
+          "en": "He used to ask the time.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "preguntaba",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella preguntaba la hora.",
-          "clip": "clips/cfb3b5b961858fb7.mp3"
+          "clip": "clips/cfb3b5b961858fb7.mp3",
+          "en": "She used to ask the time.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "preguntaba",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros preguntábamos la hora.",
-          "clip": "clips/62060838aceeb24d.mp3"
+          "clip": "clips/62060838aceeb24d.mp3",
+          "en": "We used to ask the time.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "preguntábamos",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras preguntábamos la hora.",
-          "clip": "clips/1086ee17d12a5acb.mp3"
+          "clip": "clips/1086ee17d12a5acb.mp3",
+          "en": "We used to ask the time.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "preguntábamos",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes preguntaban la hora.",
-          "clip": "clips/e4eda0a4d60a56f7.mp3"
+          "clip": "clips/e4eda0a4d60a56f7.mp3",
+          "en": "You all used to ask the time.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "preguntaban",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos preguntaban la hora.",
-          "clip": "clips/632e050403b1647c.mp3"
+          "clip": "clips/632e050403b1647c.mp3",
+          "en": "They used to ask the time.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "preguntaban",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas preguntaban la hora.",
-          "clip": "clips/856c547b364ec9a3.mp3"
+          "clip": "clips/856c547b364ec9a3.mp3",
+          "en": "They used to ask the time.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "preguntaban",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Pregunta la hora.",
-          "clip": "clips/1d9cc4293a8d55a3.mp3"
+          "clip": "clips/1d9cc4293a8d55a3.mp3",
+          "en": "Ask the time.",
+          "parts": [
+            [
+              "Pregunta",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Pregunte la hora.",
-          "clip": "clips/ff328681fe02260a.mp3"
+          "clip": "clips/ff328681fe02260a.mp3",
+          "en": "Ask the time.",
+          "parts": [
+            [
+              "Pregunte",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Preguntemos la hora.",
-          "clip": "clips/8c3c91fd78f85b8d.mp3"
+          "clip": "clips/8c3c91fd78f85b8d.mp3",
+          "en": "Let's ask the time.",
+          "parts": [
+            [
+              "Preguntemos",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Preguntemos la hora.",
-          "clip": "clips/8c3c91fd78f85b8d.mp3"
+          "clip": "clips/8c3c91fd78f85b8d.mp3",
+          "en": "Let's ask the time.",
+          "parts": [
+            [
+              "Preguntemos",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Pregunten la hora.",
-          "clip": "clips/e00dccba91133f4f.mp3"
+          "clip": "clips/e00dccba91133f4f.mp3",
+          "en": "Ask the time.",
+          "parts": [
+            [
+              "Pregunten",
+              "v"
+            ],
+            [
+              "la hora.",
+              ""
+            ]
+          ]
         }
       }
     }

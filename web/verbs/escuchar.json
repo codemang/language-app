@@ -71,7 +71,21 @@
       "en_clip": "clips/047b52ec08c46274.mp3",
       "single": {
         "es": "Quiero escuchar música.",
-        "clip": "clips/255c84f53a7f4c55.mp3"
+        "clip": "clips/255c84f53a7f4c55.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "escuchar",
+            "v"
+          ],
+          [
+            "música.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo escucho música.",
-          "clip": "clips/84c0274494382a4f.mp3"
+          "clip": "clips/84c0274494382a4f.mp3",
+          "en": "I listen to music.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "escucho",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú escuchas música.",
-          "clip": "clips/c275f713d4b8e2b5.mp3"
+          "clip": "clips/c275f713d4b8e2b5.mp3",
+          "en": "You listen to music.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "escuchas",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted escucha música.",
-          "clip": "clips/a16c6f4b394b87ce.mp3"
+          "clip": "clips/a16c6f4b394b87ce.mp3",
+          "en": "You listen to music.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "escucha",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él escucha música.",
-          "clip": "clips/842ee53bdbe65188.mp3"
+          "clip": "clips/842ee53bdbe65188.mp3",
+          "en": "He listens to music.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "escucha",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella escucha música.",
-          "clip": "clips/5fd3ba3bc4e569c0.mp3"
+          "clip": "clips/5fd3ba3bc4e569c0.mp3",
+          "en": "She listens to music.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "escucha",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros escuchamos música.",
-          "clip": "clips/64671e774f140358.mp3"
+          "clip": "clips/64671e774f140358.mp3",
+          "en": "We listen to music.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "escuchamos",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras escuchamos música.",
-          "clip": "clips/493db6d4d7b72ee7.mp3"
+          "clip": "clips/493db6d4d7b72ee7.mp3",
+          "en": "We listen to music.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "escuchamos",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes escuchan música.",
-          "clip": "clips/c750def3769ef936.mp3"
+          "clip": "clips/c750def3769ef936.mp3",
+          "en": "You all listen to music.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "escuchan",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos escuchan música.",
-          "clip": "clips/7165eb56ad1248dd.mp3"
+          "clip": "clips/7165eb56ad1248dd.mp3",
+          "en": "They listen to music.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "escuchan",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas escuchan música.",
-          "clip": "clips/c1b1c81e0cf7d8ad.mp3"
+          "clip": "clips/c1b1c81e0cf7d8ad.mp3",
+          "en": "They listen to music.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "escuchan",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo escuché música.",
-          "clip": "clips/4b972ac6f8a06567.mp3"
+          "clip": "clips/4b972ac6f8a06567.mp3",
+          "en": "I listened to music.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "escuché",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú escuchaste música.",
-          "clip": "clips/25776e1f39c5e849.mp3"
+          "clip": "clips/25776e1f39c5e849.mp3",
+          "en": "You listened to music.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "escuchaste",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted escuchó música.",
-          "clip": "clips/948722769da1b4cb.mp3"
+          "clip": "clips/948722769da1b4cb.mp3",
+          "en": "You listened to music.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "escuchó",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él escuchó música.",
-          "clip": "clips/8693f0711a242aeb.mp3"
+          "clip": "clips/8693f0711a242aeb.mp3",
+          "en": "He listened to music.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "escuchó",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella escuchó música.",
-          "clip": "clips/9e75ae604e980526.mp3"
+          "clip": "clips/9e75ae604e980526.mp3",
+          "en": "She listened to music.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "escuchó",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros escuchamos música.",
-          "clip": "clips/64671e774f140358.mp3"
+          "clip": "clips/64671e774f140358.mp3",
+          "en": "We listened to music.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "escuchamos",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras escuchamos música.",
-          "clip": "clips/493db6d4d7b72ee7.mp3"
+          "clip": "clips/493db6d4d7b72ee7.mp3",
+          "en": "We listened to music.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "escuchamos",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes escucharon música.",
-          "clip": "clips/7fe40b95fda9eeb7.mp3"
+          "clip": "clips/7fe40b95fda9eeb7.mp3",
+          "en": "You all listened to music.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "escucharon",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos escucharon música.",
-          "clip": "clips/23c4b30f59c81c4c.mp3"
+          "clip": "clips/23c4b30f59c81c4c.mp3",
+          "en": "They listened to music.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "escucharon",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas escucharon música.",
-          "clip": "clips/2fa1d820ddc835d7.mp3"
+          "clip": "clips/2fa1d820ddc835d7.mp3",
+          "en": "They listened to music.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "escucharon",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo escuchaba música.",
-          "clip": "clips/74f27a254c2834ef.mp3"
+          "clip": "clips/74f27a254c2834ef.mp3",
+          "en": "I used to listen to music.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "escuchaba",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú escuchabas música.",
-          "clip": "clips/2e997b5dd4a1e357.mp3"
+          "clip": "clips/2e997b5dd4a1e357.mp3",
+          "en": "You used to listen to music.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "escuchabas",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted escuchaba música.",
-          "clip": "clips/459dd7475c2c3b1d.mp3"
+          "clip": "clips/459dd7475c2c3b1d.mp3",
+          "en": "You used to listen to music.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "escuchaba",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él escuchaba música.",
-          "clip": "clips/4159febc3264565c.mp3"
+          "clip": "clips/4159febc3264565c.mp3",
+          "en": "He used to listen to music.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "escuchaba",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella escuchaba música.",
-          "clip": "clips/e005cd3d0f5e1d6a.mp3"
+          "clip": "clips/e005cd3d0f5e1d6a.mp3",
+          "en": "She used to listen to music.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "escuchaba",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros escuchábamos música.",
-          "clip": "clips/443498b485ae8fa6.mp3"
+          "clip": "clips/443498b485ae8fa6.mp3",
+          "en": "We used to listen to music.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "escuchábamos",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras escuchábamos música.",
-          "clip": "clips/d3a9818473c72b31.mp3"
+          "clip": "clips/d3a9818473c72b31.mp3",
+          "en": "We used to listen to music.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "escuchábamos",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes escuchaban música.",
-          "clip": "clips/8dc5bda7a8d84ade.mp3"
+          "clip": "clips/8dc5bda7a8d84ade.mp3",
+          "en": "You all used to listen to music.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "escuchaban",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos escuchaban música.",
-          "clip": "clips/2632411ecd978902.mp3"
+          "clip": "clips/2632411ecd978902.mp3",
+          "en": "They used to listen to music.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "escuchaban",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas escuchaban música.",
-          "clip": "clips/a06b0dfea3920e05.mp3"
+          "clip": "clips/a06b0dfea3920e05.mp3",
+          "en": "They used to listen to music.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "escuchaban",
+              "v"
+            ],
+            [
+              "música.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Escucha la canción.",
-          "clip": "clips/ec5d2913f289bb00.mp3"
+          "clip": "clips/ec5d2913f289bb00.mp3",
+          "en": "Listen to the song.",
+          "parts": [
+            [
+              "Escucha",
+              "v"
+            ],
+            [
+              "la canción.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Escuche la canción.",
-          "clip": "clips/d0fe3bf5517a291b.mp3"
+          "clip": "clips/d0fe3bf5517a291b.mp3",
+          "en": "Listen to the song.",
+          "parts": [
+            [
+              "Escuche",
+              "v"
+            ],
+            [
+              "la canción.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Escuchemos la canción.",
-          "clip": "clips/437ac268f397accf.mp3"
+          "clip": "clips/437ac268f397accf.mp3",
+          "en": "Let's listen to the song.",
+          "parts": [
+            [
+              "Escuchemos",
+              "v"
+            ],
+            [
+              "la canción.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Escuchemos la canción.",
-          "clip": "clips/437ac268f397accf.mp3"
+          "clip": "clips/437ac268f397accf.mp3",
+          "en": "Let's listen to the song.",
+          "parts": [
+            [
+              "Escuchemos",
+              "v"
+            ],
+            [
+              "la canción.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Escuchen la canción.",
-          "clip": "clips/8134c21356360bfe.mp3"
+          "clip": "clips/8134c21356360bfe.mp3",
+          "en": "Listen to the song.",
+          "parts": [
+            [
+              "Escuchen",
+              "v"
+            ],
+            [
+              "la canción.",
+              ""
+            ]
+          ]
         }
       }
     }

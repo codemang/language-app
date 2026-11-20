@@ -71,7 +71,21 @@
       "en_clip": "clips/4bd1cdb6551fbfd0.mp3",
       "single": {
         "es": "Tengo que contestar el teléfono.",
-        "clip": "clips/7e41f77fb1ae8952.mp3"
+        "clip": "clips/7e41f77fb1ae8952.mp3",
+        "parts": [
+          [
+            "Tengo que",
+            ""
+          ],
+          [
+            "contestar",
+            "v"
+          ],
+          [
+            "el teléfono.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo contesto el teléfono.",
-          "clip": "clips/2b6f0cd800ec8e9f.mp3"
+          "clip": "clips/2b6f0cd800ec8e9f.mp3",
+          "en": "I answer the phone.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "contesto",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú contestas el teléfono.",
-          "clip": "clips/fe8c1868a686205d.mp3"
+          "clip": "clips/fe8c1868a686205d.mp3",
+          "en": "You answer the phone.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "contestas",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted contesta el teléfono.",
-          "clip": "clips/b4e7a49a0ed9de84.mp3"
+          "clip": "clips/b4e7a49a0ed9de84.mp3",
+          "en": "You answer the phone.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "contesta",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él contesta el teléfono.",
-          "clip": "clips/af3b8ce586478fdd.mp3"
+          "clip": "clips/af3b8ce586478fdd.mp3",
+          "en": "He answers the phone.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "contesta",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella contesta el teléfono.",
-          "clip": "clips/0575a0781c9e0c41.mp3"
+          "clip": "clips/0575a0781c9e0c41.mp3",
+          "en": "She answers the phone.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "contesta",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros contestamos el teléfono.",
-          "clip": "clips/e12e7ff6c86553f9.mp3"
+          "clip": "clips/e12e7ff6c86553f9.mp3",
+          "en": "We answer the phone.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "contestamos",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras contestamos el teléfono.",
-          "clip": "clips/522490a498415ed1.mp3"
+          "clip": "clips/522490a498415ed1.mp3",
+          "en": "We answer the phone.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "contestamos",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes contestan el teléfono.",
-          "clip": "clips/4d6fce9b7be8599e.mp3"
+          "clip": "clips/4d6fce9b7be8599e.mp3",
+          "en": "You all answer the phone.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "contestan",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos contestan el teléfono.",
-          "clip": "clips/84fca69e79438d21.mp3"
+          "clip": "clips/84fca69e79438d21.mp3",
+          "en": "They answer the phone.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "contestan",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas contestan el teléfono.",
-          "clip": "clips/98d6624b1e340377.mp3"
+          "clip": "clips/98d6624b1e340377.mp3",
+          "en": "They answer the phone.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "contestan",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo contesté el teléfono.",
-          "clip": "clips/cbb1cada46fbd773.mp3"
+          "clip": "clips/cbb1cada46fbd773.mp3",
+          "en": "I answered the phone.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "contesté",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú contestaste el teléfono.",
-          "clip": "clips/9e4594eef1c6e17b.mp3"
+          "clip": "clips/9e4594eef1c6e17b.mp3",
+          "en": "You answered the phone.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "contestaste",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted contestó el teléfono.",
-          "clip": "clips/bda6a70233ec958b.mp3"
+          "clip": "clips/bda6a70233ec958b.mp3",
+          "en": "You answered the phone.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "contestó",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él contestó el teléfono.",
-          "clip": "clips/8e110cafebb27993.mp3"
+          "clip": "clips/8e110cafebb27993.mp3",
+          "en": "He answered the phone.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "contestó",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella contestó el teléfono.",
-          "clip": "clips/2e2777e85c95402f.mp3"
+          "clip": "clips/2e2777e85c95402f.mp3",
+          "en": "She answered the phone.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "contestó",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros contestamos el teléfono.",
-          "clip": "clips/e12e7ff6c86553f9.mp3"
+          "clip": "clips/e12e7ff6c86553f9.mp3",
+          "en": "We answered the phone.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "contestamos",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras contestamos el teléfono.",
-          "clip": "clips/522490a498415ed1.mp3"
+          "clip": "clips/522490a498415ed1.mp3",
+          "en": "We answered the phone.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "contestamos",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes contestaron el teléfono.",
-          "clip": "clips/be0ae1e2e1a2e87c.mp3"
+          "clip": "clips/be0ae1e2e1a2e87c.mp3",
+          "en": "You all answered the phone.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "contestaron",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos contestaron el teléfono.",
-          "clip": "clips/f9688f5d03c01c43.mp3"
+          "clip": "clips/f9688f5d03c01c43.mp3",
+          "en": "They answered the phone.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "contestaron",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas contestaron el teléfono.",
-          "clip": "clips/8865255982a7c21b.mp3"
+          "clip": "clips/8865255982a7c21b.mp3",
+          "en": "They answered the phone.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "contestaron",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo contestaba el teléfono.",
-          "clip": "clips/056d60b7f43fcbfc.mp3"
+          "clip": "clips/056d60b7f43fcbfc.mp3",
+          "en": "I used to answer the phone.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "contestaba",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú contestabas el teléfono.",
-          "clip": "clips/332795f93efd5cf0.mp3"
+          "clip": "clips/332795f93efd5cf0.mp3",
+          "en": "You used to answer the phone.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "contestabas",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted contestaba el teléfono.",
-          "clip": "clips/918e84a82ecf9f4c.mp3"
+          "clip": "clips/918e84a82ecf9f4c.mp3",
+          "en": "You used to answer the phone.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "contestaba",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él contestaba el teléfono.",
-          "clip": "clips/baacfb40afd1f845.mp3"
+          "clip": "clips/baacfb40afd1f845.mp3",
+          "en": "He used to answer the phone.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "contestaba",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella contestaba el teléfono.",
-          "clip": "clips/6ca67578bdbff994.mp3"
+          "clip": "clips/6ca67578bdbff994.mp3",
+          "en": "She used to answer the phone.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "contestaba",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros contestábamos el teléfono.",
-          "clip": "clips/57c5b38d36511f96.mp3"
+          "clip": "clips/57c5b38d36511f96.mp3",
+          "en": "We used to answer the phone.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "contestábamos",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras contestábamos el teléfono.",
-          "clip": "clips/b9fee8815578a5ca.mp3"
+          "clip": "clips/b9fee8815578a5ca.mp3",
+          "en": "We used to answer the phone.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "contestábamos",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes contestaban el teléfono.",
-          "clip": "clips/2519753fb950a23d.mp3"
+          "clip": "clips/2519753fb950a23d.mp3",
+          "en": "You all used to answer the phone.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "contestaban",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos contestaban el teléfono.",
-          "clip": "clips/060647a5da3ab6ff.mp3"
+          "clip": "clips/060647a5da3ab6ff.mp3",
+          "en": "They used to answer the phone.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "contestaban",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas contestaban el teléfono.",
-          "clip": "clips/1cad13387ebf7b08.mp3"
+          "clip": "clips/1cad13387ebf7b08.mp3",
+          "en": "They used to answer the phone.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "contestaban",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Contesta el teléfono.",
-          "clip": "clips/4ed777a27a3dcc39.mp3"
+          "clip": "clips/4ed777a27a3dcc39.mp3",
+          "en": "Answer the phone.",
+          "parts": [
+            [
+              "Contesta",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Conteste el teléfono.",
-          "clip": "clips/771bb64baca85319.mp3"
+          "clip": "clips/771bb64baca85319.mp3",
+          "en": "Answer the phone.",
+          "parts": [
+            [
+              "Conteste",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Contestemos el teléfono.",
-          "clip": "clips/e6597ea82a1eda73.mp3"
+          "clip": "clips/e6597ea82a1eda73.mp3",
+          "en": "Let's answer the phone.",
+          "parts": [
+            [
+              "Contestemos",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Contestemos el teléfono.",
-          "clip": "clips/e6597ea82a1eda73.mp3"
+          "clip": "clips/e6597ea82a1eda73.mp3",
+          "en": "Let's answer the phone.",
+          "parts": [
+            [
+              "Contestemos",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Contesten el teléfono.",
-          "clip": "clips/9316c48758229ddf.mp3"
+          "clip": "clips/9316c48758229ddf.mp3",
+          "en": "Answer the phone.",
+          "parts": [
+            [
+              "Contesten",
+              "v"
+            ],
+            [
+              "el teléfono.",
+              ""
+            ]
+          ]
         }
       }
     }

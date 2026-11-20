@@ -71,7 +71,21 @@
       "en_clip": "clips/5998250fe189c60d.mp3",
       "single": {
         "es": "Tengo que limpiar la casa.",
-        "clip": "clips/6e35ba68b9ce65ca.mp3"
+        "clip": "clips/6e35ba68b9ce65ca.mp3",
+        "parts": [
+          [
+            "Tengo que",
+            ""
+          ],
+          [
+            "limpiar",
+            "v"
+          ],
+          [
+            "la casa.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo limpio la casa.",
-          "clip": "clips/20778dcd1cb4fdb8.mp3"
+          "clip": "clips/20778dcd1cb4fdb8.mp3",
+          "en": "I clean the house.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "limpio",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú limpias la casa.",
-          "clip": "clips/a329bd594547ada9.mp3"
+          "clip": "clips/a329bd594547ada9.mp3",
+          "en": "You clean the house.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "limpias",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted limpia la casa.",
-          "clip": "clips/5944ca4ed6e49658.mp3"
+          "clip": "clips/5944ca4ed6e49658.mp3",
+          "en": "You clean the house.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "limpia",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él limpia la casa.",
-          "clip": "clips/07cb9085e37c3ae8.mp3"
+          "clip": "clips/07cb9085e37c3ae8.mp3",
+          "en": "He cleans the house.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "limpia",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella limpia la casa.",
-          "clip": "clips/64868a6946b0c622.mp3"
+          "clip": "clips/64868a6946b0c622.mp3",
+          "en": "She cleans the house.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "limpia",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros limpiamos la casa.",
-          "clip": "clips/bb059ec84b6e446a.mp3"
+          "clip": "clips/bb059ec84b6e446a.mp3",
+          "en": "We clean the house.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "limpiamos",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras limpiamos la casa.",
-          "clip": "clips/85753ee180b89399.mp3"
+          "clip": "clips/85753ee180b89399.mp3",
+          "en": "We clean the house.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "limpiamos",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes limpian la casa.",
-          "clip": "clips/4bed08227ffc508e.mp3"
+          "clip": "clips/4bed08227ffc508e.mp3",
+          "en": "You all clean the house.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "limpian",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos limpian la casa.",
-          "clip": "clips/85eb14eb86a58101.mp3"
+          "clip": "clips/85eb14eb86a58101.mp3",
+          "en": "They clean the house.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "limpian",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas limpian la casa.",
-          "clip": "clips/781867a66623d1e9.mp3"
+          "clip": "clips/781867a66623d1e9.mp3",
+          "en": "They clean the house.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "limpian",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo limpié la casa.",
-          "clip": "clips/62a0108d6d9bf99d.mp3"
+          "clip": "clips/62a0108d6d9bf99d.mp3",
+          "en": "I cleaned the house.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "limpié",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú limpiaste la casa.",
-          "clip": "clips/757c967d0f93df6d.mp3"
+          "clip": "clips/757c967d0f93df6d.mp3",
+          "en": "You cleaned the house.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "limpiaste",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted limpió la casa.",
-          "clip": "clips/533b630329a27d97.mp3"
+          "clip": "clips/533b630329a27d97.mp3",
+          "en": "You cleaned the house.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "limpió",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él limpió la casa.",
-          "clip": "clips/150fa95aaf3dde88.mp3"
+          "clip": "clips/150fa95aaf3dde88.mp3",
+          "en": "He cleaned the house.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "limpió",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella limpió la casa.",
-          "clip": "clips/6627a530a4967657.mp3"
+          "clip": "clips/6627a530a4967657.mp3",
+          "en": "She cleaned the house.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "limpió",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros limpiamos la casa.",
-          "clip": "clips/bb059ec84b6e446a.mp3"
+          "clip": "clips/bb059ec84b6e446a.mp3",
+          "en": "We cleaned the house.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "limpiamos",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras limpiamos la casa.",
-          "clip": "clips/85753ee180b89399.mp3"
+          "clip": "clips/85753ee180b89399.mp3",
+          "en": "We cleaned the house.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "limpiamos",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes limpiaron la casa.",
-          "clip": "clips/5cc82cff05d06730.mp3"
+          "clip": "clips/5cc82cff05d06730.mp3",
+          "en": "You all cleaned the house.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "limpiaron",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos limpiaron la casa.",
-          "clip": "clips/ab37794104c9c92b.mp3"
+          "clip": "clips/ab37794104c9c92b.mp3",
+          "en": "They cleaned the house.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "limpiaron",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas limpiaron la casa.",
-          "clip": "clips/d07cf9d1a9e0bfb6.mp3"
+          "clip": "clips/d07cf9d1a9e0bfb6.mp3",
+          "en": "They cleaned the house.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "limpiaron",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo limpiaba la casa.",
-          "clip": "clips/4d884b44ba6cd967.mp3"
+          "clip": "clips/4d884b44ba6cd967.mp3",
+          "en": "I used to clean the house.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "limpiaba",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú limpiabas la casa.",
-          "clip": "clips/6f3a6675c11460ba.mp3"
+          "clip": "clips/6f3a6675c11460ba.mp3",
+          "en": "You used to clean the house.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "limpiabas",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted limpiaba la casa.",
-          "clip": "clips/e5429d94dacea760.mp3"
+          "clip": "clips/e5429d94dacea760.mp3",
+          "en": "You used to clean the house.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "limpiaba",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él limpiaba la casa.",
-          "clip": "clips/c5251f578940a449.mp3"
+          "clip": "clips/c5251f578940a449.mp3",
+          "en": "He used to clean the house.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "limpiaba",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella limpiaba la casa.",
-          "clip": "clips/6ab524d918512800.mp3"
+          "clip": "clips/6ab524d918512800.mp3",
+          "en": "She used to clean the house.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "limpiaba",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros limpiábamos la casa.",
-          "clip": "clips/45cc6924d9fc1d9a.mp3"
+          "clip": "clips/45cc6924d9fc1d9a.mp3",
+          "en": "We used to clean the house.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "limpiábamos",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras limpiábamos la casa.",
-          "clip": "clips/e391bbdfe132e0a7.mp3"
+          "clip": "clips/e391bbdfe132e0a7.mp3",
+          "en": "We used to clean the house.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "limpiábamos",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes limpiaban la casa.",
-          "clip": "clips/f6b8fb63a431192b.mp3"
+          "clip": "clips/f6b8fb63a431192b.mp3",
+          "en": "You all used to clean the house.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "limpiaban",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos limpiaban la casa.",
-          "clip": "clips/cb9362aed770c5d8.mp3"
+          "clip": "clips/cb9362aed770c5d8.mp3",
+          "en": "They used to clean the house.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "limpiaban",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas limpiaban la casa.",
-          "clip": "clips/bdc3e968457fe9cc.mp3"
+          "clip": "clips/bdc3e968457fe9cc.mp3",
+          "en": "They used to clean the house.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "limpiaban",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Limpia la casa.",
-          "clip": "clips/6bcf3e034fe64148.mp3"
+          "clip": "clips/6bcf3e034fe64148.mp3",
+          "en": "Clean the house.",
+          "parts": [
+            [
+              "Limpia",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Limpie la casa.",
-          "clip": "clips/e16e1db06db43b4f.mp3"
+          "clip": "clips/e16e1db06db43b4f.mp3",
+          "en": "Clean the house.",
+          "parts": [
+            [
+              "Limpie",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Limpiemos la casa.",
-          "clip": "clips/12fae351fc75eb5e.mp3"
+          "clip": "clips/12fae351fc75eb5e.mp3",
+          "en": "Let's clean the house.",
+          "parts": [
+            [
+              "Limpiemos",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Limpiemos la casa.",
-          "clip": "clips/12fae351fc75eb5e.mp3"
+          "clip": "clips/12fae351fc75eb5e.mp3",
+          "en": "Let's clean the house.",
+          "parts": [
+            [
+              "Limpiemos",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Limpien la casa.",
-          "clip": "clips/acfe54f27e7b7e98.mp3"
+          "clip": "clips/acfe54f27e7b7e98.mp3",
+          "en": "Clean the house.",
+          "parts": [
+            [
+              "Limpien",
+              "v"
+            ],
+            [
+              "la casa.",
+              ""
+            ]
+          ]
         }
       }
     }

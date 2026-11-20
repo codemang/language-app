@@ -71,7 +71,21 @@
       "en_clip": "clips/716a226317659a50.mp3",
       "single": {
         "es": "Tengo que esperar el autobús.",
-        "clip": "clips/34d9bf005ad19130.mp3"
+        "clip": "clips/34d9bf005ad19130.mp3",
+        "parts": [
+          [
+            "Tengo que",
+            ""
+          ],
+          [
+            "esperar",
+            "v"
+          ],
+          [
+            "el autobús.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo espero el autobús.",
-          "clip": "clips/939b267292ef9bba.mp3"
+          "clip": "clips/939b267292ef9bba.mp3",
+          "en": "I wait for the bus.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "espero",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú esperas el autobús.",
-          "clip": "clips/711eb262796cbe00.mp3"
+          "clip": "clips/711eb262796cbe00.mp3",
+          "en": "You wait for the bus.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "esperas",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted espera el autobús.",
-          "clip": "clips/19e57270ad7a0e44.mp3"
+          "clip": "clips/19e57270ad7a0e44.mp3",
+          "en": "You wait for the bus.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "espera",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él espera el autobús.",
-          "clip": "clips/620f1567bdb7d62a.mp3"
+          "clip": "clips/620f1567bdb7d62a.mp3",
+          "en": "He waits for the bus.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "espera",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella espera el autobús.",
-          "clip": "clips/7801b072f6d26683.mp3"
+          "clip": "clips/7801b072f6d26683.mp3",
+          "en": "She waits for the bus.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "espera",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros esperamos el autobús.",
-          "clip": "clips/4790c7b4b37a3157.mp3"
+          "clip": "clips/4790c7b4b37a3157.mp3",
+          "en": "We wait for the bus.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "esperamos",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras esperamos el autobús.",
-          "clip": "clips/20fdf55d3315d0c3.mp3"
+          "clip": "clips/20fdf55d3315d0c3.mp3",
+          "en": "We wait for the bus.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "esperamos",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes esperan el autobús.",
-          "clip": "clips/49b28c7916be48f7.mp3"
+          "clip": "clips/49b28c7916be48f7.mp3",
+          "en": "You all wait for the bus.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "esperan",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos esperan el autobús.",
-          "clip": "clips/ec420082954f280a.mp3"
+          "clip": "clips/ec420082954f280a.mp3",
+          "en": "They wait for the bus.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "esperan",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas esperan el autobús.",
-          "clip": "clips/6263d9d58007d78d.mp3"
+          "clip": "clips/6263d9d58007d78d.mp3",
+          "en": "They wait for the bus.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "esperan",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo esperé el autobús.",
-          "clip": "clips/69ed268730bfab35.mp3"
+          "clip": "clips/69ed268730bfab35.mp3",
+          "en": "I waited for the bus.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "esperé",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú esperaste el autobús.",
-          "clip": "clips/d441adc462036294.mp3"
+          "clip": "clips/d441adc462036294.mp3",
+          "en": "You waited for the bus.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "esperaste",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted esperó el autobús.",
-          "clip": "clips/dc86c1d1faa806c2.mp3"
+          "clip": "clips/dc86c1d1faa806c2.mp3",
+          "en": "You waited for the bus.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "esperó",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él esperó el autobús.",
-          "clip": "clips/cf53182cd44f8b37.mp3"
+          "clip": "clips/cf53182cd44f8b37.mp3",
+          "en": "He waited for the bus.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "esperó",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella esperó el autobús.",
-          "clip": "clips/20792485366eb099.mp3"
+          "clip": "clips/20792485366eb099.mp3",
+          "en": "She waited for the bus.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "esperó",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros esperamos el autobús.",
-          "clip": "clips/4790c7b4b37a3157.mp3"
+          "clip": "clips/4790c7b4b37a3157.mp3",
+          "en": "We waited for the bus.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "esperamos",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras esperamos el autobús.",
-          "clip": "clips/20fdf55d3315d0c3.mp3"
+          "clip": "clips/20fdf55d3315d0c3.mp3",
+          "en": "We waited for the bus.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "esperamos",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes esperaron el autobús.",
-          "clip": "clips/33b3ffcfd4f91176.mp3"
+          "clip": "clips/33b3ffcfd4f91176.mp3",
+          "en": "You all waited for the bus.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "esperaron",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos esperaron el autobús.",
-          "clip": "clips/860075841223433a.mp3"
+          "clip": "clips/860075841223433a.mp3",
+          "en": "They waited for the bus.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "esperaron",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas esperaron el autobús.",
-          "clip": "clips/419189a91aa66b31.mp3"
+          "clip": "clips/419189a91aa66b31.mp3",
+          "en": "They waited for the bus.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "esperaron",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo esperaba el autobús.",
-          "clip": "clips/fc6d527727fd5146.mp3"
+          "clip": "clips/fc6d527727fd5146.mp3",
+          "en": "I used to wait for the bus.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "esperaba",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú esperabas el autobús.",
-          "clip": "clips/a0a1ce3806429bc4.mp3"
+          "clip": "clips/a0a1ce3806429bc4.mp3",
+          "en": "You used to wait for the bus.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "esperabas",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted esperaba el autobús.",
-          "clip": "clips/f4f5cc6fe3781448.mp3"
+          "clip": "clips/f4f5cc6fe3781448.mp3",
+          "en": "You used to wait for the bus.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "esperaba",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él esperaba el autobús.",
-          "clip": "clips/d7c4c5f7901fdbc6.mp3"
+          "clip": "clips/d7c4c5f7901fdbc6.mp3",
+          "en": "He used to wait for the bus.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "esperaba",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella esperaba el autobús.",
-          "clip": "clips/82dfc0557d14717e.mp3"
+          "clip": "clips/82dfc0557d14717e.mp3",
+          "en": "She used to wait for the bus.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "esperaba",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros esperábamos el autobús.",
-          "clip": "clips/e039526ac943a13f.mp3"
+          "clip": "clips/e039526ac943a13f.mp3",
+          "en": "We used to wait for the bus.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "esperábamos",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras esperábamos el autobús.",
-          "clip": "clips/a7cec3714e1516e9.mp3"
+          "clip": "clips/a7cec3714e1516e9.mp3",
+          "en": "We used to wait for the bus.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "esperábamos",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes esperaban el autobús.",
-          "clip": "clips/dac44a36013ab160.mp3"
+          "clip": "clips/dac44a36013ab160.mp3",
+          "en": "You all used to wait for the bus.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "esperaban",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos esperaban el autobús.",
-          "clip": "clips/d24fc3b8f7bb5bb1.mp3"
+          "clip": "clips/d24fc3b8f7bb5bb1.mp3",
+          "en": "They used to wait for the bus.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "esperaban",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas esperaban el autobús.",
-          "clip": "clips/3cebc6aea06ced5d.mp3"
+          "clip": "clips/3cebc6aea06ced5d.mp3",
+          "en": "They used to wait for the bus.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "esperaban",
+              "v"
+            ],
+            [
+              "el autobús.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Espera aquí.",
-          "clip": "clips/5ced12d6841f0a16.mp3"
+          "clip": "clips/5ced12d6841f0a16.mp3",
+          "en": "Wait here.",
+          "parts": [
+            [
+              "Espera",
+              "v"
+            ],
+            [
+              "aquí.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Espere aquí.",
-          "clip": "clips/194837b83edbdc3a.mp3"
+          "clip": "clips/194837b83edbdc3a.mp3",
+          "en": "Wait here.",
+          "parts": [
+            [
+              "Espere",
+              "v"
+            ],
+            [
+              "aquí.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Esperemos aquí.",
-          "clip": "clips/f999bc9991d5afb7.mp3"
+          "clip": "clips/f999bc9991d5afb7.mp3",
+          "en": "Let's wait here.",
+          "parts": [
+            [
+              "Esperemos",
+              "v"
+            ],
+            [
+              "aquí.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Esperemos aquí.",
-          "clip": "clips/f999bc9991d5afb7.mp3"
+          "clip": "clips/f999bc9991d5afb7.mp3",
+          "en": "Let's wait here.",
+          "parts": [
+            [
+              "Esperemos",
+              "v"
+            ],
+            [
+              "aquí.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Esperen aquí.",
-          "clip": "clips/64c11eeeaf32b0e1.mp3"
+          "clip": "clips/64c11eeeaf32b0e1.mp3",
+          "en": "Wait here.",
+          "parts": [
+            [
+              "Esperen",
+              "v"
+            ],
+            [
+              "aquí.",
+              ""
+            ]
+          ]
         }
       }
     }

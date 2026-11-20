@@ -71,7 +71,21 @@
       "en_clip": "clips/4070f6b2c448688d.mp3",
       "single": {
         "es": "Quiero ir a la playa.",
-        "clip": "clips/75c97ffafb4841c1.mp3"
+        "clip": "clips/75c97ffafb4841c1.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "ir",
+            "v"
+          ],
+          [
+            "a la playa.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo voy a la playa.",
-          "clip": "clips/29a69627e9d3e884.mp3"
+          "clip": "clips/29a69627e9d3e884.mp3",
+          "en": "I go to the beach.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "voy",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú vas a la playa.",
-          "clip": "clips/b02744f7fcf6f149.mp3"
+          "clip": "clips/b02744f7fcf6f149.mp3",
+          "en": "You go to the beach.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "vas",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted va a la playa.",
-          "clip": "clips/22cf63bf15d366c6.mp3"
+          "clip": "clips/22cf63bf15d366c6.mp3",
+          "en": "You go to the beach.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "va",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él va a la playa.",
-          "clip": "clips/70ca4bbdc7b3732d.mp3"
+          "clip": "clips/70ca4bbdc7b3732d.mp3",
+          "en": "He goes to the beach.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "va",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella va a la playa.",
-          "clip": "clips/7b92fc200c09c7f8.mp3"
+          "clip": "clips/7b92fc200c09c7f8.mp3",
+          "en": "She goes to the beach.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "va",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros vamos a la playa.",
-          "clip": "clips/9ccc69150ef7f7c0.mp3"
+          "clip": "clips/9ccc69150ef7f7c0.mp3",
+          "en": "We go to the beach.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "vamos",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras vamos a la playa.",
-          "clip": "clips/d11ab3593ea8481a.mp3"
+          "clip": "clips/d11ab3593ea8481a.mp3",
+          "en": "We go to the beach.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "vamos",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes van a la playa.",
-          "clip": "clips/b7d810011d442f02.mp3"
+          "clip": "clips/b7d810011d442f02.mp3",
+          "en": "You all go to the beach.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "van",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos van a la playa.",
-          "clip": "clips/86b1781575e50fd8.mp3"
+          "clip": "clips/86b1781575e50fd8.mp3",
+          "en": "They go to the beach.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "van",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas van a la playa.",
-          "clip": "clips/52d54cb5af6fff10.mp3"
+          "clip": "clips/52d54cb5af6fff10.mp3",
+          "en": "They go to the beach.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "van",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo fui a la playa.",
-          "clip": "clips/7a64933e2e465ede.mp3"
+          "clip": "clips/7a64933e2e465ede.mp3",
+          "en": "I went to the beach.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "fui",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú fuiste a la playa.",
-          "clip": "clips/a4956fe46ec6b9a7.mp3"
+          "clip": "clips/a4956fe46ec6b9a7.mp3",
+          "en": "You went to the beach.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "fuiste",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted fue a la playa.",
-          "clip": "clips/d633c68244a5637b.mp3"
+          "clip": "clips/d633c68244a5637b.mp3",
+          "en": "You went to the beach.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "fue",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él fue a la playa.",
-          "clip": "clips/81dfa016cb4ab1c9.mp3"
+          "clip": "clips/81dfa016cb4ab1c9.mp3",
+          "en": "He went to the beach.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "fue",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella fue a la playa.",
-          "clip": "clips/70b27dbb64f1c8f1.mp3"
+          "clip": "clips/70b27dbb64f1c8f1.mp3",
+          "en": "She went to the beach.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "fue",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros fuimos a la playa.",
-          "clip": "clips/d2a3b8a41df9d9f2.mp3"
+          "clip": "clips/d2a3b8a41df9d9f2.mp3",
+          "en": "We went to the beach.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "fuimos",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras fuimos a la playa.",
-          "clip": "clips/cfff68bd68b4c351.mp3"
+          "clip": "clips/cfff68bd68b4c351.mp3",
+          "en": "We went to the beach.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "fuimos",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes fueron a la playa.",
-          "clip": "clips/27860c5d077b6dd3.mp3"
+          "clip": "clips/27860c5d077b6dd3.mp3",
+          "en": "You all went to the beach.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "fueron",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos fueron a la playa.",
-          "clip": "clips/a0fefafe4de7cdff.mp3"
+          "clip": "clips/a0fefafe4de7cdff.mp3",
+          "en": "They went to the beach.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "fueron",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas fueron a la playa.",
-          "clip": "clips/7548015caff73117.mp3"
+          "clip": "clips/7548015caff73117.mp3",
+          "en": "They went to the beach.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "fueron",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo iba a la playa.",
-          "clip": "clips/12a99790ec2c9002.mp3"
+          "clip": "clips/12a99790ec2c9002.mp3",
+          "en": "I used to go to the beach.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "iba",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú ibas a la playa.",
-          "clip": "clips/7314c1747e6cff47.mp3"
+          "clip": "clips/7314c1747e6cff47.mp3",
+          "en": "You used to go to the beach.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "ibas",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted iba a la playa.",
-          "clip": "clips/51b3c545156f58a6.mp3"
+          "clip": "clips/51b3c545156f58a6.mp3",
+          "en": "You used to go to the beach.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "iba",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él iba a la playa.",
-          "clip": "clips/9ca0c2c0eda0f7cb.mp3"
+          "clip": "clips/9ca0c2c0eda0f7cb.mp3",
+          "en": "He used to go to the beach.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "iba",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella iba a la playa.",
-          "clip": "clips/1a1df52a7132aec2.mp3"
+          "clip": "clips/1a1df52a7132aec2.mp3",
+          "en": "She used to go to the beach.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "iba",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros íbamos a la playa.",
-          "clip": "clips/0b6c4bd9e8e8141b.mp3"
+          "clip": "clips/0b6c4bd9e8e8141b.mp3",
+          "en": "We used to go to the beach.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "íbamos",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras íbamos a la playa.",
-          "clip": "clips/aeeafbfe807e9aec.mp3"
+          "clip": "clips/aeeafbfe807e9aec.mp3",
+          "en": "We used to go to the beach.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "íbamos",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes iban a la playa.",
-          "clip": "clips/47a754988638cea4.mp3"
+          "clip": "clips/47a754988638cea4.mp3",
+          "en": "You all used to go to the beach.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "iban",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos iban a la playa.",
-          "clip": "clips/21249ea40d37ba28.mp3"
+          "clip": "clips/21249ea40d37ba28.mp3",
+          "en": "They used to go to the beach.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "iban",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas iban a la playa.",
-          "clip": "clips/9bf18d178370b9d6.mp3"
+          "clip": "clips/9bf18d178370b9d6.mp3",
+          "en": "They used to go to the beach.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "iban",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Ve a la playa.",
-          "clip": "clips/74805c8322855a42.mp3"
+          "clip": "clips/74805c8322855a42.mp3",
+          "en": "Go to the beach.",
+          "parts": [
+            [
+              "Ve",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Vaya a la playa.",
-          "clip": "clips/1fb9e6ff82ffebc2.mp3"
+          "clip": "clips/1fb9e6ff82ffebc2.mp3",
+          "en": "Go to the beach.",
+          "parts": [
+            [
+              "Vaya",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Vamos a la playa.",
-          "clip": "clips/83c4d419592aa303.mp3"
+          "clip": "clips/83c4d419592aa303.mp3",
+          "en": "Let's go to the beach.",
+          "parts": [
+            [
+              "Vamos",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Vamos a la playa.",
-          "clip": "clips/83c4d419592aa303.mp3"
+          "clip": "clips/83c4d419592aa303.mp3",
+          "en": "Let's go to the beach.",
+          "parts": [
+            [
+              "Vamos",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Vayan a la playa.",
-          "clip": "clips/53658424819d8013.mp3"
+          "clip": "clips/53658424819d8013.mp3",
+          "en": "Go to the beach.",
+          "parts": [
+            [
+              "Vayan",
+              "v"
+            ],
+            [
+              "a la playa.",
+              ""
+            ]
+          ]
         }
       }
     }

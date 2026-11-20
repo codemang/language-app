@@ -71,7 +71,21 @@
       "en_clip": "clips/71fe4a32672b2170.mp3",
       "single": {
         "es": "Tengo que vestirme rápido.",
-        "clip": "clips/f938305e51125cc0.mp3"
+        "clip": "clips/f938305e51125cc0.mp3",
+        "parts": [
+          [
+            "Tengo que",
+            ""
+          ],
+          [
+            "vestirme",
+            "v"
+          ],
+          [
+            "rápido.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo me visto rápido.",
-          "clip": "clips/6c109a66d7dd0853.mp3"
+          "clip": "clips/6c109a66d7dd0853.mp3",
+          "en": "I get dressed quickly.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "visto",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te vistes rápido.",
-          "clip": "clips/e866d559bdce2496.mp3"
+          "clip": "clips/e866d559bdce2496.mp3",
+          "en": "You get dressed quickly.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "vistes",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se viste rápido.",
-          "clip": "clips/4de96ad86145a36a.mp3"
+          "clip": "clips/4de96ad86145a36a.mp3",
+          "en": "You get dressed quickly.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "viste",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se viste rápido.",
-          "clip": "clips/4f716a1634c05de3.mp3"
+          "clip": "clips/4f716a1634c05de3.mp3",
+          "en": "He gets dressed quickly.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "viste",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se viste rápido.",
-          "clip": "clips/7a98ca045750eb43.mp3"
+          "clip": "clips/7a98ca045750eb43.mp3",
+          "en": "She gets dressed quickly.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "viste",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos vestimos rápido.",
-          "clip": "clips/75ab7911f0341f11.mp3"
+          "clip": "clips/75ab7911f0341f11.mp3",
+          "en": "We get dressed quickly.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "vestimos",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos vestimos rápido.",
-          "clip": "clips/7e8c012edd0782f5.mp3"
+          "clip": "clips/7e8c012edd0782f5.mp3",
+          "en": "We get dressed quickly.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "vestimos",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se visten rápido.",
-          "clip": "clips/38a1ff688478941d.mp3"
+          "clip": "clips/38a1ff688478941d.mp3",
+          "en": "You all get dressed quickly.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "visten",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se visten rápido.",
-          "clip": "clips/10884dbcd7818a0b.mp3"
+          "clip": "clips/10884dbcd7818a0b.mp3",
+          "en": "They get dressed quickly.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "visten",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se visten rápido.",
-          "clip": "clips/bba993fb33723027.mp3"
+          "clip": "clips/bba993fb33723027.mp3",
+          "en": "They get dressed quickly.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "visten",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo me vestí rápido.",
-          "clip": "clips/00ad3d4e5a6ddee8.mp3"
+          "clip": "clips/00ad3d4e5a6ddee8.mp3",
+          "en": "I got dressed quickly.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "vestí",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te vestiste rápido.",
-          "clip": "clips/dd4c2dd072a54b7b.mp3"
+          "clip": "clips/dd4c2dd072a54b7b.mp3",
+          "en": "You got dressed quickly.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "vestiste",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se vistió rápido.",
-          "clip": "clips/a831784fbc841911.mp3"
+          "clip": "clips/a831784fbc841911.mp3",
+          "en": "You got dressed quickly.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "vistió",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se vistió rápido.",
-          "clip": "clips/7027540b68b2d60c.mp3"
+          "clip": "clips/7027540b68b2d60c.mp3",
+          "en": "He got dressed quickly.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "vistió",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se vistió rápido.",
-          "clip": "clips/2b7f3535fd003a4a.mp3"
+          "clip": "clips/2b7f3535fd003a4a.mp3",
+          "en": "She got dressed quickly.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "vistió",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos vestimos rápido.",
-          "clip": "clips/75ab7911f0341f11.mp3"
+          "clip": "clips/75ab7911f0341f11.mp3",
+          "en": "We got dressed quickly.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "vestimos",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos vestimos rápido.",
-          "clip": "clips/7e8c012edd0782f5.mp3"
+          "clip": "clips/7e8c012edd0782f5.mp3",
+          "en": "We got dressed quickly.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "vestimos",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se vistieron rápido.",
-          "clip": "clips/51918b718c27de86.mp3"
+          "clip": "clips/51918b718c27de86.mp3",
+          "en": "You all got dressed quickly.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "vistieron",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se vistieron rápido.",
-          "clip": "clips/2c33ee6acb88d722.mp3"
+          "clip": "clips/2c33ee6acb88d722.mp3",
+          "en": "They got dressed quickly.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "vistieron",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se vistieron rápido.",
-          "clip": "clips/60e0d93eeb032dd6.mp3"
+          "clip": "clips/60e0d93eeb032dd6.mp3",
+          "en": "They got dressed quickly.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "vistieron",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo me vestía rápido.",
-          "clip": "clips/69ad78a2e9e45756.mp3"
+          "clip": "clips/69ad78a2e9e45756.mp3",
+          "en": "I used to get dressed quickly.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "vestía",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te vestías rápido.",
-          "clip": "clips/f11bbddeeb032d54.mp3"
+          "clip": "clips/f11bbddeeb032d54.mp3",
+          "en": "You used to get dressed quickly.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "vestías",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se vestía rápido.",
-          "clip": "clips/c0f8e228c1d7fffc.mp3"
+          "clip": "clips/c0f8e228c1d7fffc.mp3",
+          "en": "You used to get dressed quickly.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "vestía",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se vestía rápido.",
-          "clip": "clips/d22237936372fb65.mp3"
+          "clip": "clips/d22237936372fb65.mp3",
+          "en": "He used to get dressed quickly.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "vestía",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se vestía rápido.",
-          "clip": "clips/2ba78075395dfa97.mp3"
+          "clip": "clips/2ba78075395dfa97.mp3",
+          "en": "She used to get dressed quickly.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "vestía",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos vestíamos rápido.",
-          "clip": "clips/dd1f42083a680b2e.mp3"
+          "clip": "clips/dd1f42083a680b2e.mp3",
+          "en": "We used to get dressed quickly.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "vestíamos",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos vestíamos rápido.",
-          "clip": "clips/8b64a9790e4a4480.mp3"
+          "clip": "clips/8b64a9790e4a4480.mp3",
+          "en": "We used to get dressed quickly.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "vestíamos",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se vestían rápido.",
-          "clip": "clips/8a03e2b01d1207fd.mp3"
+          "clip": "clips/8a03e2b01d1207fd.mp3",
+          "en": "You all used to get dressed quickly.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "vestían",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se vestían rápido.",
-          "clip": "clips/becf1a22655cae9a.mp3"
+          "clip": "clips/becf1a22655cae9a.mp3",
+          "en": "They used to get dressed quickly.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "vestían",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se vestían rápido.",
-          "clip": "clips/2907d051be05810a.mp3"
+          "clip": "clips/2907d051be05810a.mp3",
+          "en": "They used to get dressed quickly.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "vestían",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Vístete rápido.",
-          "clip": "clips/6a40cfba028016e2.mp3"
+          "clip": "clips/6a40cfba028016e2.mp3",
+          "en": "Get dressed quickly.",
+          "parts": [
+            [
+              "Vístete",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Vístase rápido.",
-          "clip": "clips/56c9ed50ba9781a2.mp3"
+          "clip": "clips/56c9ed50ba9781a2.mp3",
+          "en": "Get dressed quickly.",
+          "parts": [
+            [
+              "Vístase",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Vistámonos rápido.",
-          "clip": "clips/c52330b36e56a732.mp3"
+          "clip": "clips/c52330b36e56a732.mp3",
+          "en": "Let's get dressed quickly.",
+          "parts": [
+            [
+              "Vistámonos",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Vistámonos rápido.",
-          "clip": "clips/c52330b36e56a732.mp3"
+          "clip": "clips/c52330b36e56a732.mp3",
+          "en": "Let's get dressed quickly.",
+          "parts": [
+            [
+              "Vistámonos",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Vístanse rápido.",
-          "clip": "clips/ba3b496ce53c603a.mp3"
+          "clip": "clips/ba3b496ce53c603a.mp3",
+          "en": "Get dressed quickly.",
+          "parts": [
+            [
+              "Vístanse",
+              "v"
+            ],
+            [
+              "rápido.",
+              ""
+            ]
+          ]
         }
       }
     }

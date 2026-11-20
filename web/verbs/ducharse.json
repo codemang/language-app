@@ -71,7 +71,21 @@
       "en_clip": "clips/49895e6a6f251071.mp3",
       "single": {
         "es": "Necesito ducharme por la mañana.",
-        "clip": "clips/6002be2cb7cc5ffe.mp3"
+        "clip": "clips/6002be2cb7cc5ffe.mp3",
+        "parts": [
+          [
+            "Necesito",
+            ""
+          ],
+          [
+            "ducharme",
+            "v"
+          ],
+          [
+            "por la mañana.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo me ducho por la mañana.",
-          "clip": "clips/4bd53dcbab457127.mp3"
+          "clip": "clips/4bd53dcbab457127.mp3",
+          "en": "I shower in the morning.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "ducho",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te duchas por la mañana.",
-          "clip": "clips/e6ccacf1e7bd2664.mp3"
+          "clip": "clips/e6ccacf1e7bd2664.mp3",
+          "en": "You shower in the morning.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "duchas",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se ducha por la mañana.",
-          "clip": "clips/36f40f5f8ab0f950.mp3"
+          "clip": "clips/36f40f5f8ab0f950.mp3",
+          "en": "You shower in the morning.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "ducha",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se ducha por la mañana.",
-          "clip": "clips/bda4c4d098e8c73b.mp3"
+          "clip": "clips/bda4c4d098e8c73b.mp3",
+          "en": "He showers in the morning.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "ducha",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se ducha por la mañana.",
-          "clip": "clips/88a8ab6ad2903837.mp3"
+          "clip": "clips/88a8ab6ad2903837.mp3",
+          "en": "She showers in the morning.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "ducha",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos duchamos por la mañana.",
-          "clip": "clips/e248e9a1261257c4.mp3"
+          "clip": "clips/e248e9a1261257c4.mp3",
+          "en": "We shower in the morning.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "duchamos",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos duchamos por la mañana.",
-          "clip": "clips/56bb34c7493abf61.mp3"
+          "clip": "clips/56bb34c7493abf61.mp3",
+          "en": "We shower in the morning.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "duchamos",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se duchan por la mañana.",
-          "clip": "clips/a8c0581e372360f6.mp3"
+          "clip": "clips/a8c0581e372360f6.mp3",
+          "en": "You all shower in the morning.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "duchan",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se duchan por la mañana.",
-          "clip": "clips/f99aceb6cc67b19c.mp3"
+          "clip": "clips/f99aceb6cc67b19c.mp3",
+          "en": "They shower in the morning.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "duchan",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se duchan por la mañana.",
-          "clip": "clips/7f2526991775dcc3.mp3"
+          "clip": "clips/7f2526991775dcc3.mp3",
+          "en": "They shower in the morning.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "duchan",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo me duché por la mañana.",
-          "clip": "clips/71949fdb677bd748.mp3"
+          "clip": "clips/71949fdb677bd748.mp3",
+          "en": "I showered in the morning.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "duché",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te duchaste por la mañana.",
-          "clip": "clips/678c3ffb1aaeb96e.mp3"
+          "clip": "clips/678c3ffb1aaeb96e.mp3",
+          "en": "You showered in the morning.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "duchaste",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se duchó por la mañana.",
-          "clip": "clips/c3af0bcb58124713.mp3"
+          "clip": "clips/c3af0bcb58124713.mp3",
+          "en": "You showered in the morning.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "duchó",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se duchó por la mañana.",
-          "clip": "clips/717ef3f6219392f4.mp3"
+          "clip": "clips/717ef3f6219392f4.mp3",
+          "en": "He showered in the morning.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "duchó",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se duchó por la mañana.",
-          "clip": "clips/34aacdf5a3231524.mp3"
+          "clip": "clips/34aacdf5a3231524.mp3",
+          "en": "She showered in the morning.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "duchó",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos duchamos por la mañana.",
-          "clip": "clips/e248e9a1261257c4.mp3"
+          "clip": "clips/e248e9a1261257c4.mp3",
+          "en": "We showered in the morning.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "duchamos",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos duchamos por la mañana.",
-          "clip": "clips/56bb34c7493abf61.mp3"
+          "clip": "clips/56bb34c7493abf61.mp3",
+          "en": "We showered in the morning.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "duchamos",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se ducharon por la mañana.",
-          "clip": "clips/b2da7451bee7f937.mp3"
+          "clip": "clips/b2da7451bee7f937.mp3",
+          "en": "You all showered in the morning.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "ducharon",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se ducharon por la mañana.",
-          "clip": "clips/b05cc84d11fcabbe.mp3"
+          "clip": "clips/b05cc84d11fcabbe.mp3",
+          "en": "They showered in the morning.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "ducharon",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se ducharon por la mañana.",
-          "clip": "clips/be383574c083421f.mp3"
+          "clip": "clips/be383574c083421f.mp3",
+          "en": "They showered in the morning.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "ducharon",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo me duchaba por la mañana.",
-          "clip": "clips/79704247e3010acb.mp3"
+          "clip": "clips/79704247e3010acb.mp3",
+          "en": "I used to shower in the morning.",
+          "parts": [
+            [
+              "Yo me",
+              "p"
+            ],
+            [
+              "duchaba",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú te duchabas por la mañana.",
-          "clip": "clips/d989d1f22177803e.mp3"
+          "clip": "clips/d989d1f22177803e.mp3",
+          "en": "You used to shower in the morning.",
+          "parts": [
+            [
+              "Tú te",
+              "p"
+            ],
+            [
+              "duchabas",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted se duchaba por la mañana.",
-          "clip": "clips/dc78dd087e8a294c.mp3"
+          "clip": "clips/dc78dd087e8a294c.mp3",
+          "en": "You used to shower in the morning.",
+          "parts": [
+            [
+              "Usted se",
+              "p"
+            ],
+            [
+              "duchaba",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él se duchaba por la mañana.",
-          "clip": "clips/e418d637dc37fe42.mp3"
+          "clip": "clips/e418d637dc37fe42.mp3",
+          "en": "He used to shower in the morning.",
+          "parts": [
+            [
+              "Él se",
+              "p"
+            ],
+            [
+              "duchaba",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella se duchaba por la mañana.",
-          "clip": "clips/9bc6fdcca8a250f7.mp3"
+          "clip": "clips/9bc6fdcca8a250f7.mp3",
+          "en": "She used to shower in the morning.",
+          "parts": [
+            [
+              "Ella se",
+              "p"
+            ],
+            [
+              "duchaba",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros nos duchábamos por la mañana.",
-          "clip": "clips/c165fc9845b2e940.mp3"
+          "clip": "clips/c165fc9845b2e940.mp3",
+          "en": "We used to shower in the morning.",
+          "parts": [
+            [
+              "Nosotros nos",
+              "p"
+            ],
+            [
+              "duchábamos",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras nos duchábamos por la mañana.",
-          "clip": "clips/640a1ca352b03770.mp3"
+          "clip": "clips/640a1ca352b03770.mp3",
+          "en": "We used to shower in the morning.",
+          "parts": [
+            [
+              "Nosotras nos",
+              "p"
+            ],
+            [
+              "duchábamos",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes se duchaban por la mañana.",
-          "clip": "clips/ca1e23303b8f989e.mp3"
+          "clip": "clips/ca1e23303b8f989e.mp3",
+          "en": "You all used to shower in the morning.",
+          "parts": [
+            [
+              "Ustedes se",
+              "p"
+            ],
+            [
+              "duchaban",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos se duchaban por la mañana.",
-          "clip": "clips/b15cf6e5dc0d0123.mp3"
+          "clip": "clips/b15cf6e5dc0d0123.mp3",
+          "en": "They used to shower in the morning.",
+          "parts": [
+            [
+              "Ellos se",
+              "p"
+            ],
+            [
+              "duchaban",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas se duchaban por la mañana.",
-          "clip": "clips/62236de104cbd621.mp3"
+          "clip": "clips/62236de104cbd621.mp3",
+          "en": "They used to shower in the morning.",
+          "parts": [
+            [
+              "Ellas se",
+              "p"
+            ],
+            [
+              "duchaban",
+              "v"
+            ],
+            [
+              "por la mañana.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Dúchate ahora.",
-          "clip": "clips/1972766c4e86e687.mp3"
+          "clip": "clips/1972766c4e86e687.mp3",
+          "en": "Shower now.",
+          "parts": [
+            [
+              "Dúchate",
+              "v"
+            ],
+            [
+              "ahora.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Dúchese ahora.",
-          "clip": "clips/b7c04a00b70743bf.mp3"
+          "clip": "clips/b7c04a00b70743bf.mp3",
+          "en": "Shower now.",
+          "parts": [
+            [
+              "Dúchese",
+              "v"
+            ],
+            [
+              "ahora.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Duchémonos ahora.",
-          "clip": "clips/368c6a71143b63dc.mp3"
+          "clip": "clips/368c6a71143b63dc.mp3",
+          "en": "Let's shower now.",
+          "parts": [
+            [
+              "Duchémonos",
+              "v"
+            ],
+            [
+              "ahora.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Duchémonos ahora.",
-          "clip": "clips/368c6a71143b63dc.mp3"
+          "clip": "clips/368c6a71143b63dc.mp3",
+          "en": "Let's shower now.",
+          "parts": [
+            [
+              "Duchémonos",
+              "v"
+            ],
+            [
+              "ahora.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Dúchense ahora.",
-          "clip": "clips/8d0dc3de06db80b4.mp3"
+          "clip": "clips/8d0dc3de06db80b4.mp3",
+          "en": "Shower now.",
+          "parts": [
+            [
+              "Dúchense",
+              "v"
+            ],
+            [
+              "ahora.",
+              ""
+            ]
+          ]
         }
       }
     }

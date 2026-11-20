@@ -71,7 +71,21 @@
       "en_clip": "clips/aecc09499a6ac8e3.mp3",
       "single": {
         "es": "Te va a gustar el café.",
-        "clip": "clips/d18ac840cea75283.mp3"
+        "clip": "clips/d18ac840cea75283.mp3",
+        "parts": [
+          [
+            "Te va a",
+            ""
+          ],
+          [
+            "gustar",
+            "v"
+          ],
+          [
+            "el café.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,233 @@
       "forms": {
         "yo": {
           "es": "A mí me gusta el café.",
-          "clip": "clips/9cdd0f9758cc5648.mp3"
+          "clip": "clips/9cdd0f9758cc5648.mp3",
+          "en": "I like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "mí me",
+              "p"
+            ],
+            [
+              "gusta",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "A ti te gusta el café.",
-          "clip": "clips/1cd1e4d3e37f1a48.mp3"
+          "clip": "clips/1cd1e4d3e37f1a48.mp3",
+          "en": "You like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ti te",
+              "p"
+            ],
+            [
+              "gusta",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "A usted le gusta el café.",
-          "clip": "clips/0fd16fda1aac99c0.mp3"
+          "clip": "clips/0fd16fda1aac99c0.mp3",
+          "en": "You like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "usted le",
+              "p"
+            ],
+            [
+              "gusta",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "A él le gusta el café.",
-          "clip": "clips/27b85ce9dae177bb.mp3"
+          "clip": "clips/27b85ce9dae177bb.mp3",
+          "en": "He likes coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "él le",
+              "p"
+            ],
+            [
+              "gusta",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "A ella le gusta el café.",
-          "clip": "clips/327e3f8ee72439fb.mp3"
+          "clip": "clips/327e3f8ee72439fb.mp3",
+          "en": "She likes coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ella le",
+              "p"
+            ],
+            [
+              "gusta",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "A nosotros nos gusta el café.",
-          "clip": "clips/12e792a8c6ef14b7.mp3"
+          "clip": "clips/12e792a8c6ef14b7.mp3",
+          "en": "We like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotros nos",
+              "p"
+            ],
+            [
+              "gusta",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "A nosotras nos gusta el café.",
-          "clip": "clips/3e744e039a4d8149.mp3"
+          "clip": "clips/3e744e039a4d8149.mp3",
+          "en": "We like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotras nos",
+              "p"
+            ],
+            [
+              "gusta",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "A ustedes les gusta el café.",
-          "clip": "clips/cf166c1e595ca926.mp3"
+          "clip": "clips/cf166c1e595ca926.mp3",
+          "en": "You all like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ustedes les",
+              "p"
+            ],
+            [
+              "gusta",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "A ellos les gusta el café.",
-          "clip": "clips/bc0cb9900bc1450d.mp3"
+          "clip": "clips/bc0cb9900bc1450d.mp3",
+          "en": "They like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellos les",
+              "p"
+            ],
+            [
+              "gusta",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "A ellas les gusta el café.",
-          "clip": "clips/0cba96b7704f3e90.mp3"
+          "clip": "clips/0cba96b7704f3e90.mp3",
+          "en": "They like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellas les",
+              "p"
+            ],
+            [
+              "gusta",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +334,233 @@
       "forms": {
         "yo": {
           "es": "A mí me gustó el café.",
-          "clip": "clips/ba450b7778655b43.mp3"
+          "clip": "clips/ba450b7778655b43.mp3",
+          "en": "I liked the coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "mí me",
+              "p"
+            ],
+            [
+              "gustó",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "A ti te gustó el café.",
-          "clip": "clips/0fccfb806551982e.mp3"
+          "clip": "clips/0fccfb806551982e.mp3",
+          "en": "You liked the coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ti te",
+              "p"
+            ],
+            [
+              "gustó",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "A usted le gustó el café.",
-          "clip": "clips/67630fdf6021693c.mp3"
+          "clip": "clips/67630fdf6021693c.mp3",
+          "en": "You liked the coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "usted le",
+              "p"
+            ],
+            [
+              "gustó",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "A él le gustó el café.",
-          "clip": "clips/3eb004237951effa.mp3"
+          "clip": "clips/3eb004237951effa.mp3",
+          "en": "He liked the coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "él le",
+              "p"
+            ],
+            [
+              "gustó",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "A ella le gustó el café.",
-          "clip": "clips/efc326d975a6f773.mp3"
+          "clip": "clips/efc326d975a6f773.mp3",
+          "en": "She liked the coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ella le",
+              "p"
+            ],
+            [
+              "gustó",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "A nosotros nos gustó el café.",
-          "clip": "clips/24531105d656f985.mp3"
+          "clip": "clips/24531105d656f985.mp3",
+          "en": "We liked the coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotros nos",
+              "p"
+            ],
+            [
+              "gustó",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "A nosotras nos gustó el café.",
-          "clip": "clips/095cd3cb2afb7cca.mp3"
+          "clip": "clips/095cd3cb2afb7cca.mp3",
+          "en": "We liked the coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotras nos",
+              "p"
+            ],
+            [
+              "gustó",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "A ustedes les gustó el café.",
-          "clip": "clips/8a2955f3fa506dd8.mp3"
+          "clip": "clips/8a2955f3fa506dd8.mp3",
+          "en": "You all liked the coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ustedes les",
+              "p"
+            ],
+            [
+              "gustó",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "A ellos les gustó el café.",
-          "clip": "clips/cf8c3397487ab3c6.mp3"
+          "clip": "clips/cf8c3397487ab3c6.mp3",
+          "en": "They liked the coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellos les",
+              "p"
+            ],
+            [
+              "gustó",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "A ellas les gustó el café.",
-          "clip": "clips/a190731792fc870a.mp3"
+          "clip": "clips/a190731792fc870a.mp3",
+          "en": "They liked the coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellas les",
+              "p"
+            ],
+            [
+              "gustó",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +572,233 @@
       "forms": {
         "yo": {
           "es": "A mí me gustaba el café.",
-          "clip": "clips/6f8defbc2212eb62.mp3"
+          "clip": "clips/6f8defbc2212eb62.mp3",
+          "en": "I used to like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "mí me",
+              "p"
+            ],
+            [
+              "gustaba",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "A ti te gustaba el café.",
-          "clip": "clips/efbdb2d60938d116.mp3"
+          "clip": "clips/efbdb2d60938d116.mp3",
+          "en": "You used to like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ti te",
+              "p"
+            ],
+            [
+              "gustaba",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "A usted le gustaba el café.",
-          "clip": "clips/6f87a64927227b81.mp3"
+          "clip": "clips/6f87a64927227b81.mp3",
+          "en": "You used to like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "usted le",
+              "p"
+            ],
+            [
+              "gustaba",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "A él le gustaba el café.",
-          "clip": "clips/cb6b04ccd76ab121.mp3"
+          "clip": "clips/cb6b04ccd76ab121.mp3",
+          "en": "He used to like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "él le",
+              "p"
+            ],
+            [
+              "gustaba",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "A ella le gustaba el café.",
-          "clip": "clips/4565bbbdd6663463.mp3"
+          "clip": "clips/4565bbbdd6663463.mp3",
+          "en": "She used to like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ella le",
+              "p"
+            ],
+            [
+              "gustaba",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "A nosotros nos gustaba el café.",
-          "clip": "clips/e79e0c1da64fd597.mp3"
+          "clip": "clips/e79e0c1da64fd597.mp3",
+          "en": "We used to like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotros nos",
+              "p"
+            ],
+            [
+              "gustaba",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "A nosotras nos gustaba el café.",
-          "clip": "clips/edb264c89a11a6d3.mp3"
+          "clip": "clips/edb264c89a11a6d3.mp3",
+          "en": "We used to like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "nosotras nos",
+              "p"
+            ],
+            [
+              "gustaba",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "A ustedes les gustaba el café.",
-          "clip": "clips/3d827e0788ff3eff.mp3"
+          "clip": "clips/3d827e0788ff3eff.mp3",
+          "en": "You all used to like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ustedes les",
+              "p"
+            ],
+            [
+              "gustaba",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "A ellos les gustaba el café.",
-          "clip": "clips/298b40a806c24673.mp3"
+          "clip": "clips/298b40a806c24673.mp3",
+          "en": "They used to like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellos les",
+              "p"
+            ],
+            [
+              "gustaba",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "A ellas les gustaba el café.",
-          "clip": "clips/ae37177d499beaaf.mp3"
+          "clip": "clips/ae37177d499beaaf.mp3",
+          "en": "They used to like coffee.",
+          "parts": [
+            [
+              "A",
+              ""
+            ],
+            [
+              "ellas les",
+              "p"
+            ],
+            [
+              "gustaba",
+              "v"
+            ],
+            [
+              "el café.",
+              ""
+            ]
+          ]
         }
       }
     }

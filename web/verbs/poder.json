@@ -71,7 +71,21 @@
       "en_clip": "clips/6d61f87a3579dec0.mp3",
       "single": {
         "es": "Quiero poder nadar.",
-        "clip": "clips/f217243d09653ebe.mp3"
+        "clip": "clips/f217243d09653ebe.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "poder",
+            "v"
+          ],
+          [
+            "nadar.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo puedo nadar.",
-          "clip": "clips/455fe86848dd1ded.mp3"
+          "clip": "clips/455fe86848dd1ded.mp3",
+          "en": "I can swim.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "puedo",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú puedes nadar.",
-          "clip": "clips/72cedd09df3897b4.mp3"
+          "clip": "clips/72cedd09df3897b4.mp3",
+          "en": "You can swim.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "puedes",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted puede nadar.",
-          "clip": "clips/609df69621257993.mp3"
+          "clip": "clips/609df69621257993.mp3",
+          "en": "You can swim.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "puede",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él puede nadar.",
-          "clip": "clips/2988fa4ee7e9b396.mp3"
+          "clip": "clips/2988fa4ee7e9b396.mp3",
+          "en": "He can swim.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "puede",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella puede nadar.",
-          "clip": "clips/1887a8aa062a2160.mp3"
+          "clip": "clips/1887a8aa062a2160.mp3",
+          "en": "She can swim.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "puede",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros podemos nadar.",
-          "clip": "clips/44c36e3b7f63e8aa.mp3"
+          "clip": "clips/44c36e3b7f63e8aa.mp3",
+          "en": "We can swim.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "podemos",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras podemos nadar.",
-          "clip": "clips/6889084e594827fc.mp3"
+          "clip": "clips/6889084e594827fc.mp3",
+          "en": "We can swim.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "podemos",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes pueden nadar.",
-          "clip": "clips/f1cf29bb6708536a.mp3"
+          "clip": "clips/f1cf29bb6708536a.mp3",
+          "en": "You all can swim.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "pueden",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos pueden nadar.",
-          "clip": "clips/de147f5a3102e193.mp3"
+          "clip": "clips/de147f5a3102e193.mp3",
+          "en": "They can swim.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "pueden",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas pueden nadar.",
-          "clip": "clips/2611a3297a9ad785.mp3"
+          "clip": "clips/2611a3297a9ad785.mp3",
+          "en": "They can swim.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "pueden",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo pude nadar.",
-          "clip": "clips/fde55d29dbef4ef5.mp3"
+          "clip": "clips/fde55d29dbef4ef5.mp3",
+          "en": "I managed to swim.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "pude",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú pudiste nadar.",
-          "clip": "clips/151ecdf3a2d4ddea.mp3"
+          "clip": "clips/151ecdf3a2d4ddea.mp3",
+          "en": "You managed to swim.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "pudiste",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted pudo nadar.",
-          "clip": "clips/93c36ac0db9fef69.mp3"
+          "clip": "clips/93c36ac0db9fef69.mp3",
+          "en": "You managed to swim.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "pudo",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él pudo nadar.",
-          "clip": "clips/09a114f6daedcaec.mp3"
+          "clip": "clips/09a114f6daedcaec.mp3",
+          "en": "He managed to swim.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "pudo",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella pudo nadar.",
-          "clip": "clips/2d65b5fa36f71d91.mp3"
+          "clip": "clips/2d65b5fa36f71d91.mp3",
+          "en": "She managed to swim.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "pudo",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros pudimos nadar.",
-          "clip": "clips/1f9e202fae6e84ba.mp3"
+          "clip": "clips/1f9e202fae6e84ba.mp3",
+          "en": "We managed to swim.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "pudimos",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras pudimos nadar.",
-          "clip": "clips/c1127b276f89aa5c.mp3"
+          "clip": "clips/c1127b276f89aa5c.mp3",
+          "en": "We managed to swim.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "pudimos",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes pudieron nadar.",
-          "clip": "clips/af93d00625f166f8.mp3"
+          "clip": "clips/af93d00625f166f8.mp3",
+          "en": "You all managed to swim.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "pudieron",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos pudieron nadar.",
-          "clip": "clips/157759d211dd835c.mp3"
+          "clip": "clips/157759d211dd835c.mp3",
+          "en": "They managed to swim.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "pudieron",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas pudieron nadar.",
-          "clip": "clips/b12092415d154bcc.mp3"
+          "clip": "clips/b12092415d154bcc.mp3",
+          "en": "They managed to swim.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "pudieron",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo podía nadar.",
-          "clip": "clips/b03de6d45079abe0.mp3"
+          "clip": "clips/b03de6d45079abe0.mp3",
+          "en": "I used to be able to swim.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "podía",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú podías nadar.",
-          "clip": "clips/193b89c718f2f595.mp3"
+          "clip": "clips/193b89c718f2f595.mp3",
+          "en": "You used to be able to swim.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "podías",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted podía nadar.",
-          "clip": "clips/747263127fb37fed.mp3"
+          "clip": "clips/747263127fb37fed.mp3",
+          "en": "You used to be able to swim.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "podía",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él podía nadar.",
-          "clip": "clips/3d60605fe2e09e67.mp3"
+          "clip": "clips/3d60605fe2e09e67.mp3",
+          "en": "He used to be able to swim.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "podía",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella podía nadar.",
-          "clip": "clips/dd6a022979fb89e9.mp3"
+          "clip": "clips/dd6a022979fb89e9.mp3",
+          "en": "She used to be able to swim.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "podía",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros podíamos nadar.",
-          "clip": "clips/b40abf6737cba705.mp3"
+          "clip": "clips/b40abf6737cba705.mp3",
+          "en": "We used to be able to swim.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "podíamos",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras podíamos nadar.",
-          "clip": "clips/82b67aff151ca0ce.mp3"
+          "clip": "clips/82b67aff151ca0ce.mp3",
+          "en": "We used to be able to swim.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "podíamos",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes podían nadar.",
-          "clip": "clips/58d3b2ffe0ed98e6.mp3"
+          "clip": "clips/58d3b2ffe0ed98e6.mp3",
+          "en": "You all used to be able to swim.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "podían",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos podían nadar.",
-          "clip": "clips/be5570f2a30421f4.mp3"
+          "clip": "clips/be5570f2a30421f4.mp3",
+          "en": "They used to be able to swim.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "podían",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas podían nadar.",
-          "clip": "clips/534e83cb7e956be0.mp3"
+          "clip": "clips/534e83cb7e956be0.mp3",
+          "en": "They used to be able to swim.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "podían",
+              "v"
+            ],
+            [
+              "nadar.",
+              ""
+            ]
+          ]
         }
       }
     }

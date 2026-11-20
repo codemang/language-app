@@ -71,7 +71,21 @@
       "en_clip": "clips/1e9d7a6a6320a1c3.mp3",
       "single": {
         "es": "Quiero volver a casa.",
-        "clip": "clips/bc41e541b6b55715.mp3"
+        "clip": "clips/bc41e541b6b55715.mp3",
+        "parts": [
+          [
+            "Quiero",
+            ""
+          ],
+          [
+            "volver",
+            "v"
+          ],
+          [
+            "a casa.",
+            ""
+          ]
+        ]
       }
     },
     {
@@ -82,43 +96,193 @@
       "forms": {
         "yo": {
           "es": "Yo vuelvo a casa.",
-          "clip": "clips/70078050b4a95d5e.mp3"
+          "clip": "clips/70078050b4a95d5e.mp3",
+          "en": "I come back home.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "vuelvo",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú vuelves a casa.",
-          "clip": "clips/2586517d618e93c5.mp3"
+          "clip": "clips/2586517d618e93c5.mp3",
+          "en": "You come back home.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "vuelves",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted vuelve a casa.",
-          "clip": "clips/d62c6c99ea3080fc.mp3"
+          "clip": "clips/d62c6c99ea3080fc.mp3",
+          "en": "You come back home.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "vuelve",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él vuelve a casa.",
-          "clip": "clips/9e7775bbc1012ebf.mp3"
+          "clip": "clips/9e7775bbc1012ebf.mp3",
+          "en": "He comes back home.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "vuelve",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella vuelve a casa.",
-          "clip": "clips/136bf502e7d4fd58.mp3"
+          "clip": "clips/136bf502e7d4fd58.mp3",
+          "en": "She comes back home.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "vuelve",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros volvemos a casa.",
-          "clip": "clips/4c28805b287fd6d5.mp3"
+          "clip": "clips/4c28805b287fd6d5.mp3",
+          "en": "We come back home.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "volvemos",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras volvemos a casa.",
-          "clip": "clips/1ce7d0e5e1ea6b2b.mp3"
+          "clip": "clips/1ce7d0e5e1ea6b2b.mp3",
+          "en": "We come back home.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "volvemos",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes vuelven a casa.",
-          "clip": "clips/b4778312b492e13c.mp3"
+          "clip": "clips/b4778312b492e13c.mp3",
+          "en": "You all come back home.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "vuelven",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos vuelven a casa.",
-          "clip": "clips/ded069ff571f5be3.mp3"
+          "clip": "clips/ded069ff571f5be3.mp3",
+          "en": "They come back home.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "vuelven",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas vuelven a casa.",
-          "clip": "clips/f55890d596b4424d.mp3"
+          "clip": "clips/f55890d596b4424d.mp3",
+          "en": "They come back home.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "vuelven",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -130,43 +294,193 @@
       "forms": {
         "yo": {
           "es": "Yo volví a casa.",
-          "clip": "clips/d42ea00b57606c0b.mp3"
+          "clip": "clips/d42ea00b57606c0b.mp3",
+          "en": "I came back home.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "volví",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú volviste a casa.",
-          "clip": "clips/c627d57d27bb5035.mp3"
+          "clip": "clips/c627d57d27bb5035.mp3",
+          "en": "You came back home.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "volviste",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted volvió a casa.",
-          "clip": "clips/911382469ff0f411.mp3"
+          "clip": "clips/911382469ff0f411.mp3",
+          "en": "You came back home.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "volvió",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él volvió a casa.",
-          "clip": "clips/f0890342abf5a171.mp3"
+          "clip": "clips/f0890342abf5a171.mp3",
+          "en": "He came back home.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "volvió",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella volvió a casa.",
-          "clip": "clips/704dceedfccc9a0a.mp3"
+          "clip": "clips/704dceedfccc9a0a.mp3",
+          "en": "She came back home.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "volvió",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros volvimos a casa.",
-          "clip": "clips/b93797cf5140d22c.mp3"
+          "clip": "clips/b93797cf5140d22c.mp3",
+          "en": "We came back home.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "volvimos",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras volvimos a casa.",
-          "clip": "clips/6ef2c42ddfcd9d46.mp3"
+          "clip": "clips/6ef2c42ddfcd9d46.mp3",
+          "en": "We came back home.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "volvimos",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes volvieron a casa.",
-          "clip": "clips/74b1714e24377c44.mp3"
+          "clip": "clips/74b1714e24377c44.mp3",
+          "en": "You all came back home.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "volvieron",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos volvieron a casa.",
-          "clip": "clips/1cf64c70778ea43e.mp3"
+          "clip": "clips/1cf64c70778ea43e.mp3",
+          "en": "They came back home.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "volvieron",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas volvieron a casa.",
-          "clip": "clips/535610adeb9b3c58.mp3"
+          "clip": "clips/535610adeb9b3c58.mp3",
+          "en": "They came back home.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "volvieron",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -178,43 +492,193 @@
       "forms": {
         "yo": {
           "es": "Yo volvía a casa.",
-          "clip": "clips/071d59487865b907.mp3"
+          "clip": "clips/071d59487865b907.mp3",
+          "en": "I used to come back home.",
+          "parts": [
+            [
+              "Yo",
+              "p"
+            ],
+            [
+              "volvía",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "tu": {
           "es": "Tú volvías a casa.",
-          "clip": "clips/da3bf5299b6352c5.mp3"
+          "clip": "clips/da3bf5299b6352c5.mp3",
+          "en": "You used to come back home.",
+          "parts": [
+            [
+              "Tú",
+              "p"
+            ],
+            [
+              "volvías",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Usted volvía a casa.",
-          "clip": "clips/6c693deb8f107649.mp3"
+          "clip": "clips/6c693deb8f107649.mp3",
+          "en": "You used to come back home.",
+          "parts": [
+            [
+              "Usted",
+              "p"
+            ],
+            [
+              "volvía",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "el": {
           "es": "Él volvía a casa.",
-          "clip": "clips/06f20baf15e072c1.mp3"
+          "clip": "clips/06f20baf15e072c1.mp3",
+          "en": "He used to come back home.",
+          "parts": [
+            [
+              "Él",
+              "p"
+            ],
+            [
+              "volvía",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ella": {
           "es": "Ella volvía a casa.",
-          "clip": "clips/4f538995599d63d4.mp3"
+          "clip": "clips/4f538995599d63d4.mp3",
+          "en": "She used to come back home.",
+          "parts": [
+            [
+              "Ella",
+              "p"
+            ],
+            [
+              "volvía",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Nosotros volvíamos a casa.",
-          "clip": "clips/796707b2bfbb0e1c.mp3"
+          "clip": "clips/796707b2bfbb0e1c.mp3",
+          "en": "We used to come back home.",
+          "parts": [
+            [
+              "Nosotros",
+              "p"
+            ],
+            [
+              "volvíamos",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Nosotras volvíamos a casa.",
-          "clip": "clips/b952b23a8698ab08.mp3"
+          "clip": "clips/b952b23a8698ab08.mp3",
+          "en": "We used to come back home.",
+          "parts": [
+            [
+              "Nosotras",
+              "p"
+            ],
+            [
+              "volvíamos",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Ustedes volvían a casa.",
-          "clip": "clips/5e340670e2770f18.mp3"
+          "clip": "clips/5e340670e2770f18.mp3",
+          "en": "You all used to come back home.",
+          "parts": [
+            [
+              "Ustedes",
+              "p"
+            ],
+            [
+              "volvían",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ellos": {
           "es": "Ellos volvían a casa.",
-          "clip": "clips/81cd1a0c7ce5f50b.mp3"
+          "clip": "clips/81cd1a0c7ce5f50b.mp3",
+          "en": "They used to come back home.",
+          "parts": [
+            [
+              "Ellos",
+              "p"
+            ],
+            [
+              "volvían",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ellas": {
           "es": "Ellas volvían a casa.",
-          "clip": "clips/94d41e5b40afd863.mp3"
+          "clip": "clips/94d41e5b40afd863.mp3",
+          "en": "They used to come back home.",
+          "parts": [
+            [
+              "Ellas",
+              "p"
+            ],
+            [
+              "volvían",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         }
       }
     },
@@ -226,23 +690,78 @@
       "forms": {
         "tu": {
           "es": "Vuelve a casa.",
-          "clip": "clips/d98dd6da3036b044.mp3"
+          "clip": "clips/d98dd6da3036b044.mp3",
+          "en": "Come back home.",
+          "parts": [
+            [
+              "Vuelve",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "usted": {
           "es": "Vuelva a casa.",
-          "clip": "clips/99fdaf0c2d171e11.mp3"
+          "clip": "clips/99fdaf0c2d171e11.mp3",
+          "en": "Come back home.",
+          "parts": [
+            [
+              "Vuelva",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "nosotros": {
           "es": "Volvamos a casa.",
-          "clip": "clips/651f68a4d5ea02db.mp3"
+          "clip": "clips/651f68a4d5ea02db.mp3",
+          "en": "Let's come back home.",
+          "parts": [
+            [
+              "Volvamos",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "nosotras": {
           "es": "Volvamos a casa.",
-          "clip": "clips/651f68a4d5ea02db.mp3"
+          "clip": "clips/651f68a4d5ea02db.mp3",
+          "en": "Let's come back home.",
+          "parts": [
+            [
+              "Volvamos",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         },
         "ustedes": {
           "es": "Vuelvan a casa.",
-          "clip": "clips/8e859e49f1540287.mp3"
+          "clip": "clips/8e859e49f1540287.mp3",
+          "en": "Come back home.",
+          "parts": [
+            [
+              "Vuelvan",
+              "v"
+            ],
+            [
+              "a casa.",
+              ""
+            ]
+          ]
         }
       }
     }
