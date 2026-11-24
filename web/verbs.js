@@ -422,9 +422,23 @@ function renderGroups(groups) {
   box.innerHTML = "";
   for (const g of groups) {
     const sec = document.createElement("section");
-    sec.innerHTML = `<h3 class="section-title"></h3><div class="chip-checks"></div>`;
+    sec.innerHTML = `<div class="group-head"><h3 class="section-title"></h3>
+      <button type="button" class="group-bulk">Select all</button><button type="button" class="group-bulk">Deselect all</button></div>
+      <div class="chip-checks"></div>`;
     sec.querySelector("h3").textContent = g.title;
-    const chips = sec.querySelector("div");
+    const chips = sec.querySelector(".chip-checks");
+    const [all, none] = sec.querySelectorAll(".group-bulk");
+    const setAll = (on) => {
+      for (const [i, input] of [...chips.querySelectorAll("input")].entries()) {
+        if (input.checked === on) continue;
+        input.checked = on;
+        g.toggle(g.items[i].id, on);
+      }
+      g.picked = on ? g.items.map((it) => it.id) : [];
+      selectionChanged();
+    };
+    all.onclick = () => setAll(true);
+    none.onclick = () => setAll(false);
     for (const it of g.items) {
       const label = document.createElement("label");
       label.className = "chip-check";

@@ -422,6 +422,9 @@ code { font-size: 14px; }
 #verbs-list .t { font-weight: 600; }
 .verb-drill { display: flex; flex-direction: column; gap: 18px; }
 .chip-checks { display: flex; flex-wrap: wrap; gap: 8px; }
+.group-head { display: flex; align-items: baseline; gap: 4px; margin: 0 0 8px; }
+.group-head .section-title { margin: 0 auto 0 0; }
+.group-bulk { font: inherit; font-size: 14px; font-weight: 600; color: var(--accent); background: none; border: 0; padding: 4px 6px; cursor: pointer; }
 .chip-check { position: relative; }
 .chip-check input { position: absolute; opacity: 0; width: 1px; height: 1px; }
 .chip-check span {
