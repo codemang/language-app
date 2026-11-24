@@ -387,11 +387,13 @@ function mixToEs(t) {
 
 function src(m) { return `lessons/${encodeURIComponent(lesson.id)}/${m}.mp3`; }
 
-function loadAt(m, t, autoplay) {
+// opening: true when a video is opened; then a saved spot in the last 10 s starts over.
+function loadAt(m, t, autoplay, opening) {
   return new Promise((resolve) => {
     audio.src = src(m);
     audio.addEventListener("loadedmetadata", () => {
       audio.playbackRate = speed;  // a new src resets the rate
+      if (opening && audio.duration && t >= audio.duration - 10) t = 0;
       audio.currentTime = Math.min(t, audio.duration || t);
       if (autoplay) audio.play().catch(() => {});
       resolve();
@@ -524,7 +526,7 @@ async function openPlayer(id, force = false, engine = null) {
   const saved = loadState(v.id);
   mode = saved.mode || "es";
   renderMode();
-  await loadAt(mode, saved.t || 0, false);
+  await loadAt(mode, saved.t || 0, false, true);
   updateMediaSession();
   render();
 }
